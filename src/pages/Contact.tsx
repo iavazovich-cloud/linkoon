@@ -1,0 +1,189 @@
+import { MapPin, Phone, Mail } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { Reveal } from '@/components/Reveal';
+import { useState, FormEvent } from 'react';
+import { toast } from 'sonner';
+
+export const Contact = () => {
+  const { t } = useLanguage();
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    interest: '',
+    message: '',
+  });
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    toast.success('Message sent! We\'ll get back to you soon.');
+    setFormData({ name: '', phone: '', email: '', interest: '', message: '' });
+  };
+
+  const interests = [
+    t('contact.form.options.branding'),
+    t('contact.form.options.smm'),
+    t('contact.form.options.content'),
+    t('contact.form.options.web'),
+    t('contact.form.options.strategy'),
+  ];
+
+  return (
+    <div className="min-h-screen pt-24">
+      {/* Hero */}
+      <section className="container mx-auto px-4 lg:px-8 py-20">
+        <Reveal>
+          <div className="text-center max-w-3xl mx-auto space-y-6">
+            <h1 className="text-5xl lg:text-7xl font-bold">{t('contact.title')}</h1>
+            <p className="text-xl text-muted">{t('contact.subtitle')}</p>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* Contact Section */}
+      <section className="container mx-auto px-4 lg:px-8 pb-20">
+        <div className="grid lg:grid-cols-2 gap-12">
+          {/* Contact Info */}
+          <Reveal>
+            <div className="space-y-8">
+              <div className="glass-panel p-8 rounded-3xl space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Address</h3>
+                    <p className="text-muted">{t('contact.address')}</p>
+                    <p className="text-muted">Mustaqillik Ave, 100000</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Phone</h3>
+                    <a
+                      href="tel:+998901234567"
+                      className="text-muted hover:text-foreground transition-colors"
+                    >
+                      +998 90 123 45 67
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Email</h3>
+                    <a
+                      href="mailto:hello@linkon.uz"
+                      className="text-muted hover:text-foreground transition-colors"
+                    >
+                      hello@linkon.uz
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Map Placeholder */}
+              <div className="glass-panel rounded-3xl aspect-[4/3] flex items-center justify-center">
+                <MapPin className="w-16 h-16 text-muted" />
+              </div>
+            </div>
+          </Reveal>
+
+          {/* Contact Form */}
+          <Reveal delay={0.2}>
+            <form onSubmit={handleSubmit} className="glass-panel p-8 rounded-3xl space-y-6">
+              <div>
+                <label className="block text-sm font-medium mb-2">{t('contact.form.name')}</label>
+                <input
+                  type="text"
+                  required
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
+                  placeholder="John Doe"
+                />
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    {t('contact.form.phone')}
+                  </label>
+                  <input
+                    type="tel"
+                    required
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
+                    placeholder="+998 90 123 45 67"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    {t('contact.form.email')}
+                  </label>
+                  <input
+                    type="email"
+                    required
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
+                    placeholder="john@example.com"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium mb-2">
+                  {t('contact.form.interest')}
+                </label>
+                <select
+                  required
+                  value={formData.interest}
+                  onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
+                >
+                  <option value="">Select a service</option>
+                  {interests.map((interest, index) => (
+                    <option key={index} value={interest}>
+                      {interest}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium mb-2">
+                  {t('contact.form.message')}
+                </label>
+                <textarea
+                  required
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  rows={5}
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors resize-none"
+                  placeholder="Tell us about your project..."
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full px-8 py-4 btn-gradient rounded-xl font-semibold text-lg"
+              >
+                {t('contact.form.submit')}
+              </button>
+            </form>
+          </Reveal>
+        </div>
+      </section>
+    </div>
+  );
+};
