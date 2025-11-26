@@ -14,10 +14,27 @@ export const Contact = () => {
     message: '',
   });
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    toast.success('Message sent! We\'ll get back to you soon.');
-    setFormData({ name: '', phone: '', email: '', interest: '', message: '' });
+    
+    try {
+      const response = await fetch('https://hook.eu1.make.com/3dk52oc5u669nlohk5ywl4742ncwktho', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success('Message sent! We\'ll get back to you soon.');
+        setFormData({ name: '', phone: '', email: '', interest: '', message: '' });
+      } else {
+        toast.error('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      toast.error('Failed to send message. Please try again.');
+    }
   };
 
   const interests = [
@@ -53,8 +70,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
-                    <p className="text-muted">{t('contact.address')}</p>
-                    <p className="text-muted">Mustaqillik Ave, 100000</p>
+                    <p className="text-muted">Namangan, Uzbekistan</p>
+                    <p className="text-muted">Amir Temur street, 42</p>
                   </div>
                 </div>
 
@@ -65,10 +82,10 @@ export const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <a
-                      href="tel:+998901234567"
+                      href="tel:+998906937737"
                       className="text-muted hover:text-foreground transition-colors"
                     >
-                      +998 90 123 45 67
+                      +998 90 693 77 37
                     </a>
                   </div>
                 </div>
@@ -80,19 +97,15 @@ export const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <a
-                      href="mailto:hello@linkon.uz"
+                      href="mailto:iavazovich@gmail.com"
                       className="text-muted hover:text-foreground transition-colors"
                     >
-                      hello@linkon.uz
+                      iavazovich@gmail.com
                     </a>
                   </div>
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="glass-panel rounded-3xl aspect-[4/3] flex items-center justify-center">
-                <MapPin className="w-16 h-16 text-muted" />
-              </div>
             </div>
           </Reveal>
 

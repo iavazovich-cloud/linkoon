@@ -64,10 +64,10 @@ const translations: Record<Language, any> = {
       startProject: 'Start Project'
     },
     hero: {
-      badge: 'Top Marketing Agency in Uzbekistan',
-      title: 'Unlock Top Marketing Talent',
-      subtitle: 'You Thought Was Out of Reach',
-      description: 'Transform your brand with cutting-edge marketing strategies powered by local expertise and global vision.',
+      badge: 'Leading Marketing Agency in Uzbekistan',
+      title: 'Unlock Premium Marketing Excellence',
+      subtitle: 'Beyond Your Expectations',
+      description: 'Transform your brand with innovative marketing strategies combining local market expertise and global industry standards.',
       cta: 'Start Your Project'
     },
     services: {
@@ -120,7 +120,7 @@ const translations: Record<Language, any> = {
     contact: {
       title: 'Let\'s Talk',
       subtitle: 'Start your project today',
-      address: 'Tashkent, Uzbekistan',
+      address: 'Namangan, Uzbekistan',
       form: {
         name: 'Your Name',
         phone: 'Phone Number',
@@ -156,10 +156,10 @@ const translations: Record<Language, any> = {
       startProject: 'Loyihani boshlash'
     },
     hero: {
-      badge: 'O\'zbekistondagi eng yaxshi marketing agentligi',
-      title: 'Yuqori darajadagi marketing',
-      subtitle: 'Xizmatlaridan foydalaning',
-      description: 'Mahalliy tajriba va global ko\'nikmalar bilan brendingizni o\'zgartiring.',
+      badge: 'O\'zbekistonning yetakchi marketing agentligi',
+      title: 'Premium marketing xizmatlaridan',
+      subtitle: 'Foydalaning',
+      description: 'Mahalliy bozor tajribasi va global standartlarni birlashtiradigan innovatsion marketing strategiyalari bilan brendingizni yangi bosqichga olib chiqing.',
       cta: 'Loyihani boshlash'
     },
     services: {
@@ -212,7 +212,7 @@ const translations: Record<Language, any> = {
     contact: {
       title: 'Gaplashamiz',
       subtitle: 'Bugun loyihangizni boshlang',
-      address: 'Toshkent, O\'zbekiston',
+      address: 'Namangan, O\'zbekiston',
       form: {
         name: 'Ismingiz',
         phone: 'Telefon raqami',
@@ -248,10 +248,10 @@ const translations: Record<Language, any> = {
       startProject: 'Начать проект'
     },
     hero: {
-      badge: 'Лучшее маркетинговое агентство в Узбекистане',
-      title: 'Получите доступ к лучшим',
-      subtitle: 'Маркетинговым специалистам',
-      description: 'Трансформируйте ваш бренд с помощью передовых маркетинговых стратегий, основанных на местной экспертизе и глобальном видении.',
+      badge: 'Ведущее маркетинговое агентство в Узбекистане',
+      title: 'Премиум маркетинг',
+      subtitle: 'Превосходящий ожидания',
+      description: 'Трансформируйте ваш бренд с помощью инновационных маркетинговых стратегий, сочетающих экспертизу местного рынка и глобальные отраслевые стандарты.',
       cta: 'Начать проект'
     },
     services: {
@@ -304,7 +304,7 @@ const translations: Record<Language, any> = {
     contact: {
       title: 'Давайте поговорим',
       subtitle: 'Начните свой проект сегодня',
-      address: 'Ташкент, Узбекистан',
+      address: 'Наманган, Узбекистан',
       form: {
         name: 'Ваше имя',
         phone: 'Номер телефона',
