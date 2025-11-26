@@ -118,6 +118,13 @@ export const Services = () => {
                       </li>
                     ))}
                   </ul>
+                  <a
+                    href="/contact"
+                    className="inline-flex items-center gap-2 px-6 py-3 btn-gradient rounded-full font-semibold hover:shadow-lg transition-all group mt-4"
+                  >
+                    Get Started
+                    <span className="group-hover:translate-x-1 transition-transform">→</span>
+                  </a>
                 </div>
                 <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div className="aspect-square glass-panel rounded-3xl" />

@@ -20,10 +20,10 @@ export const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: '#' },
-    { icon: Facebook, href: '#' },
-    { icon: Linkedin, href: '#' },
-    { icon: Twitter, href: '#' },
+    { icon: Instagram, href: 'https://www.instagram.com/gorizontagency?igsh=ZTlkeXQ0aGcydnFj&utm_source=qr' },
+    { icon: Facebook, href: 'https://www.facebook.com/' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/islam-avazovich-73134b254/' },
+    { icon: Twitter, href: 'https://x.com/bozorolog' },
   ];
 
   return (
@@ -92,15 +92,16 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('nav.contact')}</h3>
             <ul className="space-y-3 text-sm text-muted">
-              <li>{t('contact.address')}</li>
+              <li>Namangan, Uzbekistan</li>
+              <li>Amir Temur street, 42</li>
               <li>
-                <a href="tel:+998901234567" className="hover:text-foreground transition-colors">
-                  +998 90 123 45 67
+                <a href="tel:+998906937737" className="hover:text-foreground transition-colors">
+                  +998 90 693 77 37
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@linkon.uz" className="hover:text-foreground transition-colors">
-                  hello@linkon.uz
+                <a href="mailto:iavazovich@gmail.com" className="hover:text-foreground transition-colors">
+                  iavazovich@gmail.com
                 </a>
               </li>
             </ul>
