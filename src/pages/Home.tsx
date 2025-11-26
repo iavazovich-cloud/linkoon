@@ -43,41 +43,50 @@ export const Home = () => {
           </Reveal>
 
           <Reveal delay={0.2}>
-            <div className="relative">
-              {/* Orbit Animation */}
-              <div className="relative w-80 h-80 mx-auto">
-                {/* Center */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="glass-panel rounded-full p-8 text-center">
-                    <div className="text-5xl font-bold gradient-text">20k+</div>
-                    <div className="text-sm text-muted mt-2">Projects</div>
-                  </div>
+            <div className="relative h-[400px] lg:h-[500px]">
+              {/* Floating Cards Animation */}
+              <div className="relative w-full h-full flex items-center justify-center">
+                {/* Central Element */}
+                <div className="glass-panel rounded-3xl p-8 lg:p-12 text-center z-10 animate-float">
+                  <div className="text-4xl lg:text-6xl font-bold gradient-text mb-2">120+</div>
+                  <div className="text-sm lg:text-base text-muted">Completed Projects</div>
                 </div>
 
-                {/* Orbiting Elements */}
-                {[0, 60, 120, 180, 240, 300].map((degree, i) => (
-                  <div
-                    key={i}
-                    className="absolute inset-0"
-                    style={{
-                      animation: 'orbit-ring 20s linear infinite',
-                      animationDelay: `${-i * 3.33}s`,
-                    }}
-                  >
-                    <div
-                      className="absolute w-16 h-16 glass-panel rounded-full flex items-center justify-center"
-                      style={{
-                        top: '50%',
-                        left: '50%',
-                        transform: `rotate(${degree}deg) translateY(-140px) rotate(-${degree}deg)`,
-                        animation: 'counter-orbit 20s linear infinite',
-                        animationDelay: `${-i * 3.33}s`,
-                      }}
-                    >
-                      <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full" />
-                    </div>
-                  </div>
-                ))}
+                {/* Floating Card 1 - Top Left */}
+                <div 
+                  className="absolute top-0 left-0 lg:left-10 glass-panel rounded-2xl p-4 lg:p-6 w-32 lg:w-40"
+                  style={{ animation: 'float 6s ease-in-out infinite' }}
+                >
+                  <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-lg bg-gradient-to-br from-primary to-secondary mb-2" />
+                  <div className="text-xs lg:text-sm font-medium">Branding</div>
+                </div>
+
+                {/* Floating Card 2 - Top Right */}
+                <div 
+                  className="absolute top-10 right-0 lg:right-10 glass-panel rounded-2xl p-4 lg:p-6 w-32 lg:w-40"
+                  style={{ animation: 'float 7s ease-in-out infinite 1s' }}
+                >
+                  <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-lg bg-gradient-to-br from-secondary to-primary mb-2" />
+                  <div className="text-xs lg:text-sm font-medium">Web Design</div>
+                </div>
+
+                {/* Floating Card 3 - Bottom Left */}
+                <div 
+                  className="absolute bottom-10 left-5 lg:left-20 glass-panel rounded-2xl p-4 lg:p-6 w-28 lg:w-36"
+                  style={{ animation: 'float 8s ease-in-out infinite 2s' }}
+                >
+                  <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-lg bg-gradient-to-br from-primary/80 to-secondary/80 mb-2" />
+                  <div className="text-xs lg:text-sm font-medium">Video</div>
+                </div>
+
+                {/* Floating Card 4 - Bottom Right */}
+                <div 
+                  className="absolute bottom-0 right-5 lg:right-20 glass-panel rounded-2xl p-4 lg:p-6 w-28 lg:w-36"
+                  style={{ animation: 'float 9s ease-in-out infinite 3s' }}
+                >
+                  <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-lg bg-gradient-to-br from-secondary/80 to-primary/80 mb-2" />
+                  <div className="text-xs lg:text-sm font-medium">Social</div>
+                </div>
               </div>
             </div>
           </Reveal>
@@ -93,17 +102,17 @@ export const Home = () => {
           </div>
         </Reveal>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Reveal key={index} delay={index * 0.1}>
               <Link
                 to="/services"
-                className="glass-panel p-8 rounded-3xl hover:bg-white/10 transition-all group"
+                className="glass-panel p-6 lg:p-8 rounded-3xl hover:bg-white/10 transition-all group"
               >
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <service.icon className="w-8 h-8 text-foreground" />
+                <div className="w-14 h-14 lg:w-16 lg:h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4 lg:mb-6 group-hover:scale-110 transition-transform">
+                  <service.icon className="w-7 h-7 lg:w-8 lg:h-8 text-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                <h3 className="text-lg lg:text-xl font-semibold mb-2">{service.title}</h3>
                 <div className="flex items-center gap-2 text-muted group-hover:text-foreground transition-colors">
                   <span className="text-sm">Learn more</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
