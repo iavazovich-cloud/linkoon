@@ -2,6 +2,10 @@ import { Target, Zap, Globe2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import teamOffice from '@/assets/team-office.jpg';
+import teamCollab from '@/assets/team-collab.jpg';
+import studioSpace from '@/assets/studio-space.jpg';
+import teamBrainstorm from '@/assets/team-brainstorm.jpg';
+import workspaceWide from '@/assets/workspace-wide.jpg';
 
 export const About = () => {
   const { t } = useLanguage();
@@ -49,9 +53,15 @@ export const About = () => {
             <div className="lg:col-span-2 lg:row-span-2 rounded-3xl overflow-hidden">
               <img src={teamOffice} alt="Team Office" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-3xl glass-panel aspect-square" />
-            <div className="rounded-3xl glass-panel aspect-square" />
-            <div className="lg:col-span-2 rounded-3xl glass-panel aspect-[2/1]" />
+            <div className="rounded-3xl overflow-hidden aspect-square">
+              <img src={studioSpace} alt="Studio Space" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-3xl overflow-hidden aspect-square">
+              <img src={teamBrainstorm} alt="Team Brainstorming" className="w-full h-full object-cover" />
+            </div>
+            <div className="lg:col-span-2 rounded-3xl overflow-hidden aspect-[2/1]">
+              <img src={workspaceWide} alt="Creative Workspace" className="w-full h-full object-cover" />
+            </div>
           </div>
         </Reveal>
       </section>

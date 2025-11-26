@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Link as LinkIcon } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ThemeToggle } from './ThemeToggle';
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -85,6 +86,9 @@ export const Navbar = () => {
               ))}
             </div>
 
+            {/* Theme Toggle */}
+            <ThemeToggle />
+
             {/* CTA Button */}
             <Link
               to="/contact"
@@ -148,6 +152,11 @@ export const Navbar = () => {
                     {lang.toUpperCase()}
                   </button>
                 ))}
+              </div>
+
+              {/* Mobile Theme Toggle */}
+              <div className="flex justify-center pt-2">
+                <ThemeToggle />
               </div>
 
               <Link

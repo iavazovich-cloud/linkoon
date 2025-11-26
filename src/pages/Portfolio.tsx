@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
@@ -118,26 +119,29 @@ export const Portfolio = () => {
       {/* Portfolio Grid */}
       <section className="container mx-auto px-4 lg:px-8 pb-20">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project, index) => (
-            <Reveal key={index} delay={index * 0.05}>
-              <div className="group relative overflow-hidden rounded-3xl aspect-square">
-                <img
-                  src={project.image}
-                  alt={project.client}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                    <div className="text-sm text-muted mb-2">
-                      {categories.find((c) => c.id === project.category)?.label}
+          {filteredProjects.map((project, index) => {
+            const projectId = project.client.toLowerCase().replace(/\s+/g, '-');
+            return (
+              <Reveal key={index} delay={index * 0.05}>
+                <Link to={`/portfolio/${projectId}`} className="block group relative overflow-hidden rounded-3xl aspect-square">
+                  <img
+                    src={project.image}
+                    alt={project.client}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute inset-0 p-6 flex flex-col justify-end">
+                      <div className="text-sm text-muted mb-2">
+                        {categories.find((c) => c.id === project.category)?.label}
+                      </div>
+                      <h3 className="text-2xl font-bold mb-2">{project.client}</h3>
+                      <p className="text-primary font-semibold">{project.result}</p>
                     </div>
-                    <h3 className="text-2xl font-bold mb-2">{project.client}</h3>
-                    <p className="text-primary font-semibold">{project.result}</p>
                   </div>
-                </div>
-              </div>
-            </Reveal>
-          ))}
+                </Link>
+              </Reveal>
+            );
+          })}
         </div>
       </section>
     </div>
