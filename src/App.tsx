@@ -12,10 +12,24 @@ import { Portfolio } from "./pages/Portfolio";
 import { PortfolioDetail } from "./pages/PortfolioDetail";
 import { About } from "./pages/About";
 import { Studio } from "./pages/Studio";
+import { Blog } from "./pages/Blog";
+import { BlogPost } from "./pages/BlogPost";
 import { Contact } from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const queryClient = new QueryClient();
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -24,6 +38,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop />
           <div className="min-h-screen flex flex-col">
             <Navbar />
             <main className="flex-1">
@@ -34,6 +49,8 @@ const App = () => (
                 <Route path="/portfolio/:id" element={<PortfolioDetail />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/studio" element={<Studio />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:id" element={<BlogPost />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>

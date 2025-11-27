@@ -27,13 +27,26 @@ export const Contact = () => {
       });
 
       if (response.ok) {
-        toast.success('Message sent! We\'ll get back to you soon.');
+        toast.success(
+          <div className="space-y-2">
+            <p>{t('contact.form.successMessage')}</p>
+            <a 
+              href="https://t.me/linkonuz" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+            >
+              {t('contact.form.joinTelegram')} →
+            </a>
+          </div>,
+          { duration: 6000 }
+        );
         setFormData({ name: '', phone: '', email: '', interest: '', message: '' });
       } else {
-        toast.error('Failed to send message. Please try again.');
+        toast.error(t('contact.form.errorMessage'));
       }
     } catch (error) {
-      toast.error('Failed to send message. Please try again.');
+      toast.error(t('contact.form.errorMessage'));
     }
   };
 
@@ -175,15 +188,14 @@ export const Contact = () => {
 
               <div>
                 <label className="block text-sm font-medium mb-2">
-                  {t('contact.form.message')}
+                  {t('contact.form.message')} <span className="text-muted text-xs">({t('contact.form.optional')})</span>
                 </label>
                 <textarea
-                  required
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   rows={5}
                   className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors resize-none"
-                  placeholder="Tell us about your project..."
+                  placeholder={t('contact.form.messagePlaceholder')}
                 />
               </div>
 

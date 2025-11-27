@@ -107,13 +107,13 @@ export const Home = () => {
             <Reveal key={index} delay={index * 0.1}>
               <Link
                 to="/services"
-                className="glass-panel p-6 lg:p-8 rounded-3xl hover:bg-white/10 transition-all group"
+                className="glass-panel p-6 lg:p-8 rounded-3xl hover:bg-white/5 transition-all group relative"
               >
-                <div className="w-14 h-14 lg:w-16 lg:h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4 lg:mb-6 group-hover:scale-110 transition-transform">
-                  <service.icon className="w-7 h-7 lg:w-8 lg:h-8 text-foreground" />
+                <div className="w-14 h-14 lg:w-16 lg:h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4 lg:mb-6 group-hover:scale-110 transition-transform relative z-10">
+                  <service.icon className="w-7 h-7 lg:w-8 lg:h-8 text-white" />
                 </div>
-                <h3 className="text-lg lg:text-xl font-semibold mb-2">{service.title}</h3>
-                <div className="flex items-center gap-2 text-muted group-hover:text-foreground transition-colors">
+                <h3 className="text-lg lg:text-xl font-semibold mb-2 relative z-10">{service.title}</h3>
+                <div className="flex items-center gap-2 text-muted group-hover:text-foreground transition-colors relative z-10">
                   <span className="text-sm">Learn more</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </div>
