@@ -25,7 +25,7 @@ interface LanguageProviderProps {
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const [language, setLanguage] = useState<Language>(() => {
     const saved = localStorage.getItem('language');
-    return (saved as Language) || 'en';
+    return (saved as Language) || 'uz';
   });
 
   useEffect(() => {
@@ -62,6 +62,12 @@ const translations: Record<Language, any> = {
       blog: 'Blog',
       contact: 'Contact',
       startProject: 'Start Project'
+    },
+    blog: {
+      title: 'Marketing Insights & Tips',
+      subtitle: 'Expert advice for growing your business in Uzbekistan',
+      readMore: 'Read More',
+      backToBlog: 'Back to Blog'
     },
     hero: {
       badge: 'Leading Marketing Agency in Uzbekistan',
@@ -127,7 +133,12 @@ const translations: Record<Language, any> = {
         email: 'Email Address',
         interest: 'I\'m interested in',
         message: 'Tell us about your project',
+        optional: 'optional',
+        messagePlaceholder: 'Tell us about your project...',
         submit: 'Send Message',
+        successMessage: 'Message sent! We\'ll get back to you soon.',
+        errorMessage: 'Failed to send message. Please try again.',
+        joinTelegram: 'Join our Telegram channel for updates',
         options: {
           branding: 'Branding',
           smm: 'Social Media',
@@ -142,7 +153,8 @@ const translations: Record<Language, any> = {
       services: 'Services',
       company: 'Company',
       rights: 'All rights reserved'
-    }
+    },
+    language: 'en'
   },
   uz: {
     nav: {
@@ -219,7 +231,12 @@ const translations: Record<Language, any> = {
         email: 'Email manzil',
         interest: 'Men qiziqaman',
         message: 'Loyihangiz haqida bizga ayting',
+        optional: 'ixtiyoriy',
+        messagePlaceholder: 'Loyihangiz haqida bizga ayting...',
         submit: 'Xabar yuborish',
+        successMessage: 'Xabar yuborildi! Tez orada sizga javob beramiz.',
+        errorMessage: 'Xabar yuborishda xatolik. Iltimos, qayta urinib ko\'ring.',
+        joinTelegram: 'Yangiliklar uchun Telegram kanalimizga qo\'shiling',
         options: {
           branding: 'Brending',
           smm: 'Ijtimoiy tarmoqlar',
@@ -234,7 +251,14 @@ const translations: Record<Language, any> = {
       services: 'Xizmatlar',
       company: 'Kompaniya',
       rights: 'Barcha huquqlar himoyalangan'
-    }
+    },
+    blog: {
+      title: 'Marketing maslahatlari va tushunchalar',
+      subtitle: 'O\'zbekistonda biznesingizni o\'stirish bo\'yicha ekspert maslahatlari',
+      readMore: 'Batafsil o\'qish',
+      backToBlog: 'Blogga qaytish'
+    },
+    language: 'uz'
   },
   ru: {
     nav: {
@@ -311,7 +335,12 @@ const translations: Record<Language, any> = {
         email: 'Email адрес',
         interest: 'Меня интересует',
         message: 'Расскажите о вашем проекте',
+        optional: 'необязательно',
+        messagePlaceholder: 'Расскажите о вашем проекте...',
         submit: 'Отправить сообщение',
+        successMessage: 'Сообщение отправлено! Мы свяжемся с вами в ближайшее время.',
+        errorMessage: 'Не удалось отправить сообщение. Пожалуйста, попробуйте снова.',
+        joinTelegram: 'Присоединяйтесь к нашему Telegram каналу для обновлений',
         options: {
           branding: 'Брендинг',
           smm: 'Социальные сети',
@@ -326,6 +355,13 @@ const translations: Record<Language, any> = {
       services: 'Услуги',
       company: 'Компания',
       rights: 'Все права защищены'
-    }
+    },
+    blog: {
+      title: 'Маркетинговые инсайты и советы',
+      subtitle: 'Экспертные советы по развитию вашего бизнеса в Узбекистане',
+      readMore: 'Читать далее',
+      backToBlog: 'Вернуться к блогу'
+    },
+    language: 'ru'
   }
 };
