@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Link as LinkIcon, Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export const Footer = () => {
@@ -15,7 +15,7 @@ export const Footer = () => {
   const companyLinks = [
     { label: t('nav.about'), path: '/about' },
     { label: t('nav.portfolio'), path: '/portfolio' },
-    { label: t('nav.studio'), path: '/studio' },
+    { label: t('nav.blog'), path: '/blog' },
     { label: t('nav.contact'), path: '/contact' },
   ];
 
@@ -27,16 +27,18 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="border-t border-white/10 bg-background/50 backdrop-blur-xl">
+    <footer className="border-t border-border bg-card/50 backdrop-blur-xl">
       <div className="container mx-auto px-4 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2 group">
-              <LinkIcon className="w-6 h-6 text-primary" />
-              <span className="text-2xl font-bold gradient-text">LinkOn</span>
+            <Link to="/" className="flex items-center gap-2.5 group">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                <span className="text-white font-bold text-lg">L</span>
+              </div>
+              <span className="text-xl font-bold text-foreground">LinkOn</span>
             </Link>
-            <p className="text-sm text-muted max-w-xs">
+            <p className="text-sm text-muted-foreground max-w-xs">
               {t('footer.brand')}
             </p>
             <div className="flex items-center gap-3">
@@ -46,7 +48,7 @@ export const Footer = () => {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 glass-panel rounded-full flex items-center justify-center text-muted hover:text-foreground transition-all hover:scale-110"
+                  className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-all"
                 >
                   <social.icon className="w-4 h-4" />
                 </a>
@@ -62,7 +64,7 @@ export const Footer = () => {
                 <li key={index}>
                   <Link
                     to={link.path}
-                    className="text-sm text-muted hover:text-foreground transition-colors"
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -79,7 +81,7 @@ export const Footer = () => {
                 <li key={index}>
                   <Link
                     to={link.path}
-                    className="text-sm text-muted hover:text-foreground transition-colors"
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -91,16 +93,16 @@ export const Footer = () => {
           {/* Contact Column */}
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('nav.contact')}</h3>
-            <ul className="space-y-3 text-sm text-muted">
+            <ul className="space-y-3 text-sm text-muted-foreground">
               <li>Namangan, Uzbekistan</li>
               <li>Amir Temur street, 42</li>
               <li>
-                <a href="tel:+998906937737" className="hover:text-foreground transition-colors">
+                <a href="tel:+998906937737" className="hover:text-primary transition-colors">
                   +998 90 693 77 37
                 </a>
               </li>
               <li>
-                <a href="mailto:iavazovich@gmail.com" className="hover:text-foreground transition-colors">
+                <a href="mailto:iavazovich@gmail.com" className="hover:text-primary transition-colors">
                   iavazovich@gmail.com
                 </a>
               </li>
@@ -108,8 +110,8 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10">
-          <p className="text-center text-sm text-muted">
+        <div className="mt-12 pt-8 border-t border-border">
+          <p className="text-center text-sm text-muted-foreground">
             © {new Date().getFullYear()} LinkOn. {t('footer.rights')}.
           </p>
         </div>
