@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Link as LinkIcon } from 'lucide-react';
+import { Menu, X, ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ThemeToggle } from './ThemeToggle';
@@ -15,7 +15,6 @@ export const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -25,7 +24,6 @@ export const Navbar = () => {
     { path: '/services', label: t('nav.services') },
     { path: '/portfolio', label: t('nav.portfolio') },
     { path: '/about', label: t('nav.about') },
-    { path: '/studio', label: t('nav.studio') },
     { path: '/blog', label: t('nav.blog') },
     { path: '/contact', label: t('nav.contact') },
   ];
@@ -33,139 +31,63 @@ export const Navbar = () => {
   const languages: Array<'en' | 'uz' | 'ru'> = ['en', 'uz', 'ru'];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'glass-panel py-4' : 'bg-transparent py-6'
-      }`}
-    >
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'py-3 backdrop-blur-xl bg-background/80 border-b border-border/50' : 'py-5 bg-transparent'}`}>
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <LinkIcon className="w-6 h-6 text-primary" />
-            <span className="text-2xl font-bold gradient-text">LinkOn</span>
+          <Link to="/" className="flex items-center gap-2.5">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+              <span className="text-white font-bold text-lg">L</span>
+            </div>
+            <span className="text-xl font-bold text-foreground">LinkOn</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-sm font-medium transition-colors relative group ${
-                  location.pathname === link.path
-                    ? 'text-foreground'
-                    : 'text-muted hover:text-foreground'
-                }`}
-              >
+              <Link key={link.path} to={link.path} className={`nav-link text-sm font-medium transition-colors duration-300 ${location.pathname === link.path ? 'text-primary active' : 'text-muted-foreground hover:text-foreground'}`}>
                 {link.label}
-                <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-primary to-secondary transition-all ${
-                    location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
-                  }`}
-                />
               </Link>
             ))}
           </div>
 
-          {/* Right Side Actions */}
-          <div className="flex items-center gap-4">
-            {/* Language Switcher */}
-            <div className="hidden lg:flex items-center gap-1 glass-panel rounded-full px-3 py-1.5">
+          <div className="flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-0.5 bg-card/50 backdrop-blur-sm rounded-full px-1.5 py-1 border border-border/50">
               {languages.map((lang) => (
-                <button
-                  key={lang}
-                  onClick={() => setLanguage(lang)}
-                  className={`px-3 py-1 rounded-full text-xs font-medium transition-all ${
-                    language === lang
-                      ? 'bg-white/10 text-foreground'
-                      : 'text-muted hover:text-foreground'
-                  }`}
-                >
+                <button key={lang} onClick={() => setLanguage(lang)} className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-300 ${language === lang ? 'bg-primary text-white' : 'text-muted-foreground hover:text-foreground'}`}>
                   {lang.toUpperCase()}
                 </button>
               ))}
             </div>
-
-            {/* Theme Toggle */}
             <ThemeToggle />
-
-            {/* CTA Button */}
-            <Link
-              to="/contact"
-              className="hidden lg:block px-6 py-2.5 btn-gradient rounded-full text-sm font-semibold text-foreground"
-            >
-              {t('nav.startProject')}
+            <Link to="/contact" className="hidden lg:flex items-center gap-2 px-6 py-2.5 btn-gradient rounded-full text-sm font-bold text-white">
+              <span className="relative z-10">{t('nav.startProject')}</span>
+              <ArrowRight className="w-4 h-4 relative z-10" />
             </Link>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 glass-panel rounded-lg"
-            >
-              {isMobileMenuOpen ? (
-                <X className="w-5 h-5" />
-              ) : (
-                <Menu className="w-5 h-5" />
-              )}
+            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden p-2.5 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
+              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden glass-panel mt-4 mx-4 rounded-2xl overflow-hidden"
-          >
-            <div className="p-6 space-y-4">
+          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="lg:hidden backdrop-blur-xl bg-background/95 mt-2 mx-4 rounded-2xl overflow-hidden border border-border/50">
+            <div className="p-6 space-y-3">
               {navLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block py-2 text-sm font-medium transition-colors ${
-                    location.pathname === link.path
-                      ? 'text-foreground gradient-text'
-                      : 'text-muted hover:text-foreground'
-                  }`}
-                >
+                <Link key={link.path} to={link.path} onClick={() => setIsMobileMenuOpen(false)} className={`block py-3 px-4 rounded-xl text-sm font-medium transition-all ${location.pathname === link.path ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-card/50'}`}>
                   {link.label}
                 </Link>
               ))}
-
-              {/* Mobile Language Switcher */}
-              <div className="flex items-center gap-2 pt-4 border-t border-white/10">
+              <div className="flex items-center gap-2 pt-4 border-t border-border/50">
                 {languages.map((lang) => (
-                  <button
-                    key={lang}
-                    onClick={() => setLanguage(lang)}
-                    className={`px-4 py-2 rounded-full text-xs font-medium transition-all ${
-                      language === lang
-                        ? 'bg-white/10 text-foreground'
-                        : 'text-muted hover:text-foreground'
-                    }`}
-                  >
+                  <button key={lang} onClick={() => setLanguage(lang)} className={`px-4 py-2 rounded-xl text-xs font-medium transition-all ${language === lang ? 'bg-primary text-white' : 'bg-card/50 text-muted-foreground'}`}>
                     {lang.toUpperCase()}
                   </button>
                 ))}
               </div>
-
-              {/* Mobile Theme Toggle */}
-              <div className="flex justify-center pt-2">
-                <ThemeToggle />
-              </div>
-
-              <Link
-                to="/contact"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block w-full px-6 py-3 btn-gradient rounded-full text-sm font-semibold text-center text-foreground"
-              >
-                {t('nav.startProject')}
+              <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center gap-2 w-full px-6 py-3.5 btn-gradient rounded-xl text-sm font-bold text-white mt-4">
+                <span className="relative z-10">{t('nav.startProject')}</span>
+                <ArrowRight className="w-4 h-4 relative z-10" />
               </Link>
             </div>
           </motion.div>
