@@ -363,7 +363,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'O\'zbekistondagi premium marketing agentligi',
+      brand: 'O\'zbekistondagi premium marketing agentligidir',
       services: 'Xizmatlar',
       company: 'Kompaniya',
       rights: 'Barcha huquqlar himoyalangan'
