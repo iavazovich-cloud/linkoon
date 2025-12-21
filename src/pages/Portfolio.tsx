@@ -10,7 +10,7 @@ import portfolioSocial from '@/assets/portfolio-social.jpg';
 type Category = 'all' | 'branding' | 'web' | 'video' | 'social';
 
 export const Portfolio = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<Category>('all');
 
   const categories: { id: Category; label: string }[] = [
@@ -25,56 +25,137 @@ export const Portfolio = () => {
     {
       image: portfolioBranding,
       category: 'branding',
-      client: 'Luxury Cosmetics',
-      result: '40% Increase in Sales',
+      client: {
+        en: 'Luxury Cosmetics',
+        uz: 'Lyuks kosmetika',
+        ru: 'Люкс косметика'
+      },
+      result: {
+        en: '40% Increase in Sales',
+        uz: 'Sotuvda 40% o\'sish',
+        ru: 'Рост продаж на 40%'
+      },
+      slug: 'luxury-cosmetics'
     },
     {
       image: portfolioWeb,
       category: 'web',
-      client: 'Fashion E-commerce',
-      result: '3x Revenue Growth',
+      client: {
+        en: 'Fashion E-commerce',
+        uz: 'Moda E-tijorat',
+        ru: 'Модный E-commerce'
+      },
+      result: {
+        en: '3x Revenue Growth',
+        uz: 'Daromadda 3x o\'sish',
+        ru: 'Рост дохода в 3 раза'
+      },
+      slug: 'fashion-ecommerce'
     },
     {
       image: portfolioVideo,
       category: 'video',
-      client: 'Tech Startup',
-      result: '1M+ Views',
+      client: {
+        en: 'Tech Startup',
+        uz: 'Texnologiya startapi',
+        ru: 'Технологический стартап'
+      },
+      result: {
+        en: '1M+ Views',
+        uz: '1M+ ko\'rishlar',
+        ru: '1M+ просмотров'
+      },
+      slug: 'tech-startup'
     },
     {
       image: portfolioSocial,
       category: 'social',
-      client: 'Lifestyle Brand',
-      result: '500K New Followers',
+      client: {
+        en: 'Lifestyle Brand',
+        uz: 'Turmush tarzi brendi',
+        ru: 'Лайфстайл бренд'
+      },
+      result: {
+        en: '500K New Followers',
+        uz: '500K yangi obunachilar',
+        ru: '500K новых подписчиков'
+      },
+      slug: 'lifestyle-brand'
     },
     {
       image: portfolioBranding,
       category: 'branding',
-      client: 'Restaurant Chain',
-      result: '60% Brand Recognition',
+      client: {
+        en: 'Restaurant Chain',
+        uz: 'Restoran tarmog\'i',
+        ru: 'Сеть ресторанов'
+      },
+      result: {
+        en: '60% Brand Recognition',
+        uz: '60% brend tanilishi',
+        ru: '60% узнаваемость бренда'
+      },
+      slug: 'restaurant-chain'
     },
     {
       image: portfolioWeb,
       category: 'web',
-      client: 'SaaS Platform',
-      result: '5x User Signups',
+      client: {
+        en: 'SaaS Platform',
+        uz: 'SaaS platforma',
+        ru: 'SaaS платформа'
+      },
+      result: {
+        en: '5x User Signups',
+        uz: '5x foydalanuvchi ro\'yxatdan o\'tish',
+        ru: 'Регистраций в 5 раз больше'
+      },
+      slug: 'saas-platform'
     },
     {
       image: portfolioVideo,
       category: 'video',
-      client: 'Music Festival',
-      result: '2M+ Engagement',
+      client: {
+        en: 'Music Festival',
+        uz: 'Musiqa festivali',
+        ru: 'Музыкальный фестиваль'
+      },
+      result: {
+        en: '2M+ Engagement',
+        uz: '2M+ interaktivlik',
+        ru: '2M+ вовлечённость'
+      },
+      slug: 'music-festival'
     },
     {
       image: portfolioSocial,
       category: 'social',
-      client: 'Fitness App',
-      result: '300% Growth',
+      client: {
+        en: 'Fitness App',
+        uz: 'Fitness ilovasi',
+        ru: 'Фитнес приложение'
+      },
+      result: {
+        en: '300% Growth',
+        uz: '300% o\'sish',
+        ru: 'Рост на 300%'
+      },
+      slug: 'fitness-app'
     },
     {
       image: portfolioBranding,
       category: 'branding',
-      client: 'Financial Services',
-      result: '85% Trust Score',
+      client: {
+        en: 'Financial Services',
+        uz: 'Moliyaviy xizmatlar',
+        ru: 'Финансовые услуги'
+      },
+      result: {
+        en: '85% Trust Score',
+        uz: '85% ishonch ko\'rsatkichi',
+        ru: '85% уровень доверия'
+      },
+      slug: 'financial-services'
     },
   ];
 
@@ -90,7 +171,7 @@ export const Portfolio = () => {
         <Reveal>
           <div className="text-center max-w-3xl mx-auto space-y-6">
             <h1 className="text-5xl lg:text-7xl font-bold">{t('portfolio.title')}</h1>
-            <p className="text-xl text-muted">{t('portfolio.subtitle')}</p>
+            <p className="text-xl text-muted-foreground">{t('portfolio.subtitle')}</p>
           </div>
         </Reveal>
       </section>
@@ -120,22 +201,21 @@ export const Portfolio = () => {
       <section className="container mx-auto px-4 lg:px-8 pb-20">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => {
-            const projectId = project.client.toLowerCase().replace(/\s+/g, '-');
             return (
               <Reveal key={index} delay={index * 0.05}>
-                <Link to={`/portfolio/${projectId}`} className="block group relative overflow-hidden rounded-3xl aspect-square">
+                <Link to={`/portfolio/${project.slug}`} className="block group relative overflow-hidden rounded-3xl aspect-square">
                   <img
                     src={project.image}
-                    alt={project.client}
+                    alt={project.client[language as 'en' | 'uz' | 'ru']}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                      <div className="text-sm text-muted mb-2">
+                      <div className="text-sm text-muted-foreground mb-2">
                         {categories.find((c) => c.id === project.category)?.label}
                       </div>
-                      <h3 className="text-2xl font-bold mb-2">{project.client}</h3>
-                      <p className="text-primary font-semibold">{project.result}</p>
+                      <h3 className="text-2xl font-bold mb-2">{project.client[language as 'en' | 'uz' | 'ru']}</h3>
+                      <p className="text-primary font-semibold">{project.result[language as 'en' | 'uz' | 'ru']}</p>
                     </div>
                   </div>
                 </Link>

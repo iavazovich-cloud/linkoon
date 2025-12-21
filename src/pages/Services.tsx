@@ -4,81 +4,182 @@ import { Reveal } from '@/components/Reveal';
 import { useState } from 'react';
 
 export const Services = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const services = [
     {
       icon: Palette,
       title: t('services.branding'),
-      description:
-        'Create a memorable brand identity that resonates with your audience. From logo design to complete brand guidelines.',
-      features: ['Logo Design', 'Brand Guidelines', 'Visual Identity', 'Brand Strategy'],
+      description: {
+        en: 'Create a memorable brand identity that resonates with your audience. From logo design to complete brand guidelines.',
+        uz: 'Auditoriyangizga mos keladigan esda qolarli brend identifikatsiyasini yarating. Logo dizaynidan to\'liq brend qo\'llanmasigacha.',
+        ru: 'Создайте запоминающуюся идентичность бренда, которая находит отклик у вашей аудитории. От дизайна логотипа до полного брендбука.'
+      },
+      features: {
+        en: ['Logo Design', 'Brand Guidelines', 'Visual Identity', 'Brand Strategy'],
+        uz: ['Logo dizayn', 'Brend qo\'llanmasi', 'Vizual identifikatsiya', 'Brend strategiyasi'],
+        ru: ['Дизайн логотипа', 'Брендбук', 'Визуальная идентичность', 'Стратегия бренда']
+      },
+      image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&h=600&fit=crop'
     },
     {
       icon: Share2,
       title: t('services.smm'),
-      description:
-        'Engage your audience with strategic social media campaigns. Build community and drive conversions.',
-      features: ['Content Planning', 'Community Management', 'Social Ads', 'Analytics'],
+      description: {
+        en: 'Engage your audience with strategic social media campaigns. Build community and drive conversions.',
+        uz: 'Strategik ijtimoiy media kampaniyalar bilan auditoriyangizni jalb qiling. Jamoa qurib, konversiyalarni oshiring.',
+        ru: 'Вовлекайте аудиторию стратегическими кампаниями в соцсетях. Создавайте сообщество и увеличивайте конверсии.'
+      },
+      features: {
+        en: ['Content Planning', 'Community Management', 'Social Ads', 'Analytics'],
+        uz: ['Kontent rejalashtirish', 'Jamoa boshqaruvi', 'Ijtimoiy reklamalar', 'Analitika'],
+        ru: ['Планирование контента', 'Управление сообществом', 'Реклама в соцсетях', 'Аналитика']
+      },
+      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop'
     },
     {
       icon: Video,
       title: t('services.content'),
-      description:
-        'Professional photo and video production that tells your brand story with stunning visuals.',
-      features: ['Photo Shoots', 'Video Production', 'Animation', 'Post-Production'],
+      description: {
+        en: 'Professional photo and video production that tells your brand story with stunning visuals.',
+        uz: 'Brendingiz hikoyasini ajoyib vizuallar bilan aytib beradigan professional foto va video ishlab chiqarish.',
+        ru: 'Профессиональное фото и видео производство, которое рассказывает историю вашего бренда.'
+      },
+      features: {
+        en: ['Photo Shoots', 'Video Production', 'Animation', 'Post-Production'],
+        uz: ['Fotosessiyalar', 'Video ishlab chiqarish', 'Animatsiya', 'Post-ishlov'],
+        ru: ['Фотосессии', 'Видеопроизводство', 'Анимация', 'Постпродакшн']
+      },
+      image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop'
     },
     {
       icon: Megaphone,
       title: t('services.advertising'),
-      description:
-        'Data-driven advertising campaigns across all digital platforms to maximize your ROI.',
-      features: ['Google Ads', 'Social Media Ads', 'Display Advertising', 'Campaign Strategy'],
+      description: {
+        en: 'Data-driven advertising campaigns across all digital platforms to maximize your ROI.',
+        uz: 'ROI ni maksimal darajada oshirish uchun barcha raqamli platformalarda ma\'lumotlarga asoslangan reklama kampaniyalari.',
+        ru: 'Рекламные кампании на основе данных на всех цифровых платформах для максимизации ROI.'
+      },
+      features: {
+        en: ['Google Ads', 'Social Media Ads', 'Display Advertising', 'Campaign Strategy'],
+        uz: ['Google Ads', 'Ijtimoiy tarmoq reklamalari', 'Displey reklama', 'Kampaniya strategiyasi'],
+        ru: ['Google Ads', 'Реклама в соцсетях', 'Медийная реклама', 'Стратегия кампаний']
+      },
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop'
     },
     {
       icon: Globe,
       title: t('services.web'),
-      description:
-        'Modern, responsive websites and digital products that deliver exceptional user experiences.',
-      features: ['Web Design', 'Web Development', 'E-commerce', 'Mobile Apps'],
+      description: {
+        en: 'Modern, responsive websites and digital products that deliver exceptional user experiences.',
+        uz: 'Ajoyib foydalanuvchi tajribasini taqdim etadigan zamonaviy, responsive veb-saytlar va raqamli mahsulotlar.',
+        ru: 'Современные, адаптивные сайты и цифровые продукты с исключительным пользовательским опытом.'
+      },
+      features: {
+        en: ['Web Design', 'Web Development', 'E-commerce', 'Mobile Apps'],
+        uz: ['Veb dizayn', 'Veb ishlab chiqish', 'E-tijorat', 'Mobil ilovalar'],
+        ru: ['Веб-дизайн', 'Веб-разработка', 'E-commerce', 'Мобильные приложения']
+      },
+      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop'
     },
     {
       icon: Lightbulb,
       title: t('services.strategy'),
-      description:
-        'Strategic marketing planning that aligns with your business goals and drives growth.',
-      features: ['Market Research', 'Marketing Plans', 'Growth Strategy', 'Consulting'],
+      description: {
+        en: 'Strategic marketing planning that aligns with your business goals and drives growth.',
+        uz: 'Biznes maqsadlaringizga mos keladigan va o\'sishni ta\'minlaydigan strategik marketing rejalashtirish.',
+        ru: 'Стратегическое планирование маркетинга, соответствующее целям вашего бизнеса.'
+      },
+      features: {
+        en: ['Market Research', 'Marketing Plans', 'Growth Strategy', 'Consulting'],
+        uz: ['Bozor tadqiqoti', 'Marketing rejalari', 'O\'sish strategiyasi', 'Konsalting'],
+        ru: ['Исследование рынка', 'Маркетинговые планы', 'Стратегия роста', 'Консалтинг']
+      },
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop'
     },
   ];
 
   const faqs = [
     {
-      question: 'How long does a typical project take?',
-      answer:
-        'Project timelines vary based on scope and complexity. Branding projects typically take 4-6 weeks, while web development can range from 6-12 weeks. We provide detailed timelines during initial consultation.',
+      question: {
+        en: 'How long does a typical project take?',
+        uz: 'Odatiy loyiha qancha vaqt oladi?',
+        ru: 'Сколько времени занимает типичный проект?'
+      },
+      answer: {
+        en: 'Project timelines vary based on scope and complexity. Branding projects typically take 4-6 weeks, while web development can range from 6-12 weeks. We provide detailed timelines during initial consultation.',
+        uz: 'Loyiha muddatlari ko\'lam va murakkablikka qarab o\'zgaradi. Brending loyihalari odatda 4-6 hafta davom etadi, veb ishlab chiqish esa 6-12 hafta davom etishi mumkin. Dastlabki maslahat davomida batafsil jadvallarni taqdim etamiz.',
+        ru: 'Сроки проектов варьируются в зависимости от объема и сложности. Брендинговые проекты обычно занимают 4-6 недель, веб-разработка — от 6 до 12 недель. Мы предоставляем детальные сроки на первой консультации.'
+      }
     },
     {
-      question: 'What is your pricing structure?',
-      answer:
-        'We offer customized pricing based on project requirements. After understanding your needs, we provide a detailed proposal with transparent pricing. We also offer monthly retainer packages for ongoing services.',
+      question: {
+        en: 'What is your pricing structure?',
+        uz: 'Narxlash tizimingiz qanday?',
+        ru: 'Какова ваша структура ценообразования?'
+      },
+      answer: {
+        en: 'We offer customized pricing based on project requirements. After understanding your needs, we provide a detailed proposal with transparent pricing. We also offer monthly retainer packages for ongoing services.',
+        uz: 'Loyiha talablariga asoslangan moslashtirilgan narxlarni taklif qilamiz. Ehtiyojlaringizni tushungandan so\'ng, shaffof narxlar bilan batafsil taklif beramiz. Shuningdek, davomiy xizmatlar uchun oylik to\'lov paketlarini taklif qilamiz.',
+        ru: 'Мы предлагаем индивидуальное ценообразование на основе требований проекта. После понимания ваших потребностей мы предоставляем детальное предложение с прозрачными ценами. Также предлагаем ежемесячные пакеты для постоянных услуг.'
+      }
     },
     {
-      question: 'Do you work with international clients?',
-      answer:
-        'Yes! While based in Uzbekistan, we work with clients globally. We have experience collaborating remotely and can accommodate different time zones.',
+      question: {
+        en: 'Do you work with international clients?',
+        uz: 'Xalqaro mijozlar bilan ishlaysizmi?',
+        ru: 'Вы работаете с международными клиентами?'
+      },
+      answer: {
+        en: 'Yes! While based in Uzbekistan, we work with clients globally. We have experience collaborating remotely and can accommodate different time zones.',
+        uz: 'Ha! O\'zbekistonda joylashgan bo\'lsak-da, dunyo bo\'ylab mijozlar bilan ishlaymiz. Masofadan turib hamkorlik qilish tajribamiz bor va turli vaqt zonalarini qo\'llab-quvvatlaymiz.',
+        ru: 'Да! Хотя мы базируемся в Узбекистане, мы работаем с клиентами по всему миру. У нас есть опыт удаленного сотрудничества с учетом разных часовых поясов.'
+      }
     },
     {
-      question: 'Can you help with an existing brand refresh?',
-      answer:
-        'Absolutely! We specialize in both creating new brands and refreshing existing ones. We can audit your current brand and propose strategic updates.',
+      question: {
+        en: 'Can you help with an existing brand refresh?',
+        uz: 'Mavjud brendni yangilashda yordam bera olasizmi?',
+        ru: 'Можете ли вы помочь с обновлением существующего бренда?'
+      },
+      answer: {
+        en: 'Absolutely! We specialize in both creating new brands and refreshing existing ones. We can audit your current brand and propose strategic updates.',
+        uz: 'Albatta! Biz yangi brendlarni yaratish va mavjudlarini yangilashga ixtisoslashganmiz. Joriy brendingizni tahlil qilib, strategik yangilanishlarni taklif qilishimiz mumkin.',
+        ru: 'Безусловно! Мы специализируемся как на создании новых брендов, так и на обновлении существующих. Мы можем провести аудит вашего бренда и предложить стратегические обновления.'
+      }
     },
     {
-      question: 'What industries do you work with?',
-      answer:
-        'We work across various industries including retail, technology, hospitality, healthcare, and more. Our diverse portfolio demonstrates our ability to adapt to different market needs.',
+      question: {
+        en: 'What industries do you work with?',
+        uz: 'Qaysi sohalarda ishlaysiz?',
+        ru: 'В каких отраслях вы работаете?'
+      },
+      answer: {
+        en: 'We work across various industries including retail, technology, hospitality, healthcare, and more. Our diverse portfolio demonstrates our ability to adapt to different market needs.',
+        uz: 'Biz chakana savdo, texnologiya, mehmondo\'stlik, sog\'liqni saqlash va boshqa turli sohalarda ishlaymiz. Bizning xilma-xil portfoliomiz turli bozor ehtiyojlariga moslashish qobiliyatimizni ko\'rsatadi.',
+        ru: 'Мы работаем в различных отраслях: розничная торговля, технологии, гостеприимство, здравоохранение и другие. Наше разнообразное портфолио демонстрирует способность адаптироваться к различным рыночным потребностям.'
+      }
     },
   ];
+
+  const faqTitle = {
+    en: 'Frequently Asked Questions',
+    uz: 'Ko\'p beriladigan savollar',
+    ru: 'Часто задаваемые вопросы'
+  };
+
+  const faqSubtitle = {
+    en: 'Everything you need to know',
+    uz: 'Bilishingiz kerak bo\'lgan hamma narsa',
+    ru: 'Всё, что вам нужно знать'
+  };
+
+  const getStarted = {
+    en: 'Get Started',
+    uz: 'Boshlash',
+    ru: 'Начать'
+  };
 
   return (
     <div className="min-h-screen pt-24">
@@ -89,7 +190,7 @@ export const Services = () => {
             <h1 className="text-5xl lg:text-7xl font-bold">
               {t('services.title')}
             </h1>
-            <p className="text-xl text-muted">{t('services.subtitle')}</p>
+            <p className="text-xl text-muted-foreground">{t('services.subtitle')}</p>
           </div>
         </Reveal>
       </section>
@@ -109,12 +210,12 @@ export const Services = () => {
                     <service.icon className="w-10 h-10 text-foreground" />
                   </div>
                   <h2 className="text-4xl font-bold">{service.title}</h2>
-                  <p className="text-lg text-muted">{service.description}</p>
+                  <p className="text-lg text-muted-foreground">{service.description[language as 'en' | 'uz' | 'ru']}</p>
                   <ul className="space-y-3">
-                    {service.features.map((feature, idx) => (
+                    {service.features[language as 'en' | 'uz' | 'ru'].map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-3">
                         <div className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-primary to-secondary" />
-                        <span className="text-muted">{feature}</span>
+                        <span className="text-muted-foreground">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -122,12 +223,18 @@ export const Services = () => {
                     href="/contact"
                     className="inline-flex items-center gap-2 px-6 py-3 btn-gradient rounded-full font-semibold hover:shadow-lg transition-all group mt-4"
                   >
-                    Get Started
+                    {getStarted[language as 'en' | 'uz' | 'ru']}
                     <span className="group-hover:translate-x-1 transition-transform">→</span>
                   </a>
                 </div>
                 <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-                  <div className="aspect-square glass-panel rounded-3xl" />
+                  <div className="aspect-square rounded-3xl overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
                 </div>
               </div>
             </Reveal>
@@ -139,8 +246,8 @@ export const Services = () => {
       <section className="container mx-auto px-4 lg:px-8 py-20">
         <Reveal>
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-muted">Everything you need to know</p>
+            <h2 className="text-4xl lg:text-5xl font-bold mb-4">{faqTitle[language as 'en' | 'uz' | 'ru']}</h2>
+            <p className="text-lg text-muted-foreground">{faqSubtitle[language as 'en' | 'uz' | 'ru']}</p>
           </div>
         </Reveal>
 
@@ -152,16 +259,16 @@ export const Services = () => {
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
                   className="w-full p-6 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
                 >
-                  <span className="font-semibold text-lg">{faq.question}</span>
+                  <span className="font-semibold text-lg">{faq.question[language as 'en' | 'uz' | 'ru']}</span>
                   {openFaq === index ? (
-                    <Minus className="w-5 h-5 text-muted" />
+                    <Minus className="w-5 h-5 text-muted-foreground" />
                   ) : (
-                    <Plus className="w-5 h-5 text-muted" />
+                    <Plus className="w-5 h-5 text-muted-foreground" />
                   )}
                 </button>
                 {openFaq === index && (
                   <div className="px-6 pb-6">
-                    <p className="text-muted">{faq.answer}</p>
+                    <p className="text-muted-foreground">{faq.answer[language as 'en' | 'uz' | 'ru']}</p>
                   </div>
                 )}
               </div>
