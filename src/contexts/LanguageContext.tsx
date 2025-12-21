@@ -63,64 +63,6 @@ const translations: Record<Language, any> = {
       contact: 'Contact',
       startProject: 'Start Project'
     },
-    home: {
-      rating: '5 Stars • 50+ Reviews',
-      viewWork: 'View Work',
-      visitorGrowth: 'Visitor Growth',
-      monthlyUsers: 'Monthly active users',
-      learnMore: 'Learn more',
-      bookCall: 'Book a call with us',
-      featuredWork: 'Featured Work',
-      viewAllProjects: 'View All Projects',
-      stats: {
-        projects: 'Projects',
-        clients: 'Clients',
-        years: 'Years',
-        satisfaction: 'Satisfaction'
-      },
-      services: {
-        heading: 'Charting your path to',
-        headingHighlight: 'marketing mastery',
-        brandingDesc: 'Logo, brand identity, visual design',
-        smmDesc: 'Social media management & growth',
-        contentDesc: 'Video production & photography',
-        advertisingDesc: 'Digital ads & campaigns',
-        webDesc: 'Website design & development',
-        strategyDesc: 'Marketing strategy & consulting'
-      },
-      project1: {
-        title: 'Luxury Brand Campaign',
-        result: '40% Increase in Sales'
-      },
-      project2: {
-        title: 'E-commerce Platform',
-        result: '3x Revenue Growth'
-      },
-      whyUs: {
-        badge: 'Why Choose Us?',
-        title: 'The Best Marketing Agency in Namangan',
-        subtitle: 'We understand the local market and work to global standards',
-        reason1: {
-          title: 'Results-Driven',
-          desc: 'Clear goals and measurable results in every project'
-        },
-        reason2: {
-          title: 'Creative Solutions',
-          desc: 'Modern design and innovative marketing strategies'
-        },
-        reason3: {
-          title: 'Fast & Quality',
-          desc: 'Professional results within set deadlines'
-        }
-      },
-      cta: {
-        badge: 'Partnership',
-        title: 'Interested?',
-        highlight: 'Get in Touch',
-        description: 'We offer the best opportunities for your business growth',
-        button: 'Schedule a call'
-      }
-    },
     blog: {
       title: 'Marketing Insights & Tips',
       subtitle: 'Expert advice for growing your business in Uzbekistan',
@@ -182,19 +124,19 @@ const translations: Record<Language, any> = {
       }
     },
     contact: {
-      title: "Let's Talk",
+      title: 'Let\'s Talk',
       subtitle: 'Start your project today',
       address: 'Namangan, Uzbekistan',
       form: {
         name: 'Your Name',
         phone: 'Phone Number',
         email: 'Email Address',
-        interest: "I'm interested in",
+        interest: 'I\'m interested in',
         message: 'Tell us about your project',
         optional: 'optional',
         messagePlaceholder: 'Tell us about your project...',
         submit: 'Send Message',
-        successMessage: "Message sent! We'll get back to you soon.",
+        successMessage: 'Message sent! We\'ll get back to you soon.',
         errorMessage: 'Failed to send message. Please try again.',
         joinTelegram: 'Join our Telegram channel for updates',
         options: {
@@ -224,64 +166,6 @@ const translations: Record<Language, any> = {
       blog: 'Blog',
       contact: 'Aloqa',
       startProject: 'Loyihani boshlash'
-    },
-    home: {
-      rating: '5 yulduz • 50+ sharhlar',
-      viewWork: 'Ishlarni ko\'rish',
-      visitorGrowth: 'Tashrif buyuruvchilar o\'sishi',
-      monthlyUsers: 'Oylik faol foydalanuvchilar',
-      learnMore: 'Batafsil',
-      bookCall: 'Biz bilan bog\'laning',
-      featuredWork: 'Taniqli loyihalarimiz',
-      viewAllProjects: 'Barcha loyihalarni ko\'rish',
-      stats: {
-        projects: 'Loyihalar',
-        clients: 'Mijozlar',
-        years: 'Yillik tajriba',
-        satisfaction: 'Mamnuniyat'
-      },
-      services: {
-        heading: 'Marketing muvaffaqiyatiga',
-        headingHighlight: 'yo\'l ochish',
-        brandingDesc: 'Logo, brend identifikatsiyasi, vizual dizayn',
-        smmDesc: 'Ijtimoiy tarmoqlarni boshqarish va rivojlantirish',
-        contentDesc: 'Video ishlab chiqarish va fotografiya',
-        advertisingDesc: 'Raqamli reklamalar va kampaniyalar',
-        webDesc: 'Veb-sayt dizayni va ishlab chiqish',
-        strategyDesc: 'Marketing strategiyasi va konsalting'
-      },
-      project1: {
-        title: 'Brending kampaniyasi',
-        result: 'Sotuvlar 40% oshdi'
-      },
-      project2: {
-        title: 'E-commerce platformasi',
-        result: 'Daromad 3 barobar oshdi'
-      },
-      whyUs: {
-        badge: 'Nega biz?',
-        title: 'Namangandagi eng yaxshi marketing agentligi',
-        subtitle: 'Mahalliy bozorni yaxshi bilamiz va global standartlarda ishlaymiz',
-        reason1: {
-          title: 'Natijaga yo\'naltirilgan',
-          desc: 'Har bir loyihada aniq maqsadlar va o\'lchanadigan natijalar'
-        },
-        reason2: {
-          title: 'Kreativ yechimlar',
-          desc: 'Zamonaviy dizayn va innovatsion marketing strategiyalari'
-        },
-        reason3: {
-          title: 'Tez va sifatli',
-          desc: 'Belgilangan muddatlarda professional natijalar'
-        }
-      },
-      cta: {
-        badge: 'Hamkorlik',
-        title: 'Qiziqyapsizmi?',
-        highlight: 'Bog\'laning',
-        description: 'Biznesingizni rivojlantirish uchun eng yaxshi imkoniyatlarni taklif etamiz',
-        button: 'Qo\'ng\'iroq rejalashtirish'
-      }
     },
     hero: {
       badge: 'O\'zbekistonning yetakchi marketing agentligi',
@@ -386,64 +270,6 @@ const translations: Record<Language, any> = {
       blog: 'Блог',
       contact: 'Контакты',
       startProject: 'Начать проект'
-    },
-    home: {
-      rating: '5 звезд • 50+ отзывов',
-      viewWork: 'Смотреть работы',
-      visitorGrowth: 'Рост посетителей',
-      monthlyUsers: 'Ежемесячные активные пользователи',
-      learnMore: 'Подробнее',
-      bookCall: 'Связаться с нами',
-      featuredWork: 'Избранные работы',
-      viewAllProjects: 'Все проекты',
-      stats: {
-        projects: 'Проекты',
-        clients: 'Клиенты',
-        years: 'Лет опыта',
-        satisfaction: 'Удовлетворенность'
-      },
-      services: {
-        heading: 'Путь к',
-        headingHighlight: 'маркетинговому успеху',
-        brandingDesc: 'Логотип, фирменный стиль, визуальный дизайн',
-        smmDesc: 'Управление соцсетями и продвижение',
-        contentDesc: 'Видеопроизводство и фотография',
-        advertisingDesc: 'Цифровая реклама и кампании',
-        webDesc: 'Дизайн и разработка сайтов',
-        strategyDesc: 'Маркетинговая стратегия и консалтинг'
-      },
-      project1: {
-        title: 'Брендинг кампания',
-        result: 'Рост продаж на 40%'
-      },
-      project2: {
-        title: 'E-commerce платформа',
-        result: 'Рост дохода в 3 раза'
-      },
-      whyUs: {
-        badge: 'Почему мы?',
-        title: 'Лучшее маркетинговое агентство в Намангане',
-        subtitle: 'Мы понимаем местный рынок и работаем по глобальным стандартам',
-        reason1: {
-          title: 'Ориентация на результат',
-          desc: 'Четкие цели и измеримые результаты в каждом проекте'
-        },
-        reason2: {
-          title: 'Креативные решения',
-          desc: 'Современный дизайн и инновационные стратегии'
-        },
-        reason3: {
-          title: 'Быстро и качественно',
-          desc: 'Профессиональные результаты в срок'
-        }
-      },
-      cta: {
-        badge: 'Партнерство',
-        title: 'Заинтересованы?',
-        highlight: 'Свяжитесь с нами',
-        description: 'Мы предлагаем лучшие возможности для роста вашего бизнеса',
-        button: 'Запланировать звонок'
-      }
     },
     hero: {
       badge: 'Ведущее маркетинговое агентство в Узбекистане',
