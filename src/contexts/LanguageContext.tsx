@@ -73,7 +73,28 @@ const translations: Record<Language, any> = {
       title: 'Marketing Insights & Tips',
       subtitle: 'Expert advice for growing your business in Uzbekistan',
       readMore: 'Read More',
-      backToBlog: 'Back to Blog'
+      backToBlog: 'Back to Blog',
+      sectionTitle: 'From Our Blog',
+      sectionSubtitle: 'Expert insights and marketing tips for your business',
+      viewAll: 'View All Articles'
+    },
+    home: {
+      stats: {
+        visitors: 'Visitor Growth',
+        monthly: 'Monthly active users',
+        projects: 'Projects',
+        clients: 'Clients',
+        years: 'Years',
+        satisfaction: 'Satisfaction'
+      },
+      viewWork: 'View Work',
+      servicesHeading: 'Charting your path to',
+      servicesHighlight: 'marketing mastery',
+      viewAllProjects: 'View All Projects',
+      ctaTitle: 'Interested?',
+      ctaHighlight: 'Get in Touch',
+      ctaDescription: 'We offer the best opportunities for your business growth',
+      ctaButton: 'Schedule a call'
     },
     hero: {
       badge: 'Leading Marketing Agency in Uzbekistan',
@@ -90,7 +111,9 @@ const translations: Record<Language, any> = {
       content: 'Content Production',
       advertising: 'Digital Advertising',
       web: 'Web & Digital',
-      strategy: 'Marketing Strategy'
+      strategy: 'Marketing Strategy',
+      learnMore: 'Learn more',
+      bookCall: 'Book a call with us'
     },
     portfolio: {
       title: 'Featured Work',
@@ -188,7 +211,9 @@ const translations: Record<Language, any> = {
       content: 'Kontent ishlab chiqarish',
       advertising: 'Raqamli reklama',
       web: 'Veb va raqamli',
-      strategy: 'Marketing strategiyasi'
+      strategy: 'Marketing strategiyasi',
+      learnMore: 'Batafsil',
+      bookCall: 'Biz bilan bog\'laning'
     },
     portfolio: {
       title: 'Taniqli ishlar',
@@ -262,7 +287,28 @@ const translations: Record<Language, any> = {
       title: 'Marketing maslahatlari va tushunchalar',
       subtitle: 'O\'zbekistonda biznesingizni o\'stirish bo\'yicha ekspert maslahatlari',
       readMore: 'Batafsil o\'qish',
-      backToBlog: 'Blogga qaytish'
+      backToBlog: 'Blogga qaytish',
+      sectionTitle: 'Blogimizdan',
+      sectionSubtitle: 'Biznesingiz uchun ekspert maslahatlar va marketing sirlari',
+      viewAll: 'Barcha maqolalar'
+    },
+    home: {
+      stats: {
+        visitors: 'Tashriflar o\'sishi',
+        monthly: 'Oylik faol foydalanuvchilar',
+        projects: 'Loyihalar',
+        clients: 'Mijozlar',
+        years: 'Yillar',
+        satisfaction: 'Mamnuniyat'
+      },
+      viewWork: 'Ishlarni ko\'rish',
+      servicesHeading: 'Marketing muvaffaqiyatiga',
+      servicesHighlight: 'yo\'lingizni chizing',
+      viewAllProjects: 'Barcha loyihalar',
+      ctaTitle: 'Qiziqyapsizmi?',
+      ctaHighlight: 'Bog\'laning',
+      ctaDescription: 'Biznesingiz o\'sishi uchun eng yaxshi imkoniyatlarni taklif qilamiz',
+      ctaButton: 'Qo\'ng\'iroq rejalashtirish'
     },
     language: 'uz'
   },
@@ -292,7 +338,9 @@ const translations: Record<Language, any> = {
       content: 'Производство контента',
       advertising: 'Цифровая реклама',
       web: 'Веб и цифровые решения',
-      strategy: 'Маркетинговая стратегия'
+      strategy: 'Маркетинговая стратегия',
+      learnMore: 'Подробнее',
+      bookCall: 'Связаться с нами'
     },
     portfolio: {
       title: 'Избранные работы',
@@ -366,7 +414,28 @@ const translations: Record<Language, any> = {
       title: 'Маркетинговые инсайты и советы',
       subtitle: 'Экспертные советы по развитию вашего бизнеса в Узбекистане',
       readMore: 'Читать далее',
-      backToBlog: 'Вернуться к блогу'
+      backToBlog: 'Вернуться к блогу',
+      sectionTitle: 'Из нашего блога',
+      sectionSubtitle: 'Экспертные советы и маркетинговые идеи для вашего бизнеса',
+      viewAll: 'Все статьи'
+    },
+    home: {
+      stats: {
+        visitors: 'Рост посетителей',
+        monthly: 'Ежемесячные активные пользователи',
+        projects: 'Проектов',
+        clients: 'Клиентов',
+        years: 'Лет',
+        satisfaction: 'Удовлетворённость'
+      },
+      viewWork: 'Смотреть работы',
+      servicesHeading: 'Проложите путь к',
+      servicesHighlight: 'маркетинговому успеху',
+      viewAllProjects: 'Все проекты',
+      ctaTitle: 'Заинтересованы?',
+      ctaHighlight: 'Свяжитесь с нами',
+      ctaDescription: 'Мы предлагаем лучшие возможности для роста вашего бизнеса',
+      ctaButton: 'Запланировать звонок'
     },
     language: 'ru'
   }
