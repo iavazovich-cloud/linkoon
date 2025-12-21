@@ -11,8 +11,21 @@ const { render } = await import('./dist/server/entry-server.js')
 // Base URL for canonical/OG tags during SSG
 const siteUrl = process.env.SITE_URL || 'https://linkon.uz'
 
-// Routes matching App.tsx (include important dynamic pages for SEO)
-const blogPostSlugs = ['social-media-growth', 'viral-reels']
+// Blog post slugs (matching BlogPost.tsx)
+const blogPostSlugs = [
+  'social-media-growth',
+  'viral-reels',
+  'advertising-mistakes',
+  'video-production-costs',
+  'professional-video-content',
+  'choosing-marketing-agency',
+  'starting-business-podcast',
+  'shooting-reels-phone',
+  'brand-identity',
+  'digital-marketing-trends-2025'
+]
+
+// Portfolio slugs (matching PortfolioDetail.tsx)
 const portfolioSlugs = [
   'luxury-cosmetics',
   'fashion-ecommerce',
@@ -25,6 +38,7 @@ const portfolioSlugs = [
   'financial-services'
 ]
 
+// Routes matching App.tsx
 const routesToPrerender = [
   '/',
   '/services',
@@ -63,4 +77,3 @@ const routesToPrerender = [
     console.log('pre-rendered:', filePath)
   }
 })()
-

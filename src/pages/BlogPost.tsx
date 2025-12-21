@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, CheckCircle2, AlertTriangle, Zap } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import viralReelsImage from '@/assets/blog-viral-reels.png';
 
 export const BlogPost = () => {
   const { id } = useParams();
@@ -207,7 +208,7 @@ export const BlogPost = () => {
       date: '2025-01-12',
       readTime: '8 min',
       category: 'Video',
-      image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=1200&h=600&fit=crop',
+      image: viralReelsImage,
       content: {
         en: `<div class="blog-intro">
 <p class="lead">Creating viral Reels isn't about luck — it's a systematic approach combining psychology, storytelling, and strategic planning. Here's your complete guide to creating short-form video content that doesn't just get views, but actually converts viewers into paying customers.</p>
