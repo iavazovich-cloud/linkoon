@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocation, Outlet } from "react-router-dom";
 import "./index.css";
 
@@ -36,13 +36,19 @@ function ScrollToTop() {
 
 // Layout component that wraps all pages
 function Layout() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <LanguageProvider>
           <Toaster />
           <Sonner />
-          <ScrollToTop />
+          {isClient && <ScrollToTop />}
           <div className="min-h-screen flex flex-col">
             <Navbar />
             <main className="flex-1">
