@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback for non-pre-rendered dynamic routes.
+# Pre-rendered pages (dist/**/index.html) will still be served normally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

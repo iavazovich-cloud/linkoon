@@ -11,11 +11,11 @@
     <meta name="keywords" content="marketing agentligi namangan, marketing namangan, reklama namangan, brending namangan, smm namangan, video production namangan, marketing agentligi o'zbekiston, digital marketing uzbekistan, linkgn agency" />
     <meta name="author" content="LinkOn Agency" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://yourwebsite.com/" />
+    <link rel="canonical" href="__CANONICAL_URL__" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta property="og:url" content="__PAGE_URL__" />
     <meta property="og:title" content="LinkOn - Namangandagi Marketing Agentligi" />
     <meta property="og:description" content="Premium marketing xizmatlari - Brending, SMM, Video va Web ishlanma" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
@@ -23,7 +23,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://yourwebsite.com/" />
+    <meta name="twitter:url" content="__PAGE_URL__" />
     <meta name="twitter:title" content="LinkOn - Namangandagi Marketing Agentligi" />
     <meta name="twitter:description" content="Premium marketing xizmatlari - Brending, SMM, Video va Web ishlanma" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
@@ -46,7 +46,7 @@
       "@type": "ProfessionalService",
       "name": "LinkOn Marketing Agency",
       "description": "Premium marketing agency in Namangan, Uzbekistan offering branding, SMM, video production, and digital marketing services",
-      "url": "https://yourwebsite.com",
+      "url": "__SITE_URL__",
       "telephone": "+998906937737",
       "email": "iavazovich@gmail.com",
       "address": {
@@ -78,6 +78,37 @@
         "geoRadius": "100000"
       }
     }
+    </script>
+
+    <!-- Fallback for non-SSG builds: replace placeholder URLs at runtime -->
+    <script>
+      (function () {
+        try {
+          var origin = window.location.origin;
+          var pathname = window.location.pathname || '/';
+          var pageUrl = origin + pathname;
+
+          var canonical = document.querySelector('link[rel="canonical"]');
+          if (canonical && canonical.getAttribute('href') === '__CANONICAL_URL__') {
+            canonical.setAttribute('href', pageUrl);
+          }
+
+          var ogUrl = document.querySelector('meta[property="og:url"]');
+          if (ogUrl && ogUrl.getAttribute('content') === '__PAGE_URL__') {
+            ogUrl.setAttribute('content', pageUrl);
+          }
+
+          var twUrl = document.querySelector('meta[name="twitter:url"]');
+          if (twUrl && twUrl.getAttribute('content') === '__PAGE_URL__') {
+            twUrl.setAttribute('content', pageUrl);
+          }
+
+          var ld = document.querySelector('script[type="application/ld+json"]');
+          if (ld && ld.textContent && ld.textContent.indexOf('__SITE_URL__') !== -1) {
+            ld.textContent = ld.textContent.replace(/__SITE_URL__/g, origin);
+          }
+        } catch (e) {}
+      })();
     </script>
   </head>
 
