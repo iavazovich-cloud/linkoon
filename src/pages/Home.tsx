@@ -94,6 +94,7 @@ export const Home = () => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] tracking-tight">
+                <span className="sr-only">Namangandagi professional marketing xizmatlari - </span>
                 {t('hero.title')}{' '}
                 <span className="gradient-text">{t('hero.subtitle')}</span>
               </h1>
