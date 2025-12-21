@@ -23,14 +23,20 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
-  const [language, setLanguage] = useState<Language>(() => {
-    const saved = localStorage.getItem('language');
-    return (saved as Language) || 'uz';
-  });
+  const [language, setLanguageState] = useState<Language>('uz');
 
   useEffect(() => {
-    localStorage.setItem('language', language);
-  }, [language]);
+    // Only access localStorage on the client side (SSR-safe)
+    const saved = localStorage.getItem('language');
+    if (saved && ['en', 'uz', 'ru'].includes(saved)) {
+      setLanguageState(saved as Language);
+    }
+  }, []);
+
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang);
+    localStorage.setItem('language', lang);
+  };
 
   const t = (key: string): string => {
     const keys = key.split('.');
