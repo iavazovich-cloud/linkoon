@@ -5,7 +5,7 @@ import { useState, FormEvent } from 'react';
 import { toast } from 'sonner';
 
 export const Contact = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -58,6 +58,29 @@ export const Contact = () => {
     t('contact.form.options.strategy'),
   ];
 
+  const labels = {
+    address: {
+      en: 'Address',
+      uz: 'Manzil',
+      ru: 'Адрес'
+    },
+    phone: {
+      en: 'Phone',
+      uz: 'Telefon',
+      ru: 'Телефон'
+    },
+    email: {
+      en: 'Email',
+      uz: 'Email',
+      ru: 'Email'
+    },
+    selectService: {
+      en: 'Select a service',
+      uz: 'Xizmatni tanlang',
+      ru: 'Выберите услугу'
+    }
+  };
+
   return (
     <div className="min-h-screen pt-24">
       {/* Hero */}
@@ -65,7 +88,7 @@ export const Contact = () => {
         <Reveal>
           <div className="text-center max-w-3xl mx-auto space-y-6">
             <h1 className="text-5xl lg:text-7xl font-bold">{t('contact.title')}</h1>
-            <p className="text-xl text-muted">{t('contact.subtitle')}</p>
+            <p className="text-xl text-muted-foreground">{t('contact.subtitle')}</p>
           </div>
         </Reveal>
       </section>
@@ -82,9 +105,9 @@ export const Contact = () => {
                     <MapPin className="w-6 h-6 text-foreground" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Address</h3>
-                    <p className="text-muted">Namangan, Uzbekistan</p>
-                    <p className="text-muted">Amir Temur street, 42</p>
+                    <h3 className="font-semibold mb-1">{labels.address[language as 'en' | 'uz' | 'ru']}</h3>
+                    <p className="text-muted-foreground">{language === 'uz' ? "Namangan, O'zbekiston" : language === 'ru' ? 'Наманган, Узбекистан' : 'Namangan, Uzbekistan'}</p>
+                    <p className="text-muted-foreground">{language === 'uz' ? 'Amir Temur koʻchasi, 42' : language === 'ru' ? 'Улица Амира Темура, 42' : 'Amir Temur street, 42'}</p>
                   </div>
                 </div>
 
@@ -93,10 +116,10 @@ export const Contact = () => {
                     <Phone className="w-6 h-6 text-foreground" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Phone</h3>
+                    <h3 className="font-semibold mb-1">{labels.phone[language as 'en' | 'uz' | 'ru']}</h3>
                     <a
                       href="tel:+998906937737"
-                      className="text-muted hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-foreground transition-colors"
                     >
                       +998 90 693 77 37
                     </a>
@@ -108,10 +131,10 @@ export const Contact = () => {
                     <Mail className="w-6 h-6 text-foreground" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Email</h3>
+                    <h3 className="font-semibold mb-1">{labels.email[language as 'en' | 'uz' | 'ru']}</h3>
                     <a
                       href="mailto:iavazovich@gmail.com"
-                      className="text-muted hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-foreground transition-colors"
                     >
                       iavazovich@gmail.com
                     </a>
@@ -133,7 +156,7 @@ export const Contact = () => {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
-                  placeholder="John Doe"
+                  placeholder={language === 'uz' ? "Ismingiz" : language === 'ru' ? "Ваше имя" : "Your name"}
                 />
               </div>
 
@@ -162,7 +185,7 @@ export const Contact = () => {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
-                    placeholder="john@example.com"
+                    placeholder="email@example.com"
                   />
                 </div>
               </div>
@@ -177,7 +200,7 @@ export const Contact = () => {
                   onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
                   className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-primary focus:outline-none transition-colors"
                 >
-                  <option value="">Select a service</option>
+                  <option value="">{labels.selectService[language as 'en' | 'uz' | 'ru']}</option>
                   {interests.map((interest, index) => (
                     <option key={index} value={interest}>
                       {interest}
@@ -188,7 +211,7 @@ export const Contact = () => {
 
               <div>
                 <label className="block text-sm font-medium mb-2">
-                  {t('contact.form.message')} <span className="text-muted text-xs">({t('contact.form.optional')})</span>
+                  {t('contact.form.message')} <span className="text-muted-foreground text-xs">({t('contact.form.optional')})</span>
                 </label>
                 <textarea
                   value={formData.message}

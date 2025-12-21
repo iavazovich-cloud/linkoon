@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import logo from '@/assets/logo.png';
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -33,10 +34,11 @@ export const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">L</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">LinkOn</span>
+              <img 
+                src={logo} 
+                alt="LinkOn - Namangan Marketing Agency" 
+                className="h-12 w-auto object-contain"
+              />
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               {t('footer.brand')}

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { Calendar, ArrowRight, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
-import viralReelsImage from '@/assets/blog-viral-reels.png';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
@@ -40,7 +39,7 @@ export const Blog = () => {
       date: '2025-01-12',
       readTime: '8 min',
       category: 'Video',
-      image: viralReelsImage
+      image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=500&fit=crop'
     },
     {
       id: 'ads-mistakes',
