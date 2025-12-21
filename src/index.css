@@ -4,6 +4,135 @@
 
 /* Design System - Dark/Orange Premium Theme */
 
+/* Blog Content Styles */
+.blog-content .blog-intro .lead {
+  @apply text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-8;
+}
+
+.blog-content .blog-section {
+  @apply my-10;
+}
+
+.blog-content .blog-section h2 {
+  @apply text-2xl lg:text-3xl font-bold mb-4 text-foreground;
+}
+
+.blog-content .blog-section.highlight {
+  @apply bg-primary/5 rounded-2xl p-6 lg:p-8 border border-primary/10;
+}
+
+.blog-content .blog-card {
+  @apply bg-card rounded-xl p-6 mb-6 border border-border;
+}
+
+.blog-content .blog-card h3 {
+  @apply text-xl font-bold mb-3;
+}
+
+.blog-content .blog-card.warning {
+  @apply border-l-4 border-l-yellow-500;
+}
+
+.blog-content .blog-card.danger {
+  @apply border-l-4 border-l-red-500;
+}
+
+.blog-content .blog-card.success {
+  @apply border-l-4 border-l-green-500;
+}
+
+.blog-content .blog-card.info {
+  @apply border-l-4 border-l-blue-500;
+}
+
+.blog-content .blog-card .solution {
+  @apply mt-4 p-4 bg-green-500/10 rounded-lg text-sm;
+}
+
+.blog-content .blog-cta {
+  @apply bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-6 lg:p-8 mt-10 text-center border border-primary/20;
+}
+
+.blog-content .stats-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4 my-8;
+}
+
+.blog-content .stat-card {
+  @apply bg-card rounded-xl p-6 text-center border border-border;
+}
+
+.blog-content .stat-number {
+  @apply block text-3xl lg:text-4xl font-bold text-primary mb-2;
+}
+
+.blog-content .stat-label {
+  @apply text-sm text-muted-foreground;
+}
+
+.blog-content ul, .blog-content ol {
+  @apply my-4 pl-6 space-y-2 text-muted-foreground;
+}
+
+.blog-content ul li {
+  @apply list-disc;
+}
+
+.blog-content ol li {
+  @apply list-decimal;
+}
+
+.blog-content p {
+  @apply text-muted-foreground leading-relaxed mb-4;
+}
+
+.blog-content strong {
+  @apply text-foreground font-semibold;
+}
+
+.blog-content .pricing-table {
+  @apply grid md:grid-cols-2 gap-4 my-8;
+}
+
+.blog-content .pricing-card {
+  @apply bg-card rounded-xl p-6 border border-border;
+}
+
+.blog-content .pricing-card.premium {
+  @apply border-primary bg-primary/5;
+}
+
+.blog-content .price-range {
+  @apply text-2xl font-bold text-primary mb-4;
+}
+
+.blog-content .equipment-grid, .blog-content .factors-grid {
+  @apply grid md:grid-cols-2 gap-4 my-4;
+}
+
+.blog-content .equipment, .blog-content .factor {
+  @apply bg-card/50 rounded-lg p-4 border border-border;
+}
+
+.blog-content .timeline {
+  @apply space-y-3 my-4;
+}
+
+.blog-content .timeline-item {
+  @apply pl-4 border-l-2 border-primary py-2;
+}
+
+.blog-content .red-flags {
+  @apply space-y-4;
+}
+
+.blog-content .flag {
+  @apply flex gap-4 items-start;
+}
+
+.blog-content .flag-icon {
+  @apply text-2xl;
+}
+
 @layer base {
   :root {
     /* Dark theme as default */
