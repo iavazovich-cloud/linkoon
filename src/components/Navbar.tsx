@@ -22,10 +22,10 @@ export const Navbar = () => {
 
   const navLinks = [
     { path: '/', label: t('nav.home') },
+    { path: '/blog', label: t('nav.blog') },
     { path: '/services', label: t('nav.services') },
     { path: '/portfolio', label: t('nav.portfolio') },
     { path: '/about', label: t('nav.about') },
-    { path: '/blog', label: t('nav.blog') },
     { path: '/contact', label: t('nav.contact') },
   ];
 
@@ -36,7 +36,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2.5">
-            <img src={logoImage} alt="LinkOn" className="h-12 lg:h-14 w-auto" />
+            <img src={logoImage} alt="LinkOn" className="h-14 lg:h-16 w-auto" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-10">

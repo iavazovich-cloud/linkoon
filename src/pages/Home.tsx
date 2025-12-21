@@ -155,6 +155,71 @@ export const Home = () => {
         </div>
       </section>
 
+      {/* Blog Promotion Section */}
+      <section className="container mx-auto px-4 lg:px-8 py-16 lg:py-24">
+        <Reveal>
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+              Blog
+            </span>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4">{t('blog.sectionTitle')}</h2>
+            <p className="text-lg text-muted-foreground">{t('blog.sectionSubtitle')}</p>
+          </div>
+        </Reveal>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {blogPosts.map((post, index) => (
+            <Reveal key={post.id} delay={index * 0.1}>
+              <Link
+                to={`/blog/${post.id}`}
+                className="group block rounded-2xl overflow-hidden bg-card border border-border hover:border-primary/30 transition-all card-hover"
+              >
+                <div className="aspect-[16/10] overflow-hidden">
+                  <img
+                    src={post.image}
+                    alt={post.title[language as 'en' | 'uz' | 'ru']}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="px-2.5 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
+                      {post.category}
+                    </span>
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Clock className="w-3.5 h-3.5" />
+                      <span>{post.readTime}</span>
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                    {post.title[language as 'en' | 'uz' | 'ru']}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
+                    {post.excerpt[language as 'en' | 'uz' | 'ru']}
+                  </p>
+                  <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors">
+                    <span>{t('blog.readMore')}</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+
+        <Reveal delay={0.4}>
+          <div className="flex justify-center mt-12">
+            <Link
+              to="/blog"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border border-border bg-card/50 hover:bg-card hover:border-primary/30 transition-all group"
+            >
+              {t('blog.viewAll')}
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
       {/* Services Section */}
       <section className="container mx-auto px-4 lg:px-8 py-16 lg:py-24">
         <Reveal>
@@ -269,71 +334,6 @@ export const Home = () => {
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border border-border bg-card/50 hover:bg-card hover:border-primary/30 transition-all group"
             >
               {t('home.viewAllProjects')}
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* Blog Promotion Section */}
-      <section className="container mx-auto px-4 lg:px-8 py-16 lg:py-24">
-        <Reveal>
-          <div className="text-center mb-16">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-              Blog
-            </span>
-            <h2 className="text-3xl lg:text-5xl font-bold mb-4">{t('blog.sectionTitle')}</h2>
-            <p className="text-lg text-muted-foreground">{t('blog.sectionSubtitle')}</p>
-          </div>
-        </Reveal>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post, index) => (
-            <Reveal key={post.id} delay={index * 0.1}>
-              <Link
-                to={`/blog/${post.id}`}
-                className="group block rounded-2xl overflow-hidden bg-card border border-border hover:border-primary/30 transition-all card-hover"
-              >
-                <div className="aspect-[16/10] overflow-hidden">
-                  <img
-                    src={post.image}
-                    alt={post.title[language as 'en' | 'uz' | 'ru']}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="px-2.5 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
-                      {post.category}
-                    </span>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <Clock className="w-3.5 h-3.5" />
-                      <span>{post.readTime}</span>
-                    </div>
-                  </div>
-                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2">
-                    {post.title[language as 'en' | 'uz' | 'ru']}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
-                    {post.excerpt[language as 'en' | 'uz' | 'ru']}
-                  </p>
-                  <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors">
-                    <span>{t('blog.readMore')}</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal delay={0.4}>
-          <div className="flex justify-center mt-12">
-            <Link
-              to="/blog"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border border-border bg-card/50 hover:bg-card hover:border-primary/30 transition-all group"
-            >
-              {t('blog.viewAll')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
