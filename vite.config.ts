@@ -14,6 +14,8 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    // Prevent duplicate React instances (fixes "Cannot read properties of null (reading 'useContext')")
+    dedupe: ["react", "react-dom"],
   },
   ssgOptions: {
     dirStyle: 'nested',
