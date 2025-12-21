@@ -18,6 +18,6 @@ export default defineConfig(({ mode }) => ({
   ssgOptions: {
     dirStyle: 'nested',
     script: 'async',
-    formatting: 'minify',
+    formatting: 'none',
   },
 }));
