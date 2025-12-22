@@ -56,7 +56,7 @@ export const Home = () => {
       },
       readTime: '8 min',
       category: 'Video',
-      image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=500&fit=crop'
+      image: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&h=500&fit=crop'
     },
     {
       id: 'ads-mistakes',
@@ -173,16 +173,16 @@ export const Home = () => {
             <Reveal key={post.id} delay={index * 0.1}>
               <Link
                 to={`/blog/${post.id}`}
-                className="group block rounded-2xl overflow-hidden bg-card border border-border hover:border-primary/30 transition-all card-hover"
+                className="group flex flex-col h-full rounded-2xl overflow-hidden bg-card border border-border hover:border-primary/30 transition-all card-hover"
               >
-                <div className="aspect-[16/10] overflow-hidden">
+                <div className="aspect-[16/10] overflow-hidden flex-shrink-0">
                   <img
                     src={post.image}
                     alt={post.title[language as 'en' | 'uz' | 'ru']}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center gap-3 mb-3">
                     <span className="px-2.5 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
                       {post.category}
@@ -195,10 +195,10 @@ export const Home = () => {
                   <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2">
                     {post.title[language as 'en' | 'uz' | 'ru']}
                   </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
+                  <p className="text-sm text-muted-foreground line-clamp-2 mb-4 flex-grow">
                     {post.excerpt[language as 'en' | 'uz' | 'ru']}
                   </p>
-                  <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors">
+                  <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors mt-auto">
                     <span>{t('blog.readMore')}</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
