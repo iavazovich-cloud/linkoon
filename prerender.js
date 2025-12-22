@@ -22,7 +22,17 @@ const blogPostSlugs = [
   'starting-business-podcast',
   'shooting-reels-phone',
   'brand-identity',
-  'digital-marketing-trends-2025'
+  'digital-marketing-trends-2025',
+  'ai-business-automation-uzbekistan',
+  'uzum-market-seller-guide',
+  'investment-10-million-sum',
+  'instagram-tiktok-algorithms-2025',
+  'freelance-platforms-guide',
+  'healthy-lifestyle-tashkent',
+  'top-5-professions-2025',
+  'solar-panels-home-uzbekistan',
+  'personal-brand-2025',
+  'hidden-places-uzbekistan'
 ]
 
 // Portfolio slugs (matching PortfolioDetail.tsx)
