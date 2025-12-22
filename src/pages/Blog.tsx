@@ -176,6 +176,177 @@ export const Blog = () => {
       readTime: '11 min',
       category: 'Strategy',
       image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=500&fit=crop'
+    },
+    // New 10 blog posts
+    {
+      id: 'ai-business-automation',
+      title: {
+        en: "AI for Entrepreneurs in Uzbekistan 2025: How to Save Time and Money?",
+        uz: "O'zbekistonda tadbirkorlar uchun 2025-yilda AI: Qanday qilib vaqt va pulni tejash mumkin?",
+        ru: "ИИ для предпринимателей Узбекистана в 2025: Как сэкономить время и деньги?"
+      },
+      excerpt: {
+        en: "Learn how AI can transform your business operations with CRM, chatbots and content creation.",
+        uz: "CRM, chatbotlar va kontent yaratishda AI biznesingizni qanday o'zgartirishini bilib oling.",
+        ru: "Узнайте, как ИИ может трансформировать ваш бизнес с CRM, чат-ботами и созданием контента."
+      },
+      date: '2025-01-20',
+      readTime: '9 min',
+      category: 'Technology',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'uzum-market-seller',
+      title: {
+        en: "How to Become a Successful Seller on Uzum Market in 2025",
+        uz: "Uzum Marketda muvaffaqiyatli sotuvchi (seller) bo'lish: 2025-yilgi yangi qoidalar va strategiyalar",
+        ru: "Как стать успешным продавцом на Uzum Market в 2025 году"
+      },
+      excerpt: {
+        en: "Complete guide to selling on Uzbekistan's fastest growing e-commerce platform.",
+        uz: "O'zbekistonning eng tez rivojlanayotgan e-tijorat platformasida sotish bo'yicha to'liq qo'llanma.",
+        ru: "Полное руководство по продажам на самой быстрорастущей e-commerce платформе Узбекистана."
+      },
+      date: '2025-01-19',
+      readTime: '12 min',
+      category: 'E-commerce',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'investment-10-million',
+      title: {
+        en: "How to Start Investing with 10 Million Sum in Uzbekistan?",
+        uz: "O'zbekistonda 10 million so'm bilan qanday investitsiya boshlash mumkin?",
+        ru: "Как начать инвестировать с 10 миллионов сумов в Узбекистане?"
+      },
+      excerpt: {
+        en: "Guide to stocks, gold and bonds investment for beginners in Uzbekistan.",
+        uz: "O'zbekistonda yangi boshlovchilar uchun aksiyalar, oltin va obligatsiyalarga investitsiya qo'llanmasi.",
+        ru: "Руководство по инвестициям в акции, золото и облигации для начинающих в Узбекистане."
+      },
+      date: '2025-01-18',
+      readTime: '10 min',
+      category: 'Finance',
+      image: 'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'instagram-tiktok-algorithms',
+      title: {
+        en: "Instagram and TikTok Algorithms 2025: How to Go Viral Without Ads",
+        uz: "Instagram va TikTok algoritmlari 2025: Qanday qilib reklamaga pul sarflamay trendga chiqish mumkin?",
+        ru: "Алгоритмы Instagram и TikTok 2025: Как стать вирусным без рекламы"
+      },
+      excerpt: {
+        en: "Master the algorithm secrets to maximize organic reach on social media.",
+        uz: "Ijtimoiy tarmoqlarda organik auditoriyani maksimal darajada oshirish uchun algoritm sirlarini o'rganing.",
+        ru: "Освойте секреты алгоритмов для максимального органического охвата в соцсетях."
+      },
+      date: '2025-01-17',
+      readTime: '8 min',
+      category: 'SMM',
+      image: 'https://images.unsplash.com/photo-1611262588024-d12430b98920?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'freelance-remote-work',
+      title: {
+        en: "Working for US and European Companies from Uzbekistan: Freelance Platforms Guide",
+        uz: "O'zbekistondan turib AQSH yoki Yevropa kompaniyalarida ishlash: Freelance platformalar bo'yicha qo'llanma",
+        ru: "Работа на компании США и Европы из Узбекистана: Гид по фриланс-платформам"
+      },
+      excerpt: {
+        en: "Step-by-step guide to landing international remote work opportunities.",
+        uz: "Xalqaro masofaviy ish imkoniyatlarini topish bo'yicha bosqichma-bosqich qo'llanma.",
+        ru: "Пошаговое руководство по поиску международных удалённых вакансий."
+      },
+      date: '2025-01-16',
+      readTime: '11 min',
+      category: 'Career',
+      image: 'https://images.unsplash.com/photo-1521898284481-a5ec348cb555?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'healthy-lifestyle-tashkent',
+      title: {
+        en: "Secrets to Healthy Eating and Effective Home Workouts in Tashkent",
+        uz: "Toshkent sharoitida sog'lom ovqatlanish va uyda samarali mashg'ulot qilish sirlari",
+        ru: "Секреты здорового питания и эффективных домашних тренировок в Ташкенте"
+      },
+      excerpt: {
+        en: "Practical tips for maintaining a healthy lifestyle in urban Uzbekistan.",
+        uz: "Shaharda sog'lom turmush tarzini saqlash bo'yicha amaliy maslahatlar.",
+        ru: "Практические советы по поддержанию здорового образа жизни в городе."
+      },
+      date: '2025-01-14',
+      readTime: '7 min',
+      category: 'Lifestyle',
+      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'top-5-careers-2025',
+      title: {
+        en: "5 Most Profitable Modern Professions in 2025: Why Everyone Chooses IT and Digital Marketing",
+        uz: "2025-yilda eng daromadli 5 ta zamonaviy kasb: Nega hamma IT va Digital Marketingni tanlamoqda?",
+        ru: "5 самых прибыльных профессий 2025: Почему все выбирают IT и Digital Marketing"
+      },
+      excerpt: {
+        en: "Career guide to the most in-demand skills and highest-paying jobs in 2025.",
+        uz: "2025-yilda eng ko'p talab qilinadigan ko'nikmalar va eng yuqori maoshli kasblar bo'yicha qo'llanma.",
+        ru: "Руководство по самым востребованным навыкам и высокооплачиваемым профессиям 2025."
+      },
+      date: '2025-01-13',
+      readTime: '9 min',
+      category: 'Career',
+      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'solar-panels-home',
+      title: {
+        en: "Installing Solar Panels at Home: Is There Really Energy Savings?",
+        uz: "Uyga quyosh panellarini o'rnatish: Haqiqatda elektr energiyasidan tejamkorlik bormi?",
+        ru: "Установка солнечных панелей дома: Реальная ли экономия на электроэнергии?"
+      },
+      excerpt: {
+        en: "Complete cost-benefit analysis of solar energy for Uzbek households.",
+        uz: "O'zbek xonadonlari uchun quyosh energiyasining to'liq xarajat-foyda tahlili.",
+        ru: "Полный анализ затрат и выгод солнечной энергии для узбекских домохозяйств."
+      },
+      date: '2025-01-11',
+      readTime: '10 min',
+      category: 'Technology',
+      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'personal-brand-2025',
+      title: {
+        en: "Why Personal Brand is More Important Than Any Diploma in 2025",
+        uz: "Nima uchun 2025-yilda shaxsiy brend har qanday diplomdan muhimroq?",
+        ru: "Почему личный бренд важнее любого диплома в 2025 году"
+      },
+      excerpt: {
+        en: "How experts and entrepreneurs build trust through personal branding.",
+        uz: "Ekspertlar va tadbirkorlar shaxsiy brending orqali ishonchni qanday qozonadi.",
+        ru: "Как эксперты и предприниматели строят доверие через личный бренд."
+      },
+      date: '2025-01-09',
+      readTime: '8 min',
+      category: 'Branding',
+      image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=500&fit=crop'
+    },
+    {
+      id: 'uzbekistan-hidden-places',
+      title: {
+        en: "5 Undiscovered Beautiful Places in Uzbekistan: Weekend Trip Destinations",
+        uz: "O'zbekistonning hali kashf qilinmagan 5 ta go'zal maskani: Dam olish kuni qayerga borish kerak?",
+        ru: "5 неоткрытых красивых мест Узбекистана: Куда поехать на выходные?"
+      },
+      excerpt: {
+        en: "Hidden gems for weekend getaways in Uzbekistan including Bostanliq and Zomin.",
+        uz: "Bo'stonliq, Zomin va boshqa dam olish zonalari haqida ma'lumotlar.",
+        ru: "Скрытые жемчужины для поездок на выходные, включая Бостанлык и Зомин."
+      },
+      date: '2025-01-07',
+      readTime: '6 min',
+      category: 'Travel',
+      image: 'https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?w=800&h=500&fit=crop'
     }
   ];
 
