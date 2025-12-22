@@ -2544,6 +2544,1639 @@ export const BlogPost = () => {
 <p><strong>Готовы доминировать в 2025?</strong> LinkOn находится на передовой трендов цифрового маркетинга в Узбекистане. Давайте обсудим, как мы можем помочь вашему бизнесу использовать эти тренды для максимального роста в этом году.</p>
 </div>`
       }
+    },
+    'ai-business-automation': {
+      title: {
+        en: "AI for Entrepreneurs in Uzbekistan 2025: How to Save Time and Money?",
+        uz: "O'zbekistonda tadbirkorlar uchun 2025-yilda AI: Qanday qilib vaqt va pulni tejash mumkin?",
+        ru: "ИИ для предпринимателей Узбекистана в 2025: Как сэкономить время и деньги?"
+      },
+      date: '2025-01-20',
+      readTime: '9 min',
+      category: 'Technology',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Artificial Intelligence is no longer a futuristic concept — it's here, and Uzbek entrepreneurs are increasingly using it to automate operations, reduce costs, and scale their businesses. Here's how you can leverage AI in 2025.</p>
+</div>
+
+<div class="blog-section">
+<h2>How AI Can Transform Your Business</h2>
+<p>From customer service chatbots to automated content creation, AI tools are becoming essential for competitive businesses in Uzbekistan.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🤖 1. AI-Powered Chatbots</h3>
+<p>Implement chatbots on your website and Telegram to handle customer inquiries 24/7. Tools like ChatGPT API can answer questions, process orders, and schedule appointments automatically.</p>
+<p><strong>Savings:</strong> Up to 70% reduction in customer service costs</p>
+</div>
+
+<div class="blog-card info">
+<h3>📝 2. Content Creation with AI</h3>
+<p>Use AI to generate social media posts, blog articles, and marketing copy. While human editing is still needed, AI can dramatically speed up content production.</p>
+<p><strong>Savings:</strong> Create 10x more content with the same team</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 3. CRM and Sales Automation</h3>
+<p>AI-powered CRM systems can predict which leads are most likely to convert, automate follow-ups, and provide insights on customer behavior.</p>
+<p><strong>Savings:</strong> 40% increase in sales team productivity</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 4. Data Analysis and Reporting</h3>
+<p>AI can analyze your business data and generate insights that would take humans hours to compile. Make data-driven decisions faster.</p>
+<p><strong>Savings:</strong> Hours of manual analysis reduced to minutes</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Getting Started with AI</h2>
+<p>Start small — identify one repetitive task in your business and explore AI solutions for it. The investment is often minimal compared to the time and cost savings.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Need help implementing AI in your business?</strong> LinkOn specializes in digital transformation for Uzbek businesses. Contact us to discuss how AI can work for you.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Sun'iy intellekt endi kelajakdagi tushuncha emas — u hozirda mavjud va O'zbekiston tadbirkorlari uni operatsiyalarni avtomatlashtirish, xarajatlarni kamaytirish va bizneslarini kengaytirish uchun tobora ko'proq foydalanmoqda. 2025-yilda AI'dan qanday foydalanishingiz mumkin.</p>
+</div>
+
+<div class="blog-section">
+<h2>AI biznesingizni qanday o'zgartirishi mumkin</h2>
+<p>Mijozlarga xizmat ko'rsatish chatbotlaridan avtomatlashtirilgan kontent yaratishgacha, AI vositalari O'zbekistondagi raqobatbardosh bizneslar uchun muhim bo'lib bormoqda.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🤖 1. AI-quvvatli chatbotlar</h3>
+<p>Mijozlar so'rovlarini 24/7 hal qilish uchun veb-saytingiz va Telegramda chatbotlarni joriy qiling. ChatGPT API kabi vositalar savollarga javob berishi, buyurtmalarni qayta ishlashi va uchrashuvlarni avtomatik rejalashtirishi mumkin.</p>
+<p><strong>Tejash:</strong> Mijozlarga xizmat ko'rsatish xarajatlarini 70% gacha kamaytirish</p>
+</div>
+
+<div class="blog-card info">
+<h3>📝 2. AI bilan kontent yaratish</h3>
+<p>Ijtimoiy tarmoq postlari, blog maqolalari va marketing matnlarini yaratish uchun AI'dan foydalaning. Inson tahrirlash hali ham kerak bo'lsa-da, AI kontent ishlab chiqarishni keskin tezlashtirishi mumkin.</p>
+<p><strong>Tejash:</strong> Xuddi shu jamoa bilan 10x ko'proq kontent yarating</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 3. CRM va sotuvlarni avtomatlashtirish</h3>
+<p>AI-quvvatli CRM tizimlari qaysi lidlar konversiya qilish ehtimoli ko'proq ekanligini bashorat qilishi, qayta aloqalarni avtomatlashtirishi va mijoz xulq-atvori haqida ma'lumot berishi mumkin.</p>
+<p><strong>Tejash:</strong> Savdo jamoasi samaradorligida 40% oshish</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 4. Ma'lumotlar tahlili va hisobot</h3>
+<p>AI biznes ma'lumotlaringizni tahlil qilishi va odamlarga soatlar kerak bo'ladigan tushunchalarni yaratishi mumkin. Ma'lumotlarga asoslangan qarorlarni tezroq qabul qiling.</p>
+<p><strong>Tejash:</strong> Soatlab qo'lda tahlil daqiqalarga qisqartirildi</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>AI bilan boshlash</h2>
+<p>Kichikdan boshlang — biznesingizdagi bitta takroriy vazifani aniqlang va u uchun AI yechimlarini o'rganing. Investitsiya ko'pincha vaqt va xarajat tejashga nisbatan minimal.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Biznesingizda AI'ni joriy qilishda yordam kerakmi?</strong> LinkOn O'zbek bizneslari uchun raqamli transformatsiyaga ixtisoslashgan. AI siz uchun qanday ishlashi mumkinligini muhokama qilish uchun biz bilan bog'laning.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Искусственный интеллект больше не футуристическая концепция — он уже здесь, и узбекские предприниматели всё чаще используют его для автоматизации операций, снижения затрат и масштабирования бизнеса. Вот как вы можете использовать ИИ в 2025 году.</p>
+</div>
+
+<div class="blog-section">
+<h2>Как ИИ может трансформировать ваш бизнес</h2>
+<p>От чат-ботов обслуживания клиентов до автоматизированного создания контента, инструменты ИИ становятся необходимыми для конкурентоспособных бизнесов в Узбекистане.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🤖 1. Чат-боты на основе ИИ</h3>
+<p>Внедрите чат-боты на сайте и в Telegram для обработки запросов клиентов 24/7. Такие инструменты, как ChatGPT API, могут отвечать на вопросы, обрабатывать заказы и автоматически назначать встречи.</p>
+<p><strong>Экономия:</strong> До 70% сокращение расходов на обслуживание клиентов</p>
+</div>
+
+<div class="blog-card info">
+<h3>📝 2. Создание контента с ИИ</h3>
+<p>Используйте ИИ для генерации постов в соцсетях, статей для блога и маркетинговых текстов. Хотя редактирование человеком всё ещё необходимо, ИИ может значительно ускорить производство контента.</p>
+<p><strong>Экономия:</strong> Создавайте в 10 раз больше контента с той же командой</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 3. CRM и автоматизация продаж</h3>
+<p>CRM-системы на основе ИИ могут прогнозировать, какие лиды с большей вероятностью конвертируются, автоматизировать follow-up и предоставлять инсайты о поведении клиентов.</p>
+<p><strong>Экономия:</strong> 40% рост продуктивности отдела продаж</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 4. Анализ данных и отчётность</h3>
+<p>ИИ может анализировать данные вашего бизнеса и генерировать инсайты, на которые людям потребовались бы часы. Принимайте решения на основе данных быстрее.</p>
+<p><strong>Экономия:</strong> Часы ручного анализа сокращены до минут</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Начало работы с ИИ</h2>
+<p>Начните с малого — определите одну повторяющуюся задачу в вашем бизнесе и изучите решения ИИ для неё. Инвестиции часто минимальны по сравнению с экономией времени и денег.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Нужна помощь во внедрении ИИ?</strong> LinkOn специализируется на цифровой трансформации для узбекских бизнесов. Свяжитесь с нами, чтобы обсудить, как ИИ может работать на вас.</p>
+</div>`
+      }
+    },
+    'uzum-market-seller': {
+      title: {
+        en: "How to Become a Successful Seller on Uzum Market in 2025",
+        uz: "Uzum Marketda muvaffaqiyatli sotuvchi (seller) bo'lish: 2025-yilgi yangi qoidalar va strategiyalar",
+        ru: "Как стать успешным продавцом на Uzum Market в 2025 году"
+      },
+      date: '2025-01-19',
+      readTime: '12 min',
+      category: 'E-commerce',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Uzum Market is Uzbekistan's fastest-growing e-commerce platform. With millions of daily users, it represents a massive opportunity for entrepreneurs. Here's your complete guide to becoming a successful seller in 2025.</p>
+</div>
+
+<div class="blog-section">
+<h2>Why Sell on Uzum Market?</h2>
+<p>The e-commerce sector in Uzbekistan is experiencing explosive growth, and Uzum Market is at the forefront of this revolution.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📈 Key Statistics</h3>
+<ul>
+<li>Over 5 million active users</li>
+<li>E-commerce growing 40%+ annually in Uzbekistan</li>
+<li>Lower overhead than physical retail</li>
+<li>Access to customers nationwide</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 Step 1: Registration and Setup</h3>
+<p>Register as a seller on the Uzum Market platform. You'll need:</p>
+<ul>
+<li>Valid business registration or individual entrepreneur status</li>
+<li>Bank account for receiving payments</li>
+<li>Product photos and descriptions</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📸 Step 2: Optimize Your Listings</h3>
+<p>High-quality product photos and detailed descriptions are crucial. Use professional photography and write compelling copy that highlights benefits.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 Step 3: Pricing Strategy</h3>
+<p>Research competitors and set competitive prices. Consider platform fees, shipping costs, and desired profit margins when calculating your prices.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⭐ Step 4: Build Your Reputation</h3>
+<p>Positive reviews are essential. Ship quickly, respond to customer inquiries promptly, and resolve issues professionally to build a 5-star reputation.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>2025 Success Strategies</h2>
+<ul>
+<li><strong>Niche focus:</strong> Specialize in specific product categories</li>
+<li><strong>Quality photos:</strong> Invest in professional product photography</li>
+<li><strong>Fast shipping:</strong> Customers expect quick delivery</li>
+<li><strong>Customer service:</strong> Respond within hours, not days</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Need professional product photos for your Uzum Market store?</strong> LinkOn's studio offers e-commerce photography packages designed to maximize your sales.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Uzum Market — O'zbekistonning eng tez rivojlanayotgan e-tijorat platformasi. Kunlik millionlab foydalanuvchilar bilan u tadbirkorlar uchun katta imkoniyatni ifodalaydi. 2025-yilda muvaffaqiyatli sotuvchi bo'lish bo'yicha to'liq qo'llanma.</p>
+</div>
+
+<div class="blog-section">
+<h2>Nima uchun Uzum Marketda sotish kerak?</h2>
+<p>O'zbekistondagi e-tijorat sektori portlovchi o'sishni boshdan kechirmoqda va Uzum Market bu inqilobning birinchi qatorida turibdi.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📈 Asosiy statistika</h3>
+<ul>
+<li>5 milliondan ortiq faol foydalanuvchilar</li>
+<li>O'zbekistonda e-tijorat yiliga 40%+ o'sish</li>
+<li>Jismoniy chakana savdoga qaraganda kamroq xarajatlar</li>
+<li>Butun mamlakat bo'ylab mijozlarga kirish</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 1-qadam: Ro'yxatdan o'tish va sozlash</h3>
+<p>Uzum Market platformasida sotuvchi sifatida ro'yxatdan o'ting. Sizga kerak bo'ladi:</p>
+<ul>
+<li>Yaroqli biznes ro'yxatdan o'tishi yoki yakka tartibdagi tadbirkor maqomi</li>
+<li>To'lovlarni qabul qilish uchun bank hisobi</li>
+<li>Mahsulot rasmlari va tavsiflari</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📸 2-qadam: E'lonlaringizni optimallashtiring</h3>
+<p>Yuqori sifatli mahsulot rasmlari va batafsil tavsiflar juda muhim. Professional suratga olishdan foydalaning va foyda jihatlarini ta'kidlaydigan jozibali matn yozing.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 3-qadam: Narxlash strategiyasi</h3>
+<p>Raqobatchilarni o'rganing va raqobatbardosh narxlarni belgilang. Narxlaringizni hisoblashda platforma to'lovlari, yetkazib berish xarajatlari va kerakli foyda marjalarini hisobga oling.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⭐ 4-qadam: Obro'ingizni yarating</h3>
+<p>Ijobiy sharhlar juda muhim. Tezda jo'nating, mijozlar so'rovlariga tezda javob bering va 5 yulduzli obro' yaratish uchun muammolarni professional hal qiling.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>2025-yil muvaffaqiyat strategiyalari</h2>
+<ul>
+<li><strong>Nisha diqqati:</strong> Muayyan mahsulot toifalariga ixtisoslashing</li>
+<li><strong>Sifatli fotosuratlar:</strong> Professional mahsulot suratga olishiga sarmoya kiriting</li>
+<li><strong>Tez yetkazib berish:</strong> Mijozlar tez yetkazib berishni kutishadi</li>
+<li><strong>Mijozlarga xizmat:</strong> Soatlar ichida javob bering, kunlar emas</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Uzum Market do'koningiz uchun professional mahsulot fotosuratlar kerakmi?</strong> LinkOn studiyasi sotuvlaringizni maksimal darajada oshirish uchun mo'ljallangan e-tijorat suratga olish paketlarini taklif qiladi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Uzum Market — самая быстрорастущая e-commerce платформа Узбекистана. С миллионами ежедневных пользователей она представляет огромную возможность для предпринимателей. Вот ваше полное руководство по становлению успешным продавцом в 2025 году.</p>
+</div>
+
+<div class="blog-section">
+<h2>Почему продавать на Uzum Market?</h2>
+<p>Сектор электронной коммерции в Узбекистане переживает взрывной рост, и Uzum Market находится в авангарде этой революции.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📈 Ключевая статистика</h3>
+<ul>
+<li>Более 5 миллионов активных пользователей</li>
+<li>E-commerce растёт на 40%+ ежегодно в Узбекистане</li>
+<li>Меньше накладных расходов, чем в физической рознице</li>
+<li>Доступ к клиентам по всей стране</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 Шаг 1: Регистрация и настройка</h3>
+<p>Зарегистрируйтесь как продавец на платформе Uzum Market. Вам понадобится:</p>
+<ul>
+<li>Действующая бизнес-регистрация или статус ИП</li>
+<li>Банковский счёт для получения платежей</li>
+<li>Фотографии и описания товаров</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📸 Шаг 2: Оптимизируйте листинги</h3>
+<p>Качественные фото товаров и подробные описания критически важны. Используйте профессиональную фотографию и пишите убедительные тексты, подчёркивающие преимущества.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 Шаг 3: Ценовая стратегия</h3>
+<p>Исследуйте конкурентов и установите конкурентные цены. При расчёте учитывайте комиссии платформы, стоимость доставки и желаемую маржу.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⭐ Шаг 4: Создайте репутацию</h3>
+<p>Положительные отзывы необходимы. Отправляйте быстро, отвечайте на запросы клиентов оперативно и решайте проблемы профессионально для создания 5-звёздочной репутации.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Стратегии успеха 2025</h2>
+<ul>
+<li><strong>Фокус на нише:</strong> Специализируйтесь на конкретных категориях товаров</li>
+<li><strong>Качественные фото:</strong> Инвестируйте в профессиональную продуктовую съёмку</li>
+<li><strong>Быстрая доставка:</strong> Клиенты ожидают быструю доставку</li>
+<li><strong>Обслуживание клиентов:</strong> Отвечайте в течение часов, не дней</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Нужны профессиональные фото товаров для Uzum Market?</strong> Студия LinkOn предлагает пакеты e-commerce фотографии, разработанные для максимизации ваших продаж.</p>
+</div>`
+      }
+    },
+    'investment-10-million': {
+      title: {
+        en: "How to Start Investing with 10 Million Sum in Uzbekistan?",
+        uz: "O'zbekistonda 10 million so'm bilan qanday investitsiya boshlash mumkin?",
+        ru: "Как начать инвестировать с 10 миллионов сумов в Узбекистане?"
+      },
+      date: '2025-01-18',
+      readTime: '10 min',
+      category: 'Finance',
+      image: 'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Financial independence starts with smart investing. If you have 10 million sum (~$800) to start, here are the best investment options available in Uzbekistan today.</p>
+</div>
+
+<div class="blog-section">
+<h2>Investment Options in Uzbekistan</h2>
+<p>The good news: Uzbekistan's financial markets are developing rapidly, offering more investment opportunities than ever before.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 1. Stock Market (RSE)</h3>
+<p>The Republican Stock Exchange offers opportunities to invest in Uzbek companies. Start by opening a brokerage account and researching blue-chip stocks.</p>
+<p><strong>Minimum:</strong> From 1 million sum</p>
+<p><strong>Risk:</strong> Medium to High</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏆 2. Gold</h3>
+<p>Gold has historically been a safe haven. You can buy physical gold from banks or invest in gold certificates.</p>
+<p><strong>Minimum:</strong> From 500,000 sum</p>
+<p><strong>Risk:</strong> Low to Medium</p>
+</div>
+
+<div class="blog-card info">
+<h3>📄 3. Government Bonds</h3>
+<p>Government bonds offer stable returns with very low risk. They're ideal for conservative investors seeking steady income.</p>
+<p><strong>Minimum:</strong> From 1 million sum</p>
+<p><strong>Risk:</strong> Very Low</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏠 4. Real Estate Crowdfunding</h3>
+<p>New platforms allow fractional real estate investment, making property investment accessible with smaller amounts.</p>
+<p><strong>Minimum:</strong> From 5 million sum</p>
+<p><strong>Risk:</strong> Medium</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Sample 10 Million Sum Portfolio</h2>
+<ul>
+<li><strong>40% (4M):</strong> Government bonds for stability</li>
+<li><strong>30% (3M):</strong> Blue-chip stocks for growth</li>
+<li><strong>20% (2M):</strong> Gold for hedge</li>
+<li><strong>10% (1M):</strong> Savings for emergencies</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Build your investment portfolio wisely.</strong> Consult with financial advisors and never invest more than you can afford to lose.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Moliyaviy mustaqillik aqlli investitsiyadan boshlanadi. Agar boshlash uchun 10 million so'mingiz bo'lsa, bugungi O'zbekistonda mavjud bo'lgan eng yaxshi investitsiya variantlari.</p>
+</div>
+
+<div class="blog-section">
+<h2>O'zbekistondagi investitsiya imkoniyatlari</h2>
+<p>Yaxshi xabar: O'zbekistonning moliyaviy bozorlari tez rivojlanmoqda va har qachongidan ko'ra ko'proq investitsiya imkoniyatlarini taklif qilmoqda.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 1. Fond bozori (RFB)</h3>
+<p>Respublika fond birjasi O'zbek kompaniyalariga investitsiya qilish imkoniyatlarini taklif qiladi. Brokerlik hisobini ochishdan va blue-chip aksiyalarini o'rganishdan boshlang.</p>
+<p><strong>Minimal:</strong> 1 million so'mdan</p>
+<p><strong>Risk:</strong> O'rtacha dan Yuqoriga</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏆 2. Oltin</h3>
+<p>Oltin tarixan xavfsiz boshpana bo'lgan. Siz banklardan jismoniy oltin sotib olishingiz yoki oltin sertifikatlariga investitsiya kiritishingiz mumkin.</p>
+<p><strong>Minimal:</strong> 500,000 so'mdan</p>
+<p><strong>Risk:</strong> Past dan O'rtachaga</p>
+</div>
+
+<div class="blog-card info">
+<h3>📄 3. Davlat obligatsiyalari</h3>
+<p>Davlat obligatsiyalari juda past risk bilan barqaror daromad taklif qiladi. Ular barqaror daromad izlayotgan konservativ investorlar uchun ideal.</p>
+<p><strong>Minimal:</strong> 1 million so'mdan</p>
+<p><strong>Risk:</strong> Juda Past</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏠 4. Ko'chmas mulk kraudfandingi</h3>
+<p>Yangi platformalar fraksion ko'chmas mulk investitsiyasiga imkon beradi, kichikroq miqdorlar bilan mulk investitsiyasini ochib beradi.</p>
+<p><strong>Minimal:</strong> 5 million so'mdan</p>
+<p><strong>Risk:</strong> O'rtacha</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Namuna 10 million so'm portfeli</h2>
+<ul>
+<li><strong>40% (4M):</strong> Barqarorlik uchun davlat obligatsiyalari</li>
+<li><strong>30% (3M):</strong> O'sish uchun blue-chip aksiyalar</li>
+<li><strong>20% (2M):</strong> Himoya uchun oltin</li>
+<li><strong>10% (1M):</strong> Favqulodda holatlar uchun jamg'arma</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Investitsiya portfelingizni oqilona yarating.</strong> Moliyaviy maslahatchilar bilan maslahatlashing va yo'qotishingiz mumkin bo'lgandan ko'proq investitsiya qilmang.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Финансовая независимость начинается с умного инвестирования. Если у вас есть 10 миллионов сумов (~$800) для старта, вот лучшие инвестиционные опции, доступные сегодня в Узбекистане.</p>
+</div>
+
+<div class="blog-section">
+<h2>Инвестиционные опции в Узбекистане</h2>
+<p>Хорошая новость: финансовые рынки Узбекистана быстро развиваются, предлагая больше инвестиционных возможностей, чем когда-либо.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📈 1. Фондовый рынок (РФБ)</h3>
+<p>Республиканская фондовая биржа предлагает возможности инвестировать в узбекские компании. Начните с открытия брокерского счёта и изучения blue-chip акций.</p>
+<p><strong>Минимум:</strong> От 1 миллиона сумов</p>
+<p><strong>Риск:</strong> Средний до Высокого</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏆 2. Золото</h3>
+<p>Золото исторически было безопасной гаванью. Вы можете купить физическое золото в банках или инвестировать в золотые сертификаты.</p>
+<p><strong>Минимум:</strong> От 500,000 сумов</p>
+<p><strong>Риск:</strong> Низкий до Среднего</p>
+</div>
+
+<div class="blog-card info">
+<h3>📄 3. Государственные облигации</h3>
+<p>Государственные облигации предлагают стабильный доход с очень низким риском. Они идеальны для консервативных инвесторов, ищущих стабильный доход.</p>
+<p><strong>Минимум:</strong> От 1 миллиона сумов</p>
+<p><strong>Риск:</strong> Очень Низкий</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏠 4. Краудфандинг недвижимости</h3>
+<p>Новые платформы позволяют дробное инвестирование в недвижимость, делая инвестиции в недвижимость доступными с меньшими суммами.</p>
+<p><strong>Минимум:</strong> От 5 миллионов сумов</p>
+<p><strong>Риск:</strong> Средний</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Пример портфеля на 10 миллионов сумов</h2>
+<ul>
+<li><strong>40% (4М):</strong> Государственные облигации для стабильности</li>
+<li><strong>30% (3М):</strong> Blue-chip акции для роста</li>
+<li><strong>20% (2М):</strong> Золото для хеджирования</li>
+<li><strong>10% (1М):</strong> Сбережения на экстренные случаи</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Создавайте инвестиционный портфель мудро.</strong> Консультируйтесь с финансовыми советниками и никогда не инвестируйте больше, чем можете позволить себе потерять.</p>
+</div>`
+      }
+    },
+    'instagram-tiktok-algorithms': {
+      title: {
+        en: "Instagram and TikTok Algorithms 2025: How to Go Viral Without Ads",
+        uz: "Instagram va TikTok algoritmlari 2025: Qanday qilib reklamaga pul sarflamay trendga chiqish mumkin?",
+        ru: "Алгоритмы Instagram и TikTok 2025: Как стать вирусным без рекламы"
+      },
+      date: '2025-01-17',
+      readTime: '8 min',
+      category: 'SMM',
+      image: 'https://images.unsplash.com/photo-1611262588024-d12430b98920?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Understanding platform algorithms is the key to organic growth. Here's what's changed in 2025 and how to leverage these changes for maximum reach without spending on ads.</p>
+</div>
+
+<div class="blog-section">
+<h2>Algorithm Changes in 2025</h2>
+<p>Both Instagram and TikTok have evolved their algorithms to prioritize engagement and watch time over follower count.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ 1. Hook Speed Matters More</h3>
+<p>Algorithms now measure how fast viewers engage. You have less than 1 second to hook viewers before they scroll. Start with the most compelling moment.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🔄 2. Completion Rate is King</h3>
+<p>Videos watched to completion get massive algorithmic boost. Keep content tight, remove filler, and end with a loop or strong CTA.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💬 3. Comments Over Likes</h3>
+<p>Comments signal higher engagement than likes. Ask questions, create controversy, or use fill-in-the-blank formats to drive comments.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎵 4. Original Audio Boost</h3>
+<p>Both platforms now reward original audio and voiceovers. While trending sounds work, original audio gets preferred distribution.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🚀 Viral Content Checklist</h3>
+<ul>
+<li>Hook in first 0.5 seconds</li>
+<li>Keep under 15 seconds for highest completion</li>
+<li>Use captions (80% watch without sound)</li>
+<li>End with question or CTA</li>
+<li>Post at peak times (7-9 PM in Uzbekistan)</li>
+<li>Engage with comments within first hour</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Organic Growth Strategy</h2>
+<p>Focus on creating content that sparks conversation. Educational content with clear value consistently outperforms pure entertainment in driving followers who convert to customers.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Want a custom algorithm strategy?</strong> LinkOn creates data-driven content strategies specifically for the Uzbek market. Let's maximize your organic reach.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Platforma algoritmlarini tushunish organik o'sishning kalitidir. 2025-yilda nima o'zgargani va reklama uchun pul sarflamay maksimal auditoriyaga erishish uchun bu o'zgarishlardan qanday foydalanish kerakligi.</p>
+</div>
+
+<div class="blog-section">
+<h2>2025-yilda algoritm o'zgarishlari</h2>
+<p>Instagram ham, TikTok ham o'z algoritmlarini kuzatuvchilar sonidan ko'ra jalb qilish va tomosha qilish vaqtini ustuvor qilish uchun rivojlantirdi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ 1. Hook tezligi muhimroq</h3>
+<p>Algoritmlar endi tomoshabinlarning qanchalik tez jalb bo'lishini o'lchaydi. Ular scroll qilishdan oldin tomoshabinlarni jalb qilish uchun 1 soniyadan kamroq vaqtingiz bor. Eng jozibador lahzadan boshlang.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🔄 2. Tugallash darajasi — qirol</h3>
+<p>Oxirigacha tomosha qilingan videolar katta algoritmik o'sish oladi. Kontentni qisqa saqlang, to'ldirishni olib tashlang va loop yoki kuchli CTA bilan tugating.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💬 3. Izohlar laykdan ustun</h3>
+<p>Izohlar laykdan yuqoriroq jalb qilishni ko'rsatadi. Izohlarni rag'batlantirish uchun savollar bering, munozara yarating yoki bo'sh joylarni to'ldirish formatlaridan foydalaning.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎵 4. Original audio yuksalishi</h3>
+<p>Ikkala platforma ham endi original audio va ovozlarni mukofotlaydi. Trend soundlar ishlasa ham, original audio afzal tarqatishga ega.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🚀 Viral kontent nazorat ro'yxati</h3>
+<ul>
+<li>Birinchi 0.5 soniyada hook</li>
+<li>Eng yuqori tugallash uchun 15 soniyadan qisqa saqlang</li>
+<li>Subtitrlardan foydalaning (80% ovozsiz tomosha qiladi)</li>
+<li>Savol yoki CTA bilan tugating</li>
+<li>Eng faol vaqtlarda post qo'ying (O'zbekistonda 19-21)</li>
+<li>Birinchi soat ichida izohlarga javob bering</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Organik o'sish strategiyasi</h2>
+<p>Suhbatni qo'zg'atadigan kontent yaratishga e'tibor bering. Aniq qiymatga ega ta'limiy kontent mijozlarga aylanadigan kuzatuvchilarni jalb qilishda doimiy ravishda sof ko'ngilocharlikdan ustun turadi.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Maxsus algoritm strategiyasi xohlaysizmi?</strong> LinkOn O'zbekiston bozori uchun maxsus ma'lumotlarga asoslangan kontent strategiyalarini yaratadi. Organik auditoriyangizni maksimal darajada oshiraylik.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Понимание алгоритмов платформ — ключ к органическому росту. Вот что изменилось в 2025 году и как использовать эти изменения для максимального охвата без затрат на рекламу.</p>
+</div>
+
+<div class="blog-section">
+<h2>Изменения алгоритмов в 2025</h2>
+<p>И Instagram, и TikTok развили свои алгоритмы, чтобы приоритизировать вовлечённость и время просмотра над количеством подписчиков.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ 1. Скорость хука важнее</h3>
+<p>Алгоритмы теперь измеряют, как быстро зрители вовлекаются. У вас менее 1 секунды, чтобы зацепить зрителя до того, как он пролистнёт. Начинайте с самого убедительного момента.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🔄 2. Процент досмотра — король</h3>
+<p>Видео, досмотренные до конца, получают массивный алгоритмический буст. Держите контент сжатым, убирайте воду и заканчивайте петлёй или сильным CTA.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💬 3. Комментарии важнее лайков</h3>
+<p>Комментарии сигнализируют о более высокой вовлечённости, чем лайки. Задавайте вопросы, создавайте дискуссии или используйте форматы "заполни пробел" для стимулирования комментариев.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎵 4. Буст оригинального аудио</h3>
+<p>Обе платформы теперь вознаграждают оригинальное аудио и закадровый голос. Хотя трендовые звуки работают, оригинальное аудио получает предпочтительное распространение.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🚀 Чек-лист вирусного контента</h3>
+<ul>
+<li>Хук в первые 0.5 секунды</li>
+<li>Держите под 15 секунд для максимального досмотра</li>
+<li>Используйте субтитры (80% смотрят без звука)</li>
+<li>Заканчивайте вопросом или CTA</li>
+<li>Публикуйте в пиковое время (19-21 в Узбекистане)</li>
+<li>Отвечайте на комментарии в первый час</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Стратегия органического роста</h2>
+<p>Сосредоточьтесь на создании контента, который разжигает беседу. Образовательный контент с чёткой ценностью стабильно превосходит чистое развлечение в привлечении подписчиков, конвертирующихся в клиентов.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Хотите персональную стратегию под алгоритмы?</strong> LinkOn создаёт стратегии контента на основе данных специально для узбекского рынка. Давайте максимизируем ваш органический охват.</p>
+</div>`
+      }
+    },
+    'freelance-remote-work': {
+      title: {
+        en: "Working for US and European Companies from Uzbekistan: Freelance Platforms Guide",
+        uz: "O'zbekistondan turib AQSH yoki Yevropa kompaniyalarida ishlash: Freelance platformalar bo'yicha qo'llanma",
+        ru: "Работа на компании США и Европы из Узбекистана: Гид по фриланс-платформам"
+      },
+      date: '2025-01-16',
+      readTime: '11 min',
+      category: 'Career',
+      image: 'https://images.unsplash.com/photo-1521898284481-a5ec348cb555?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Remote work opens doors to international opportunities. Here's how Uzbeks can land high-paying jobs with US and European companies from home.</p>
+</div>
+
+<div class="blog-section">
+<h2>Top Freelance Platforms for Uzbeks</h2>
+<p>Each platform has its strengths. Choose based on your skills and target clients.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 1. Upwork</h3>
+<p>The largest freelance marketplace. Best for long-term client relationships and diverse job categories.</p>
+<p><strong>Best for:</strong> Developers, designers, writers, virtual assistants</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 2. Fiverr</h3>
+<p>Gig-based platform where you sell specific services. Great for building a portfolio of productized services.</p>
+<p><strong>Best for:</strong> Graphic designers, video editors, voice artists</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 3. Toptal</h3>
+<p>Elite platform for top 3% of freelancers. Higher rates but rigorous screening process.</p>
+<p><strong>Best for:</strong> Senior developers, financial consultants, project managers</p>
+</div>
+
+<div class="blog-card info">
+<h3>🖥️ 4. We Work Remotely</h3>
+<p>Job board for remote positions. Companies specifically looking for remote workers.</p>
+<p><strong>Best for:</strong> Full-time remote employment seekers</p>
+</div>
+
+<div class="blog-card success">
+<h3>💳 Getting Paid</h3>
+<ul>
+<li><strong>Payoneer:</strong> Most popular for Uzbekistan, works with most platforms</li>
+<li><strong>Wise:</strong> Great exchange rates for receiving payments</li>
+<li><strong>Direct bank transfer:</strong> Available from some platforms</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Success Tips</h2>
+<ul>
+<li>Start with competitive rates, increase as you build reviews</li>
+<li>Specialize in a niche — generalists struggle to stand out</li>
+<li>Over-communicate with clients</li>
+<li>Deliver ahead of deadlines when possible</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Building your personal brand for freelancing?</strong> LinkOn can help you create a professional portfolio and personal branding that wins international clients.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Masofaviy ish xalqaro imkoniyatlarga eshik ochadi. O'zbeklar uydan turib AQSH va Yevropa kompaniyalarida yuqori maoshli ishlarni qanday olishi mumkin.</p>
+</div>
+
+<div class="blog-section">
+<h2>O'zbeklar uchun eng yaxshi freelance platformalar</h2>
+<p>Har bir platformaning o'z kuchli tomonlari bor. Ko'nikmalaringiz va maqsadli mijozlaringizga qarab tanlang.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 1. Upwork</h3>
+<p>Eng katta freelance bozori. Uzoq muddatli mijoz munosabatlari va turli xil ish toifalari uchun eng yaxshi.</p>
+<p><strong>Eng yaxshi:</strong> Dasturchilar, dizaynerlar, yozuvchilar, virtual yordamchilar</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 2. Fiverr</h3>
+<p>Muayyan xizmatlarni sotadigan gig-asosli platforma. Mahsulotlashtirilgan xizmatlar portfelini yaratish uchun ajoyib.</p>
+<p><strong>Eng yaxshi:</strong> Grafik dizaynerlar, video montajchilar, ovoz artistlari</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 3. Toptal</h3>
+<p>Eng yaxshi 3% frilanserlar uchun elit platforma. Yuqori stavkalar, lekin qattiq saralash jarayoni.</p>
+<p><strong>Eng yaxshi:</strong> Katta dasturchilar, moliyaviy maslahatchilar, loyiha menejerlari</p>
+</div>
+
+<div class="blog-card info">
+<h3>🖥️ 4. We Work Remotely</h3>
+<p>Masofaviy lavozimlar uchun ish e'lonlari taxtasi. Maxsus masofaviy ishchilarni qidirayotgan kompaniyalar.</p>
+<p><strong>Eng yaxshi:</strong> To'liq kunduzgi masofaviy ishga joylashishni xohlovchilar</p>
+</div>
+
+<div class="blog-card success">
+<h3>💳 To'lov olish</h3>
+<ul>
+<li><strong>Payoneer:</strong> O'zbekiston uchun eng mashhur, ko'p platformalar bilan ishlaydi</li>
+<li><strong>Wise:</strong> To'lovlarni qabul qilish uchun ajoyib ayirboshlash kurslari</li>
+<li><strong>To'g'ridan-to'g'ri bank o'tkazmasi:</strong> Ba'zi platformalardan mavjud</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Muvaffaqiyat maslahatlari</h2>
+<ul>
+<li>Raqobatbardosh stavkalar bilan boshlang, sharhlar to'plash bilan oshiring</li>
+<li>Nishaga ixtisoslashing — umumiylar ajralib turish uchun qiynaladi</li>
+<li>Mijozlar bilan haddan tashqari muloqot qiling</li>
+<li>Iloji bo'lsa muddatlardan oldin topshiring</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Frilanserlik uchun shaxsiy brendingizni quryapsizmi?</strong> LinkOn xalqaro mijozlarni yutadigan professional portfolio va shaxsiy brendingni yaratishda yordam berishi mumkin.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Удалённая работа открывает двери к международным возможностям. Вот как узбекистанцы могут получить высокооплачиваемую работу в компаниях США и Европы, работая из дома.</p>
+</div>
+
+<div class="blog-section">
+<h2>Топ фриланс-платформ для узбекистанцев</h2>
+<p>Каждая платформа имеет свои сильные стороны. Выбирайте на основе ваших навыков и целевых клиентов.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 1. Upwork</h3>
+<p>Крупнейший фриланс-маркетплейс. Лучше всего подходит для долгосрочных отношений с клиентами и разнообразных категорий работ.</p>
+<p><strong>Лучше всего для:</strong> Разработчиков, дизайнеров, писателей, виртуальных ассистентов</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 2. Fiverr</h3>
+<p>Платформа на основе гигов, где вы продаёте конкретные услуги. Отлично подходит для создания портфолио продуктизированных услуг.</p>
+<p><strong>Лучше всего для:</strong> Графических дизайнеров, видеомонтажёров, дикторов</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 3. Toptal</h3>
+<p>Элитная платформа для топ 3% фрилансеров. Более высокие ставки, но строгий процесс отбора.</p>
+<p><strong>Лучше всего для:</strong> Старших разработчиков, финансовых консультантов, проектных менеджеров</p>
+</div>
+
+<div class="blog-card info">
+<h3>🖥️ 4. We Work Remotely</h3>
+<p>Доска вакансий для удалённых позиций. Компании, специально ищущие удалённых работников.</p>
+<p><strong>Лучше всего для:</strong> Ищущих полную занятость удалённо</p>
+</div>
+
+<div class="blog-card success">
+<h3>💳 Получение оплаты</h3>
+<ul>
+<li><strong>Payoneer:</strong> Самый популярный для Узбекистана, работает с большинством платформ</li>
+<li><strong>Wise:</strong> Отличные курсы обмена для получения платежей</li>
+<li><strong>Прямой банковский перевод:</strong> Доступен с некоторых платформ</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Советы для успеха</h2>
+<ul>
+<li>Начните с конкурентных ставок, повышайте по мере накопления отзывов</li>
+<li>Специализируйтесь в нише — универсалам сложно выделиться</li>
+<li>Пере-коммуницируйте с клиентами</li>
+<li>Сдавайте работу раньше дедлайнов когда возможно</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Строите личный бренд для фриланса?</strong> LinkOn может помочь создать профессиональное портфолио и личный брендинг, который привлекает международных клиентов.</p>
+</div>`
+      }
+    },
+    'healthy-lifestyle-tashkent': {
+      title: {
+        en: "Secrets to Healthy Eating and Effective Home Workouts in Tashkent",
+        uz: "Toshkent sharoitida sog'lom ovqatlanish va uyda samarali mashg'ulot qilish sirlari",
+        ru: "Секреты здорового питания и эффективных домашних тренировок в Ташкенте"
+      },
+      date: '2025-01-14',
+      readTime: '7 min',
+      category: 'Lifestyle',
+      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Maintaining a healthy lifestyle in urban Uzbekistan is easier than you think. Here are practical tips for healthy eating and effective home workouts tailored to Tashkent life.</p>
+</div>
+
+<div class="blog-section">
+<h2>Healthy Eating in Tashkent</h2>
+<p>Traditional Uzbek cuisine can be adapted for healthier eating without losing flavor.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🥗 1. Smart Bazaar Shopping</h3>
+<p>Local bazaars offer fresh, seasonal produce at great prices. Focus on vegetables, fruits, and lean meats. Avoid processed foods from supermarkets.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🍖 2. Healthier Traditional Dishes</h3>
+<ul>
+<li>Choose grilled shashlik over fried dishes</li>
+<li>Opt for soups (shurpa, mastava) over heavy pilafs</li>
+<li>Add more vegetables to traditional recipes</li>
+<li>Use olive oil instead of cotton oil when possible</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>💧 3. Hydration</h3>
+<p>Tashkent summers are hot. Drink at least 2-3 liters of water daily. Green tea counts! Avoid sugary sodas and juices.</p>
+</div>
+
+<div class="blog-section">
+<h2>Effective Home Workouts</h2>
+<p>No gym membership needed. Here's a simple routine you can do at home.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🏋️ 20-Minute Home Workout</h3>
+<ul>
+<li>Jumping jacks: 2 minutes</li>
+<li>Push-ups: 3 sets of 10</li>
+<li>Squats: 3 sets of 15</li>
+<li>Plank: 3 sets of 30 seconds</li>
+<li>Burpees: 2 sets of 10</li>
+<li>Stretching: 5 minutes</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Mental Health Matters</h2>
+<p>Physical health is connected to mental well-being. Practice meditation, maintain social connections, and don't hesitate to seek professional help when needed.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Looking for fitness content creators?</strong> LinkOn produces health and lifestyle video content that inspires and engages audiences.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">O'zbekiston shaharlarida sog'lom turmush tarzini saqlash siz o'ylagandan ham oson. Toshkent hayotiga moslashtirilgan sog'lom ovqatlanish va samarali uyda mashg'ulotlar bo'yicha amaliy maslahatlar.</p>
+</div>
+
+<div class="blog-section">
+<h2>Toshkentda sog'lom ovqatlanish</h2>
+<p>An'anaviy O'zbek oshxonasini ta'mni yo'qotmasdan sog'lomroq ovqatlanishga moslashtirish mumkin.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🥗 1. Aqlli bozor xaridlari</h3>
+<p>Mahalliy bozorlar yangi, mavsumiy mahsulotlarni ajoyib narxlarda taklif qiladi. Sabzavotlar, mevalar va kam yog'li go'shtga e'tibor bering. Supermarketlardan qayta ishlangan ovqatlardan saqlaning.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🍖 2. Sog'lomroq an'anaviy taomlar</h3>
+<ul>
+<li>Qovurilgan taomlar o'rniga grilga pishirilgan shashlykni tanlang</li>
+<li>Og'ir palovlar o'rniga sho'rvalar (sho'rva, mastava)ni tanlang</li>
+<li>An'anaviy retseptlarga ko'proq sabzavotlar qo'shing</li>
+<li>Iloji bo'lsa paxta yog'i o'rniga zaytun moyidan foydalaning</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>💧 3. Suvlanish</h3>
+<p>Toshkent yozlari issiq. Kuniga kamida 2-3 litr suv iching. Yashil choy ham hisobga kiradi! Shakarli gazlangan ichimliklar va sharbatlardan saqlaning.</p>
+</div>
+
+<div class="blog-section">
+<h2>Samarali uyda mashg'ulotlar</h2>
+<p>Sport zali a'zoligi kerak emas. Uyda qilishingiz mumkin bo'lgan oddiy tartib.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🏋️ 20 daqiqalik uyda mashg'ulot</h3>
+<ul>
+<li>Sakrash: 2 daqiqa</li>
+<li>Otjimaniyalar: 3 ta 10 tasidan</li>
+<li>Squat: 3 ta 15 tasidan</li>
+<li>Planka: 3 ta 30 soniyadan</li>
+<li>Burpi: 2 ta 10 tasidan</li>
+<li>Cho'zilish: 5 daqiqa</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Ruhiy salomatlik muhim</h2>
+<p>Jismoniy salomatlik ruhiy farovonlik bilan bog'liq. Meditatsiya qiling, ijtimoiy aloqalarni saqlang va kerak bo'lganda professional yordamga murojaat qilishdan tortinmang.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Fitnes kontent yaratuvchilarni qidiryapsizmi?</strong> LinkOn auditoriyani ilhomlantiruvchi va jalb qiluvchi salomatlik va turmush tarzi video kontentini ishlab chiqaradi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Поддержание здорового образа жизни в городах Узбекистана проще, чем вы думаете. Вот практические советы по здоровому питанию и эффективным домашним тренировкам, адаптированные для жизни в Ташкенте.</p>
+</div>
+
+<div class="blog-section">
+<h2>Здоровое питание в Ташкенте</h2>
+<p>Традиционную узбекскую кухню можно адаптировать для более здорового питания без потери вкуса.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🥗 1. Умные покупки на базаре</h3>
+<p>Местные базары предлагают свежие сезонные продукты по отличным ценам. Фокусируйтесь на овощах, фруктах и нежирном мясе. Избегайте переработанных продуктов из супермаркетов.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🍖 2. Более здоровые традиционные блюда</h3>
+<ul>
+<li>Выбирайте шашлык на гриле вместо жареных блюд</li>
+<li>Предпочитайте супы (шурпа, мастава) тяжёлым пловам</li>
+<li>Добавляйте больше овощей в традиционные рецепты</li>
+<li>Используйте оливковое масло вместо хлопкового когда возможно</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>💧 3. Гидратация</h3>
+<p>Лето в Ташкенте жаркое. Пейте минимум 2-3 литра воды ежедневно. Зелёный чай тоже считается! Избегайте сладких газировок и соков.</p>
+</div>
+
+<div class="blog-section">
+<h2>Эффективные домашние тренировки</h2>
+<p>Абонемент в спортзал не нужен. Вот простая программа, которую можно делать дома.</p>
+</div>
+
+<div class="blog-card success">
+<h3>🏋️ 20-минутная домашняя тренировка</h3>
+<ul>
+<li>Прыжки с хлопками: 2 минуты</li>
+<li>Отжимания: 3 подхода по 10</li>
+<li>Приседания: 3 подхода по 15</li>
+<li>Планка: 3 подхода по 30 секунд</li>
+<li>Бёрпи: 2 подхода по 10</li>
+<li>Растяжка: 5 минут</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Ментальное здоровье важно</h2>
+<p>Физическое здоровье связано с психическим благополучием. Практикуйте медитацию, поддерживайте социальные связи и не стесняйтесь обращаться за профессиональной помощью когда нужно.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Ищете создателей фитнес-контента?</strong> LinkOn производит видеоконтент о здоровье и образе жизни, который вдохновляет и вовлекает аудиторию.</p>
+</div>`
+      }
+    },
+    'top-5-careers-2025': {
+      title: {
+        en: "5 Most Profitable Modern Professions in 2025: Why Everyone Chooses IT and Digital Marketing",
+        uz: "2025-yilda eng daromadli 5 ta zamonaviy kasb: Nega hamma IT va Digital Marketingni tanlamoqda?",
+        ru: "5 самых прибыльных профессий 2025: Почему все выбирают IT и Digital Marketing"
+      },
+      date: '2025-01-13',
+      readTime: '9 min',
+      category: 'Career',
+      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">The job market is evolving rapidly. Here are the 5 most profitable and in-demand professions in 2025, with a focus on what's driving Uzbeks to IT and digital marketing.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 1. Software Developer</h3>
+<p>Average salary: $1,500-$5,000+/month (remote)</p>
+<p>Demand is skyrocketing for developers, especially those skilled in React, Python, and mobile development. Remote work makes international salaries accessible.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📱 2. Digital Marketing Specialist</h3>
+<p>Average salary: $800-$3,000/month</p>
+<p>Every business needs online presence. Skills in SMM, SEO, and paid advertising are highly sought after locally and internationally.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 3. UI/UX Designer</h3>
+<p>Average salary: $1,000-$4,000/month</p>
+<p>As digital products multiply, designers who create intuitive user experiences are in high demand.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 4. Data Analyst</h3>
+<p>Average salary: $1,200-$3,500/month</p>
+<p>Companies increasingly rely on data to make decisions. Skills in SQL, Python, and visualization tools are essential.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎬 5. Video Content Creator</h3>
+<p>Average salary: $500-$2,500/month</p>
+<p>Short-form video content is exploding. Skilled video editors and content creators can work with brands globally.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Why IT and Digital Marketing?</h2>
+<ul>
+<li><strong>Remote work:</strong> Earn international salaries from Uzbekistan</li>
+<li><strong>Low barrier:</strong> Many skills can be self-taught</li>
+<li><strong>Growing demand:</strong> Every business needs digital presence</li>
+<li><strong>Scalability:</strong> Your income can grow with experience</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Looking to start a career in digital marketing?</strong> LinkOn occasionally offers internship opportunities for motivated individuals.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Mehnat bozori tez rivojlanmoqda. 2025-yilda eng daromadli va talab yuqori bo'lgan 5 ta kasb, O'zbeklarni IT va raqamli marketingga nima undayotganiga e'tibor qaratgan holda.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 1. Dasturiy ta'minot dasturchisi</h3>
+<p>O'rtacha maosh: $1,500-$5,000+/oy (masofaviy)</p>
+<p>Dasturchilar, ayniqsa React, Python va mobil dasturlash bo'yicha malakali bo'lganlar uchun talab keskin oshmoqda. Masofaviy ish xalqaro maoshlarni ochib beradi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📱 2. Raqamli marketing mutaxassisi</h3>
+<p>O'rtacha maosh: $800-$3,000/oy</p>
+<p>Har bir biznesga onlayn mavjudlik kerak. SMM, SEO va pullik reklama bo'yicha ko'nikmalar mahalliy va xalqaro darajada juda talab qilinadi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 3. UI/UX dizayner</h3>
+<p>O'rtacha maosh: $1,000-$4,000/oy</p>
+<p>Raqamli mahsulotlar ko'payishi bilan intuitiv foydalanuvchi tajribasini yaratadigan dizaynerlar yuqori talabda.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 4. Ma'lumotlar tahlilchisi</h3>
+<p>O'rtacha maosh: $1,200-$3,500/oy</p>
+<p>Kompaniyalar qarorlar qabul qilish uchun ma'lumotlarga tobora ko'proq tayanmoqda. SQL, Python va vizualizatsiya vositalari bo'yicha ko'nikmalar muhim.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎬 5. Video kontent yaratuvchisi</h3>
+<p>O'rtacha maosh: $500-$2,500/oy</p>
+<p>Qisqa shakldagi video kontent portlamoqda. Malakali video montajchilar va kontent yaratuvchilar global brendlar bilan ishlashi mumkin.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Nima uchun IT va Raqamli Marketing?</h2>
+<ul>
+<li><strong>Masofaviy ish:</strong> O'zbekistondan xalqaro maosh oling</li>
+<li><strong>Past to'siq:</strong> Ko'p ko'nikmalarni o'z-o'zidan o'rganish mumkin</li>
+<li><strong>O'sib borayotgan talab:</strong> Har bir biznesga raqamli mavjudlik kerak</li>
+<li><strong>Miqyoslilik:</strong> Daromadingiz tajriba bilan o'sishi mumkin</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Raqamli marketingda karyera boshlashni xohlaysizmi?</strong> LinkOn vaqti-vaqti bilan motivatsiyali shaxslar uchun amaliyot imkoniyatlarini taklif qiladi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Рынок труда быстро развивается. Вот 5 самых прибыльных и востребованных профессий 2025 года с фокусом на то, что привлекает узбекистанцев в IT и digital marketing.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💻 1. Разработчик программного обеспечения</h3>
+<p>Средняя зарплата: $1,500-$5,000+/месяц (удалённо)</p>
+<p>Спрос на разработчиков резко растёт, особенно на специалистов по React, Python и мобильной разработке. Удалённая работа открывает доступ к международным зарплатам.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📱 2. Специалист по digital-маркетингу</h3>
+<p>Средняя зарплата: $800-$3,000/месяц</p>
+<p>Каждому бизнесу нужно онлайн-присутствие. Навыки в SMM, SEO и платной рекламе высоко востребованы локально и международно.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎨 3. UI/UX дизайнер</h3>
+<p>Средняя зарплата: $1,000-$4,000/месяц</p>
+<p>С ростом цифровых продуктов дизайнеры, создающие интуитивный пользовательский опыт, пользуются высоким спросом.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 4. Аналитик данных</h3>
+<p>Средняя зарплата: $1,200-$3,500/месяц</p>
+<p>Компании всё больше полагаются на данные для принятия решений. Навыки SQL, Python и инструментов визуализации необходимы.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎬 5. Создатель видеоконтента</h3>
+<p>Средняя зарплата: $500-$2,500/месяц</p>
+<p>Короткий видеоконтент взрывается. Опытные видеомонтажёры и создатели контента могут работать с брендами по всему миру.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Почему IT и Digital Marketing?</h2>
+<ul>
+<li><strong>Удалённая работа:</strong> Зарабатывайте международные зарплаты из Узбекистана</li>
+<li><strong>Низкий порог входа:</strong> Многие навыки можно освоить самостоятельно</li>
+<li><strong>Растущий спрос:</strong> Каждому бизнесу нужно цифровое присутствие</li>
+<li><strong>Масштабируемость:</strong> Ваш доход может расти с опытом</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Хотите начать карьеру в digital-маркетинге?</strong> LinkOn периодически предлагает стажировки для мотивированных людей.</p>
+</div>`
+      }
+    },
+    'solar-panels-home': {
+      title: {
+        en: "Installing Solar Panels at Home: Is There Really Energy Savings?",
+        uz: "Uyga quyosh panellarini o'rnatish: Haqiqatda elektr energiyasidan tejamkorlik bormi?",
+        ru: "Установка солнечных панелей дома: Реальная ли экономия на электроэнергии?"
+      },
+      date: '2025-01-11',
+      readTime: '10 min',
+      category: 'Technology',
+      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">With rising electricity prices in Uzbekistan, many are considering solar panels. Let's analyze whether solar is actually worth the investment for Uzbek households.</p>
+</div>
+
+<div class="blog-section">
+<h2>Solar Energy in Uzbekistan</h2>
+<p>Uzbekistan receives abundant sunshine — over 300 sunny days per year. This makes it ideal for solar energy.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 Initial Investment</h3>
+<p>A typical home solar system (5kW) costs approximately $4,000-$6,000 including installation. Prices have been decreasing steadily.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ Monthly Savings</h3>
+<p>A 5kW system can generate 600-800 kWh monthly, covering most household needs. This translates to savings of approximately 300,000-500,000 sum monthly.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📅 Payback Period</h3>
+<p>At current electricity rates, expect payback in 5-7 years. With rising energy costs, this period may shorten.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ Pros of Solar</h3>
+<ul>
+<li>Reduce monthly electricity bills significantly</li>
+<li>Protection against rising energy costs</li>
+<li>Increase property value</li>
+<li>Environmental benefits</li>
+<li>Low maintenance requirements</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Considerations</h3>
+<ul>
+<li>High upfront cost</li>
+<li>Requires suitable roof space and orientation</li>
+<li>Battery storage adds additional cost</li>
+<li>Installation quality matters — choose reputable installers</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Verdict</h2>
+<p>For most Uzbek households with suitable roof space, solar panels are a sound long-term investment, especially as electricity prices continue to rise.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Creating content for solar companies?</strong> LinkOn produces explainer videos and marketing content for tech and energy companies.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">O'zbekistonda elektr energiyasi narxlari oshishi bilan ko'pchilik quyosh panellarini ko'rib chiqmoqda. Quyosh energiyasi O'zbek xonadonlari uchun haqiqatan ham investitsiyaga arziydimi, tahlil qilaylik.</p>
+</div>
+
+<div class="blog-section">
+<h2>O'zbekistonda quyosh energiyasi</h2>
+<p>O'zbekiston mo'l quyosh oladi — yiliga 300 dan ortiq quyoshli kun. Bu quyosh energiyasi uchun ideal qiladi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 Dastlabki sarmoya</h3>
+<p>Oddiy uy quyosh tizimi (5kW) o'rnatish bilan birga taxminan $4,000-$6,000 turadi. Narxlar doimiy ravishda pasaymoqda.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ Oylik tejash</h3>
+<p>5kW tizim oyiga 600-800 kWt ishlab chiqarishi mumkin, ko'p uy ehtiyojlarini qoplaydi. Bu oyiga taxminan 300,000-500,000 so'm tejashga tenglashadi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📅 Qaytarilish davri</h3>
+<p>Hozirgi elektr tarifflarida 5-7 yilda qaytarilishini kuting. Energiya xarajatlari oshishi bilan bu davr qisqarishi mumkin.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ Quyoshning ijobiy tomonlari</h3>
+<ul>
+<li>Oylik elektr to'lovlarini sezilarli darajada kamaytiring</li>
+<li>Energiya narxlari oshishidan himoya</li>
+<li>Mulk qiymatini oshiring</li>
+<li>Ekologik foyda</li>
+<li>Kam texnik xizmat talablari</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Mulohazalar</h3>
+<ul>
+<li>Yuqori boshlang'ich xarajat</li>
+<li>Mos tom maydoni va yo'nalishi kerak</li>
+<li>Batareya saqlash qo'shimcha xarajat qo'shadi</li>
+<li>O'rnatish sifati muhim — obro'li o'rnatuvchilarni tanlang</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Xulosa</h2>
+<p>Mos tom maydoniga ega ko'pchilik O'zbek xonadonlari uchun quyosh panellari to'g'ri uzoq muddatli investitsiya, ayniqsa elektr narxlari o'sishda davom etayotganda.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Quyosh kompaniyalari uchun kontent yaratyapsizmi?</strong> LinkOn texnologiya va energiya kompaniyalari uchun tushuntiruvchi videolar va marketing kontenti ishlab chiqaradi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">С ростом цен на электроэнергию в Узбекистане многие рассматривают солнечные панели. Давайте проанализируем, действительно ли солнечная энергия стоит инвестиций для узбекских домохозяйств.</p>
+</div>
+
+<div class="blog-section">
+<h2>Солнечная энергия в Узбекистане</h2>
+<p>Узбекистан получает обильное солнце — более 300 солнечных дней в году. Это делает его идеальным для солнечной энергии.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 Начальные инвестиции</h3>
+<p>Типичная домашняя солнечная система (5кВт) стоит примерно $4,000-$6,000 включая установку. Цены стабильно снижаются.</p>
+</div>
+
+<div class="blog-card info">
+<h3>⚡ Ежемесячная экономия</h3>
+<p>Система 5кВт может генерировать 600-800 кВт·ч ежемесячно, покрывая большинство потребностей домохозяйства. Это примерно 300,000-500,000 сумов экономии в месяц.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📅 Срок окупаемости</h3>
+<p>При текущих тарифах ожидайте окупаемости за 5-7 лет. С ростом стоимости энергии этот период может сократиться.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ Плюсы солнечной энергии</h3>
+<ul>
+<li>Значительное сокращение ежемесячных счетов за электричество</li>
+<li>Защита от роста цен на энергию</li>
+<li>Увеличение стоимости недвижимости</li>
+<li>Экологические преимущества</li>
+<li>Низкие требования к обслуживанию</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Что учитывать</h3>
+<ul>
+<li>Высокие начальные затраты</li>
+<li>Требуется подходящая площадь и ориентация крыши</li>
+<li>Хранение в батареях добавляет дополнительные затраты</li>
+<li>Качество установки важно — выбирайте надёжных установщиков</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Вердикт</h2>
+<p>Для большинства узбекских домохозяйств с подходящей площадью крыши солнечные панели — разумная долгосрочная инвестиция, особенно с учётом продолжающегося роста цен на электроэнергию.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Создаёте контент для солнечных компаний?</strong> LinkOn производит объясняющие видео и маркетинговый контент для технологических и энергетических компаний.</p>
+</div>`
+      }
+    },
+    'personal-brand-2025': {
+      title: {
+        en: "Why Personal Brand is More Important Than Any Diploma in 2025",
+        uz: "Nima uchun 2025-yilda shaxsiy brend har qanday diplomdan muhimroq?",
+        ru: "Почему личный бренд важнее любого диплома в 2025 году"
+      },
+      date: '2025-01-09',
+      readTime: '8 min',
+      category: 'Branding',
+      image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">In 2025, your personal brand is your most valuable asset. Here's why experts and entrepreneurs are investing heavily in building their personal brands — and how you can too.</p>
+</div>
+
+<div class="blog-section">
+<h2>Why Personal Branding Matters</h2>
+<p>In a world where anyone can verify credentials online, your personal brand — the perception people have of you — matters more than ever.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎯 1. Trust Over Credentials</h3>
+<p>People buy from people they trust. A strong personal brand builds trust faster than any certificate or diploma.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 2. Career Opportunities</h3>
+<p>Recruiters and clients Google you before reaching out. What they find determines whether they contact you.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 3. Premium Pricing</h3>
+<p>Personal brands command higher prices. Experts with recognized names can charge 3-10x more than unknown competitors.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 4. Business Growth</h3>
+<p>For entrepreneurs, personal branding accelerates business growth. Your personality attracts aligned clients and partners.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📱 Building Your Personal Brand</h3>
+<ul>
+<li>Define your unique expertise and perspective</li>
+<li>Create consistent content on 1-2 platforms</li>
+<li>Share valuable insights, not just promotions</li>
+<li>Engage authentically with your audience</li>
+<li>Tell your story — people connect with journeys</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Start Today</h2>
+<p>You don't need a massive following to have a strong personal brand. Consistency, authenticity, and value creation are what matter most.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Need help building your personal brand?</strong> LinkOn creates personal branding strategies, professional photoshoots, and content plans for experts and entrepreneurs.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">2025-yilda shaxsiy brendingiz eng qimmatli aktivingizdir. Ekspertlar va tadbirkorlar nima uchun shaxsiy brendlarini qurishga katta sarmoya kiritayotgani va siz ham qanday qilishingiz mumkinligi.</p>
+</div>
+
+<div class="blog-section">
+<h2>Nima uchun shaxsiy brending muhim</h2>
+<p>Har kim ma'lumotlarni onlayn tekshirishi mumkin bo'lgan dunyoda shaxsiy brendingiz — odamlar siz haqingizda qanday tasavvurga ega — har qachongidan ko'ra muhimroq.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎯 1. Ma'lumotlardan ko'ra ishonch</h3>
+<p>Odamlar ishongan kishilardan sotib oladi. Kuchli shaxsiy brend har qanday sertifikat yoki diplomdan tezroq ishonch hosil qiladi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 2. Karyera imkoniyatlari</h3>
+<p>Ishga yollashlar va mijozlar murojaat qilishdan oldin sizni Google'da qidiradi. Topganlari ular siz bilan bog'lanish-bog'lanmasligini aniqlaydi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 3. Premium narxlash</h3>
+<p>Shaxsiy brendlar yuqori narxlarni talab qiladi. Tan olingan nomlarga ega ekspertlar noma'lum raqobatchilardan 3-10 barobar ko'p olishlari mumkin.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 4. Biznes o'sishi</h3>
+<p>Tadbirkorlar uchun shaxsiy brending biznes o'sishini tezlashtiradi. Shaxsiyatingiz mos mijozlar va hamkorlarni jalb qiladi.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📱 Shaxsiy brendingizni qurish</h3>
+<ul>
+<li>O'zingizning noyob tajribangiz va nuqtai nazaringizni aniqlang</li>
+<li>1-2 platformada izchil kontent yarating</li>
+<li>Faqat reklamalar emas, qimmatli tushunchalarni baham ko'ring</li>
+<li>Auditoriyangiz bilan haqiqiy muloqot qiling</li>
+<li>Hikoyangizni aytib bering — odamlar sayohatlar bilan bog'lanadi</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Bugun boshlang</h2>
+<p>Kuchli shaxsiy brendga ega bo'lish uchun katta kuzatuvchilar kerak emas. Izchillik, haqiqiylik va qiymat yaratish eng muhim narsa.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Shaxsiy brendingizni qurishda yordam kerakmi?</strong> LinkOn ekspertlar va tadbirkorlar uchun shaxsiy brending strategiyalari, professional fotosessiyalar va kontent rejalarini yaratadi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">В 2025 году ваш личный бренд — ваш самый ценный актив. Вот почему эксперты и предприниматели активно инвестируют в построение личного бренда — и как вы тоже можете это сделать.</p>
+</div>
+
+<div class="blog-section">
+<h2>Почему личный брендинг важен</h2>
+<p>В мире, где любой может проверить квалификацию онлайн, ваш личный бренд — восприятие вас людьми — важнее, чем когда-либо.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🎯 1. Доверие важнее квалификации</h3>
+<p>Люди покупают у тех, кому доверяют. Сильный личный бренд строит доверие быстрее любого сертификата или диплома.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💼 2. Карьерные возможности</h3>
+<p>Рекрутеры и клиенты гуглят вас перед обращением. То, что они находят, определяет, свяжутся ли они с вами.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💰 3. Премиум-ценообразование</h3>
+<p>Личные бренды командуют высокими ценами. Эксперты с известными именами могут брать в 3-10 раз больше неизвестных конкурентов.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 4. Рост бизнеса</h3>
+<p>Для предпринимателей личный брендинг ускоряет рост бизнеса. Ваша личность привлекает подходящих клиентов и партнёров.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📱 Построение личного бренда</h3>
+<ul>
+<li>Определите свою уникальную экспертизу и точку зрения</li>
+<li>Создавайте регулярный контент на 1-2 платформах</li>
+<li>Делитесь ценными инсайтами, а не только промо</li>
+<li>Взаимодействуйте аутентично со своей аудиторией</li>
+<li>Рассказывайте свою историю — люди связываются с путешествиями</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Начните сегодня</h2>
+<p>Вам не нужна огромная аудитория для сильного личного бренда. Последовательность, аутентичность и создание ценности — вот что важнее всего.</p>
+</div>
+
+<div class="blog-cta">
+<p><strong>Нужна помощь в построении личного бренда?</strong> LinkOn создаёт стратегии личного брендинга, профессиональные фотосессии и контент-планы для экспертов и предпринимателей.</p>
+</div>`
+      }
+    },
+    'uzbekistan-hidden-places': {
+      title: {
+        en: "5 Undiscovered Beautiful Places in Uzbekistan: Weekend Trip Destinations",
+        uz: "O'zbekistonning hali kashf qilinmagan 5 ta go'zal maskani: Dam olish kuni qayerga borish kerak?",
+        ru: "5 неоткрытых красивых мест Узбекистана: Куда поехать на выходные?"
+      },
+      date: '2025-01-07',
+      readTime: '6 min',
+      category: 'Travel',
+      image: 'https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">Uzbekistan is full of hidden gems waiting to be discovered. Here are 5 stunning destinations perfect for weekend getaways that most locals don't even know about.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏔️ 1. Bostanliq District</h3>
+<p>Just 80km from Tashkent, this mountain region offers stunning landscapes, fresh air, and various resorts. Perfect for hiking, horseback riding, and picnics.</p>
+<p><strong>Best time:</strong> Spring and autumn for mild weather</p>
+</div>
+
+<div class="blog-card info">
+<h3>🌲 2. Zomin National Park</h3>
+<p>Ancient juniper forests, mountain trails, and breathtaking views. The Zomin resort area offers accommodation options for all budgets.</p>
+<p><strong>Best time:</strong> Late spring to early autumn</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏜️ 3. Aydarkul Lake</h3>
+<p>An artificial lake in the middle of the Kyzylkum desert. Surreal landscape, yurt camping, and camel rides create an unforgettable experience.</p>
+<p><strong>Best time:</strong> Spring and autumn (avoid summer heat)</p>
+</div>
+
+<div class="blog-card info">
+<h3>⛰️ 4. Chimgan Mountains</h3>
+<p>Popular for skiing in winter, but equally beautiful in summer. Cable cars, hiking trails, and panoramic views await.</p>
+<p><strong>Best time:</strong> Year-round (different activities each season)</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏛️ 5. Nurata</h3>
+<p>Ancient fortress ruins, the holy Chashma spring, and nearby Nuratau mountain range. Rich history meets natural beauty.</p>
+<p><strong>Best time:</strong> Spring for wildflowers</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Travel Tips</h2>
+<ul>
+<li>Book accommodations in advance for weekends</li>
+<li>Carry cash — card acceptance is limited outside cities</li>
+<li>Bring layers — mountain weather changes quickly</li>
+<li>Download offline maps — cell coverage can be spotty</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Creating travel content for tourism businesses?</strong> LinkOn produces stunning travel videos and social media content that inspire wanderlust.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">O'zbekiston kashf etilishni kutayotgan yashirin marvaridlar bilan to'la. Dam olish kunlari uchun juda mos bo'lgan 5 ta ajoyib manzil, ularni ko'pchilik mahalliy aholi ham bilmaydi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏔️ 1. Bo'stonliq tumani</h3>
+<p>Toshkentdan atigi 80 km uzoqlikda, bu tog'li hudud ajoyib manzaralar, toza havo va turli xil dam olish maskanlarini taklif qiladi. Piyoda sayohat, otda sayohat va piknik uchun juda mos.</p>
+<p><strong>Eng yaxshi vaqt:</strong> Bahor va kuz iliq ob-havo uchun</p>
+</div>
+
+<div class="blog-card info">
+<h3>🌲 2. Zomin milliy bog'i</h3>
+<p>Qadimiy archa o'rmonlari, tog' yo'laklari va nafas oladigan manzaralar. Zomin dam olish zonasi barcha byudjetlar uchun turar joy variantlarini taklif qiladi.</p>
+<p><strong>Eng yaxshi vaqt:</strong> Kech bahordan erta kuzgacha</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏜️ 3. Aydarko'l ko'li</h3>
+<p>Qizilqum cho'li o'rtasidagi sun'iy ko'l. Surrealistik manzara, o'tov lagerida yashash va tuya sayohati unutilmas tajriba yaratadi.</p>
+<p><strong>Eng yaxshi vaqt:</strong> Bahor va kuz (yoz issiqligidan qoching)</p>
+</div>
+
+<div class="blog-card info">
+<h3>⛰️ 4. Chimyon tog'lari</h3>
+<p>Qishda chang'i uchish uchun mashhur, lekin yozda ham bir xil go'zal. Kanat yo'llari, piyoda sayohat yo'llari va panoramik manzaralar kutmoqda.</p>
+<p><strong>Eng yaxshi vaqt:</strong> Butun yil davomida (har bir mavsumda turli xil tadbirlar)</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏛️ 5. Nurata</h3>
+<p>Qadimiy qal'a xarobalari, muqaddas Chashma bulog'i va yaqin atrofdagi Nuratau tog' tizmasi. Boy tarix tabiiy go'zallik bilan uchraydi.</p>
+<p><strong>Eng yaxshi vaqt:</strong> Yovvoyi gullar uchun bahor</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Sayohat maslahatlari</h2>
+<ul>
+<li>Dam olish kunlari uchun turar joyni oldindan band qiling</li>
+<li>Naqd pul olib yuring — shaharlardan tashqarida karta qabul qilish cheklangan</li>
+<li>Qatlamlar olib keling — tog' ob-havosi tez o'zgaradi</li>
+<li>Oflayn xaritalarni yuklab oling — uyali aloqa qamrovi yarim-yorti bo'lishi mumkin</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Turizm bizneslari uchun sayohat kontenti yaratyapsizmi?</strong> LinkOn sayohat ishtiyoqini ilhomlantiruvchi ajoyib sayohat videolari va ijtimoiy tarmoq kontentini ishlab chiqaradi.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Узбекистан полон скрытых жемчужин, ждущих открытия. Вот 5 потрясающих направлений, идеальных для выходных, о которых даже большинство местных не знает.</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏔️ 1. Бостанлыкский район</h3>
+<p>Всего в 80 км от Ташкента этот горный регион предлагает потрясающие пейзажи, свежий воздух и различные курорты. Идеально для пеших прогулок, верховой езды и пикников.</p>
+<p><strong>Лучшее время:</strong> Весна и осень для мягкой погоды</p>
+</div>
+
+<div class="blog-card info">
+<h3>🌲 2. Национальный парк Зомин</h3>
+<p>Древние можжевеловые леса, горные тропы и захватывающие виды. Курортная зона Зомин предлагает варианты размещения для любого бюджета.</p>
+<p><strong>Лучшее время:</strong> Поздняя весна до ранней осени</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏜️ 3. Озеро Айдаркуль</h3>
+<p>Искусственное озеро посреди пустыни Кызылкум. Сюрреалистический ландшафт, кемпинг в юртах и катание на верблюдах создают незабываемый опыт.</p>
+<p><strong>Лучшее время:</strong> Весна и осень (избегайте летней жары)</p>
+</div>
+
+<div class="blog-card info">
+<h3>⛰️ 4. Горы Чимган</h3>
+<p>Популярны для катания на лыжах зимой, но не менее красивы летом. Канатные дороги, пешие маршруты и панорамные виды ждут вас.</p>
+<p><strong>Лучшее время:</strong> Круглый год (разные активности каждый сезон)</p>
+</div>
+
+<div class="blog-card info">
+<h3>🏛️ 5. Нурата</h3>
+<p>Руины древней крепости, священный источник Чашма и близлежащий горный хребет Нуратау. Богатая история встречается с природной красотой.</p>
+<p><strong>Лучшее время:</strong> Весна для полевых цветов</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Советы путешественникам</h2>
+<ul>
+<li>Бронируйте жильё заранее на выходные</li>
+<li>Берите наличные — приём карт ограничен за пределами городов</li>
+<li>Берите слои одежды — погода в горах меняется быстро</li>
+<li>Скачайте офлайн-карты — покрытие сети может быть нестабильным</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Создаёте тревел-контент для туристического бизнеса?</strong> LinkOn производит потрясающие тревел-видео и контент для соцсетей, вдохновляющий на путешествия.</p>
+</div>`
+      }
     }
   };
 
