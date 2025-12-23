@@ -94,13 +94,21 @@ export const Home = () => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] tracking-tight">
-                <span className="sr-only">Namangandagi professional marketing xizmatlari - </span>
                 {t('hero.title')}{' '}
                 <span className="gradient-text">{t('hero.subtitle')}</span>
               </h1>
               
               <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
                 {t('hero.description')}
+              </p>
+              
+              {/* Local authority signal */}
+              <p className="text-base text-muted-foreground max-w-xl">
+                {language === 'uz' 
+                  ? "Biz Namangan shahri va yaqin hududlardagi bizneslar bilan ishlaymiz, shuningdek, boshqa shaharlardagi mijozlarga masofaviy xizmatlar ko'rsatamiz."
+                  : language === 'ru'
+                  ? "Мы работаем с бизнесами в Намангане и близлежащих регионах, а также предоставляем удалённые услуги клиентам из других городов."
+                  : "We work with businesses in Namangan and nearby regions, and also provide remote services to clients from other cities."}
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -366,6 +374,20 @@ export const Home = () => {
                 <span className="relative z-10">{t('home.ctaButton')}</span>
                 <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
               </Link>
+              
+              {/* Internal link for SEO */}
+              <div className="pt-4">
+                <Link 
+                  to="/marketing-agentligi-namangan" 
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  {language === 'uz' 
+                    ? 'Marketing agentligi Namanganda' 
+                    : language === 'ru' 
+                    ? 'Маркетинговое агентство в Намангане' 
+                    : 'Marketing Agency in Namangan'}
+                </Link>
+              </div>
             </div>
           </div>
         </Reveal>

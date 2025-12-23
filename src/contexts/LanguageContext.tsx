@@ -97,10 +97,10 @@ const translations: Record<Language, any> = {
       ctaButton: 'Schedule a call'
     },
     hero: {
-      badge: 'Leading Marketing Agency in Uzbekistan',
-      title: 'Unlock Premium Marketing Excellence',
-      subtitle: 'Beyond Your Expectations',
-      description: 'Transform your brand with innovative marketing strategies combining local market expertise and global industry standards.',
+      badge: 'Marketing Agency in Namangan',
+      title: 'Marketing Agency in Namangan',
+      subtitle: '— LinkOn',
+      description: 'LinkOn is a marketing agency based in Namangan, offering branding, SMM, SEO, website development, and video content services.',
       cta: 'Start Your Project'
     },
     services: {
@@ -178,7 +178,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'Premium marketing agency in Uzbekistan',
+      brand: 'Marketing agency in Namangan, Uzbekistan',
       services: 'Services',
       company: 'Company',
       rights: 'All rights reserved'
@@ -197,10 +197,10 @@ const translations: Record<Language, any> = {
       startProject: 'Loyihani boshlash'
     },
     hero: {
-      badge: 'O\'zbekistonning yetakchi marketing agentligi',
-      title: 'Premium marketing xizmatlaridan',
-      subtitle: 'Foydalaning',
-      description: 'Mahalliy bozor tajribasi va global standartlarni birlashtiradigan innovatsion marketing strategiyalari bilan brendingizni yangi bosqichga olib chiqing.',
+      badge: 'Namangandagi marketing agentligi',
+      title: 'Marketing agentligi Namanganda',
+      subtitle: '— LinkOn',
+      description: 'LinkOn — Namanganda joylashgan marketing agentligi bo\'lib, brending, SMM, SEO, veb-sayt yaratish va video kontent xizmatlarini taqdim etadi.',
       cta: 'Loyihani boshlash'
     },
     services: {
@@ -278,7 +278,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'O\'zbekistondagi premium marketing agentligi',
+      brand: 'Namangandagi marketing agentligi',
       services: 'Xizmatlar',
       company: 'Kompaniya',
       rights: 'Barcha huquqlar himoyalangan'
@@ -324,10 +324,10 @@ const translations: Record<Language, any> = {
       startProject: 'Начать проект'
     },
     hero: {
-      badge: 'Ведущее маркетинговое агентство в Узбекистане',
-      title: 'Премиум маркетинг',
-      subtitle: 'Превосходящий ожидания',
-      description: 'Трансформируйте ваш бренд с помощью инновационных маркетинговых стратегий, сочетающих экспертизу местного рынка и глобальные отраслевые стандарты.',
+      badge: 'Маркетинговое агентство в Намангане',
+      title: 'Маркетинговое агентство в Намангане',
+      subtitle: '— LinkOn',
+      description: 'LinkOn — маркетинговое агентство в Намангане, предлагающее услуги брендинга, SMM, SEO, создания сайтов и видеоконтента.',
       cta: 'Начать проект'
     },
     services: {
@@ -405,7 +405,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'Премиум маркетинговое агентство в Узбекистане',
+      brand: 'Маркетинговое агентство в Намангане, Узбекистан',
       services: 'Услуги',
       company: 'Компания',
       rights: 'Все права защищены'

@@ -4,7 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import logo from '@/assets/logo.png';
 
 export const Footer = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const serviceLinks = [
     { label: t('services.branding'), path: '/services' },
@@ -18,6 +18,7 @@ export const Footer = () => {
     { label: t('nav.portfolio'), path: '/portfolio' },
     { label: t('nav.blog'), path: '/blog' },
     { label: t('nav.contact'), path: '/contact' },
+    { label: language === 'uz' ? 'Marketing Namanganda' : language === 'ru' ? 'Маркетинг в Намангане' : 'Marketing in Namangan', path: '/marketing-agentligi-namangan' },
   ];
 
   const socialLinks = [
