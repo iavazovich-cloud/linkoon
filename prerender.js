@@ -57,6 +57,7 @@ const routesToPrerender = [
   '/studio',
   '/blog',
   '/contact',
+  '/marketing-agentligi-namangan',
   ...blogPostSlugs.map((slug) => `/blog/${slug}`),
   ...portfolioSlugs.map((slug) => `/portfolio/${slug}`)
 ]
