@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Instagram, Send, Youtube } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import logo from '@/assets/logo.png';
 
@@ -22,10 +22,9 @@ export const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: 'https://www.instagram.com/gorizontagency?igsh=ZTlkeXQ0aGcydnFj&utm_source=qr' },
-    { icon: Facebook, href: 'https://www.facebook.com/' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/islam-avazovich-73134b254/' },
-    { icon: Twitter, href: 'https://x.com/bozorolog' },
+    { icon: Instagram, href: 'https://instagram.com/linkonuz', label: 'Instagram' },
+    { icon: Send, href: 'https://t.me/linkonuz', label: 'Telegram' },
+    { icon: Youtube, href: 'https://youtube.com/@linkonuz', label: 'YouTube' },
   ];
 
   return (

@@ -1,0 +1,17 @@
+{
+  "name": "LinkOn",
+  "short_name": "LinkOn",
+  "description": "Marketing agentligi Namanganda",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
