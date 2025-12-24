@@ -14,6 +14,16 @@ export const Blog = () => {
         uz: "Nima uchun biznesim ijtimoiy tarmoqlarda o'smayapti?",
         ru: "Почему мой бизнес не растет в социальных сетях?"
       },
+      metaTitle: {
+        en: "Why Your Business Isn't Growing on Social Media | Common Mistakes",
+        uz: "Biznes ijtimoiy tarmoqlarda nima uchun o'smayapti | Xatolar",
+        ru: "Почему бизнес не растет в соцсетях | Ошибки"
+      },
+      metaDescription: {
+        en: "Discover 5 common mistakes holding back your social media growth and learn actionable strategies to build a stronger online presence.",
+        uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan 5 ta keng tarqalgan xatoni bilib oling va kuchli onlayn mavjudlik yarating.",
+        ru: "Узнайте 5 распространенных ошибок, препятствующих росту в соцсетях, и стратегии для усиления онлайн-присутствия."
+      },
       excerpt: {
         en: "Discover the common mistakes holding back your social media growth and learn actionable strategies to build a stronger online presence.",
         uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan keng tarqalgan xatolarni bilib oling.",
@@ -30,6 +40,16 @@ export const Blog = () => {
         en: "How to Create Viral Reels That Actually Convert Customers",
         uz: "Mijozlarni jalb qiladigan viral reelslarni qanday yaratish",
         ru: "Как создать вирусные Reels, которые привлекают клиентов"
+      },
+      metaTitle: {
+        en: "How to Create Viral Reels That Convert | Step-by-Step Guide",
+        uz: "Viral Reels yaratish qo'llanmasi | Bosqichma-bosqich",
+        ru: "Как создать вирусные Reels | Пошаговое руководство"
+      },
+      metaDescription: {
+        en: "Master the art of creating engaging short-form video content that converts viewers into paying customers with proven strategies.",
+        uz: "Tomoshabinlarni mijozlarga aylantiradigan qisqa video kontent yaratish san'atini o'rganing.",
+        ru: "Овладейте искусством создания увлекательного видеоконтента, который превращает зрителей в клиентов."
       },
       excerpt: {
         en: "Master the art of creating engaging short-form video content that converts viewers into customers.",
@@ -48,6 +68,16 @@ export const Blog = () => {
         uz: "Reklamalaringiz nima uchun ishlamayapti: 7 ta xato",
         ru: "Почему ваша реклама не работает: 7 ошибок"
       },
+      metaTitle: {
+        en: "Why Your Ads Don't Work | 7 Common Advertising Mistakes",
+        uz: "Reklama nima uchun ishlamayapti | 7 ta xato",
+        ru: "Почему реклама не работает | 7 ошибок"
+      },
+      metaDescription: {
+        en: "Learn the critical mistakes that drain your advertising budget and discover strategies to maximize ROI on your ad campaigns.",
+        uz: "Reklama byudjetingizni yo'qotadigan muhim xatolarni bilib oling va ROI ni oshirish strategiyalarini kashf eting.",
+        ru: "Узнайте критические ошибки, опустошающие рекламный бюджет, и стратегии максимизации ROI."
+      },
       excerpt: {
         en: "Learn the critical mistakes that drain your advertising budget and discover strategies to maximize ROI.",
         uz: "Reklama byudjetingizni yo'qotadigan muhim xatolarni bilib oling.",
@@ -64,6 +94,16 @@ export const Blog = () => {
         en: "How Much Does a Video Cost in Uzbekistan?",
         uz: "O'zbekistonda video qancha turadi?",
         ru: "Сколько стоит видео в Узбекистане?"
+      },
+      metaTitle: {
+        en: "Video Production Pricing Guide | Cost Breakdown 2025",
+        uz: "Video ishlab chiqarish narxlari | 2025 qo'llanma",
+        ru: "Стоимость видеопроизводства | Руководство 2025"
+      },
+      metaDescription: {
+        en: "Transparent pricing guide for video production services. Learn what affects video costs and how to budget for your project.",
+        uz: "Video ishlab chiqarish xizmatlari uchun shaffof narxlar qo'llanmasi. Loyihangiz uchun byudjetni qanday belgilashni bilib oling.",
+        ru: "Прозрачное руководство по ценам на видеопроизводство. Узнайте, что влияет на стоимость видео."
       },
       excerpt: {
         en: "Transparent pricing guide for video production services in Uzbekistan.",
@@ -82,6 +122,16 @@ export const Blog = () => {
         uz: "2025-yilda biznesingizga professional video kontent kerak",
         ru: "Почему вашему бизнесу нужен видеоконтент в 2025"
       },
+      metaTitle: {
+        en: "Why Professional Video Content Matters in 2025 | Business Guide",
+        uz: "Professional video kontent nima uchun kerak | 2025 qo'llanma",
+        ru: "Почему важен профессиональный видеоконтент | Руководство 2025"
+      },
+      metaDescription: {
+        en: "Video content is no longer optional. Discover why investing in professional video is crucial for business growth in 2025.",
+        uz: "Video kontent endi ixtiyoriy emas. Professional videoga sarmoya kiritish nima uchun muhimligini bilib oling.",
+        ru: "Видеоконтент больше не опционален. Узнайте, почему важны инвестиции в профессиональное видео."
+      },
       excerpt: {
         en: "Video content is no longer optional. Discover why investing in professional video is crucial.",
         uz: "Video kontent endi ixtiyoriy emas. Professional videoga sarmoya kiritish muhimligini bilib oling.",
@@ -98,6 +148,16 @@ export const Blog = () => {
         en: "How to Choose the Right Marketing Agency in Uzbekistan",
         uz: "O'zbekistonda to'g'ri marketing agentligini tanlash",
         ru: "Как выбрать маркетинговое агентство в Узбекистане"
+      },
+      metaTitle: {
+        en: "How to Choose the Right Agency | Essential Checklist",
+        uz: "To'g'ri agentlikni qanday tanlash | Nazorat ro'yxati",
+        ru: "Как выбрать агентство | Чек-лист"
+      },
+      metaDescription: {
+        en: "Essential checklist for selecting an agency that understands your business needs and delivers measurable results.",
+        uz: "Biznesingizni tushungan agentlikni tanlash uchun muhim nazorat ro'yxati.",
+        ru: "Чек-лист для выбора агентства, которое понимает ваш бизнес и дает измеримые результаты."
       },
       excerpt: {
         en: "Essential checklist for selecting a marketing agency that understands your business.",
@@ -116,6 +176,16 @@ export const Blog = () => {
         uz: "Biznesingiz uchun podkastni qanday boshlash",
         ru: "Как начать подкаст для бизнеса"
       },
+      metaTitle: {
+        en: "How to Start a Business Podcast | Complete Guide",
+        uz: "Biznes podkastni qanday boshlash | To'liq qo'llanma",
+        ru: "Как начать бизнес-подкаст | Полное руководство"
+      },
+      metaDescription: {
+        en: "Step-by-step guide to launching a successful business podcast, from equipment selection to audience growth strategies.",
+        uz: "Muvaffaqiyatli biznes podkastini ishga tushirish bo'yicha bosqichma-bosqich qo'llanma.",
+        ru: "Пошаговое руководство по запуску бизнес-подкаста, от выбора оборудования до стратегий роста аудитории."
+      },
       excerpt: {
         en: "Step-by-step guide to launching a successful business podcast.",
         uz: "Muvaffaqiyatli biznes podkastini ishga tushirish bo'yicha qo'llanma.",
@@ -132,6 +202,16 @@ export const Blog = () => {
         en: "How to Shoot Professional Reels With Just a Phone",
         uz: "Telefon bilan professional reelslarni qanday suratga olish",
         ru: "Как снимать профессиональные Reels на телефон"
+      },
+      metaTitle: {
+        en: "Shoot Professional Reels With Your Phone | Tips & Tricks",
+        uz: "Telefonda professional Reels | Maslahatlar",
+        ru: "Профессиональные Reels на телефон | Советы"
+      },
+      metaDescription: {
+        en: "You don't need expensive equipment to create stunning video content. Learn professional mobile filming techniques.",
+        uz: "Ajoyib kontent yaratish uchun qimmat uskunalar kerak emas. Mobil suratga olish texnikalarini o'rganing.",
+        ru: "Вам не нужно дорогое оборудование для создания контента. Изучите профессиональные техники мобильной съемки."
       },
       excerpt: {
         en: "You don't need expensive equipment to create stunning content.",
@@ -150,6 +230,16 @@ export const Blog = () => {
         uz: "Brend identifikatsiyasi nima va u nima uchun muhim?",
         ru: "Что такое фирменный стиль и почему он важен?"
       },
+      metaTitle: {
+        en: "What Is Brand Identity and Why It Matters | Guide",
+        uz: "Brend identifikatsiyasi nima | Qo'llanma",
+        ru: "Что такое фирменный стиль | Руководство"
+      },
+      metaDescription: {
+        en: "Understanding brand identity and how a strong visual identity can transform your business success and customer trust.",
+        uz: "Brend identifikatsiyasi va kuchli vizual identifikatsiya biznes muvaffaqiyatingizni qanday o'zgartirishi.",
+        ru: "Понимание фирменного стиля и как он преобразует ваш успех и доверие клиентов."
+      },
       excerpt: {
         en: "Understanding brand identity and how it can transform your business success.",
         uz: "Brend identifikatsiyasi va u biznes muvaffaqiyatingizni qanday o'zgartirishi.",
@@ -167,6 +257,16 @@ export const Blog = () => {
         uz: "2025-yil uchun O'zbekistondagi top marketing trendlari",
         ru: "Топ трендов маркетинга в Узбекистане на 2025"
       },
+      metaTitle: {
+        en: "Digital Trends 2025 | What's Changing This Year",
+        uz: "Raqamli trendlar 2025 | Bu yil nima o'zgarmoqda",
+        ru: "Цифровые тренды 2025 | Что меняется в этом году"
+      },
+      metaDescription: {
+        en: "Stay ahead with insights into the latest digital trends. Discover what's working and what's changing in 2025.",
+        uz: "Eng so'nggi raqamli trendlar haqida ma'lumotlar bilan oldinda bo'ling. 2025-yilda nima ishlayotganini bilib oling.",
+        ru: "Будьте впереди с инсайтами о цифровых трендах. Узнайте, что работает и что меняется в 2025."
+      },
       excerpt: {
         en: "Stay ahead with insights into the latest digital marketing trends in Uzbekistan.",
         uz: "O'zbekiston bozorini shakllantirayotgan eng so'nggi trendlar haqida ma'lumotlar.",
@@ -177,13 +277,22 @@ export const Blog = () => {
       category: 'Strategy',
       image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=500&fit=crop'
     },
-    // New 10 blog posts
     {
       id: 'ai-business-automation',
       title: {
         en: "AI for Entrepreneurs in Uzbekistan 2025: How to Save Time and Money?",
         uz: "O'zbekistonda tadbirkorlar uchun 2025-yilda AI: Qanday qilib vaqt va pulni tejash mumkin?",
         ru: "ИИ для предпринимателей Узбекистана в 2025: Как сэкономить время и деньги?"
+      },
+      metaTitle: {
+        en: "AI for Business | How to Save Time and Money",
+        uz: "Biznes uchun AI | Vaqt va pulni qanday tejash",
+        ru: "ИИ для бизнеса | Как сэкономить время и деньги"
+      },
+      metaDescription: {
+        en: "Learn how AI can transform your business operations with CRM, chatbots, and automated content creation tools.",
+        uz: "CRM, chatbotlar va avtomatlashtirilgan kontent yaratish vositalari bilan AI biznesingizni qanday o'zgartirishini bilib oling.",
+        ru: "Узнайте, как ИИ может трансформировать бизнес с CRM, чат-ботами и автоматизацией контента."
       },
       excerpt: {
         en: "Learn how AI can transform your business operations with CRM, chatbots and content creation.",
@@ -202,6 +311,16 @@ export const Blog = () => {
         uz: "Uzum Marketda muvaffaqiyatli sotuvchi (seller) bo'lish: 2025-yilgi yangi qoidalar va strategiyalar",
         ru: "Как стать успешным продавцом на Uzum Market в 2025 году"
       },
+      metaTitle: {
+        en: "How to Sell on Uzum Market | Seller Guide 2025",
+        uz: "Uzum Marketda sotish | Sotuvchi qo'llanmasi 2025",
+        ru: "Как продавать на Uzum Market | Гид продавца 2025"
+      },
+      metaDescription: {
+        en: "Complete guide to selling on the fastest growing e-commerce platform. Registration, optimization, and sales strategies.",
+        uz: "Eng tez rivojlanayotgan e-tijorat platformasida sotish bo'yicha to'liq qo'llanma.",
+        ru: "Полное руководство по продажам на самой быстрорастущей e-commerce платформе."
+      },
       excerpt: {
         en: "Complete guide to selling on Uzbekistan's fastest growing e-commerce platform.",
         uz: "O'zbekistonning eng tez rivojlanayotgan e-tijorat platformasida sotish bo'yicha to'liq qo'llanma.",
@@ -218,6 +337,16 @@ export const Blog = () => {
         en: "How to Start Investing with 10 Million Sum in Uzbekistan?",
         uz: "O'zbekistonda 10 million so'm bilan qanday investitsiya boshlash mumkin?",
         ru: "Как начать инвестировать с 10 миллионов сумов в Узбекистане?"
+      },
+      metaTitle: {
+        en: "Beginner's Investment Guide | Stocks, Gold, Bonds",
+        uz: "Yangi boshlovchilar uchun investitsiya | Aksiyalar, Oltin",
+        ru: "Руководство для начинающих инвесторов | Акции, Золото"
+      },
+      metaDescription: {
+        en: "Guide to stocks, gold and bonds investment for beginners. Learn where to invest your first savings wisely.",
+        uz: "Yangi boshlovchilar uchun aksiyalar, oltin va obligatsiyalarga investitsiya qo'llanmasi.",
+        ru: "Руководство по инвестициям в акции, золото и облигации для начинающих."
       },
       excerpt: {
         en: "Guide to stocks, gold and bonds investment for beginners in Uzbekistan.",
@@ -236,6 +365,16 @@ export const Blog = () => {
         uz: "Instagram va TikTok algoritmlari 2025: Qanday qilib reklamaga pul sarflamay trendga chiqish mumkin?",
         ru: "Алгоритмы Instagram и TikTok 2025: Как стать вирусным без рекламы"
       },
+      metaTitle: {
+        en: "Instagram & TikTok Algorithm Secrets | Go Viral Organically",
+        uz: "Instagram va TikTok algoritm sirlari | Organik viral",
+        ru: "Секреты алгоритмов Instagram и TikTok | Вирусность без рекламы"
+      },
+      metaDescription: {
+        en: "Master the algorithm secrets to maximize organic reach on social media without spending on advertisements.",
+        uz: "Reklamasiz ijtimoiy tarmoqlarda organik auditoriyani oshirish uchun algoritm sirlarini o'rganing.",
+        ru: "Освойте секреты алгоритмов для максимального органического охвата без рекламы."
+      },
       excerpt: {
         en: "Master the algorithm secrets to maximize organic reach on social media.",
         uz: "Ijtimoiy tarmoqlarda organik auditoriyani maksimal darajada oshirish uchun algoritm sirlarini o'rganing.",
@@ -252,6 +391,16 @@ export const Blog = () => {
         en: "Working for US and European Companies from Uzbekistan: Freelance Platforms Guide",
         uz: "O'zbekistondan turib AQSH yoki Yevropa kompaniyalarida ishlash: Freelance platformalar bo'yicha qo'llanma",
         ru: "Работа на компании США и Европы из Узбекистана: Гид по фриланс-платформам"
+      },
+      metaTitle: {
+        en: "Remote Work Guide | Find International Freelance Jobs",
+        uz: "Masofaviy ish qo'llanmasi | Xalqaro freelance",
+        ru: "Гид по удаленной работе | Международный фриланс"
+      },
+      metaDescription: {
+        en: "Step-by-step guide to landing international remote work opportunities on Upwork, Fiverr, and other platforms.",
+        uz: "Xalqaro masofaviy ish imkoniyatlarini Upwork, Fiverr va boshqa platformalarda topish qo'llanmasi.",
+        ru: "Пошаговое руководство по поиску международных удалённых вакансий на Upwork, Fiverr."
       },
       excerpt: {
         en: "Step-by-step guide to landing international remote work opportunities.",
@@ -270,6 +419,16 @@ export const Blog = () => {
         uz: "Toshkent sharoitida sog'lom ovqatlanish va uyda samarali mashg'ulot qilish sirlari",
         ru: "Секреты здорового питания и эффективных домашних тренировок в Ташкенте"
       },
+      metaTitle: {
+        en: "Healthy Eating & Home Workouts | Urban Lifestyle Tips",
+        uz: "Sog'lom ovqatlanish va uy mashg'ulotlari | Maslahatlar",
+        ru: "Здоровое питание и домашние тренировки | Советы"
+      },
+      metaDescription: {
+        en: "Practical tips for maintaining a healthy lifestyle in the city. Diet plans, workout routines, and wellness advice.",
+        uz: "Shaharda sog'lom turmush tarzini saqlash bo'yicha amaliy maslahatlar. Parhez va mashg'ulot rejalari.",
+        ru: "Практические советы по здоровому образу жизни в городе. Диеты, тренировки и советы."
+      },
       excerpt: {
         en: "Practical tips for maintaining a healthy lifestyle in urban Uzbekistan.",
         uz: "Shaharda sog'lom turmush tarzini saqlash bo'yicha amaliy maslahatlar.",
@@ -286,6 +445,16 @@ export const Blog = () => {
         en: "5 Most Profitable Modern Professions in 2025: Why Everyone Chooses IT and Digital Marketing",
         uz: "2025-yilda eng daromadli 5 ta zamonaviy kasb: Nega hamma IT va Digital Marketingni tanlamoqda?",
         ru: "5 самых прибыльных профессий 2025: Почему все выбирают IT и Digital Marketing"
+      },
+      metaTitle: {
+        en: "5 Most Profitable Careers in 2025 | Career Guide",
+        uz: "2025-yilda eng daromadli 5 kasb | Kasb qo'llanmasi",
+        ru: "5 самых прибыльных профессий 2025 | Карьерный гид"
+      },
+      metaDescription: {
+        en: "Career guide to the most in-demand skills and highest-paying jobs in 2025. IT, design, and digital skills explained.",
+        uz: "2025-yilda eng ko'p talab qilinadigan ko'nikmalar va eng yuqori maoshli kasblar qo'llanmasi.",
+        ru: "Руководство по самым востребованным навыкам и высокооплачиваемым профессиям 2025."
       },
       excerpt: {
         en: "Career guide to the most in-demand skills and highest-paying jobs in 2025.",
@@ -304,6 +473,16 @@ export const Blog = () => {
         uz: "Uyga quyosh panellarini o'rnatish: Haqiqatda elektr energiyasidan tejamkorlik bormi?",
         ru: "Установка солнечных панелей дома: Реальная ли экономия на электроэнергии?"
       },
+      metaTitle: {
+        en: "Solar Panels for Home | Cost-Benefit Analysis",
+        uz: "Uy uchun quyosh panellari | Xarajat-foyda tahlili",
+        ru: "Солнечные панели для дома | Анализ затрат и выгод"
+      },
+      metaDescription: {
+        en: "Complete cost-benefit analysis of solar energy for households. ROI calculations, installation costs, and savings potential.",
+        uz: "Xonadonlar uchun quyosh energiyasining to'liq xarajat-foyda tahlili va tejamkorlik potensiali.",
+        ru: "Полный анализ затрат и выгод солнечной энергии для домохозяйств. Расчеты ROI."
+      },
       excerpt: {
         en: "Complete cost-benefit analysis of solar energy for Uzbek households.",
         uz: "O'zbek xonadonlari uchun quyosh energiyasining to'liq xarajat-foyda tahlili.",
@@ -321,6 +500,16 @@ export const Blog = () => {
         uz: "Nima uchun 2025-yilda shaxsiy brend har qanday diplomdan muhimroq?",
         ru: "Почему личный бренд важнее любого диплома в 2025 году"
       },
+      metaTitle: {
+        en: "Personal Brand vs Diploma | Why Reputation Matters More",
+        uz: "Shaxsiy brend vs Diplom | Obro' nima uchun muhimroq",
+        ru: "Личный бренд vs Диплом | Почему репутация важнее"
+      },
+      metaDescription: {
+        en: "How experts and entrepreneurs build trust through personal branding. Build your reputation and attract opportunities.",
+        uz: "Ekspertlar va tadbirkorlar shaxsiy brending orqali ishonchni qanday qozonadi. Obro'ingizni yarating.",
+        ru: "Как эксперты и предприниматели строят доверие через личный бренд. Создайте репутацию."
+      },
       excerpt: {
         en: "How experts and entrepreneurs build trust through personal branding.",
         uz: "Ekspertlar va tadbirkorlar shaxsiy brending orqali ishonchni qanday qozonadi.",
@@ -337,6 +526,16 @@ export const Blog = () => {
         en: "5 Undiscovered Beautiful Places in Uzbekistan: Weekend Trip Destinations",
         uz: "O'zbekistonning hali kashf qilinmagan 5 ta go'zal maskani: Dam olish kuni qayerga borish kerak?",
         ru: "5 неоткрытых красивых мест Узбекистана: Куда поехать на выходные?"
+      },
+      metaTitle: {
+        en: "5 Hidden Travel Gems | Weekend Getaway Ideas",
+        uz: "5 ta yashirin go'zal joylar | Dam olish g'oyalari",
+        ru: "5 скрытых туристических жемчужин | Идеи для выходных"
+      },
+      metaDescription: {
+        en: "Hidden gems for weekend getaways including Bostanliq, Zomin, and more. Plan your perfect short trip.",
+        uz: "Bo'stonliq, Zomin va boshqa dam olish zonalari. Qisqa sayohatingizni rejalashtiring.",
+        ru: "Скрытые жемчужины для выходных включая Бостанлык и Зомин. Спланируйте поездку."
       },
       excerpt: {
         en: "Hidden gems for weekend getaways in Uzbekistan including Bostanliq and Zomin.",

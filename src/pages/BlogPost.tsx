@@ -3,6 +3,7 @@ import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, Chec
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
+import { useEffect } from 'react';
 
 export const BlogPost = () => {
   const { id } = useParams();
@@ -14,6 +15,16 @@ export const BlogPost = () => {
         en: "Why My Business Isn't Growing on Social Media?",
         uz: "Nima uchun biznesim ijtimoiy tarmoqlarda o'smayapti?",
         ru: "Почему мой бизнес не растет в социальных сетях?"
+      },
+      metaTitle: {
+        en: "Why Your Business Isn't Growing on Social Media | Common Mistakes",
+        uz: "Biznes ijtimoiy tarmoqlarda nima uchun o'smayapti | Xatolar",
+        ru: "Почему бизнес не растет в соцсетях | Ошибки"
+      },
+      metaDescription: {
+        en: "Discover 5 common mistakes holding back your social media growth and learn actionable strategies to build a stronger online presence.",
+        uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan 5 ta keng tarqalgan xatoni bilib oling.",
+        ru: "Узнайте 5 распространенных ошибок, препятствующих росту в соцсетях."
       },
       date: '2025-01-15',
       readTime: '7 min',
@@ -4185,6 +4196,24 @@ export const BlogPost = () => {
   }
 
   const post = blogData[id];
+
+  // Update document meta for SEO - unique titles without brand keywords
+  useEffect(() => {
+    const metaTitle = post.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post.title[language as 'en' | 'uz' | 'ru'];
+    const metaDesc = post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
+    
+    document.title = metaTitle;
+    
+    // Update meta description
+    let descMeta = document.querySelector('meta[name="description"]');
+    if (descMeta) {
+      descMeta.setAttribute('content', metaDesc);
+    }
+    
+    return () => {
+      document.title = 'Marketing Agentligi Namanganda | LinkOn';
+    };
+  }, [post, language]);
 
   return (
     <div className="min-h-screen pt-24">
