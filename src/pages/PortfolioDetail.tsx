@@ -6,8 +6,65 @@ import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
 import portfolioVideo from '@/assets/portfolio-video.jpg';
 import portfolioSocial from '@/assets/portfolio-social.jpg';
+import portfolioKofemofe from '@/assets/portfolio-kofemofe.png';
 
 const projectsData = [
+  {
+    id: 'kofe-mofe',
+    title: {
+      en: 'Kofe Mofe - Website & Strategic Partnership',
+      uz: 'Kofe Mofe - Veb-sayt va Strategik Hamkorlik',
+      ru: 'Кофе Мофе - Веб-сайт и Стратегическое Партнёрство'
+    },
+    category: {
+      en: 'Web Design',
+      uz: 'Veb-dizayn',
+      ru: 'Веб-дизайн'
+    },
+    client: 'Kofe Mofe',
+    date: '2024',
+    result: {
+      en: 'Strategic Partnership',
+      uz: 'Strategik hamkorlik',
+      ru: 'Стратегическое партнёрство'
+    },
+    image: portfolioKofemofe,
+    description: {
+      en: 'Complete website development for Kofe Mofe coffee shop, establishing a strategic partnership for ongoing marketing, scaling, branding, and PR services.',
+      uz: "Kofe Mofe qahvaxonasi uchun to'liq veb-sayt yaratish, marketing, biznesni kengaytirish, brending va PR xizmatlarini davom ettirish uchun strategik hamkorlik o'rnatish.",
+      ru: 'Полная разработка веб-сайта для кофейни Кофе Мофе, установление стратегического партнёрства для постоянных маркетинговых, масштабирующих, брендинговых и PR-услуг.'
+    },
+    challenges: {
+      en: 'The client needed a modern, appealing website that reflects their unique coffee culture while establishing a strong digital presence in the local market.',
+      uz: "Mijozga o'ziga xos qahva madaniyatini aks ettiruvchi zamonaviy, jozibali veb-sayt va mahalliy bozorda kuchli raqamli mavjudlik kerak edi.",
+      ru: 'Клиенту был нужен современный, привлекательный веб-сайт, отражающий их уникальную кофейную культуру, при этом создавая сильное цифровое присутствие на местном рынке.'
+    },
+    solution: {
+      en: 'We developed a visually stunning website at kofemofe.uz with modern design, optimized for conversions, and established an ongoing strategic partnership for comprehensive marketing support.',
+      uz: "Biz kofemofe.uz saytida zamonaviy dizaynli, konversiyaga optimallashtirilgan ajoyib veb-sayt yaratdik va keng qamrovli marketing qo'llab-quvvatlash uchun doimiy strategik hamkorlik o'rnatdik.",
+      ru: 'Мы разработали визуально привлекательный веб-сайт kofemofe.uz с современным дизайном, оптимизированный для конверсий, и установили постоянное стратегическое партнёрство для комплексной маркетинговой поддержки.'
+    },
+    results: {
+      en: [
+        'Modern responsive website at kofemofe.uz',
+        'Strategic partnership established',
+        'Ongoing marketing & branding support',
+        'Business scaling & PR services'
+      ],
+      uz: [
+        'kofemofe.uz da zamonaviy responsive veb-sayt',
+        "Strategik hamkorlik o'rnatildi",
+        "Doimiy marketing va brending qo'llab-quvvatlashi",
+        "Biznesni kengaytirish va PR xizmatlari"
+      ],
+      ru: [
+        'Современный адаптивный веб-сайт kofemofe.uz',
+        'Установлено стратегическое партнёрство',
+        'Постоянная маркетинговая и брендинговая поддержка',
+        'Услуги по масштабированию бизнеса и PR'
+      ]
+    }
+  },
   {
     id: 'luxury-cosmetics',
     title: {
