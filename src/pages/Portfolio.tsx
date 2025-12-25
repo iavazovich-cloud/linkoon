@@ -6,6 +6,7 @@ import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
 import portfolioVideo from '@/assets/portfolio-video.jpg';
 import portfolioSocial from '@/assets/portfolio-social.jpg';
+import portfolioKofemofe from '@/assets/portfolio-kofemofe.png';
 
 type Category = 'all' | 'branding' | 'web' | 'video' | 'social';
 
@@ -22,6 +23,21 @@ export const Portfolio = () => {
   ];
 
   const projects = [
+    {
+      image: portfolioKofemofe,
+      category: 'web',
+      client: {
+        en: 'Kofe Mofe',
+        uz: 'Kofe Mofe',
+        ru: 'Кофе Мофе'
+      },
+      result: {
+        en: 'Strategic Partnership',
+        uz: 'Strategik hamkorlik',
+        ru: 'Стратегическое партнёрство'
+      },
+      slug: 'kofe-mofe'
+    },
     {
       image: portfolioBranding,
       category: 'branding',
