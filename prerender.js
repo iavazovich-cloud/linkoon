@@ -13,30 +13,32 @@ const siteUrl = process.env.SITE_URL || 'https://linkon.uz'
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'kofe-mofe-website-case-study',
   'social-media-growth',
   'viral-reels',
-  'advertising-mistakes',
-  'video-production-costs',
-  'professional-video-content',
-  'choosing-marketing-agency',
-  'starting-business-podcast',
-  'shooting-reels-phone',
+  'ads-mistakes',
+  'video-pricing-uzbekistan',
+  'professional-video-2025',
+  'choosing-agency-uzbekistan',
+  'podcast-guide',
+  'phone-reels',
   'brand-identity',
-  'digital-marketing-trends-2025',
-  'ai-business-automation-uzbekistan',
-  'uzum-market-seller-guide',
-  'investment-10-million-sum',
-  'instagram-tiktok-algorithms-2025',
-  'freelance-platforms-guide',
+  'uzbekistan-trends-2025',
+  'ai-business-automation',
+  'uzum-market-seller',
+  'invest-10-million',
+  'instagram-tiktok-algorithms',
+  'freelance-platforms',
   'healthy-lifestyle-tashkent',
-  'top-5-professions-2025',
-  'solar-panels-home-uzbekistan',
+  'top-professions-2025',
+  'solar-panels-uzbekistan',
   'personal-brand-2025',
   'hidden-places-uzbekistan'
 ]
 
 // Portfolio slugs (matching PortfolioDetail.tsx)
 const portfolioSlugs = [
+  'kofe-mofe',
   'luxury-cosmetics',
   'fashion-ecommerce',
   'tech-startup',

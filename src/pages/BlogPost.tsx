@@ -10,6 +10,176 @@ export const BlogPost = () => {
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
+    'kofe-mofe-website-case-study': {
+      title: {
+        en: "How We Built a Website for Kofe Mofe Coffee Shop",
+        uz: "Kofe Mofe qahvaxonasi uchun veb-sayt qanday yaratdik",
+        ru: "Как мы создали сайт для кофейни Кофе Мофе"
+      },
+      metaTitle: {
+        en: "Kofe Mofe Website Case Study | Coffee Shop Web Design",
+        uz: "Kofe Mofe veb-sayt loyihasi | Qahvaxona dizayni",
+        ru: "Кейс сайта Кофе Мофе | Дизайн кофейни"
+      },
+      metaDescription: {
+        en: "Discover how we designed and developed a modern website for Kofe Mofe coffee shop, establishing a strategic partnership for growth.",
+        uz: "Kofe Mofe qahvaxonasi uchun zamonaviy veb-sayt qanday yaratganimiz va strategik hamkorlik o'rnatganimiz haqida bilib oling.",
+        ru: "Узнайте, как мы создали современный сайт для кофейни Кофе Мофе и установили стратегическое партнёрство."
+      },
+      date: '2025-01-25',
+      readTime: '5 min',
+      category: 'Case Study',
+      image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">We're excited to share our latest project: designing and developing a complete website for <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a>, a beloved coffee shop that has become more than just a client — they're now our strategic partner.</p>
+</div>
+
+<div class="blog-section">
+<h2>The Project Overview</h2>
+<p><a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> approached us with a clear vision: they needed a modern, user-friendly website that would capture the essence of their unique coffee culture and help them stand out in the growing coffee scene.</p>
+</div>
+
+<div class="blog-card info">
+<h3>☕ What We Delivered</h3>
+<ul>
+<li><strong>Modern Responsive Design:</strong> A beautiful website that works flawlessly on all devices</li>
+<li><strong>Brand-Aligned Aesthetics:</strong> Visual design that captures Kofe Mofe's unique personality</li>
+<li><strong>Fast Loading Times:</strong> Optimized performance for the best user experience</li>
+<li><strong>SEO Foundation:</strong> Built with search engine visibility in mind</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Beyond Just a Website</h2>
+<p>What started as a website project has evolved into something much bigger. We've established a strategic partnership with <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> that goes far beyond web development:</p>
+</div>
+
+<div class="blog-card success">
+<h3>🤝 Our Strategic Partnership Includes:</h3>
+<ul>
+<li><strong>Marketing Strategy:</strong> Comprehensive digital marketing to grow their audience</li>
+<li><strong>Business Scaling:</strong> Helping expand their reach and customer base</li>
+<li><strong>Branding Support:</strong> Maintaining and evolving their brand identity</li>
+<li><strong>PR Services:</strong> Building their reputation and public presence</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Why This Partnership Works</h2>
+<p>At LinkOn, we believe the best results come from long-term partnerships, not one-time projects. With <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a>, we're not just service providers — we're invested in their success.</p>
+<p>This approach allows us to:</p>
+<ul>
+<li>Deeply understand their business and customers</li>
+<li>Make data-driven decisions over time</li>
+<li>Continuously optimize and improve results</li>
+<li>Build cohesive strategies across all channels</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Ready to transform your business?</strong> Whether you need a new website, marketing strategy, or comprehensive growth partnership, we're here to help. Visit <a href="https://kofemofe.uz" target="_blank" rel="noopener">kofemofe.uz</a> to see our work in action, then contact us to discuss your project.</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Biz eng so'nggi loyihamizni baham ko'rishdan xursandmiz: <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> qahvaxonasi uchun to'liq veb-sayt yaratish — ular nafaqat mijoz, balki strategik hamkorimizga aylandi.</p>
+</div>
+
+<div class="blog-section">
+<h2>Loyiha haqida umumiy ma'lumot</h2>
+<p><a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> bizga aniq tasavvur bilan murojaat qildi: ularga o'ziga xos qahva madaniyatini aks ettiruvchi va o'sib borayotgan qahva sohasida ajralib turuvchi zamonaviy, foydalanuvchilarga qulay veb-sayt kerak edi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>☕ Biz nimalarni taqdim etdik</h3>
+<ul>
+<li><strong>Zamonaviy responsive dizayn:</strong> Barcha qurilmalarda mukammal ishlaydigan chiroyli veb-sayt</li>
+<li><strong>Brendga mos estetika:</strong> Kofe Mofe ning o'ziga xos shaxsiyatini aks ettiruvchi vizual dizayn</li>
+<li><strong>Tez yuklanish:</strong> Eng yaxshi foydalanuvchi tajribasi uchun optimallashtirilgan ishlash</li>
+<li><strong>SEO asosi:</strong> Qidiruv tizimlari ko'rinuvchanligini hisobga olgan holda qurilgan</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Oddiy veb-saytdan ko'proq</h2>
+<p>Veb-sayt loyihasi sifatida boshlangan narsa ancha kattaroq narsaga aylandi. Biz <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> bilan veb-ishlab chiqishdan ancha uzoqqa boradigan strategik hamkorlik o'rnatdik:</p>
+</div>
+
+<div class="blog-card success">
+<h3>🤝 Strategik hamkorligimiz quyidagilarni o'z ichiga oladi:</h3>
+<ul>
+<li><strong>Marketing strategiyasi:</strong> Auditoriyalarini oshirish uchun keng qamrovli raqamli marketing</li>
+<li><strong>Biznesni kengaytirish:</strong> Ularning qamrovini va mijozlar bazasini kengaytirishga yordam berish</li>
+<li><strong>Brending qo'llab-quvvatlashi:</strong> Brend identifikatsiyasini saqlash va rivojlantirish</li>
+<li><strong>PR xizmatlari:</strong> Obro' va jamoatchilik mavjudligini shakllantirish</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Bu hamkorlik nima uchun ishlaydi</h2>
+<p>LinkOn'da biz eng yaxshi natijalar bir martalik loyihalardan emas, balki uzoq muddatli hamkorlikdan kelib chiqishiga ishonamiz. <a href="https://kofemofe.uz" target="_blank" rel="noopener">Kofe Mofe</a> bilan biz nafaqat xizmat ko'rsatuvchilarmiz — biz ularning muvaffaqiyatiga sarmoya kiritganmiz.</p>
+<p>Bu yondashuv bizga imkon beradi:</p>
+<ul>
+<li>Ularning biznesi va mijozlarini chuqur tushunish</li>
+<li>Vaqt o'tishi bilan ma'lumotlarga asoslangan qarorlar qabul qilish</li>
+<li>Natijalarni doimiy ravishda optimallashtirish va yaxshilash</li>
+<li>Barcha kanallarda uyg'un strategiyalar yaratish</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Biznesingizni o'zgartirishga tayyormisiz?</strong> Yangi veb-sayt, marketing strategiyasi yoki keng qamrovli o'sish hamkorligi kerak bo'lsa, biz yordam berishga tayyormiz. Ishimizni amalda ko'rish uchun <a href="https://kofemofe.uz" target="_blank" rel="noopener">kofemofe.uz</a> ga tashrif buyuring, keyin loyihangizni muhokama qilish uchun biz bilan bog'laning.</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Мы рады поделиться нашим последним проектом: разработкой полноценного сайта для <a href="https://kofemofe.uz" target="_blank" rel="noopener">Кофе Мофе</a>, любимой кофейни, которая стала не просто клиентом — теперь они наш стратегический партнёр.</p>
+</div>
+
+<div class="blog-section">
+<h2>Обзор проекта</h2>
+<p><a href="https://kofemofe.uz" target="_blank" rel="noopener">Кофе Мофе</a> обратились к нам с чётким видением: им нужен современный, удобный сайт, который бы передавал суть их уникальной кофейной культуры и помог выделиться на растущем рынке кофе.</p>
+</div>
+
+<div class="blog-card info">
+<h3>☕ Что мы реализовали</h3>
+<ul>
+<li><strong>Современный адаптивный дизайн:</strong> Красивый сайт, идеально работающий на всех устройствах</li>
+<li><strong>Эстетика бренда:</strong> Визуальный дизайн, передающий уникальную индивидуальность Кофе Мофе</li>
+<li><strong>Быстрая загрузка:</strong> Оптимизированная производительность для лучшего пользовательского опыта</li>
+<li><strong>SEO-основа:</strong> Создан с учётом видимости в поисковых системах</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Больше, чем просто сайт</h2>
+<p>То, что началось как проект по созданию сайта, переросло в нечто большее. Мы установили стратегическое партнёрство с <a href="https://kofemofe.uz" target="_blank" rel="noopener">Кофе Мофе</a>, которое выходит далеко за рамки веб-разработки:</p>
+</div>
+
+<div class="blog-card success">
+<h3>🤝 Наше стратегическое партнёрство включает:</h3>
+<ul>
+<li><strong>Маркетинговая стратегия:</strong> Комплексный цифровой маркетинг для роста аудитории</li>
+<li><strong>Масштабирование бизнеса:</strong> Помощь в расширении охвата и клиентской базы</li>
+<li><strong>Поддержка брендинга:</strong> Поддержание и развитие идентичности бренда</li>
+<li><strong>PR-услуги:</strong> Построение репутации и публичного присутствия</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Почему это партнёрство работает</h2>
+<p>В LinkOn мы верим, что лучшие результаты приходят от долгосрочного партнёрства, а не разовых проектов. С <a href="https://kofemofe.uz" target="_blank" rel="noopener">Кофе Мофе</a> мы не просто поставщики услуг — мы инвестируем в их успех.</p>
+<p>Такой подход позволяет нам:</p>
+<ul>
+<li>Глубоко понимать их бизнес и клиентов</li>
+<li>Принимать решения на основе данных со временем</li>
+<li>Постоянно оптимизировать и улучшать результаты</li>
+<li>Создавать согласованные стратегии по всем каналам</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<p><strong>Готовы трансформировать свой бизнес?</strong> Нужен ли вам новый сайт, маркетинговая стратегия или комплексное партнёрство для роста, мы готовы помочь. Посетите <a href="https://kofemofe.uz" target="_blank" rel="noopener">kofemofe.uz</a>, чтобы увидеть нашу работу, затем свяжитесь с нами для обсуждения вашего проекта.</p>
+</div>`
+      }
+    },
     'social-media-growth': {
       title: {
         en: "Why My Business Isn't Growing on Social Media?",
