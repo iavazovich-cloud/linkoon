@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Calendar, Tag, TrendingUp, ExternalLink } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
@@ -23,6 +23,7 @@ const projectsData = [
     },
     client: 'Kofe Mofe',
     date: '2024',
+    website: 'https://kofemofe.uz',
     result: {
       en: 'Strategic Partnership',
       uz: 'Strategik hamkorlik',
@@ -30,9 +31,9 @@ const projectsData = [
     },
     image: portfolioKofemofe,
     description: {
-      en: 'Complete website development for Kofe Mofe coffee shop, establishing a strategic partnership for ongoing marketing, scaling, branding, and PR services.',
-      uz: "Kofe Mofe qahvaxonasi uchun to'liq veb-sayt yaratish, marketing, biznesni kengaytirish, brending va PR xizmatlarini davom ettirish uchun strategik hamkorlik o'rnatish.",
-      ru: 'Полная разработка веб-сайта для кофейни Кофе Мофе, установление стратегического партнёрства для постоянных маркетинговых, масштабирующих, брендинговых и PR-услуг.'
+      en: 'Complete website development for Kofe Mofe coffee shop at kofemofe.uz, establishing a strategic partnership for ongoing marketing, scaling, branding, and PR services.',
+      uz: "Kofe Mofe qahvaxonasi uchun kofemofe.uz saytida to'liq veb-sayt yaratish, marketing, biznesni kengaytirish, brending va PR xizmatlarini davom ettirish uchun strategik hamkorlik o'rnatish.",
+      ru: 'Полная разработка веб-сайта для кофейни Кофе Мофе на kofemofe.uz, установление стратегического партнёрства для постоянных маркетинговых, масштабирующих, брендинговых и PR-услуг.'
     },
     challenges: {
       en: 'The client needed a modern, appealing website that reflects their unique coffee culture while establishing a strong digital presence in the local market.',
@@ -40,9 +41,9 @@ const projectsData = [
       ru: 'Клиенту был нужен современный, привлекательный веб-сайт, отражающий их уникальную кофейную культуру, при этом создавая сильное цифровое присутствие на местном рынке.'
     },
     solution: {
-      en: 'We developed a visually stunning website at kofemofe.uz with modern design, optimized for conversions, and established an ongoing strategic partnership for comprehensive marketing support.',
-      uz: "Biz kofemofe.uz saytida zamonaviy dizaynli, konversiyaga optimallashtirilgan ajoyib veb-sayt yaratdik va keng qamrovli marketing qo'llab-quvvatlash uchun doimiy strategik hamkorlik o'rnatdik.",
-      ru: 'Мы разработали визуально привлекательный веб-сайт kofemofe.uz с современным дизайном, оптимизированный для конверсий, и установили постоянное стратегическое партнёрство для комплексной маркетинговой поддержки.'
+      en: 'We developed a visually stunning website at kofemofe.uz with modern design, optimized for conversions, and established an ongoing strategic partnership for comprehensive marketing support. Visit the live site at kofemofe.uz to see the results.',
+      uz: "Biz kofemofe.uz saytida zamonaviy dizaynli, konversiyaga optimallashtirilgan ajoyib veb-sayt yaratdik va keng qamrovli marketing qo'llab-quvvatlash uchun doimiy strategik hamkorlik o'rnatdik. Natijalarni ko'rish uchun kofemofe.uz saytiga tashrif buyuring.",
+      ru: 'Мы разработали визуально привлекательный веб-сайт kofemofe.uz с современным дизайном, оптимизированный для конверсий, и установили постоянное стратегическое партнёрство для комплексной маркетинговой поддержки. Посетите kofemofe.uz, чтобы увидеть результаты.'
     },
     results: {
       en: [
@@ -624,6 +625,11 @@ export const PortfolioDetail = () => {
       en: 'Start Your Project',
       uz: 'Loyihangizni boshlang',
       ru: 'Начните свой проект'
+    },
+    visitWebsite: {
+      en: 'Visit Website',
+      uz: 'Saytga tashrif buyuring',
+      ru: 'Посетить сайт'
     }
   };
 
@@ -736,6 +742,20 @@ export const PortfolioDetail = () => {
                   </div>
                   <p className="font-semibold text-primary">{project.result[lang]}</p>
                 </div>
+
+                {project.website && (
+                  <div>
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 w-full px-6 py-3 glass-panel rounded-full font-semibold hover:bg-white/10 transition-all"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      {labels.visitWebsite[lang]}
+                    </a>
+                  </div>
+                )}
               </div>
             </Reveal>
 
