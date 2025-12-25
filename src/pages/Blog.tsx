@@ -8,6 +8,33 @@ export const Blog = () => {
 
   const blogPosts = [
     {
+      id: 'kofe-mofe-website-case-study',
+      title: {
+        en: "How We Built a Website for Kofe Mofe Coffee Shop",
+        uz: "Kofe Mofe qahvaxonasi uchun veb-sayt qanday yaratdik",
+        ru: "Как мы создали сайт для кофейни Кофе Мофе"
+      },
+      metaTitle: {
+        en: "Kofe Mofe Website Case Study | Coffee Shop Web Design",
+        uz: "Kofe Mofe veb-sayt loyihasi | Qahvaxona dizayni",
+        ru: "Кейс сайта Кофе Мофе | Дизайн кофейни"
+      },
+      metaDescription: {
+        en: "Discover how we designed and developed a modern website for Kofe Mofe coffee shop, establishing a strategic partnership for growth.",
+        uz: "Kofe Mofe qahvaxonasi uchun zamonaviy veb-sayt qanday yaratganimiz va strategik hamkorlik o'rnatganimiz haqida bilib oling.",
+        ru: "Узнайте, как мы создали современный сайт для кофейни Кофе Мофе и установили стратегическое партнёрство."
+      },
+      excerpt: {
+        en: "Discover how we designed a modern website for Kofe Mofe and established a strategic partnership for marketing and growth.",
+        uz: "Kofe Mofe uchun zamonaviy veb-sayt yaratish va strategik hamkorlik o'rnatish tajribamiz.",
+        ru: "Узнайте, как мы создали современный сайт для Кофе Мофе и установили партнёрство для роста."
+      },
+      date: '2025-01-25',
+      readTime: '5 min',
+      category: 'Case Study',
+      image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=500&fit=crop'
+    },
+    {
       id: 'social-media-growth',
       title: {
         en: "Why My Business Isn't Growing on Social Media?",
