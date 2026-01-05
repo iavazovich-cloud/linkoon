@@ -97,11 +97,11 @@ const translations: Record<Language, any> = {
       ctaButton: 'Schedule a call'
     },
     hero: {
-      badge: 'Marketing Agency in Namangan',
-      title: 'Marketing Agency in Namangan',
-      subtitle: '— LinkOn',
-      description: 'LinkOn is a marketing agency based in Namangan, offering branding, SMM, SEO, website development, and video content services.',
-      cta: 'Start Your Project'
+      badge: 'SEO & Website Development',
+      title: 'Grow your business in Uzbekistan with',
+      subtitle: 'LinkOn',
+      description: 'Professional website development and SEO services to rank high on Google and ChatGPT. Get a free consultation!',
+      cta: 'Free Consultation'
     },
     services: {
       title: 'Our Services',
@@ -178,7 +178,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'Marketing agency in Namangan, Uzbekistan',
+      brand: 'SEO & Website Development across Uzbekistan',
       services: 'Services',
       company: 'Company',
       rights: 'All rights reserved'
@@ -197,11 +197,11 @@ const translations: Record<Language, any> = {
       startProject: 'Loyihani boshlash'
     },
     hero: {
-      badge: 'Namangandagi marketing agentligi',
-      title: 'Marketing agentligi Namanganda',
-      subtitle: '— LinkOn',
-      description: 'LinkOn — Namanganda joylashgan marketing agentligi bo\'lib, brending, SMM, SEO, veb-sayt yaratish va video kontent xizmatlarini taqdim etadi.',
-      cta: 'Loyihani boshlash'
+      badge: 'SEO & Veb-sayt yaratish',
+      title: "O'zbekistonda biznesingizni o'stiring",
+      subtitle: 'LinkOn',
+      description: "Professional veb-sayt yaratish va SEO xizmatlari orqali Google'da va ChatGPT'da yuqori o'rinlarni egallang. Bepul konsultatsiya oling!",
+      cta: 'Bepul konsultatsiya'
     },
     services: {
       title: 'Xizmatlarimiz',
@@ -278,7 +278,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'Namangandagi marketing agentligi',
+      brand: "O'zbekiston bo'ylab SEO va veb-sayt xizmatlari",
       services: 'Xizmatlar',
       company: 'Kompaniya',
       rights: 'Barcha huquqlar himoyalangan'
@@ -324,11 +324,11 @@ const translations: Record<Language, any> = {
       startProject: 'Начать проект'
     },
     hero: {
-      badge: 'Маркетинговое агентство в Намангане',
-      title: 'Маркетинговое агентство в Намангане',
-      subtitle: '— LinkOn',
-      description: 'LinkOn — маркетинговое агентство в Намангане, предлагающее услуги брендинга, SMM, SEO, создания сайтов и видеоконтента.',
-      cta: 'Начать проект'
+      badge: 'SEO & Создание сайтов',
+      title: 'Развивайте бизнес в Узбекистане с',
+      subtitle: 'LinkOn',
+      description: 'Профессиональное создание сайтов и SEO для высоких позиций в Google и ChatGPT. Получите бесплатную консультацию!',
+      cta: 'Бесплатная консультация'
     },
     services: {
       title: 'Наши услуги',
@@ -405,7 +405,7 @@ const translations: Record<Language, any> = {
       }
     },
     footer: {
-      brand: 'Маркетинговое агентство в Намангане, Узбекистан',
+      brand: 'SEO и создание сайтов по всему Узбекистану',
       services: 'Услуги',
       company: 'Компания',
       rights: 'Все права защищены'

@@ -13,6 +13,9 @@ const siteUrl = process.env.SITE_URL || 'https://linkon.uz'
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'seo-nima-uzbekistan',
+  'website-google-chiqmasligi',
+  'seo-strategiya-2026',
   'kofe-mofe-website-case-study',
   'social-media-growth',
   'viral-reels',
@@ -54,6 +57,8 @@ const portfolioSlugs = [
 const routesToPrerender = [
   '/',
   '/services',
+  '/services/seo',
+  '/services/website-development',
   '/portfolio',
   '/about',
   '/studio',

@@ -8,6 +8,8 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
 import { Services } from "./pages/Services";
+import { SEO } from "./pages/services/SEO";
+import { WebsiteDevelopment } from "./pages/services/WebsiteDevelopment";
 import { Portfolio } from "./pages/Portfolio";
 import { PortfolioDetail } from "./pages/PortfolioDetail";
 import { About } from "./pages/About";
@@ -45,6 +47,8 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
+              <Route path="/services/seo" element={<SEO />} />
+              <Route path="/services/website-development" element={<WebsiteDevelopment />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/portfolio/:id" element={<PortfolioDetail />} />
               <Route path="/about" element={<About />} />
