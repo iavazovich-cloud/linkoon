@@ -24,7 +24,7 @@ import {
   FileText,
   Percent
 } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 export const TVLineNamangan = () => {
   const { language } = useLanguage();
@@ -487,14 +487,15 @@ export const TVLineNamangan = () => {
     }
   };
 
+  // Set document title on mount
+  useEffect(() => {
+    document.title = t.meta.title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', t.meta.description);
+  }, [t.meta.title, t.meta.description]);
+
   return (
     <>
-      <Helmet>
-        <title>{t.meta.title}</title>
-        <meta name="description" content={t.meta.description} />
-        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
-      </Helmet>
-
       <div className="min-h-screen pt-24">
         {/* Hero Section */}
         <section className="container mx-auto px-4 lg:px-8 py-20">
