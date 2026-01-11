@@ -16,6 +16,7 @@ import { Blog } from "./pages/Blog";
 import { BlogPost } from "./pages/BlogPost";
 import { Contact } from "./pages/Contact";
 import { MarketingAgentligiNamangan } from "./pages/MarketingAgentligiNamangan";
+import { TVLineNamangan } from "./pages/TVLineNamangan";
 import NotFound from "./pages/NotFound";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -53,6 +54,7 @@ const App = () => (
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/marketing-agentligi-namangan" element={<MarketingAgentligiNamangan />} />
+              <Route path="/tv-line-namangan" element={<TVLineNamangan />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
