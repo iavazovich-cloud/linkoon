@@ -549,14 +549,14 @@ export const TVLineNamangan = () => {
               </div>
             </Reveal>
 
-            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 mb-16">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
               {t.audience.stats.map((stat, index) => (
                 <Reveal key={index} delay={index * 0.1}>
-                  <Card className="text-center glass-panel border-0">
-                    <CardContent className="pt-6">
-                      <stat.icon className="w-10 h-10 mx-auto mb-4 text-primary" />
-                      <p className="text-2xl font-bold mb-2">{stat.value}</p>
-                      <p className="text-sm text-muted-foreground">{stat.label}</p>
+                  <Card className="text-center glass-panel border-0 h-full">
+                    <CardContent className="pt-6 pb-6 flex flex-col items-center justify-center h-full">
+                      <stat.icon className="w-8 h-8 mx-auto mb-3 text-primary" />
+                      <p className="text-xl font-bold mb-1">{stat.value}</p>
+                      <p className="text-xs text-muted-foreground">{stat.label}</p>
                     </CardContent>
                   </Card>
                 </Reveal>
@@ -707,12 +707,12 @@ export const TVLineNamangan = () => {
                   <Percent className="w-6 h-6 text-primary" />
                   {t.pricing.discounts.title}
                 </h3>
-                <div className="flex justify-center gap-6">
+                <div className="grid grid-cols-3 gap-4">
                   {t.pricing.discounts.tiers.map((tier, index) => (
-                    <Card key={index} className="text-center glass-panel border-0">
-                      <CardContent className="pt-6">
-                        <p className="text-2xl font-bold text-primary">{tier.discount}</p>
-                        <p className="text-sm text-muted-foreground">{tier.period}</p>
+                    <Card key={index} className="text-center glass-panel border-0 h-full">
+                      <CardContent className="pt-6 pb-6 flex flex-col items-center justify-center h-full">
+                        <p className="text-xl lg:text-2xl font-bold text-primary">{tier.discount}</p>
+                        <p className="text-xs lg:text-sm text-muted-foreground">{tier.period}</p>
                       </CardContent>
                     </Card>
                   ))}
@@ -737,13 +737,13 @@ export const TVLineNamangan = () => {
             </div>
           </Reveal>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {t.partners.benefits.map((benefit, index) => (
               <Reveal key={index} delay={index * 0.1}>
-                <Card className="text-center glass-panel border-0">
-                  <CardContent className="pt-6">
-                    <benefit.icon className="w-10 h-10 mx-auto mb-4 text-primary" />
-                    <p className="text-muted-foreground">{benefit.text}</p>
+                <Card className="text-center glass-panel border-0 h-full">
+                  <CardContent className="pt-6 pb-6 flex flex-col items-center justify-center h-full">
+                    <benefit.icon className="w-8 h-8 mx-auto mb-3 text-primary" />
+                    <p className="text-muted-foreground text-sm">{benefit.text}</p>
                   </CardContent>
                 </Card>
               </Reveal>
