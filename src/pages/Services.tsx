@@ -1,4 +1,5 @@
-import { Palette, Share2, Video, Megaphone, Globe, Lightbulb, Plus, Minus } from 'lucide-react';
+import { Palette, Share2, Video, Megaphone, Globe, Lightbulb, Plus, Minus, Tv, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import { useState } from 'react';
@@ -100,6 +101,29 @@ export const Services = () => {
     },
   ];
 
+  const tvLineService = {
+    title: {
+      en: 'TV-Line Namangan',
+      uz: 'TV-Line Namangan',
+      ru: 'TV-Line Наманган'
+    },
+    description: {
+      en: 'In-store advertising network with TV screens and sound in Namangan\'s busiest grocery stores. Reach shoppers when they\'re ready to buy.',
+      uz: 'Namanganning eng gavjum do\'konlarida TV ekranlar va ovoz bilan do\'kon ichidagi reklama tarmog\'i. Xaridorlarga sotib olishga tayyor paytda yetib boring.',
+      ru: 'Рекламная сеть в магазинах с ТВ-экранами и звуком в самых оживлённых продуктовых магазинах Намангана. Достигайте покупателей, когда они готовы покупать.'
+    },
+    features: {
+      en: ['~25,000 monthly impressions per store', 'Sound + video ads', '50/50 revenue for partners'],
+      uz: ['~25,000 oylik ko\'rishlar har do\'konda', 'Ovoz + video reklamalar', 'Hamkorlar uchun 50/50 daromad'],
+      ru: ['~25,000 показов в месяц на магазин', 'Звук + видео реклама', '50/50 доход для партнёров']
+    },
+    cta: {
+      en: 'Learn More',
+      uz: 'Batafsil',
+      ru: 'Подробнее'
+    }
+  };
+
   const faqs = [
     {
       question: {
@@ -195,51 +219,80 @@ export const Services = () => {
         </Reveal>
       </section>
 
-      {/* Services Details */}
-      <section className="container mx-auto px-4 lg:px-8 py-20">
-        <div className="space-y-32">
+      {/* Services Grid - Compact Layout */}
+      <section className="container mx-auto px-4 lg:px-8 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <Reveal key={index}>
-              <div
-                className={`grid lg:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-                }`}
-              >
-                <div className={`space-y-6 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                    <service.icon className="w-10 h-10 text-foreground" />
-                  </div>
-                  <h2 className="text-4xl font-bold">{service.title}</h2>
-                  <p className="text-lg text-muted-foreground">{service.description[language as 'en' | 'uz' | 'ru']}</p>
-                  <ul className="space-y-3">
-                    {service.features[language as 'en' | 'uz' | 'ru'].map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-3">
-                        <div className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-primary to-secondary" />
-                        <span className="text-muted-foreground">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <a
-                    href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-3 btn-gradient rounded-full font-semibold hover:shadow-lg transition-all group mt-4"
-                  >
-                    {getStarted[language as 'en' | 'uz' | 'ru']}
-                    <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </a>
+            <Reveal key={index} delay={index * 0.05}>
+              <div className="glass-panel rounded-2xl p-6 h-full flex flex-col hover:shadow-lg transition-all group">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-foreground" />
                 </div>
-                <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-                  <div className="aspect-square rounded-3xl overflow-hidden">
-                    <img 
-                      src={service.image} 
-                      alt={service.title}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                </div>
+                <h3 className="text-xl font-bold mb-3">{service.title}</h3>
+                <p className="text-muted-foreground text-sm mb-4 flex-grow">
+                  {service.description[language as 'en' | 'uz' | 'ru']}
+                </p>
+                <ul className="space-y-2 mb-4">
+                  {service.features[language as 'en' | 'uz' | 'ru'].map((feature, idx) => (
+                    <li key={idx} className="flex items-center gap-2 text-sm">
+                      <div className="w-1 h-1 rounded-full bg-primary" />
+                      <span className="text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="/contact"
+                  className="inline-flex items-center gap-2 text-primary font-medium text-sm hover:gap-3 transition-all"
+                >
+                  {getStarted[language as 'en' | 'uz' | 'ru']}
+                  <ArrowRight className="w-4 h-4" />
+                </a>
               </div>
             </Reveal>
           ))}
         </div>
+      </section>
+
+      {/* TV-Line Featured Service */}
+      <section className="container mx-auto px-4 lg:px-8 py-16">
+        <Reveal>
+          <div className="glass-panel rounded-3xl p-8 lg:p-12 bg-gradient-to-br from-primary/10 to-secondary/10">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-medium">
+                  <Tv className="w-4 h-4" />
+                  <span>New Service</span>
+                </div>
+                <h2 className="text-3xl lg:text-4xl font-bold">
+                  {tvLineService.title[language as 'en' | 'uz' | 'ru']}
+                </h2>
+                <p className="text-lg text-muted-foreground">
+                  {tvLineService.description[language as 'en' | 'uz' | 'ru']}
+                </p>
+                <ul className="space-y-3">
+                  {tvLineService.features[language as 'en' | 'uz' | 'ru'].map((feature, idx) => (
+                    <li key={idx} className="flex items-center gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                      <span className="text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  to="/tv-line-namangan"
+                  className="inline-flex items-center gap-2 px-6 py-3 btn-gradient rounded-full font-semibold hover:shadow-lg transition-all group"
+                >
+                  {tvLineService.cta[language as 'en' | 'uz' | 'ru']}
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+              <div className="relative">
+                <div className="aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+                  <Tv className="w-24 h-24 text-primary/50" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
       {/* FAQ Section */}
