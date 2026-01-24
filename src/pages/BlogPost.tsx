@@ -10,6 +10,559 @@ export const BlogPost = () => {
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
+    'telegram-ads-muammo': {
+      title: {
+        en: "Telegram Ads – The Big Problem Most Don't See",
+        uz: "Telegram Ads – ko'pchilik payqamayotgan katta muammo!",
+        ru: "Telegram Ads – Большая проблема, которую многие не замечают"
+      },
+      metaTitle: {
+        en: "Telegram Ads - Money Being Wasted? | LinkOn",
+        uz: "Telegram Ads - Pullar sovurilmoqda? | LinkOn",
+        ru: "Telegram Ads - Деньги тратятся впустую? | LinkOn"
+      },
+      metaDescription: {
+        en: "When running Telegram ads, there's a big problem you can't see",
+        uz: "Telegramda reklama yoqayotganingizda sizga ko'rinmaydigan katta muammo",
+        ru: "Когда вы запускаете рекламу в Telegram, есть большая проблема, которую вы не видите"
+      },
+      date: '2025-01-27',
+      readTime: '12 min',
+      category: 'Marketing',
+      image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=1200&h=600&fit=crop',
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">In recent years, Telegram advertising has grown rapidly in Uzbekistan. Today many businesses spend $1000s monthly on ads in news channels, competitor channels, and popular Telegram pages. But there's a serious problem that most targetologists and business owners haven't even considered yet.</p>
+</div>
+
+<div class="blog-section">
+<h2>The Problem: Your Future High-Value Customers Can't See Your Ads</h2>
+<p>Telegram has a Premium system. Premium users don't see Telegram ads at all.</p>
+<p>Now think logically. Who in Uzbekistan has Telegram Premium?</p>
+<ul>
+<li>Business owners</li>
+<li>Entrepreneurs</li>
+<li>Executives</li>
+<li>High-income users</li>
+<li>Decision makers</li>
+<li>Anyone who doesn't want to see ads</li>
+</ul>
+<p>In other words: many businesses consider exactly these people as their target customers.</p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ The Result</h3>
+<p>A business owner says: "My customer reads news channels, I'll advertise there."</p>
+<p>But that customer:</p>
+<ul>
+<li>Uses Telegram Premium</li>
+<li>Doesn't see ads</li>
+<li>Remains completely unaware of your advertising</li>
+</ul>
+<p><strong>Money is spent, but the main customer never sees your ad.</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>Why Is This Problem So Big?</h2>
+<p>Telegram ads mainly reach:</p>
+<ul>
+<li>Regular users</li>
+<li>Younger audiences</li>
+<li>Random users</li>
+</ul>
+<p>But for:</p>
+<ul>
+<li>B2B services</li>
+<li>Education centers</li>
+<li>Clinics</li>
+<li>Construction companies</li>
+<li>Premium products</li>
+</ul>
+<p>The primary audience uses Premium and browses Telegram ad-free.</p>
+<p>Therefore: you're reaching the wrong audience. "Viewed" doesn't mean "became a customer." Reach exists, but results don't.</p>
+</div>
+
+<div class="blog-section highlight">
+<h2>The Mistake Many Businesses Make</h2>
+<p>Many people think: "My customer is on Telegram, so Telegram ads work."</p>
+<p>This isn't always true anymore. Especially for:</p>
+<ul>
+<li>Business services</li>
+<li>Expensive products</li>
+<li>Decision-making sectors</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>So What's The Solution?</h2>
+<p>Now we come to the most important part.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Solution 1: Content, Not Ads (Trust Replaces Advertising)</h3>
+<p>Premium users don't see ads, but they read content.</p>
+<p>Therefore:</p>
+<ul>
+<li>Useful articles</li>
+<li>Expert opinions</li>
+<li>Real case studies</li>
+<li>Analytical posts</li>
+</ul>
+<p>...work stronger than advertising.</p>
+<p>If a business owner reads an article like "Why aren't Telegram ads working?" and sees your brand at the bottom — you've already built trust.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Solution 2: Native Advertising (Not Telegram Ads)</h3>
+<p>Telegram Premium blocks official Telegram advertising, but doesn't block posts within channels.</p>
+<p>Meaning:</p>
+<ul>
+<li>Sponsored posts</li>
+<li>Admin-written advertising posts</li>
+</ul>
+<p>...still work.</p>
+<p>But there's a condition: it must be useful and worth reading. Bad advertising doesn't work. Well-written advertising looks like content.</p>
+</div>
+
+<div class="blog-card success">
+<h3>💡 Solution 3: Online + Offline Together</h3>
+<p>What many forget is this: Your customer is on Telegram, but they also:</p>
+<ul>
+<li>Go to stores</li>
+<li>Stand in lines</li>
+<li>Enter supermarkets</li>
+</ul>
+<p>Offline advertising:</p>
+<ul>
+<li>Can't be turned off</li>
+<li>Can't be skipped</li>
+<li>Can't be blocked with Premium</li>
+</ul>
+<p>That's why: in-store screens and TV Line advertising are becoming stronger.</p>
+<p><strong>In real life, there's no "turn off ads" button.</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Solution 4: Don't Depend Only on Telegram</h3>
+<p>Telegram is just one channel.</p>
+<p>The right strategy:</p>
+<ul>
+<li>Telegram (through content)</li>
+<li>Instagram / Reels</li>
+<li>Google search (where intent exists)</li>
+<li>YouTube</li>
+<li>Offline visibility</li>
+</ul>
+<p>Saw it in one place → heard it in another → saw it again → trust is built.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Solution 5: Understand Your Customer's Real Life</h3>
+<p>The question should be:</p>
+<p>Not "Where should I advertise?" but "How does my customer live?"</p>
+<ul>
+<li>Where do they spend time?</li>
+<li>What do they trust?</li>
+<li>What do they ignore?</li>
+<li>What are they forced to see?</li>
+</ul>
+<p>Marketing starts with the person, not the platform.</p>
+</div>
+
+<div class="blog-section">
+<h2>Conclusion</h2>
+<p>Telegram advertising isn't bad. It just doesn't work for everyone.</p>
+<p>If your strategy relies only on:</p>
+<ul>
+<li>Telegram Ads</li>
+<li>View counts</li>
+<li>CPM</li>
+</ul>
+<p>...you're using an outdated approach.</p>
+<p>The businesses that will win in 2026:</p>
+<ul>
+<li>Understand places where ads aren't seen</li>
+<li>Appear in places that can't be turned off</li>
+<li>Build trust</li>
+</ul>
+<p><strong>This is real marketing.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Does This Problem Sound Familiar?</h2>
+<p>If you're experiencing similar challenges with your advertising strategy, explore our solutions:</p>
+<ul>
+<li><a href="/services">Marketing strategy services</a> — comprehensive approach to reaching your audience</li>
+<li><a href="/tv-line-namangan">TV-Line offline advertising solutions</a> — reach customers where ads can't be blocked</li>
+<li><a href="/contact">Schedule a strategy consultation</a> — find the right marketing mix for your business</li>
+</ul>
+</div>
+
+<div class="blog-note">
+<p><em>This article was written based on real observations in the Uzbekistan market.</em></p>
+<p><strong>Author:</strong> LinkOn Marketing Team | <strong>Location:</strong> Uzbekistan</p>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">So'nggi yillarda O'zbekistonda Telegram reklamalari juda tez o'sdi. Bugun ko'plab bizneslar yangilik kanallarida, raqobatchilarni kanalida, ommabop Telegram sahifalarida oyiga $1000lab reklama uchun sarflayapti.</p>
+<p>Tashqi tomondan qaraganda — hammasi ideal: auditoriya katta, faollik yuqori, reklama joylashtirish oson.</p>
+<p>Lekin bitta jiddiy muammo bor. Ko'pchilik targetolog va biznes egalari buni hali o'ylashmagan ham.</p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Bu muammo: Sizni katta ehtimolli bo'lajak mijozingizga reklamangiz ko'rinmaydi (zo'rmi?)</h3>
+<p>Telegram'da Premium tizimi bor, bilasiz. Premium foydalanuvchilarga: Telegram reklamalarini umuman ko'rmaydi.</p>
+</div>
+
+<div class="blog-section">
+<h2>Endi mantiqan o'ylab ko'ring</h2>
+<p>O'zbekistonda Telegram Premium kimlarda bor? Ko'pincha:</p>
+<ul>
+<li>biznes egalari</li>
+<li>tadbirkorlar</li>
+<li>rahbarlar</li>
+<li>yuqori daromadli foydalanuvchilar</li>
+<li>qaror qabul qiluvchi shaxslar</li>
+<li>xullas, reklama ko'rishni istamaydigan hamma</li>
+</ul>
+<p>Ya'ni: 👉 ko'p bizneslar aynan shu odamlarni mijoz deb hisoblaydi</p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Natija nima bo'ladi?</h3>
+<p>Biznes egasi deydi: "Mening mijozim yangilik kanallarini o'qiydi, reklama beraman."</p>
+<p>Lekin o'sha mijoz:</p>
+<ul>
+<li>Telegram Premium ishlatadi</li>
+<li>reklamani ko'rmaydi</li>
+<li>sizning reklamangizdan mutlaqo bexabar qoladi</li>
+</ul>
+<p><strong>Natija: Pul sarflanadi, lekin asosiy mijoz reklamangizni ko'rmaydi.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Nega bu muammo juda katta?</h2>
+<p>Telegram reklamalari asosan:</p>
+<ul>
+<li>oddiy foydalanuvchilarga</li>
+<li>yoshroq auditoriyaga</li>
+<li>tasodifiy foydalanuvchilarga</li>
+</ul>
+<p>ko'rinadi.</p>
+<p>Lekin:</p>
+<ul>
+<li>B2B xizmatlar</li>
+<li>ta'lim markazlari</li>
+<li>klinikalar</li>
+<li>qurilish kompaniyalari</li>
+<li>premium mahsulotlar</li>
+</ul>
+<p>uchun asosiy auditoriya: Premium ishlatadi, reklamasiz Telegram'dan foydalanadi.</p>
+<p>Shuning uchun: siz noto'g'ri auditoriyaga chiqyapsiz. "ko'rildi" degani "mijoz bo'ldi" degani emas. Reach bor, lekin natija yo'q.</p>
+</div>
+
+<div class="blog-section">
+<h2>Ko'pchilik bizneslar tushib qolayotgan xato</h2>
+<p>Ko'p odamlar shunday o'ylaydi: "Mijozim Telegram'da, demak Telegram reklama ishlaydi."</p>
+<p>Bu endi har doim ham to'g'ri emas. Ayniqsa:</p>
+<ul>
+<li>biznes xizmatlari</li>
+<li>qimmat mahsulotlar</li>
+<li>qaror qabul qilinadigan sohalar</li>
+</ul>
+<p>uchun.</p>
+</div>
+
+<div class="blog-section">
+<h2>Unda yechim nima?</h2>
+<p>Endi eng muhim qismga keldik.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 1-yechim: Reklama emas, kontent (ishonch reklamaning o'rnini bosadi)</h3>
+<p>Premium foydalanuvchilar reklamani ko'rmaydi, lekin kontentni o'qiydi.</p>
+<p>Shuning uchun:</p>
+<ul>
+<li>foydali maqolalar</li>
+<li>ekspert fikrlar</li>
+<li>real misollar (case)</li>
+<li>tahliliy postlar</li>
+</ul>
+<p>reklamadan ko'ra kuchliroq ishlaydi.</p>
+<p>Agar biznes egasi "Telegram reklamalari nega ishlamayapti?" degan maqolani o'qib, ostida sizning brendingizni ko'rsa — siz allaqachon ishonch qozongansiz.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 2-yechim: Native reklama (Telegram Ads emas)</h3>
+<p>Telegram Premium: rasmiy Telegram reklamalarini bloklaydi, lekin kanal ichidagi postlarni bloklamaydi.</p>
+<p>Ya'ni:</p>
+<ul>
+<li>homiylik postlari</li>
+<li>admin yozgan reklama postlari</li>
+</ul>
+<p>hali ham ishlaydi.</p>
+<p>Lekin sharti bor: u foydali bo'lishi kerak, o'qishga arziydigan bo'lishi kerak.</p>
+<p>Yomon reklama — ishlamaydi. Yaxshi yozilgan reklama — kontentga o'xshaydi.</p>
+</div>
+
+<div class="blog-card success">
+<h3>💡 3-yechim: Online + Offline birgalikda</h3>
+<p>Ko'pchilik unutayotgan narsa shu. Sizning mijozingiz Telegram'da bor, lekin:</p>
+<ul>
+<li>do'konga boradi</li>
+<li>navbatda turadi</li>
+<li>supermarketga kiradi</li>
+</ul>
+<p>Offline reklama:</p>
+<ul>
+<li>o'chirib bo'lmaydi</li>
+<li>skip qilib bo'lmaydi</li>
+<li>Premium bilan yopilmaydi</li>
+</ul>
+<p>Shu sababli: do'kon ichidagi ekranlar, TV Line reklamalari yanada kuchli bo'lib boryapti.</p>
+<p><strong>Haqiqiy hayotda "reklamani o'chirish" tugmasi yo'q.</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 4-yechim: Faqat Telegram'ga bog'lanib qolmang</h3>
+<p>Telegram — faqat bitta kanal.</p>
+<p>To'g'ri strategiya:</p>
+<ul>
+<li>Telegram (kontent orqali)</li>
+<li>Instagram / Reels</li>
+<li>Google qidiruv (niyat bor joyda)</li>
+<li>YouTube</li>
+<li>Offline ko'rinish</li>
+</ul>
+<p>Bir joyda ko'rdi → boshqa joyda eshitdi → yana ko'rdi → ishonch hosil bo'ladi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 5-yechim: Mijozning real hayotini tushuning</h3>
+<p>Savol shunday bo'lishi kerak:</p>
+<p>"Qayerga reklama beraman?" emas, "Mening mijozim qanday yashaydi?"</p>
+<ul>
+<li>qayerda vaqt o'tkazadi</li>
+<li>nimaga ishonadi</li>
+<li>nimani e'tiborsiz qoldiradi</li>
+<li>nimani majburan ko'radi</li>
+</ul>
+<p>Marketing platformadan emas, insondan boshlanadi.</p>
+</div>
+
+<div class="blog-section">
+<h2>Xulosa</h2>
+<p>Telegram reklamalari yomon emas. Ular shunchaki hamma uchun ishlamaydi.</p>
+<p>Agar strategiyangiz faqat:</p>
+<ul>
+<li>Telegram Ads</li>
+<li>ko'rishlar soni</li>
+<li>CPM</li>
+</ul>
+<p>ga bog'liq bo'lsa — siz eskirgan usulda ishlayapsiz.</p>
+<p>2026-yilda yutadigan bizneslar:</p>
+<ul>
+<li>reklama ko'rinmaydigan joylarni tushunadigan</li>
+<li>o'chirib bo'lmaydigan joylarda ko'rinadigan</li>
+<li>ishonch quradigan</li>
+</ul>
+<p>bizneslar bo'ladi.</p>
+<p><strong>Bu — haqiqiy marketing.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Bu muammo sizga tanishmi?</h2>
+<p>Agar reklama strategiyangizda shunga o'xshash qiyinchiliklarga duch kelayotgan bo'lsangiz, yechimlarimizni ko'ring:</p>
+<ul>
+<li><a href="/services">Marketing strategiyasi xizmatlari</a> — auditoriyangizga yetishishning to'liq yondashuvi</li>
+<li><a href="/tv-line-namangan">TV-Line offline reklama yechimlari</a> — reklamani bloklab bo'lmaydigan joylarda mijozlarga yeting</li>
+<li><a href="/contact">Strategiya konsultatsiyasi oling</a> — biznesingiz uchun to'g'ri marketing toping</li>
+</ul>
+</div>
+
+<div class="blog-note">
+<p><em>Bu maqola O'zbekiston bozoridagi real kuzatuvlar asosida yozilgan.</em></p>
+<p><strong>Muallif:</strong> LinkOn Marketing Team | <strong>Joylashuv:</strong> Uzbekistan</p>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">В последние годы реклама в Telegram очень быстро развивалась в Узбекистане. Сегодня многие компании тратят по $1000 и более в месяц на рекламу в новостных каналах, каналах конкурентов и популярных Telegram-страницах.</p>
+<p>На первый взгляд — всё идеально: большая аудитория, высокая активность, легко размещать рекламу.</p>
+<p>Но есть одна серьёзная проблема. Большинство таргетологов и владельцев бизнеса даже не задумывались об этом.</p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Эта проблема: Ваша реклама не видна вашим потенциальным крупным клиентам</h3>
+<p>В Telegram есть система Premium. Пользователи Premium вообще не видят рекламу Telegram.</p>
+</div>
+
+<div class="blog-section">
+<h2>Теперь подумайте логически</h2>
+<p>У кого в Узбекистане есть Telegram Premium? Чаще всего:</p>
+<ul>
+<li>владельцы бизнеса</li>
+<li>предприниматели</li>
+<li>руководители</li>
+<li>пользователи с высоким доходом</li>
+<li>лица, принимающие решения</li>
+<li>в общем, все, кто не хочет видеть рекламу</li>
+</ul>
+<p>То есть: 👉 многие компании считают именно этих людей своими клиентами</p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Каков результат?</h3>
+<p>Владелец бизнеса говорит: "Мой клиент читает новостные каналы, я дам рекламу."</p>
+<p>Но этот клиент:</p>
+<ul>
+<li>Использует Telegram Premium</li>
+<li>Не видит рекламу</li>
+<li>Совершенно не знает о вашей рекламе</li>
+</ul>
+<p><strong>Результат: Деньги потрачены, но основной клиент не видит вашу рекламу.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Почему эта проблема так велика?</h2>
+<p>Реклама в Telegram в основном показывается:</p>
+<ul>
+<li>обычным пользователям</li>
+<li>более молодой аудитории</li>
+<li>случайным пользователям</li>
+</ul>
+<p>Но для:</p>
+<ul>
+<li>B2B услуг</li>
+<li>образовательных центров</li>
+<li>клиник</li>
+<li>строительных компаний</li>
+<li>премиальных продуктов</li>
+</ul>
+<p>основная аудитория: использует Premium и пользуется Telegram без рекламы.</p>
+<p>Поэтому: вы выходите на неправильную аудиторию. "Просмотрено" не означает "стал клиентом". Охват есть, но результата нет.</p>
+</div>
+
+<div class="blog-section">
+<h2>Ошибка, которую совершают многие компании</h2>
+<p>Многие думают: "Мой клиент в Telegram, значит реклама в Telegram работает."</p>
+<p>Это уже не всегда верно. Особенно для:</p>
+<ul>
+<li>бизнес-услуг</li>
+<li>дорогих продуктов</li>
+<li>сфер принятия решений</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Так какое решение?</h2>
+<p>Теперь мы подходим к самой важной части.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Решение 1: Контент, а не реклама (доверие заменяет рекламу)</h3>
+<p>Пользователи Premium не видят рекламу, но читают контент.</p>
+<p>Поэтому:</p>
+<ul>
+<li>полезные статьи</li>
+<li>экспертные мнения</li>
+<li>реальные кейсы</li>
+<li>аналитические посты</li>
+</ul>
+<p>работают сильнее рекламы.</p>
+<p>Если владелец бизнеса прочитает статью "Почему реклама в Telegram не работает?" и увидит внизу ваш бренд — вы уже завоевали доверие.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Решение 2: Нативная реклама (не Telegram Ads)</h3>
+<p>Telegram Premium: блокирует официальную рекламу Telegram, но не блокирует посты внутри каналов.</p>
+<p>То есть:</p>
+<ul>
+<li>спонсорские посты</li>
+<li>рекламные посты от админа</li>
+</ul>
+<p>всё ещё работают.</p>
+<p>Но есть условие: это должно быть полезно и стоить того, чтобы прочитать.</p>
+<p>Плохая реклама — не работает. Хорошо написанная реклама — выглядит как контент.</p>
+</div>
+
+<div class="blog-card success">
+<h3>💡 Решение 3: Онлайн + Офлайн вместе</h3>
+<p>То, что многие забывают: Ваш клиент есть в Telegram, но он также:</p>
+<ul>
+<li>ходит в магазины</li>
+<li>стоит в очередях</li>
+<li>заходит в супермаркеты</li>
+</ul>
+<p>Офлайн реклама:</p>
+<ul>
+<li>не выключается</li>
+<li>не пропускается</li>
+<li>не блокируется Premium</li>
+</ul>
+<p>Поэтому: экраны в магазинах, реклама TV Line становятся всё сильнее.</p>
+<p><strong>В реальной жизни нет кнопки "выключить рекламу".</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Решение 4: Не зависьте только от Telegram</h3>
+<p>Telegram — это только один канал.</p>
+<p>Правильная стратегия:</p>
+<ul>
+<li>Telegram (через контент)</li>
+<li>Instagram / Reels</li>
+<li>Поиск Google (где есть намерение)</li>
+<li>YouTube</li>
+<li>Офлайн видимость</li>
+</ul>
+<p>Увидел в одном месте → услышал в другом → снова увидел → формируется доверие.</p>
+</div>
+
+<div class="blog-card info">
+<h3>💡 Решение 5: Понимайте реальную жизнь клиента</h3>
+<p>Вопрос должен быть:</p>
+<p>Не "Где мне рекламироваться?", а "Как живёт мой клиент?"</p>
+<ul>
+<li>где проводит время</li>
+<li>чему доверяет</li>
+<li>что игнорирует</li>
+<li>что вынужден видеть</li>
+</ul>
+<p>Маркетинг начинается с человека, а не с платформы.</p>
+</div>
+
+<div class="blog-section">
+<h2>Заключение</h2>
+<p>Реклама в Telegram не плохая. Она просто не работает для всех.</p>
+<p>Если ваша стратегия зависит только от:</p>
+<ul>
+<li>Telegram Ads</li>
+<li>количества просмотров</li>
+<li>CPM</li>
+</ul>
+<p>— вы работаете устаревшим способом.</p>
+<p>Бизнесы, которые победят в 2026:</p>
+<ul>
+<li>понимают места, где рекламу не видно</li>
+<li>появляются там, где нельзя выключить</li>
+<li>строят доверие</li>
+</ul>
+<p><strong>Это — настоящий маркетинг.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Вам знакома эта проблема?</h2>
+<p>Если вы сталкиваетесь с похожими трудностями в рекламной стратегии, изучите наши решения:</p>
+<ul>
+<li><a href="/services">Услуги маркетинговой стратегии</a> — комплексный подход к охвату вашей аудитории</li>
+<li><a href="/tv-line-namangan">TV-Line офлайн рекламные решения</a> — достигайте клиентов там, где рекламу нельзя заблокировать</li>
+<li><a href="/contact">Запишитесь на консультацию по стратегии</a> — найдите правильный маркетинг-микс для вашего бизнеса</li>
+</ul>
+</div>
+
+<div class="blog-note">
+<p><em>Эта статья написана на основе реальных наблюдений на рынке Узбекистана.</em></p>
+<p><strong>Автор:</strong> LinkOn Marketing Team | <strong>Местоположение:</strong> Uzbekistan</p>
+</div>`
+      }
+    },
     'kofe-mofe-website-case-study': {
       title: {
         en: "How We Built a Website for Kofe Mofe Coffee Shop",
@@ -4361,14 +4914,12 @@ export const BlogPost = () => {
     }
   };
 
-  if (!id || !blogData[id]) {
-    return <Navigate to="/blog" replace />;
-  }
-
-  const post = blogData[id];
+  const post = id ? blogData[id] : null;
 
   // Update document meta for SEO - unique titles without brand keywords
   useEffect(() => {
+    if (!post) return;
+    
     const metaTitle = post.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post.title[language as 'en' | 'uz' | 'ru'];
     const metaDesc = post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
     
@@ -4384,6 +4935,10 @@ export const BlogPost = () => {
       document.title = 'Marketing Agentligi Namanganda | LinkOn';
     };
   }, [post, language]);
+
+  if (!id || !blogData[id]) {
+    return <Navigate to="/blog" replace />;
+  }
 
   return (
     <div className="min-h-screen pt-24">

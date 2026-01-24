@@ -8,6 +8,33 @@ export const Blog = () => {
 
   const blogPosts = [
     {
+      id: 'telegram-ads-muammo',
+      title: {
+        en: "Telegram Ads – The Big Problem Most Don't See",
+        uz: "Telegram Ads – ko'pchilik payqamayotgan katta muammo!",
+        ru: "Telegram Ads – Большая проблема, которую многие не замечают"
+      },
+      metaTitle: {
+        en: "Telegram Ads - Money Being Wasted? | LinkOn",
+        uz: "Telegram Ads - Pullar sovurilmoqda? | LinkOn",
+        ru: "Telegram Ads - Деньги тратятся впустую? | LinkOn"
+      },
+      metaDescription: {
+        en: "When running Telegram ads, there's a big problem you can't see",
+        uz: "Telegramda reklama yoqayotganingizda sizga ko'rinmaydigan katta muammo",
+        ru: "Когда вы запускаете рекламу в Telegram, есть большая проблема, которую вы не видите"
+      },
+      excerpt: {
+        en: "Telegram Premium users don't see ads. And these are often the decision-makers you're trying to reach.",
+        uz: "Telegram Premium foydalanuvchilari reklamalarni ko'rmaydi. Ular ko'pincha aynan siz yetishmoqchi bo'lgan qaror qabul qiluvchilar.",
+        ru: "Пользователи Telegram Premium не видят рекламу. А это часто те люди, которых вы пытаетесь достичь."
+      },
+      date: '2025-01-27',
+      readTime: '12 min',
+      category: 'Marketing',
+      image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=500&fit=crop'
+    },
+    {
       id: 'kofe-mofe-website-case-study',
       title: {
         en: "How We Built a Website for Kofe Mofe Coffee Shop",
