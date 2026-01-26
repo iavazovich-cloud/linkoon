@@ -8,23 +8,17 @@ interface RevealProps {
 }
 
 export const Reveal = ({ children, className = '', delay = 0 }: RevealProps) => {
-  // Start visible for SSR, then animate on client
-  const [isClient, setIsClient] = useState(false);
-  const [isVisible, setIsVisible] = useState(true); // Default to visible for SSR
+  const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setIsClient(true);
-    // Reset to invisible on client mount, then let IntersectionObserver trigger
-    setIsVisible(false);
-    
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1, rootMargin: '50px' } // Added rootMargin for mobile
+      { threshold: 0.1 }
     );
 
     if (ref.current) {
@@ -37,11 +31,6 @@ export const Reveal = ({ children, className = '', delay = 0 }: RevealProps) => 
       }
     };
   }, []);
-
-  // For SSR, render without animation wrapper
-  if (!isClient) {
-    return <div className={className}>{children}</div>;
-  }
 
   return (
     <motion.div
