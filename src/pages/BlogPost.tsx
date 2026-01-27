@@ -3,59 +3,8 @@ import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, Chec
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
+import viralReelsCover from '@/assets/blog-viral-reels-cover.jpg';
 import { useEffect } from 'react';
-
-// Related posts data - defined before component for SSR compatibility
-// Using static URLs only to prevent hydration mismatches
-const relatedPostsData = [
-  {
-    id: 'telegram-ads-muammo',
-    title: { en: "Telegram Ads – The Big Problem Most Don't See", uz: "Telegram Ads – ko'pchilik payqamayotgan katta muammo!", ru: "Telegram Ads – Большая проблема, которую многие не замечают" },
-    excerpt: { en: "Telegram Premium users don't see ads.", uz: "Telegram Premium foydalanuvchilari reklamalarni ko'rmaydi.", ru: "Пользователи Telegram Premium не видят рекламу." },
-    category: 'Marketing',
-    image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=500&fit=crop'
-  },
-  {
-    id: 'viral-reels',
-    title: { en: "How to Create Viral Reels That Actually Convert", uz: "Mijozlarni jalb qiladigan viral reelslar", ru: "Как создать вирусные Reels" },
-    excerpt: { en: "Master the art of creating engaging short-form video content.", uz: "Qisqa video kontent yaratish san'atini o'rganing.", ru: "Овладейте искусством создания видеоконтента." },
-    category: 'Video',
-    image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=500&fit=crop'
-  },
-  {
-    id: 'social-media-growth',
-    title: { en: "Why My Business Isn't Growing on Social Media?", uz: "Nima uchun biznesim ijtimoiy tarmoqlarda o'smayapti?", ru: "Почему мой бизнес не растет в социальных сетях?" },
-    excerpt: { en: "Discover the common mistakes holding back your social media growth.", uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan xatolarni bilib oling.", ru: "Узнайте ошибки, препятствующие росту в соцсетях." },
-    category: 'SMM',
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=500&fit=crop'
-  },
-  {
-    id: 'ads-mistakes',
-    title: { en: "Why Your Ads Don't Work: 7 Common Mistakes", uz: "Reklamalaringiz nima uchun ishlamayapti: 7 ta xato", ru: "Почему ваша реклама не работает: 7 ошибок" },
-    excerpt: { en: "Learn the critical mistakes that drain your advertising budget.", uz: "Reklama byudjetingizni yo'qotadigan xatolarni bilib oling.", ru: "Узнайте ошибки, опустошающие рекламный бюджет." },
-    category: 'Advertising',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop'
-  },
-  {
-    id: 'video-pricing-uzbekistan',
-    title: { en: "How Much Does a Video Cost in Uzbekistan?", uz: "O'zbekistonda video qancha turadi?", ru: "Сколько стоит видео в Узбекистане?" },
-    excerpt: { en: "Transparent pricing guide for video production services.", uz: "Video ishlab chiqarish xizmatlari uchun shaffof narxlar.", ru: "Прозрачное руководство по ценам на видеопроизводство." },
-    category: 'Video',
-    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=500&fit=crop'
-  },
-  {
-    id: 'brand-identity',
-    title: { en: "What Is Brand Identity and Why Does It Matter?", uz: "Brend identifikatsiyasi nima va u nima uchun muhim?", ru: "Что такое фирменный стиль и почему он важен?" },
-    excerpt: { en: "Understanding brand identity and how it can transform your business.", uz: "Brend identifikatsiyasi va u biznes muvaffaqiyatingizni qanday o'zgartirishi.", ru: "Понимание фирменного стиля и как он преобразует ваш успех." },
-    category: 'Branding',
-    image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&h=500&fit=crop'
-  }
-];
-
-// Helper function to get related posts
-function getRelatedPosts(currentId: string, count: number) {
-  return relatedPostsData.filter(post => post.id !== currentId).slice(0, count);
-}
 
 export const BlogPost = () => {
   const { id } = useParams();
@@ -5128,3 +5077,53 @@ export const BlogPost = () => {
   );
 };
 
+// Related posts data - exported for use in getRelatedPosts
+const relatedPostsData = [
+  {
+    id: 'telegram-ads-muammo',
+    title: { en: "Telegram Ads – The Big Problem Most Don't See", uz: "Telegram Ads – ko'pchilik payqamayotgan katta muammo!", ru: "Telegram Ads – Большая проблема, которую многие не замечают" },
+    excerpt: { en: "Telegram Premium users don't see ads.", uz: "Telegram Premium foydalanuvchilari reklamalarni ko'rmaydi.", ru: "Пользователи Telegram Premium не видят рекламу." },
+    category: 'Marketing',
+    image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=500&fit=crop'
+  },
+  {
+    id: 'viral-reels',
+    title: { en: "How to Create Viral Reels That Actually Convert", uz: "Mijozlarni jalb qiladigan viral reelslar", ru: "Как создать вирусные Reels" },
+    excerpt: { en: "Master the art of creating engaging short-form video content.", uz: "Qisqa video kontent yaratish san'atini o'rganing.", ru: "Овладейте искусством создания видеоконтента." },
+    category: 'Video',
+    image: viralReelsCover
+  },
+  {
+    id: 'social-media-growth',
+    title: { en: "Why My Business Isn't Growing on Social Media?", uz: "Nima uchun biznesim ijtimoiy tarmoqlarda o'smayapti?", ru: "Почему мой бизнес не растет в социальных сетях?" },
+    excerpt: { en: "Discover the common mistakes holding back your social media growth.", uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan xatolarni bilib oling.", ru: "Узнайте ошибки, препятствующие росту в соцсетях." },
+    category: 'SMM',
+    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=500&fit=crop'
+  },
+  {
+    id: 'ads-mistakes',
+    title: { en: "Why Your Ads Don't Work: 7 Common Mistakes", uz: "Reklamalaringiz nima uchun ishlamayapti: 7 ta xato", ru: "Почему ваша реклама не работает: 7 ошибок" },
+    excerpt: { en: "Learn the critical mistakes that drain your advertising budget.", uz: "Reklama byudjetingizni yo'qotadigan xatolarni bilib oling.", ru: "Узнайте ошибки, опустошающие рекламный бюджет." },
+    category: 'Advertising',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop'
+  },
+  {
+    id: 'video-pricing-uzbekistan',
+    title: { en: "How Much Does a Video Cost in Uzbekistan?", uz: "O'zbekistonda video qancha turadi?", ru: "Сколько стоит видео в Узбекистане?" },
+    excerpt: { en: "Transparent pricing guide for video production services.", uz: "Video ishlab chiqarish xizmatlari uchun shaffof narxlar.", ru: "Прозрачное руководство по ценам на видеопроизводство." },
+    category: 'Video',
+    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=500&fit=crop'
+  },
+  {
+    id: 'brand-identity',
+    title: { en: "What Is Brand Identity and Why Does It Matter?", uz: "Brend identifikatsiyasi nima va u nima uchun muhim?", ru: "Что такое фирменный стиль и почему он важен?" },
+    excerpt: { en: "Understanding brand identity and how it can transform your business.", uz: "Brend identifikatsiyasi va u biznes muvaffaqiyatingizni qanday o'zgartirishi.", ru: "Понимание фирменного стиля и как он преобразует ваш успех." },
+    category: 'Branding',
+    image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&h=500&fit=crop'
+  }
+];
+
+// Helper function to get related posts
+function getRelatedPosts(currentId: string, count: number) {
+  return relatedPostsData.filter(post => post.id !== currentId).slice(0, count);
+}
