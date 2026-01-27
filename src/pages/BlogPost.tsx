@@ -3,10 +3,10 @@ import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, Chec
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
-import viralReelsCover from '@/assets/blog-viral-reels-cover.jpg';
 import { useEffect } from 'react';
 
 // Related posts data - defined before component for SSR compatibility
+// Using static URLs only to prevent hydration mismatches
 const relatedPostsData = [
   {
     id: 'telegram-ads-muammo',
@@ -20,7 +20,7 @@ const relatedPostsData = [
     title: { en: "How to Create Viral Reels That Actually Convert", uz: "Mijozlarni jalb qiladigan viral reelslar", ru: "Как создать вирусные Reels" },
     excerpt: { en: "Master the art of creating engaging short-form video content.", uz: "Qisqa video kontent yaratish san'atini o'rganing.", ru: "Овладейте искусством создания видеоконтента." },
     category: 'Video',
-    image: viralReelsCover
+    image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=500&fit=crop'
   },
   {
     id: 'social-media-growth',
