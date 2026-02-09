@@ -13,6 +13,7 @@ const siteUrl = process.env.SITE_URL || 'https://linkon.uz'
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'uzum-market-seller',
   'telegram-ads-muammo',
   'kofe-mofe-website-case-study',
   'social-media-growth',
@@ -26,7 +27,6 @@ const blogPostSlugs = [
   'brand-identity',
   'uzbekistan-trends-2025',
   'ai-business-automation',
-  'uzum-market-seller',
   'invest-10-million',
   'instagram-tiktok-algorithms',
   'freelance-platforms',
