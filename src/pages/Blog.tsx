@@ -8,6 +8,33 @@ export const Blog = () => {
 
   const blogPosts = [
     {
+      id: 'uzum-market-seller',
+      title: {
+        en: "Uzum Market: Complete Guide from 0 to Sales",
+        uz: "Uzum Market'da 0 dan Sotuvgacha — To'liq Qo'llanma",
+        ru: "Uzum Market: Полное руководство от 0 до продаж"
+      },
+      metaTitle: {
+        en: "How to Sell on Uzum Market | Complete Seller Guide 2025",
+        uz: "Uzum Market'da sotish | To'liq qo'llanma 2025",
+        ru: "Как продавать на Uzum Market | Полное руководство 2025"
+      },
+      metaDescription: {
+        en: "Complete step-by-step guide to start selling on Uzum Market. From product selection to first sales - everything you need to know.",
+        uz: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
+        ru: "Полное пошаговое руководство по продажам на Uzum Market. От выбора товара до первых продаж."
+      },
+      excerpt: {
+        en: "Complete step-by-step guide from 0 to first sales on Uzum Market. Real strategies, real numbers.",
+        uz: "Uzum Market'da 0 dan birinchi sotuvgacha to'liq bosqichma-bosqich qo'llanma. Real strategiyalar, real raqamlar.",
+        ru: "Полное пошаговое руководство от 0 до первых продаж на Uzum Market. Реальные стратегии, реальные цифры."
+      },
+      date: '2025-02-09',
+      readTime: '15 min',
+      category: 'E-commerce',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop'
+    },
+    {
       id: 'telegram-ads-muammo',
       title: {
         en: "Telegram Ads – The Big Problem Most Don't See",

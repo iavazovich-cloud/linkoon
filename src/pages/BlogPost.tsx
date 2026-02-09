@@ -3,13 +3,701 @@ import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, Chec
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
+import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import { useEffect } from 'react';
+import { BlogComments } from '@/components/BlogComments';
 
 export const BlogPost = () => {
   const { id } = useParams();
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
+    'uzum-market-seller': {
+      title: {
+        en: "Uzum Market: Complete Guide from 0 to Sales",
+        uz: "Uzum Market'da 0 dan Sotuvgacha — To'liq Qo'llanma",
+        ru: "Uzum Market: Полное руководство от 0 до продаж"
+      },
+      metaTitle: {
+        en: "How to Sell on Uzum Market | Complete Seller Guide 2025",
+        uz: "Uzum Market'da sotish | To'liq qo'llanma 2025",
+        ru: "Как продавать на Uzum Market | Полное руководство 2025"
+      },
+      metaDescription: {
+        en: "Complete step-by-step guide to start selling on Uzum Market. From product selection to first sales - everything you need to know.",
+        uz: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
+        ru: "Полное пошаговое руководство по продажам на Uzum Market. От выбора товара до первых продаж."
+      },
+      date: '2025-02-09',
+      readTime: '15 min',
+      category: 'E-commerce',
+      image: uzumMarketImage,
+      content: {
+        en: `<div class="blog-intro">
+<p class="lead">This guide is written for someone with zero experience on Uzum Market. If you have questions like "where do I start?", "which product will sell?", "will I lose money?" — this guide is exactly for you.</p>
+<p>The article explains step-by-step, from step 1 to the final sale. No "empty motivation" — only real market, real numbers, and real actions.</p>
+</div>
+
+<div class="blog-section">
+<h2>Step 1. Choosing the Right Product (Most Important)</h2>
+<p>70% of success on Uzum Market depends on product selection. Advertising, design, even price can't save the wrong product.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ What Products Are GOOD?</h3>
+<ul>
+<li>Used in daily life</li>
+<li>Doesn't break or get damaged</li>
+<li>Doesn't require warranty</li>
+<li>Price range 50,000 – 300,000 som</li>
+<li>Impulse purchase items</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📦 Good Categories for Beginners</h3>
+<ul>
+<li>Home and kitchen items</li>
+<li>Car accessories</li>
+<li>Phone accessories</li>
+<li>Storage and organizers</li>
+<li>Children's accessories</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Products to Avoid</h3>
+<ul>
+<li>Food products</li>
+<li>Medicine</li>
+<li>Electronics</li>
+<li>Brand copies</li>
+<li>Complex technical products</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Step 2. Analyzing the Market Inside Uzum</h2>
+<p>Open Uzum Market and review your chosen market.</p>
+<p>When choosing a product, look at:</p>
+<ul>
+<li>Rating: 4.3 – 4.8 ⭐</li>
+<li>Review count: 50 – 500</li>
+<li>Number of sellers: not too many</li>
+<li>Images: low or average quality (this is YOUR opportunity)</li>
+</ul>
+</div>
+
+<div class="blog-card success">
+<h3>🎯 Ideal Entry Point</h3>
+<p>If a product has reviews but:</p>
+<ul>
+<li>Images are poor</li>
+<li>Description is unclear</li>
+</ul>
+<p>👉 This is the perfect entry point for you.</p>
+</div>
+
+<div class="blog-section">
+<h2>Step 3. Check External Demand</h2>
+<p>Don't limit yourself to just Uzum Market.</p>
+<p>Check on Telegram and Instagram:</p>
+<ul>
+<li>Search for the product name on Telegram</li>
+<li>Search for reels and posts on Instagram</li>
+</ul>
+<p>If there are several sellers, comments, and questions being asked 👉 demand EXISTS.</p>
+</div>
+
+<div class="blog-section">
+<h2>Step 4. Calculate Real Profit</h2>
+<p>Most people make mistakes here.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 Formula</h3>
+<p><strong>Selling price</strong><br/>
+– Uzum commission (10–25%)<br/>
+– Delivery<br/>
+– Product cost<br/>
+– Packaging<br/>
+= <strong>Net profit</strong></p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Rules</h3>
+<ul>
+<li>Minimum profit: 25–40%</li>
+<li>If profit is less than 20% — drop the product</li>
+</ul>
+<p><strong>Making money is math, not luck.</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>Step 5. Register as a Seller</h2>
+<p>You'll need:</p>
+<ul>
+<li>YATT or LLC</li>
+<li>Bank account</li>
+<li>Phone number</li>
+</ul>
+<p>Registration: <strong>seller.uzum.uz</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>Step 6. Professional Product Preparation</h2>
+<p><strong>Images — Everything</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>📸 Required Images</h3>
+<ul>
+<li>White background (main image)</li>
+<li>Usage process</li>
+<li>Details</li>
+<li>Benefits written on image</li>
+</ul>
+<p>A simple phone + good lighting is enough.</p>
+</div>
+
+<div class="blog-section">
+<h2>Step 7. Writing the Right Title and Description</h2>
+</div>
+
+<div class="blog-card info">
+<h3>📝 Title Formula</h3>
+<p>[Main benefit] + [Product name] + [Feature]</p>
+<p>In description include:</p>
+<ul>
+<li>3–5 benefits</li>
+<li>Who it's for</li>
+<li>Size, material</li>
+<li>How to use</li>
+</ul>
+<p>First in Uzbek, then in Russian.</p>
+</div>
+
+<div class="blog-section">
+<h2>Step 8. Pricing Strategy</h2>
+<p>At the start:</p>
+<ul>
+<li>5–10% cheaper than market</li>
+<li>After collecting reviews — raise the price</li>
+</ul>
+<p>What Uzum "loves":</p>
+<ul>
+<li>Fast sales</li>
+<li>Low return rate</li>
+<li>Good ratings</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Step 9. Sending Products to Warehouse</h2>
+<p>To start:</p>
+<ul>
+<li>20–50 units</li>
+<li><strong>Never start with large quantities!</strong></li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Step 10. First 7 Days — Most Important Period</h2>
+<ul>
+<li>Answer questions quickly</li>
+<li>Get real orders and reviews from friends</li>
+<li>Don't allow negative ratings</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Step 11. Advertising (Only After Sales Start)</h2>
+<ul>
+<li>With small budget</li>
+<li>Only for selling products</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Step 12. Analysis and Decision</h2>
+<p>After 30 days:</p>
+<ul>
+<li>If daily sales exist — expand</li>
+<li>If not — stop and get a different product</li>
+</ul>
+<p><strong>In this business, numbers work, not emotions.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Final Advice</h2>
+<ul>
+<li>Focus on one product</li>
+<li>Speed, not perfection</li>
+<li>You can earn while learning</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<h3>🚀 Need Marketing Help?</h3>
+<p>If you want:</p>
+<ul>
+<li>Faster results on Uzum Market</li>
+<li>Don't want to waste time on wrong products</li>
+<li>Want professional images, listing and strategy</li>
+</ul>
+<p>👉 <strong>LinkOn marketing agency</strong> is here to help.</p>
+<p>LinkOn provides:</p>
+<ul>
+<li>Ready strategy for Uzum Market</li>
+<li>Proper start as a seller</li>
+<li>Product listing (title + description + positioning)</li>
+<li>Marketing and advertising advice</li>
+</ul>
+</div>`,
+        uz: `<div class="blog-intro">
+<p class="lead">Bu maqola Uzum Market'da hech qanday tajribasiz bo'lgan odam uchun yozilgan. Agar siz "qayerdan boshlashni bilmayapman", "qaysi mahsulot sotiladi?", "zararga kirib ketmaymanmi?" degan savollaringiz bo'lsangiz — bu qo'llanma aynan siz uchun.</p>
+<p>Maqola bosqichma-bosqich, 1-qadamdan oxirgi sotuvgacha tushuntiriladi. Hech qanday "quruq motivatsa" yo'q — faqat real bozor, real raqamlar va real harakatlar.</p>
+</div>
+
+<div class="blog-section">
+<h2>1-qadam. To'g'ri mahsulot tanlash (eng muhim bosqich)</h2>
+<p>Uzum Market'dagi muvaffaqiyatning 70% aynan mahsulot tanlashga bog'liq. Reklama, dizayn, hatto narx ham noto'g'ri mahsulotni qutqara olmaydi.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ Qanday mahsulotlar YAXSHI?</h3>
+<ul>
+<li>Kundalik hayotda ishlatiladigan</li>
+<li>Sinmaydigan, buzilmaydigan</li>
+<li>Kafolat talab qilmaydigan</li>
+<li>Narxi 50 000 – 300 000 so'm oralig'ida</li>
+<li>"Impuls xarid" bo'ladigan</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📦 Yangi boshlovchilar uchun yaxshi kategoriyalar</h3>
+<ul>
+<li>Uy va oshxona buyumlari</li>
+<li>Avtomobil aksessuarlari</li>
+<li>Telefon aksessuarlari</li>
+<li>Saqlash va organizatorlar</li>
+<li>Bolalar uchun aksessuarlar</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Qaysi mahsulotlardan qochish kerak</h3>
+<ul>
+<li>Oziq-ovqat</li>
+<li>Dori-darmon</li>
+<li>Elektronika</li>
+<li>Brend nusxalari</li>
+<li>Murakkab texnik mahsulotlar</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>2-qadam. Uzum Market ichida bozorni tahlil qilish</h2>
+<p>Uzum Market'ni oching va tanlagan bozoringizni ko'zdan kechiring.</p>
+<p>Mahsulotni tanlashda quyidagilarga qarang:</p>
+<ul>
+<li>Reytingi: 4.3 – 4.8 ⭐</li>
+<li>Sharhlar soni: 50 – 500 ta</li>
+<li>Sotuvchilar soni: juda ko'p emas</li>
+<li>Rasmlari: sifatsiz yoki o'rtacha (bu siz uchun imkoniyat)</li>
+</ul>
+</div>
+
+<div class="blog-card success">
+<h3>🎯 Ideal kirish nuqtasi</h3>
+<p>Agar mahsulot sharhlari bor, lekin:</p>
+<ul>
+<li>Rasmlari yomon bo'lsa</li>
+<li>Tavsifi tushunarsiz bo'lsa</li>
+</ul>
+<p>👉 bu kirish uchun ideal nuqta.</p>
+</div>
+
+<div class="blog-section">
+<h2>3-qadam. Tashqi talabni tekshirish (Uzumni o'zi yetmaydi)</h2>
+<p>Faqat Uzum Market bilan cheklanib qolmang.</p>
+<p>Telegram va Instagram'da tekshiring:</p>
+<ul>
+<li>Telegram'da mahsulot nomini yozing</li>
+<li>Instagram'da reels va postlarni qidiring</li>
+</ul>
+<p>Agar bir nechta sotuvchi bo'lsa, kommentlar bo'lsa, savollar berilayotgan bo'lsa 👉 demak talab BOR.</p>
+</div>
+
+<div class="blog-section">
+<h2>4-qadam. Real foydani hisoblash</h2>
+<p>Ko'pchilik shu yerda xato qiladi.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 Formula</h3>
+<p><strong>Sotuv narxi</strong><br/>
+– Uzum komissiyasi (10–25%)<br/>
+– Yetkazib berish<br/>
+– Mahsulot tannarxi<br/>
+– Qadoqlash<br/>
+= <strong>Sof foyda</strong></p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Qoidalar</h3>
+<ul>
+<li>Minimal foyda: 25–40%</li>
+<li>Agar foyda 20% dan kam bo'lsa — mahsulotni tashlang</li>
+</ul>
+<p><strong>Pul ishlash bu matematika, omad emas.</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>5-qadam. Uzum'da sotuvchi sifatida ro'yxatdan o'tish</h2>
+<p>Kerak bo'ladi:</p>
+<ul>
+<li>YATT yoki MCHJ</li>
+<li>Bank hisob raqami</li>
+<li>Telefon raqam</li>
+</ul>
+<p>Ro'yxatdan o'tish: <strong>seller.uzum.uz</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>6-qadam. Mahsulotni professional tayyorlash</h2>
+<p><strong>Rasmlar — hammasi</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>📸 Kerakli rasmlar</h3>
+<ul>
+<li>Oqartirilgan fon (asosiy rasm)</li>
+<li>Foydalanish jarayoni</li>
+<li>Detallar</li>
+<li>Afzalliklar yozilgan rasm</li>
+</ul>
+<p>Oddiy telefon + yaxshi yorug'lik yetarli.</p>
+</div>
+
+<div class="blog-section">
+<h2>7-qadam. To'g'ri sarlavha va tavsif yozish</h2>
+</div>
+
+<div class="blog-card info">
+<h3>📝 Sarlavha formulasi</h3>
+<p>[Asosiy foyda] + [Mahsulot nomi] + [Xususiyat]</p>
+<p>Tavsifda:</p>
+<ul>
+<li>3–5 ta foyda</li>
+<li>Kimlar uchun</li>
+<li>O'lcham, material</li>
+<li>Qanday ishlatiladi</li>
+</ul>
+<p>Avval o'zbekcha, keyin ruscha.</p>
+</div>
+
+<div class="blog-section">
+<h2>8-qadam. Narx strategiyasi</h2>
+<p>Boshlanishda:</p>
+<ul>
+<li>Bozordan 5–10% arzon</li>
+<li>Sharhlar yig'ilgach — narxni ko'taring</li>
+</ul>
+<p>Uzum nimani "sevadi?":</p>
+<ul>
+<li>Tez sotuv</li>
+<li>Kam qaytarilgan mahsulotlar</li>
+<li>Yaxshi baholar</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>9-qadam. Omborga mahsulot yuborish</h2>
+<p>Boshlanish uchun:</p>
+<ul>
+<li>20–50 dona</li>
+<li><strong>Hech qachon katta miqdor bilan boshlamang!</strong></li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>10-qadam. Birinchi 7 kun — eng muhim davr</h2>
+<ul>
+<li>Savollarga tez javob bering</li>
+<li>Do'stlaringizdan real buyurtma va sharh oling</li>
+<li>Salbiy baholarga yo'l qo'ymang</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>11-qadam. Reklama (faqat sotuv boshlanganidan keyin)</h2>
+<ul>
+<li>Kichik byudjet bilan</li>
+<li>Faqat sotilayotgan mahsulotga</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>12-qadam. Tahlil va qaror</h2>
+<p>30 kundan keyin:</p>
+<ul>
+<li>Agar kunlik sotuv bo'lsa — kengaytiring</li>
+<li>Bo'lmasa — to'xtating va boshqa mahsulot oling</li>
+</ul>
+<p><strong>Bu biznesda hissiyot emas, raqamlar ishlaydi.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Yakuniy maslahatlar</h2>
+<ul>
+<li>Bitta mahsulotga fokus</li>
+<li>Mukammallik emas, tezlik</li>
+<li>O'rganish jarayonida pul ishlash mumkin</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<h3>🚀 Marketingda yordam kerakmi?</h3>
+<p>Agar siz:</p>
+<ul>
+<li>Uzum Market'da vaqtni yo'qotmasdan tezroq natija olishni xohlasangiz</li>
+<li>Mahsulot tanlashda adashishni istamasangiz</li>
+<li>Professional rasmlar, listing va strategiya bilan chiqmoqchi bo'lsangiz</li>
+</ul>
+<p>👉 <strong>LinkOn marketing agentligi</strong> sizga yordam beradi.</p>
+<p>LinkOn sizga nimani beradi?</p>
+<ul>
+<li>Uzum Market uchun tayyor strategiya</li>
+<li>Sotuvchi sifatida to'g'ri start</li>
+<li>Mahsulot listing (sarlavha + tavsif + pozitsiyalash)</li>
+<li>Marketing va reklama bo'yicha maslahatlar</li>
+</ul>
+</div>`,
+        ru: `<div class="blog-intro">
+<p class="lead">Это руководство написано для человека без опыта работы на Uzum Market. Если у вас есть вопросы "с чего начать?", "какой товар будет продаваться?", "не уйду ли в минус?" — это руководство именно для вас.</p>
+<p>Статья объясняет пошагово, от шага 1 до финальной продажи. Никакой "пустой мотивации" — только реальный рынок, реальные цифры и реальные действия.</p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 1. Выбор правильного товара (самый важный этап)</h2>
+<p>70% успеха на Uzum Market зависит от выбора товара. Реклама, дизайн, даже цена не спасут неправильный товар.</p>
+</div>
+
+<div class="blog-card success">
+<h3>✅ Какие товары ХОРОШИЕ?</h3>
+<ul>
+<li>Используются в повседневной жизни</li>
+<li>Не ломаются, не портятся</li>
+<li>Не требуют гарантии</li>
+<li>Цена в диапазоне 50 000 – 300 000 сум</li>
+<li>"Импульсная покупка"</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>📦 Хорошие категории для начинающих</h3>
+<ul>
+<li>Товары для дома и кухни</li>
+<li>Автомобильные аксессуары</li>
+<li>Аксессуары для телефона</li>
+<li>Хранение и органайзеры</li>
+<li>Детские аксессуары</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Каких товаров избегать</h3>
+<ul>
+<li>Продукты питания</li>
+<li>Лекарства</li>
+<li>Электроника</li>
+<li>Копии брендов</li>
+<li>Сложные технические товары</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 2. Анализ рынка внутри Uzum</h2>
+<p>Откройте Uzum Market и изучите выбранный рынок.</p>
+<p>При выборе товара смотрите на:</p>
+<ul>
+<li>Рейтинг: 4.3 – 4.8 ⭐</li>
+<li>Количество отзывов: 50 – 500</li>
+<li>Количество продавцов: не слишком много</li>
+<li>Фотографии: низкого или среднего качества (это ВАША возможность)</li>
+</ul>
+</div>
+
+<div class="blog-card success">
+<h3>🎯 Идеальная точка входа</h3>
+<p>Если у товара есть отзывы, но:</p>
+<ul>
+<li>Фотографии плохие</li>
+<li>Описание непонятное</li>
+</ul>
+<p>👉 это идеальная точка входа для вас.</p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 3. Проверка внешнего спроса</h2>
+<p>Не ограничивайтесь только Uzum Market.</p>
+<p>Проверьте в Telegram и Instagram:</p>
+<ul>
+<li>Поищите название товара в Telegram</li>
+<li>Поищите reels и посты в Instagram</li>
+</ul>
+<p>Если есть несколько продавцов, комментарии, задаются вопросы 👉 значит спрос ЕСТЬ.</p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 4. Расчёт реальной прибыли</h2>
+<p>Большинство ошибаются именно здесь.</p>
+</div>
+
+<div class="blog-card info">
+<h3>📊 Формула</h3>
+<p><strong>Цена продажи</strong><br/>
+– Комиссия Uzum (10–25%)<br/>
+– Доставка<br/>
+– Себестоимость товара<br/>
+– Упаковка<br/>
+= <strong>Чистая прибыль</strong></p>
+</div>
+
+<div class="blog-card warning">
+<h3>⚠️ Правила</h3>
+<ul>
+<li>Минимальная прибыль: 25–40%</li>
+<li>Если прибыль меньше 20% — откажитесь от товара</li>
+</ul>
+<p><strong>Заработок — это математика, а не удача.</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 5. Регистрация как продавец</h2>
+<p>Потребуется:</p>
+<ul>
+<li>ИП или ООО</li>
+<li>Банковский счёт</li>
+<li>Номер телефона</li>
+</ul>
+<p>Регистрация: <strong>seller.uzum.uz</strong></p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 6. Профессиональная подготовка товара</h2>
+<p><strong>Фотографии — всё</strong></p>
+</div>
+
+<div class="blog-card info">
+<h3>📸 Необходимые фотографии</h3>
+<ul>
+<li>Белый фон (основное фото)</li>
+<li>Процесс использования</li>
+<li>Детали</li>
+<li>Фото с написанными преимуществами</li>
+</ul>
+<p>Достаточно обычного телефона + хорошего освещения.</p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 7. Написание правильного заголовка и описания</h2>
+</div>
+
+<div class="blog-card info">
+<h3>📝 Формула заголовка</h3>
+<p>[Главное преимущество] + [Название товара] + [Характеристика]</p>
+<p>В описании:</p>
+<ul>
+<li>3–5 преимуществ</li>
+<li>Для кого</li>
+<li>Размер, материал</li>
+<li>Как использовать</li>
+</ul>
+<p>Сначала на узбекском, потом на русском.</p>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 8. Ценовая стратегия</h2>
+<p>В начале:</p>
+<ul>
+<li>На 5–10% дешевле рынка</li>
+<li>После сбора отзывов — поднимите цену</li>
+</ul>
+<p>Что Uzum "любит":</p>
+<ul>
+<li>Быстрые продажи</li>
+<li>Мало возвратов</li>
+<li>Хорошие оценки</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 9. Отправка товара на склад</h2>
+<p>Для начала:</p>
+<ul>
+<li>20–50 единиц</li>
+<li><strong>Никогда не начинайте с большого количества!</strong></li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 10. Первые 7 дней — самый важный период</h2>
+<ul>
+<li>Быстро отвечайте на вопросы</li>
+<li>Получите реальные заказы и отзывы от друзей</li>
+<li>Не допускайте негативных оценок</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 11. Реклама (только после начала продаж)</h2>
+<ul>
+<li>С небольшим бюджетом</li>
+<li>Только на продающийся товар</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Шаг 12. Анализ и решение</h2>
+<p>Через 30 дней:</p>
+<ul>
+<li>Если есть ежедневные продажи — расширяйтесь</li>
+<li>Если нет — остановитесь и возьмите другой товар</li>
+</ul>
+<p><strong>В этом бизнесе работают цифры, а не эмоции.</strong></p>
+</div>
+
+<div class="blog-section highlight">
+<h2>Финальные советы</h2>
+<ul>
+<li>Фокус на одном товаре</li>
+<li>Скорость, а не совершенство</li>
+<li>Можно зарабатывать в процессе обучения</li>
+</ul>
+</div>
+
+<div class="blog-cta">
+<h3>🚀 Нужна помощь с маркетингом?</h3>
+<p>Если вы:</p>
+<ul>
+<li>Хотите быстрее получить результат на Uzum Market</li>
+<li>Не хотите ошибиться с выбором товара</li>
+<li>Хотите выйти с профессиональными фото, листингом и стратегией</li>
+</ul>
+<p>👉 <strong>Маркетинговое агентство LinkOn</strong> поможет вам.</p>
+<p>LinkOn предоставляет:</p>
+<ul>
+<li>Готовую стратегию для Uzum Market</li>
+<li>Правильный старт как продавец</li>
+<li>Листинг товара (заголовок + описание + позиционирование)</li>
+<li>Консультации по маркетингу и рекламе</li>
+</ul>
+</div>`
+      }
+    },
     'telegram-ads-muammo': {
       title: {
         en: "Telegram Ads – The Big Problem Most Don't See",
@@ -3415,191 +4103,7 @@ export const BlogPost = () => {
 </div>`
       }
     },
-    'uzum-market-seller': {
-      title: {
-        en: "How to Become a Successful Seller on Uzum Market in 2025",
-        uz: "Uzum Marketda muvaffaqiyatli sotuvchi (seller) bo'lish: 2025-yilgi yangi qoidalar va strategiyalar",
-        ru: "Как стать успешным продавцом на Uzum Market в 2025 году"
-      },
-      date: '2025-01-19',
-      readTime: '12 min',
-      category: 'E-commerce',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=600&fit=crop',
-      content: {
-        en: `<div class="blog-intro">
-<p class="lead">Uzum Market is Uzbekistan's fastest-growing e-commerce platform. With millions of daily users, it represents a massive opportunity for entrepreneurs. Here's your complete guide to becoming a successful seller in 2025.</p>
-</div>
-
-<div class="blog-section">
-<h2>Why Sell on Uzum Market?</h2>
-<p>The e-commerce sector in Uzbekistan is experiencing explosive growth, and Uzum Market is at the forefront of this revolution.</p>
-</div>
-
-<div class="blog-card success">
-<h3>📈 Key Statistics</h3>
-<ul>
-<li>Over 5 million active users</li>
-<li>E-commerce growing 40%+ annually in Uzbekistan</li>
-<li>Lower overhead than physical retail</li>
-<li>Access to customers nationwide</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>🚀 Step 1: Registration and Setup</h3>
-<p>Register as a seller on the Uzum Market platform. You'll need:</p>
-<ul>
-<li>Valid business registration or individual entrepreneur status</li>
-<li>Bank account for receiving payments</li>
-<li>Product photos and descriptions</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>📸 Step 2: Optimize Your Listings</h3>
-<p>High-quality product photos and detailed descriptions are crucial. Use professional photography and write compelling copy that highlights benefits.</p>
-</div>
-
-<div class="blog-card info">
-<h3>💰 Step 3: Pricing Strategy</h3>
-<p>Research competitors and set competitive prices. Consider platform fees, shipping costs, and desired profit margins when calculating your prices.</p>
-</div>
-
-<div class="blog-card info">
-<h3>⭐ Step 4: Build Your Reputation</h3>
-<p>Positive reviews are essential. Ship quickly, respond to customer inquiries promptly, and resolve issues professionally to build a 5-star reputation.</p>
-</div>
-
-<div class="blog-section highlight">
-<h2>2025 Success Strategies</h2>
-<ul>
-<li><strong>Niche focus:</strong> Specialize in specific product categories</li>
-<li><strong>Quality photos:</strong> Invest in professional product photography</li>
-<li><strong>Fast shipping:</strong> Customers expect quick delivery</li>
-<li><strong>Customer service:</strong> Respond within hours, not days</li>
-</ul>
-</div>
-
-<div class="blog-cta">
-<p><strong>Need professional product photos for your Uzum Market store?</strong> LinkOn's studio offers e-commerce photography packages designed to maximize your sales.</p>
-</div>`,
-        uz: `<div class="blog-intro">
-<p class="lead">Uzum Market — O'zbekistonning eng tez rivojlanayotgan e-tijorat platformasi. Kunlik millionlab foydalanuvchilar bilan u tadbirkorlar uchun katta imkoniyatni ifodalaydi. 2025-yilda muvaffaqiyatli sotuvchi bo'lish bo'yicha to'liq qo'llanma.</p>
-</div>
-
-<div class="blog-section">
-<h2>Nima uchun Uzum Marketda sotish kerak?</h2>
-<p>O'zbekistondagi e-tijorat sektori portlovchi o'sishni boshdan kechirmoqda va Uzum Market bu inqilobning birinchi qatorida turibdi.</p>
-</div>
-
-<div class="blog-card success">
-<h3>📈 Asosiy statistika</h3>
-<ul>
-<li>5 milliondan ortiq faol foydalanuvchilar</li>
-<li>O'zbekistonda e-tijorat yiliga 40%+ o'sish</li>
-<li>Jismoniy chakana savdoga qaraganda kamroq xarajatlar</li>
-<li>Butun mamlakat bo'ylab mijozlarga kirish</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>🚀 1-qadam: Ro'yxatdan o'tish va sozlash</h3>
-<p>Uzum Market platformasida sotuvchi sifatida ro'yxatdan o'ting. Sizga kerak bo'ladi:</p>
-<ul>
-<li>Yaroqli biznes ro'yxatdan o'tishi yoki yakka tartibdagi tadbirkor maqomi</li>
-<li>To'lovlarni qabul qilish uchun bank hisobi</li>
-<li>Mahsulot rasmlari va tavsiflari</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>📸 2-qadam: E'lonlaringizni optimallashtiring</h3>
-<p>Yuqori sifatli mahsulot rasmlari va batafsil tavsiflar juda muhim. Professional suratga olishdan foydalaning va foyda jihatlarini ta'kidlaydigan jozibali matn yozing.</p>
-</div>
-
-<div class="blog-card info">
-<h3>💰 3-qadam: Narxlash strategiyasi</h3>
-<p>Raqobatchilarni o'rganing va raqobatbardosh narxlarni belgilang. Narxlaringizni hisoblashda platforma to'lovlari, yetkazib berish xarajatlari va kerakli foyda marjalarini hisobga oling.</p>
-</div>
-
-<div class="blog-card info">
-<h3>⭐ 4-qadam: Obro'ingizni yarating</h3>
-<p>Ijobiy sharhlar juda muhim. Tezda jo'nating, mijozlar so'rovlariga tezda javob bering va 5 yulduzli obro' yaratish uchun muammolarni professional hal qiling.</p>
-</div>
-
-<div class="blog-section highlight">
-<h2>2025-yil muvaffaqiyat strategiyalari</h2>
-<ul>
-<li><strong>Nisha diqqati:</strong> Muayyan mahsulot toifalariga ixtisoslashing</li>
-<li><strong>Sifatli fotosuratlar:</strong> Professional mahsulot suratga olishiga sarmoya kiriting</li>
-<li><strong>Tez yetkazib berish:</strong> Mijozlar tez yetkazib berishni kutishadi</li>
-<li><strong>Mijozlarga xizmat:</strong> Soatlar ichida javob bering, kunlar emas</li>
-</ul>
-</div>
-
-<div class="blog-cta">
-<p><strong>Uzum Market do'koningiz uchun professional mahsulot fotosuratlar kerakmi?</strong> LinkOn studiyasi sotuvlaringizni maksimal darajada oshirish uchun mo'ljallangan e-tijorat suratga olish paketlarini taklif qiladi.</p>
-</div>`,
-        ru: `<div class="blog-intro">
-<p class="lead">Uzum Market — самая быстрорастущая e-commerce платформа Узбекистана. С миллионами ежедневных пользователей она представляет огромную возможность для предпринимателей. Вот ваше полное руководство по становлению успешным продавцом в 2025 году.</p>
-</div>
-
-<div class="blog-section">
-<h2>Почему продавать на Uzum Market?</h2>
-<p>Сектор электронной коммерции в Узбекистане переживает взрывной рост, и Uzum Market находится в авангарде этой революции.</p>
-</div>
-
-<div class="blog-card success">
-<h3>📈 Ключевая статистика</h3>
-<ul>
-<li>Более 5 миллионов активных пользователей</li>
-<li>E-commerce растёт на 40%+ ежегодно в Узбекистане</li>
-<li>Меньше накладных расходов, чем в физической рознице</li>
-<li>Доступ к клиентам по всей стране</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>🚀 Шаг 1: Регистрация и настройка</h3>
-<p>Зарегистрируйтесь как продавец на платформе Uzum Market. Вам понадобится:</p>
-<ul>
-<li>Действующая бизнес-регистрация или статус ИП</li>
-<li>Банковский счёт для получения платежей</li>
-<li>Фотографии и описания товаров</li>
-</ul>
-</div>
-
-<div class="blog-card info">
-<h3>📸 Шаг 2: Оптимизируйте листинги</h3>
-<p>Качественные фото товаров и подробные описания критически важны. Используйте профессиональную фотографию и пишите убедительные тексты, подчёркивающие преимущества.</p>
-</div>
-
-<div class="blog-card info">
-<h3>💰 Шаг 3: Ценовая стратегия</h3>
-<p>Исследуйте конкурентов и установите конкурентные цены. При расчёте учитывайте комиссии платформы, стоимость доставки и желаемую маржу.</p>
-</div>
-
-<div class="blog-card info">
-<h3>⭐ Шаг 4: Создайте репутацию</h3>
-<p>Положительные отзывы необходимы. Отправляйте быстро, отвечайте на запросы клиентов оперативно и решайте проблемы профессионально для создания 5-звёздочной репутации.</p>
-</div>
-
-<div class="blog-section highlight">
-<h2>Стратегии успеха 2025</h2>
-<ul>
-<li><strong>Фокус на нише:</strong> Специализируйтесь на конкретных категориях товаров</li>
-<li><strong>Качественные фото:</strong> Инвестируйте в профессиональную продуктовую съёмку</li>
-<li><strong>Быстрая доставка:</strong> Клиенты ожидают быструю доставку</li>
-<li><strong>Обслуживание клиентов:</strong> Отвечайте в течение часов, не дней</li>
-</ul>
-</div>
-
-<div class="blog-cta">
-<p><strong>Нужны профессиональные фото товаров для Uzum Market?</strong> Студия LinkOn предлагает пакеты e-commerce фотографии, разработанные для максимизации ваших продаж.</p>
-</div>`
-      }
-    },
-    'investment-10-million': {
+    'invest-10-million': {
       title: {
         en: "How to Start Investing with 10 Million Sum in Uzbekistan?",
         uz: "O'zbekistonda 10 million so'm bilan qanday investitsiya boshlash mumkin?",
@@ -5034,6 +5538,9 @@ export const BlogPost = () => {
                 <ArrowLeft className="w-5 h-5 rotate-180" />
               </Link>
             </div>
+
+            {/* Comments Section */}
+            <BlogComments blogSlug={id || ''} />
           </article>
         </Reveal>
       </section>

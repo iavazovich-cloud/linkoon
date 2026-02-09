@@ -14,7 +14,82 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      blog_comment_votes: {
+        Row: {
+          comment_id: string
+          created_at: string
+          id: string
+          vote_type: string
+          voter_fingerprint: string
+        }
+        Insert: {
+          comment_id: string
+          created_at?: string
+          id?: string
+          vote_type: string
+          voter_fingerprint: string
+        }
+        Update: {
+          comment_id?: string
+          created_at?: string
+          id?: string
+          vote_type?: string
+          voter_fingerprint?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "blog_comment_votes_comment_id_fkey"
+            columns: ["comment_id"]
+            isOneToOne: false
+            referencedRelation: "blog_comments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      blog_comments: {
+        Row: {
+          author_name: string
+          blog_slug: string
+          content: string
+          created_at: string
+          dislikes_count: number
+          id: string
+          likes_count: number
+          parent_id: string | null
+          updated_at: string
+        }
+        Insert: {
+          author_name: string
+          blog_slug: string
+          content: string
+          created_at?: string
+          dislikes_count?: number
+          id?: string
+          likes_count?: number
+          parent_id?: string | null
+          updated_at?: string
+        }
+        Update: {
+          author_name?: string
+          blog_slug?: string
+          content?: string
+          created_at?: string
+          dislikes_count?: number
+          id?: string
+          likes_count?: number
+          parent_id?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "blog_comments_parent_id_fkey"
+            columns: ["parent_id"]
+            isOneToOne: false
+            referencedRelation: "blog_comments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never
