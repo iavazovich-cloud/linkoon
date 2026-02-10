@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, ArrowRight, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
@@ -32,7 +33,7 @@ export const Blog = () => {
       date: '2025-02-09',
       readTime: '15 min',
       category: 'E-commerce',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop'
+      image: uzumMarketImage
     },
     {
       id: 'telegram-ads-muammo',
@@ -385,33 +386,7 @@ export const Blog = () => {
       category: 'Technology',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop'
     },
-    {
-      id: 'uzum-market-seller',
-      title: {
-        en: "How to Become a Successful Seller on Uzum Market in 2025",
-        uz: "Uzum Marketda muvaffaqiyatli sotuvchi (seller) bo'lish: 2025-yilgi yangi qoidalar va strategiyalar",
-        ru: "Как стать успешным продавцом на Uzum Market в 2025 году"
-      },
-      metaTitle: {
-        en: "How to Sell on Uzum Market | Seller Guide 2025",
-        uz: "Uzum Marketda sotish | Sotuvchi qo'llanmasi 2025",
-        ru: "Как продавать на Uzum Market | Гид продавца 2025"
-      },
-      metaDescription: {
-        en: "Complete guide to selling on the fastest growing e-commerce platform. Registration, optimization, and sales strategies.",
-        uz: "Eng tez rivojlanayotgan e-tijorat platformasida sotish bo'yicha to'liq qo'llanma.",
-        ru: "Полное руководство по продажам на самой быстрорастущей e-commerce платформе."
-      },
-      excerpt: {
-        en: "Complete guide to selling on Uzbekistan's fastest growing e-commerce platform.",
-        uz: "O'zbekistonning eng tez rivojlanayotgan e-tijorat platformasida sotish bo'yicha to'liq qo'llanma.",
-        ru: "Полное руководство по продажам на самой быстрорастущей e-commerce платформе Узбекистана."
-      },
-      date: '2025-01-19',
-      readTime: '12 min',
-      category: 'E-commerce',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop'
-    },
+   
     {
       id: 'investment-10-million',
       title: {
