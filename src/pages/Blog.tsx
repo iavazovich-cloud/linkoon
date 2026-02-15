@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Calendar, ArrowRight, Clock } from 'lucide-react';
+import { Calendar, ArrowRight, Clock, Eye } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { useBlogViewCounts } from '@/hooks/useBlogViews';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 
 export const Blog = () => {
@@ -605,6 +606,8 @@ export const Blog = () => {
     }
   ];
 
+  const viewCounts = useBlogViewCounts(blogPosts.map(p => p.id));
+
   // Featured post (first one)
   const featuredPost = blogPosts[0];
   const otherPosts = blogPosts.slice(1);
@@ -662,6 +665,10 @@ export const Blog = () => {
                       <Clock className="w-4 h-4" />
                       <span>{featuredPost.readTime}</span>
                     </div>
+                    <div className="flex items-center gap-1.5">
+                      <Eye className="w-4 h-4" />
+                      <span>{viewCounts[featuredPost.id] || 0}</span>
+                    </div>
                   </div>
                   <div className="flex items-center gap-2 text-primary font-medium group-hover:gap-3 transition-all">
                     <span>{t('blog.readMore')}</span>
@@ -698,6 +705,10 @@ export const Blog = () => {
                     <div className="flex items-center gap-1 text-xs text-muted-foreground">
                       <Clock className="w-3.5 h-3.5" />
                       <span>{post.readTime}</span>
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Eye className="w-3.5 h-3.5" />
+                      <span>{viewCounts[post.id] || 0}</span>
                     </div>
                   </div>
                   <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2">
