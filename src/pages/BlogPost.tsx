@@ -1,11 +1,12 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, CheckCircle2, AlertTriangle, Zap } from 'lucide-react';
+import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, CheckCircle2, AlertTriangle, Zap, Eye } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import { useEffect } from 'react';
 import { BlogComments } from '@/components/BlogComments';
+import { useBlogViewCount } from '@/hooks/useBlogViews';
 
 export const BlogPost = () => {
   const { id } = useParams();
@@ -5419,6 +5420,7 @@ export const BlogPost = () => {
   };
 
   const post = id ? blogData[id] : null;
+  const viewCount = useBlogViewCount(id);
 
   // Update document meta for SEO - unique titles without brand keywords
   useEffect(() => {
@@ -5476,6 +5478,10 @@ export const BlogPost = () => {
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4" />
                 <span>{post.readTime}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Eye className="w-4 h-4" />
+                <span>{viewCount}</span>
               </div>
               <button 
                 onClick={() => {

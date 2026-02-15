@@ -90,6 +90,27 @@ export type Database = {
           },
         ]
       }
+      blog_views: {
+        Row: {
+          blog_slug: string
+          created_at: string
+          id: string
+          viewer_fingerprint: string
+        }
+        Insert: {
+          blog_slug: string
+          created_at?: string
+          id?: string
+          viewer_fingerprint: string
+        }
+        Update: {
+          blog_slug?: string
+          created_at?: string
+          id?: string
+          viewer_fingerprint?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
