@@ -2,9 +2,14 @@ import { Link } from 'react-router-dom';
 import { Palette, Share2, Video, Globe, Lightbulb, Search, ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 
 export const MarketingAgentligiNamangan = () => {
   const { language } = useLanguage();
+  usePageMeta(
+    'Marketing Agentligi Namanganda | LinkOn',
+    'Namangandagi professional marketing agentligi. Brending, SMM, SEO, veb-sayt yaratish va reklama xizmatlari.'
+  );
 
   const pageContent = {
     en: {

@@ -2,11 +2,16 @@ import { Palette, Share2, Video, Megaphone, Globe, Lightbulb, Plus, Minus, Tv, A
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import { useState } from 'react';
 
 export const Services = () => {
   const { t, language } = useLanguage();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  usePageMeta(
+    'Xizmatlar — Brending, SMM, SEO, Video | LinkOn',
+    "LinkOn xizmatlari: brending, SMM, SEO, veb-sayt yaratish, video ishlab chiqarish va marketing strategiyasi. Namangan va butun O'zbekiston bo'ylab."
+  );
 
   const services = [
     {

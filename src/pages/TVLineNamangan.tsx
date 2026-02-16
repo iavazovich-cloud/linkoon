@@ -24,7 +24,7 @@ import {
   FileText,
   Percent
 } from 'lucide-react';
-import { useEffect } from 'react';
+import { usePageMeta } from '@/hooks/usePageMeta';
 
 export const TVLineNamangan = () => {
   const { language } = useLanguage();
@@ -487,12 +487,7 @@ export const TVLineNamangan = () => {
     }
   };
 
-  // Set document title on mount
-  useEffect(() => {
-    document.title = t.meta.title;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', t.meta.description);
-  }, [t.meta.title, t.meta.description]);
+  usePageMeta(t.meta.title, t.meta.description);
 
   return (
     <>

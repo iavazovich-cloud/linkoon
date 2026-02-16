@@ -1,11 +1,16 @@
 import { MapPin, Phone, Mail } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import { useState, FormEvent } from 'react';
 import { toast } from 'sonner';
 
 export const Contact = () => {
   const { t, language } = useLanguage();
+  usePageMeta(
+    "Bog'lanish — LinkOn Marketing Agentligi",
+    "LinkOn bilan bog'laning. Namangan, Amir Temur ko'chasi 42. Telefon: +998906937737."
+  );
   const [formData, setFormData] = useState({
     name: '',
     phone: '',

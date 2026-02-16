@@ -2,11 +2,16 @@ import { Link } from 'react-router-dom';
 import { Palette, Share2, Video, Megaphone, Globe, Lightbulb, ArrowRight, Play, Calendar, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
 
 export const Home = () => {
   const { t, language } = useLanguage();
+  usePageMeta(
+    'Marketing Agentligi Namanganda | LinkOn',
+    'LinkOn — Namangandagi marketing agentligi. Brending, SMM, SEO, veb-sayt yaratish va video ishlab chiqarish xizmatlari.'
+  );
 
   const services = [
     { icon: Palette, title: t('services.branding'), description: t('services.branding') },
