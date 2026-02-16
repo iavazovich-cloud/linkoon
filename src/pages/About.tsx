@@ -1,6 +1,7 @@
 import { Target, Zap, Globe2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import teamOffice from '@/assets/team-office.jpg';
 import teamCollab from '@/assets/team-collab.jpg';
 import studioSpace from '@/assets/studio-space.jpg';
@@ -9,6 +10,10 @@ import workspaceWide from '@/assets/workspace-wide.jpg';
 
 export const About = () => {
   const { t, language } = useLanguage();
+  usePageMeta(
+    'Biz haqimizda — LinkOn Marketing Agentligi',
+    'LinkOn jamoasi haqida: tajriba, qadriyatlar va missiyamiz. Namangandagi professional marketing xizmatlari.'
+  );
 
   const values = [
     {

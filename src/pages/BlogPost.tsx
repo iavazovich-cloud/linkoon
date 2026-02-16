@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Calendar, Clock, ArrowLeft, Share2, Lightbulb, Target, TrendingUp, CheckCircle2, AlertTriangle, Zap, Eye } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import viralReelsImage from '@/assets/blog-viral-reels.png';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import { useEffect } from 'react';
@@ -5423,24 +5424,9 @@ export const BlogPost = () => {
   const viewCount = useBlogViewCount(id);
 
   // Update document meta for SEO - unique titles without brand keywords
-  useEffect(() => {
-    if (!post) return;
-    
-    const metaTitle = post.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post.title[language as 'en' | 'uz' | 'ru'];
-    const metaDesc = post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
-    
-    document.title = metaTitle;
-    
-    // Update meta description
-    let descMeta = document.querySelector('meta[name="description"]');
-    if (descMeta) {
-      descMeta.setAttribute('content', metaDesc);
-    }
-    
-    return () => {
-      document.title = 'Marketing Agentligi Namanganda | LinkOn';
-    };
-  }, [post, language]);
+  const metaTitle = post?.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post?.title[language as 'en' | 'uz' | 'ru'] || '';
+  const metaDesc = post?.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
+  usePageMeta(metaTitle, metaDesc);
 
   if (!id || !blogData[id]) {
     return <Navigate to="/blog" replace />;

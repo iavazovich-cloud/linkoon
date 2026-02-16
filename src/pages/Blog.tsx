@@ -2,11 +2,16 @@ import { Link } from 'react-router-dom';
 import { Calendar, ArrowRight, Clock, Eye } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import { useBlogViewCounts } from '@/hooks/useBlogViews';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
+  usePageMeta(
+    "Blog — Marketing va Biznes Maqolalari | LinkOn",
+    "Marketing, SMM, SEO, brending va biznes bo'yicha foydali maqolalar. O'zbekiston bozori uchun amaliy maslahatlar."
+  );
 
   const blogPosts = [
     {

@@ -1,11 +1,16 @@
 import { Mic, Camera, Monitor, Radio } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import studioCyclorama from '@/assets/studio-cyclorama.jpg';
 import { Link } from 'react-router-dom';
 
 export const Studio = () => {
   const { t, language } = useLanguage();
+  usePageMeta(
+    'Studiya — Professional Video Studio | LinkOn',
+    "LinkOn studiyasi: professional video suratga olish, fotosessiya va kontent yaratish uchun zamonaviy jihozlar."
+  );
 
   const equipment = [
     {

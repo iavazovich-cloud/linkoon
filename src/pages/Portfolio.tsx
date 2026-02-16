@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Reveal } from '@/components/Reveal';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
 import portfolioVideo from '@/assets/portfolio-video.jpg';
@@ -13,6 +14,10 @@ type Category = 'all' | 'branding' | 'web' | 'video' | 'social';
 export const Portfolio = () => {
   const { t, language } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<Category>('all');
+  usePageMeta(
+    'Portfolio — Bizning ishlarimiz | LinkOn',
+    "LinkOn agentligi tomonidan bajarilgan loyihalar: brending, veb-saytlar, video va ijtimoiy tarmoqlar bo'yicha ishlar."
+  );
 
   const categories: { id: Category; label: string }[] = [
     { id: 'all', label: t('portfolio.all') },
