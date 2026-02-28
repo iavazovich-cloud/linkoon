@@ -5,6 +5,7 @@ import { Reveal } from '@/components/Reveal';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import { useBlogViewCounts } from '@/hooks/useBlogViews';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
+import metaManusAiImage from '@/assets/blog-meta-manus-ai.jpg';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
@@ -14,6 +15,33 @@ export const Blog = () => {
   );
 
   const blogPosts = [
+    {
+      id: 'meta-manus-ai-agentli-targeting',
+      title: {
+        en: "Meta and Manus AI: The Agent Revolution in Digital Marketing",
+        uz: "Meta va Manus AI: Digital Marketingda \"Agentli\" Inqilobi",
+        ru: "Meta и Manus AI: Агентная революция в цифровом маркетинге"
+      },
+      metaTitle: {
+        en: "Meta and Manus AI: Agent Revolution in Targeting & SMM (2026)",
+        uz: "Meta va Manus AI: Targeting va SMM'da Agentli Inqilob (2026)",
+        ru: "Meta и Manus AI: Агентная революция в таргетинге и SMM (2026)"
+      },
+      metaDescription: {
+        en: "How does the Meta and Manus AI integration transform marketing? Deep analysis of Agent AI, targeting strategy, ROAS optimization.",
+        uz: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya haqida chuqur tahlil.",
+        ru: "Как интеграция Meta и Manus AI трансформирует маркетинг? Глубокий анализ агентного AI и стратегии таргетинга."
+      },
+      excerpt: {
+        en: "How Meta's acquisition of Manus AI transforms targeting and SMM. From generative to agent AI.",
+        uz: "Meta'ning Manus AI'ni sotib olishi targeting va SMM'ni qanday o'zgartiradi. Generativ AI'dan agentli AI'ga o'tish.",
+        ru: "Как приобретение Manus AI компанией Meta трансформирует таргетинг и SMM."
+      },
+      date: '2026-02-28',
+      readTime: '7 min',
+      category: 'AI & Marketing',
+      image: metaManusAiImage
+    },
     {
       id: 'uzum-market-seller',
       title: {

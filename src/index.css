@@ -53,6 +53,22 @@
   @apply bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-6 lg:p-8 mt-10 text-center border border-primary/20;
 }
 
+.blog-content .blog-toc {
+  @apply bg-card rounded-xl p-6 mb-10 border border-border;
+}
+
+.blog-content .blog-toc h3 {
+  @apply text-lg font-bold mb-3;
+}
+
+.blog-content .blog-toc ul {
+  @apply space-y-2 pl-4;
+}
+
+.blog-content .blog-toc ul li a {
+  @apply text-primary hover:underline transition-colors;
+}
+
 .blog-content .stats-grid {
   @apply grid grid-cols-1 md:grid-cols-3 gap-4 my-8;
 }

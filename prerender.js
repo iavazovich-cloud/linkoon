@@ -54,6 +54,10 @@ const pageMeta = {
   },
 
   // ─── Blog posts ───
+  '/blog/meta-manus-ai-agentli-targeting': {
+    title: "Meta va Manus AI: Targeting va SMM'da Agentli Inqilob (2026)",
+    description: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya va SMM kelajagi haqida chuqur tahlil.",
+  },
   '/blog/uzum-market-seller': {
     title: "Uzum Market'da sotish | To'liq qo'llanma 2025",
     description: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
@@ -188,6 +192,7 @@ const pageMeta = {
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'meta-manus-ai-agentli-targeting',
   'uzum-market-seller',
   'telegram-ads-muammo',
   'kofe-mofe-website-case-study',
