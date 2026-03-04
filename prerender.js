@@ -54,6 +54,10 @@ const pageMeta = {
   },
 
   // ─── Blog posts ───
+  '/blog/youtube-orqali-2500-dollar-topish': {
+    title: "YouTube orqali oyiga $2500 topish mumkinmi? | LinkOn Studio",
+    description: "O'zbekistonda YouTube monetizatsiya ishlamasa ham oyiga $2500 daromad qilish mumkin. Qanday qilib? To'liq strategiya.",
+  },
   '/blog/meta-manus-ai-agentli-targeting': {
     title: "Meta va Manus AI: Targeting va SMM'da Agentli Inqilob (2026)",
     description: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya va SMM kelajagi haqida chuqur tahlil.",
@@ -192,6 +196,7 @@ const pageMeta = {
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'youtube-orqali-2500-dollar-topish',
   'meta-manus-ai-agentli-targeting',
   'uzum-market-seller',
   'telegram-ads-muammo',

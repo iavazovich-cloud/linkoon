@@ -6,6 +6,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 import { useBlogViewCounts } from '@/hooks/useBlogViews';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import metaManusAiImage from '@/assets/blog-meta-manus-ai.jpg';
+import youtubeEarningsImage from '@/assets/blog-youtube-2500.jpg';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
@@ -15,6 +16,33 @@ export const Blog = () => {
   );
 
   const blogPosts = [
+    {
+      id: 'youtube-orqali-2500-dollar-topish',
+      title: {
+        en: "Can You Earn $2500/Month Through YouTube?",
+        uz: "YouTube orqali oyiga $2500 topish mumkinmi?",
+        ru: "Можно ли зарабатывать $2500 в месяц через YouTube?"
+      },
+      metaTitle: {
+        en: "Earn $2500/Month Through YouTube | LinkOn Studio",
+        uz: "YouTube orqali oyiga $2500 topish mumkinmi? | LinkOn Studio",
+        ru: "Заработок $2500/месяц через YouTube | LinkOn Studio"
+      },
+      metaDescription: {
+        en: "Even without YouTube monetization in Uzbekistan, you can earn $2500/month. Full strategy inside.",
+        uz: "O'zbekistonda YouTube monetizatsiya ishlamasa ham oyiga $2500 daromad qilish mumkin. Qanday qilib? To'liq strategiya.",
+        ru: "Даже без монетизации YouTube в Узбекистане можно зарабатывать $2500/месяц. Полная стратегия."
+      },
+      excerpt: {
+        en: "YouTube monetization doesn't work in Uzbekistan, but you can still earn $2500/month. Here's the real strategy.",
+        uz: "YouTube monetizatsiya O'zbekistonda ishlamaydi, lekin oyiga $2500 topish mumkin. Mana real strategiya.",
+        ru: "Монетизация YouTube не работает в Узбекистане, но зарабатывать $2500/месяц можно. Вот реальная стратегия."
+      },
+      date: '2026-03-04',
+      readTime: '6 min',
+      category: 'YouTube',
+      image: youtubeEarningsImage
+    },
     {
       id: 'meta-manus-ai-agentli-targeting',
       title: {
