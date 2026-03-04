@@ -5803,22 +5803,19 @@ export const BlogPost = () => {
 </div>
 
 <div class="blog-cta">
-<h3>🎬 YouTube kanal ochmoqchimisiz?</h3>
-<p>Agar siz:</p>
+<h3>🚀 YouTube'dan daromad olishni xohlaysizmi?</h3>
+<p>Siz ham YouTube orqali oyiga <strong>$2500+</strong> daromad qilishni boshlamoqchimisiz?</p>
+<p>LinkOn Studio — sizning YouTube loyihangizni <strong>g'oyadan natijagacha</strong> olib boradi:</p>
 <ul>
-<li>YouTube orqali shaxsiy brend qurmoqchi bo'lsangiz</li>
-<li>biznesingiz uchun video kontent yaratmoqchi bo'lsangiz</li>
-<li>to'g'ri strategiya bilan kanal boshlamoqchi bo'lsangiz</li>
+<li>✅ Kontent strategiya va g'oya ishlab chiqish</li>
+<li>✅ Professional video suratga olish va montaj</li>
+<li>✅ SEO-optimallashtirilgan sarlavha va thumbnail</li>
+<li>✅ Kanal o'sish strategiyasi</li>
 </ul>
-<p><strong>LinkOn Studio sizga yordam beradi.</strong></p>
-<p>Biz:</p>
-<ul>
-<li>kontent g'oya ishlab chiqamiz</li>
-<li>video strategiya yaratamiz</li>
-<li>professional video suratga olamiz</li>
-<li>montaj va tayyorlashni qilamiz</li>
-<li>videoni to'g'ri joylashtirishgacha yordam beramiz</li>
-</ul>
+<p style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #ff0000, #cc0000); color: white; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">▶ YouTube kanal boshlash</a>
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: transparent; color: inherit; border: 2px solid currentColor; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">LinkOn Studio bilan ishlash →</a>
+</p>
 </div>`,
         en: `<div class="blog-intro">
 <p class="lead">When most people think about YouTube, the first thing that comes to mind is ad monetization. If videos get many views, YouTube places ads and you earn money.</p>
@@ -5942,22 +5939,19 @@ export const BlogPost = () => {
 </div>
 
 <div class="blog-cta">
-<h3>🎬 Want to Start a YouTube Channel?</h3>
-<p>If you want to:</p>
+<h3>🚀 Ready to Earn Through YouTube?</h3>
+<p>Want to start earning <strong>$2500+/month</strong> through YouTube?</p>
+<p>LinkOn Studio takes your YouTube project from <strong>idea to results</strong>:</p>
 <ul>
-<li>build a personal brand through YouTube</li>
-<li>create video content for your business</li>
-<li>start a channel with the right strategy</li>
+<li>✅ Content strategy & idea development</li>
+<li>✅ Professional video production & editing</li>
+<li>✅ SEO-optimized titles & thumbnails</li>
+<li>✅ Channel growth strategy</li>
 </ul>
-<p><strong>LinkOn Studio can help.</strong></p>
-<p>We:</p>
-<ul>
-<li>develop content ideas</li>
-<li>create video strategies</li>
-<li>produce professional videos</li>
-<li>handle editing and post-production</li>
-<li>assist with proper publishing</li>
-</ul>
+<p style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #ff0000, #cc0000); color: white; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">▶ Start Your YouTube Channel</a>
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: transparent; color: inherit; border: 2px solid currentColor; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">Work with LinkOn Studio →</a>
+</p>
 </div>`,
         ru: `<div class="blog-intro">
 <p class="lead">Когда большинство людей думают о YouTube, первое, что приходит в голову — рекламная монетизация. Если видео набирают много просмотров, YouTube размещает рекламу и вы зарабатываете.</p>
@@ -6081,22 +6075,19 @@ export const BlogPost = () => {
 </div>
 
 <div class="blog-cta">
-<h3>🎬 Хотите открыть YouTube-канал?</h3>
-<p>Если вы хотите:</p>
+<h3>🚀 Хотите зарабатывать через YouTube?</h3>
+<p>Хотите начать зарабатывать <strong>$2500+/месяц</strong> через YouTube?</p>
+<p>LinkOn Studio ведёт ваш YouTube-проект от <strong>идеи до результата</strong>:</p>
 <ul>
-<li>построить личный бренд через YouTube</li>
-<li>создавать видеоконтент для бизнеса</li>
-<li>начать канал с правильной стратегией</li>
+<li>✅ Контент-стратегия и разработка идей</li>
+<li>✅ Профессиональная съёмка и монтаж</li>
+<li>✅ SEO-оптимизированные заголовки и превью</li>
+<li>✅ Стратегия роста канала</li>
 </ul>
-<p><strong>LinkOn Studio поможет.</strong></p>
-<p>Мы:</p>
-<ul>
-<li>разрабатываем идеи контента</li>
-<li>создаём видеостратегии</li>
-<li>снимаем профессиональное видео</li>
-<li>занимаемся монтажом и постпродакшном</li>
-<li>помогаем с правильной публикацией</li>
-</ul>
+<p style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #ff0000, #cc0000); color: white; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">▶ Начать YouTube-канал</a>
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: transparent; color: inherit; border: 2px solid currentColor; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">Работать с LinkOn Studio →</a>
+</p>
 </div>`
       }
     }
