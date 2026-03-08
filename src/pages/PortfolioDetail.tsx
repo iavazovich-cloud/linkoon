@@ -634,6 +634,11 @@ export const PortfolioDetail = () => {
     }
   };
 
+  // SEO meta tags for portfolio detail pages
+  const portfolioTitle = project ? `${project.title[lang]} | LinkOn Portfolio` : 'Portfolio | LinkOn';
+  const portfolioDesc = project ? project.description[lang] : '';
+  usePageMeta(portfolioTitle, portfolioDesc);
+
   if (!project) {
     return (
       <div className="min-h-screen pt-24 flex items-center justify-center">
