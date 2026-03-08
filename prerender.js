@@ -315,4 +315,36 @@ const routesToPrerender = [
     fs.writeFileSync(absolutePath, html)
     console.log('pre-rendered:', filePath, '→', meta.title)
   }
+
+  // ─── Generate sitemap.xml ───
+  const today = new Date().toISOString().split('T')[0]
+  const staticPriorities = {
+    '/': '1.0',
+    '/services': '0.9',
+    '/portfolio': '0.8',
+    '/about': '0.7',
+    '/studio': '0.7',
+    '/blog': '0.9',
+    '/contact': '0.8',
+  }
+
+  let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+`
+  for (const route of routesToPrerender) {
+    const loc = new URL(route, siteUrl).toString()
+    const priority = staticPriorities[route] || (route.startsWith('/blog/') ? '0.7' : '0.5')
+    const changefreq = route.startsWith('/blog/') ? 'monthly' : 'weekly'
+    sitemap += `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>
+`
+  }
+  sitemap += `</urlset>`
+
+  fs.writeFileSync(toAbsolute('dist/sitemap.xml'), sitemap)
+  console.log('generated: dist/sitemap.xml with', routesToPrerender.length, 'URLs')
 })()

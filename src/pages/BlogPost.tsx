@@ -6099,7 +6099,9 @@ export const BlogPost = () => {
   // Update document meta for SEO - unique titles without brand keywords
   const metaTitle = post?.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post?.title[language as 'en' | 'uz' | 'ru'] || '';
   const metaDesc = post?.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
-  usePageMeta(metaTitle, metaDesc);
+  // Build absolute OG image URL for social sharing
+  const ogImageUrl = post?.image ? `${window.location.origin}${typeof post.image === 'string' ? post.image : ''}` : undefined;
+  usePageMeta(metaTitle, metaDesc, { ogImage: ogImageUrl, ogType: 'article' });
 
   if (!id || !blogData[id]) {
     return <Navigate to="/blog" replace />;
@@ -6167,6 +6169,7 @@ export const BlogPost = () => {
               <img 
                 src={post.image} 
                 alt={post.title[language as 'en' | 'uz' | 'ru']}
+                loading="lazy"
                 className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
               />
             </div>
@@ -6175,22 +6178,36 @@ export const BlogPost = () => {
       )}
 
       {/* JSON-LD Structured Data */}
-      {post.author && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "headline": post.title[language as 'en' | 'uz' | 'ru'],
-              "description": post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '',
-              "author": { "@type": "Person", "name": post.author },
-              "datePublished": post.date,
-              "image": typeof post.image === 'string' ? post.image : undefined
-            })
-          }}
-        />
-      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": post.title[language as 'en' | 'uz' | 'ru'],
+            "description": post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '',
+            "author": {
+              "@type": "Person",
+              "name": post.author || "LinkOn"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkOn",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://linkon.uz/favicon.png"
+              }
+            },
+            "datePublished": post.date,
+            "dateModified": post.date,
+            "image": ogImageUrl || "https://linkon.uz/og-image.png",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": window.location.href
+            }
+          })
+        }}
+      />
 
       {/* Content */}
       <section className="container mx-auto px-4 lg:px-8 pb-20">
