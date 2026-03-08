@@ -6172,7 +6172,6 @@ export const BlogPost = () => {
                 loading="lazy"
                 className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
               />
-              />
             </div>
           </Reveal>
         </section>
