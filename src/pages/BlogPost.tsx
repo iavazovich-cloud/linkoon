@@ -6099,7 +6099,9 @@ export const BlogPost = () => {
   // Update document meta for SEO - unique titles without brand keywords
   const metaTitle = post?.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post?.title[language as 'en' | 'uz' | 'ru'] || '';
   const metaDesc = post?.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
-  usePageMeta(metaTitle, metaDesc);
+  // Build absolute OG image URL for social sharing
+  const ogImageUrl = post?.image ? `${window.location.origin}${typeof post.image === 'string' ? post.image : ''}` : undefined;
+  usePageMeta(metaTitle, metaDesc, { ogImage: ogImageUrl, ogType: 'article' });
 
   if (!id || !blogData[id]) {
     return <Navigate to="/blog" replace />;
