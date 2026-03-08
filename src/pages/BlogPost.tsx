@@ -6169,7 +6169,9 @@ export const BlogPost = () => {
               <img 
                 src={post.image} 
                 alt={post.title[language as 'en' | 'uz' | 'ru']}
+                loading="lazy"
                 className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
+              />
               />
             </div>
           </Reveal>
