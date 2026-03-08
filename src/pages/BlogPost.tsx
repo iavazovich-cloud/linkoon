@@ -6177,22 +6177,36 @@ export const BlogPost = () => {
       )}
 
       {/* JSON-LD Structured Data */}
-      {post.author && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "headline": post.title[language as 'en' | 'uz' | 'ru'],
-              "description": post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '',
-              "author": { "@type": "Person", "name": post.author },
-              "datePublished": post.date,
-              "image": typeof post.image === 'string' ? post.image : undefined
-            })
-          }}
-        />
-      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": post.title[language as 'en' | 'uz' | 'ru'],
+            "description": post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '',
+            "author": {
+              "@type": "Person",
+              "name": post.author || "LinkOn"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkOn",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://linkon.uz/favicon.png"
+              }
+            },
+            "datePublished": post.date,
+            "dateModified": post.date,
+            "image": ogImageUrl || "https://linkon.uz/og-image.png",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": window.location.href
+            }
+          })
+        }}
+      />
 
       {/* Content */}
       <section className="container mx-auto px-4 lg:px-8 pb-20">
