@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Tag, TrendingUp, ExternalLink } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
 import portfolioVideo from '@/assets/portfolio-video.jpg';
