@@ -18,24 +18,17 @@ export const Reveal = ({ children, className = '', delay = 0 }: RevealProps) => 
           setIsVisible(true);
         }
       },
-      { threshold: 0.05, rootMargin: '50px' }
+      { threshold: 0.1 }
     );
 
-    const currentRef = ref.current;
-    if (currentRef) {
-      observer.observe(currentRef);
+    if (ref.current) {
+      observer.observe(ref.current);
     }
 
-    // Fallback: if not visible after 1.5s, force show (fixes mobile edge cases)
-    const timeout = setTimeout(() => {
-      setIsVisible(true);
-    }, 1500);
-
     return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
+      if (ref.current) {
+        observer.unobserve(ref.current);
       }
-      clearTimeout(timeout);
     };
   }, []);
 
