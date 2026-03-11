@@ -6132,7 +6132,7 @@ export const BlogPost = () => {
               {post.title[language as 'en' | 'uz' | 'ru']}
             </h1>
 
-            <div className="flex items-center gap-6 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-6 text-xs sm:text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
                 <span>{post.date}</span>
