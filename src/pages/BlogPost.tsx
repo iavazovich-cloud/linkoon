@@ -6169,8 +6169,12 @@ export const BlogPost = () => {
             <div className="max-w-4xl mx-auto">
               <img 
                 src={post.image} 
-                alt={post.title[language as 'en' | 'uz' | 'ru']}
+                alt={id === 'uzum-market-seller' 
+                  ? "Uzum Market'da sotish bo'yicha to'liq qo'llanma — mahsulot tanlashdan birinchi sotuvgacha" 
+                  : post.title[language as 'en' | 'uz' | 'ru']}
                 loading="lazy"
+                width="896"
+                height="450"
                 className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
               />
             </div>
