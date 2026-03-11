@@ -78,14 +78,14 @@ export const Blog = () => {
         ru: "Uzum Market: Полное руководство от 0 до продаж"
       },
       metaTitle: {
-        en: "How to Sell on Uzum Market | Complete Seller Guide 2025",
-        uz: "Uzum Market'da sotish | To'liq qo'llanma 2025",
-        ru: "Как продавать на Uzum Market | Полное руководство 2025"
+        en: "How to Sell on Uzum Market — 12-Step Guide (2025)",
+        uz: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
+        ru: "Как продавать на Uzum Market — 12 шагов (2025)"
       },
       metaDescription: {
-        en: "Complete step-by-step guide to start selling on Uzum Market. From product selection to first sales - everything you need to know.",
-        uz: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
-        ru: "Полное пошаговое руководство по продажам на Uzum Market. От выбора товара до первых продаж."
+        en: "Uzum Market from 0 to first sale: product selection, registration, pricing strategy, advertising and profit calculation. Step by step.",
+        uz: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
+        ru: "Uzum Market от 0 до первой продажи: выбор товара, регистрация, ценовая стратегия, реклама и расчёт прибыли. Пошагово."
       },
       excerpt: {
         en: "Complete step-by-step guide from 0 to first sales on Uzum Market. Real strategies, real numbers.",

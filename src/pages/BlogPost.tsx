@@ -23,18 +23,19 @@ export const BlogPost = () => {
         ru: "Uzum Market: Полное руководство от 0 до продаж"
       },
       metaTitle: {
-        en: "How to Sell on Uzum Market | Complete Seller Guide 2025",
-        uz: "Uzum Market'da sotish | To'liq qo'llanma 2025",
-        ru: "Как продавать на Uzum Market | Полное руководство 2025"
+        en: "How to Sell on Uzum Market — 12-Step Guide (2025)",
+        uz: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
+        ru: "Как продавать на Uzum Market — 12 шагов (2025)"
       },
       metaDescription: {
-        en: "Complete step-by-step guide to start selling on Uzum Market. From product selection to first sales - everything you need to know.",
-        uz: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
-        ru: "Полное пошаговое руководство по продажам на Uzum Market. От выбора товара до первых продаж."
+        en: "Uzum Market from 0 to first sale: product selection, registration, pricing strategy, advertising and profit calculation. Step by step.",
+        uz: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
+        ru: "Uzum Market от 0 до первой продажи: выбор товара, регистрация, ценовая стратегия, реклама и расчёт прибыли. Пошагово."
       },
       date: '2025-02-09',
+      dateModified: '2025-03-11',
       readTime: '15 min',
-      category: 'E-commerce',
+      wordCount: 1800,
       image: uzumMarketImage,
       content: {
         en: `<div class="blog-intro">
@@ -6168,8 +6169,12 @@ export const BlogPost = () => {
             <div className="max-w-4xl mx-auto">
               <img 
                 src={post.image} 
-                alt={post.title[language as 'en' | 'uz' | 'ru']}
+                alt={id === 'uzum-market-seller' 
+                  ? "Uzum Market'da sotish bo'yicha to'liq qo'llanma — mahsulot tanlashdan birinchi sotuvgacha" 
+                  : post.title[language as 'en' | 'uz' | 'ru']}
                 loading="lazy"
+                width="896"
+                height="450"
                 className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
               />
             </div>
@@ -6187,8 +6192,9 @@ export const BlogPost = () => {
             "headline": post.title[language as 'en' | 'uz' | 'ru'],
             "description": post.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '',
             "author": {
-              "@type": "Person",
-              "name": post.author || "LinkOn"
+              "@type": "Organization",
+              "name": "LinkOn",
+              "url": "https://linkon.uz"
             },
             "publisher": {
               "@type": "Organization",
@@ -6199,15 +6205,120 @@ export const BlogPost = () => {
               }
             },
             "datePublished": post.date,
-            "dateModified": post.date,
+            "dateModified": post.dateModified || post.date,
             "image": ogImageUrl || "https://linkon.uz/og-image.png",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": window.location.href
-            }
+              "@id": `https://linkon.uz/blog/${id}`
+            },
+            "inLanguage": language === 'uz' ? 'uz' : language === 'ru' ? 'ru' : 'en',
+            "wordCount": post.wordCount || 1500,
+            "articleSection": post.category
           })
         }}
       />
+
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://linkon.uz" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://linkon.uz/blog" },
+              { "@type": "ListItem", "position": 3, "name": post.title[language as 'en' | 'uz' | 'ru'], "item": `https://linkon.uz/blog/${id}` }
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema for Uzum Market post */}
+      {id === 'uzum-market-seller' && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Uzum Market'da sotishni qanday boshlash mumkin?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Uzum Market'da sotishni boshlash uchun YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Uzum Market komissiyasi qancha?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha bo'ladi. Sof foydani hisoblashda komissiya, yetkazib berish, mahsulot tannarxi va qadoqlash xarajatlarini hisobga olish kerak. Minimal foyda 25-40% bo'lishi tavsiya etiladi."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Uzum Market'da qaysi mahsulotlarni sotish yaxshi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kundalik hayotda ishlatiladigan, sinmaydigan, kafolat talab qilmaydigan, narxi 50,000-300,000 so'm oralig'idagi mahsulotlar yaxshi sotiladi. Uy va oshxona buyumlari, telefon aksessuarlari, avtomobil aksessuarlari eng yaxshi kategoriyalar."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Uzum Market'da birinchi buyurtma olish uchun nima qilish kerak?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Birinchi 7 kun eng muhim davr. Savollarga tez javob bering, do'stlaringizdan real buyurtma va sharh oling, salbiy reytinglarga yo'l qo'ymang. Boshlang'ich narxni bozordan 5-10% arzon qo'ying."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Uzum Market'da nechta mahsulot bilan boshlash kerak?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Boshlash uchun 20-50 dona mahsulot yetarli. Katta miqdorda boshlash tavsiya etilmaydi. 30 kundan keyin kundalik savdo bo'lsa — kengaytiring, bo'lmasa — boshqa mahsulot tanlang."
+                  }
+                }
+              ]
+            })
+          }}
+        />
+      )}
+
+      {/* HowTo Schema for Uzum Market post */}
+      {id === 'uzum-market-seller' && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "Uzum Market'da 0 dan sotuvgacha — 12 bosqichli qo'llanma",
+              "description": "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma.",
+              "totalTime": "P7D",
+              "estimatedCost": { "@type": "MonetaryAmount", "currency": "UZS", "value": "5000000" },
+              "step": [
+                { "@type": "HowToStep", "position": 1, "name": "To'g'ri mahsulot tanlash", "text": "Kundalik hayotda ishlatiladigan, narxi 50,000-300,000 so'm oralig'idagi mahsulot tanlang." },
+                { "@type": "HowToStep", "position": 2, "name": "Bozorni tahlil qilish", "text": "Uzum Market ichida reyting, sharhlar soni va raqobatchilar sonini tekshiring." },
+                { "@type": "HowToStep", "position": 3, "name": "Tashqi talabni tekshirish", "text": "Telegram va Instagram'da mahsulot nomini qidirib, talab borligini aniqlang." },
+                { "@type": "HowToStep", "position": 4, "name": "Foyda hisoblash", "text": "Sotish narxidan Uzum komissiyasi, yetkazish, tannarx va qadoqlashni ayiring." },
+                { "@type": "HowToStep", "position": 5, "name": "Sotuvchi sifatida ro'yxatdan o'tish", "text": "YATT yoki MChJ ochib, seller.uzum.uz saytida ro'yxatdan o'ting." },
+                { "@type": "HowToStep", "position": 6, "name": "Mahsulotni professional tayyorlash", "text": "Oq fon, foydalanish jarayoni va afzalliklar ko'rsatilgan rasmlar tayyorlang." },
+                { "@type": "HowToStep", "position": 7, "name": "Sarlavha va tavsif yozish", "text": "Asosiy foyda + Mahsulot nomi + Xususiyat formulasi bilan sarlavha yozing." },
+                { "@type": "HowToStep", "position": 8, "name": "Narx strategiyasi", "text": "Bozordan 5-10% arzon boshlang, sharhlar to'plangach narxni oshiring." },
+                { "@type": "HowToStep", "position": 9, "name": "Omborga mahsulot yuborish", "text": "20-50 dona mahsulot bilan boshlang, katta miqdorda boshlamang." },
+                { "@type": "HowToStep", "position": 10, "name": "Birinchi 7 kunni boshqarish", "text": "Savollarga tez javob bering, real buyurtma va sharhlar oling." },
+                { "@type": "HowToStep", "position": 11, "name": "Reklama boshlash", "text": "Faqat sotuvlar boshlagandan keyin kichik byudjet bilan reklama qiling." },
+                { "@type": "HowToStep", "position": 12, "name": "Tahlil va qaror", "text": "30 kundan keyin kundalik savdo bo'lsa kengaytiring, bo'lmasa boshqa mahsulot tanlang." }
+              ]
+            })
+          }}
+        />
+      )}
 
       {/* Content */}
       <section className="container mx-auto px-4 lg:px-8 pb-20">

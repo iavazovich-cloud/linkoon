@@ -63,8 +63,8 @@ const pageMeta = {
     description: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya va SMM kelajagi haqida chuqur tahlil.",
   },
   '/blog/uzum-market-seller': {
-    title: "Uzum Market'da sotish | To'liq qo'llanma 2025",
-    description: "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma. Mahsulot tanlashdan birinchi sotuvgacha.",
+    title: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
+    description: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
   },
   '/blog/telegram-ads-muammo': {
     title: 'Telegram Ads - Pullar sovurilmoqda? | LinkOn',
