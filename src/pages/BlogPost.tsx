@@ -33,8 +33,9 @@ export const BlogPost = () => {
         ru: "Uzum Market от 0 до первой продажи: выбор товара, регистрация, ценовая стратегия, реклама и расчёт прибыли. Пошагово."
       },
       date: '2025-02-09',
+      dateModified: '2025-03-11',
       readTime: '15 min',
-      category: 'E-commerce',
+      wordCount: 1800,
       image: uzumMarketImage,
       content: {
         en: `<div class="blog-intro">
