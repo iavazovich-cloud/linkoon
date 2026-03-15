@@ -487,22 +487,46 @@ export const BlogPost = () => {
 </ul>
 </div>
 
+<div class="blog-section">
+<h2>Uzum Market haqida tez-tez beriladigan savollar</h2>
+
+<div class="blog-card info">
+<h3>Uzum Marketda sotuvchi bo'lish uchun nima kerak?</h3>
+<p>YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Market komissiyasi qancha?</h3>
+<p>Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha. Sof foydani hisoblashda komissiya, yetkazib berish, tannarx va qadoqlash xarajatlarini hisobga olish kerak.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda ro'yxatdan qanday o'tiladi?</h3>
+<p>seller.uzum.uz saytiga kirib, YATT yoki MChJ hujjatlaringiz, bank rekvizitlari va telefon raqamingiz bilan ro'yxatdan o'tasiz.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda savdoni qanday oshirish mumkin?</h3>
+<p>Professional rasmlar, to'g'ri sarlavha va tavsif, raqobatbardosh narx, tez javob berish va <a href="/services">marketing strategiyasi</a> — savdoni oshirishning asosiy yo'llari.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda kimlar sotuvchi bo'lishi mumkin?</h3>
+<p>YATT yoki MChJ ro'yxatdan o'tkazgan har qanday shaxs yoki tashkilot Uzum Marketda sotuvchi bo'lishi mumkin.</p>
+</div>
+</div>
+
 <div class="blog-cta">
-<h3>🚀 Marketingda yordam kerakmi?</h3>
-<p>Agar siz:</p>
+<h3>🎬 YouTube, marketplace yoki biznes uchun kontent kerakmi?</h3>
+<p>Agar siz Uzum Market, YouTube yoki boshqa platformalarda biznes boshlamoqchi bo'lsangiz, professional <a href="/services">video ishlab chiqarish xizmati</a> va <a href="/blog">kontent marketing</a> strategiyasi juda muhim.</p>
+<p>LinkOn studiyasi sizga quyidagilarda yordam beradi:</p>
 <ul>
-<li>Uzum Market'da vaqtni yo'qotmasdan tezroq natija olishni xohlasangiz</li>
-<li>Mahsulot tanlashda adashishni istamasangiz</li>
-<li>Professional rasmlar, listing va strategiya bilan chiqmoqchi bo'lsangiz</li>
+<li>Video g'oya ishlab chiqish</li>
+<li>Professional suratga olish</li>
+<li>Montaj va tayyorlash</li>
+<li>Platformalarda to'g'ri joylashtirish</li>
 </ul>
-<p>👉 <strong>LinkOn marketing agentligi</strong> sizga yordam beradi.</p>
-<p>LinkOn sizga nimani beradi?</p>
-<ul>
-<li>Uzum Market uchun tayyor strategiya</li>
-<li>Sotuvchi sifatida to'g'ri start</li>
-<li>Mahsulot listing (sarlavha + tavsif + pozitsiyalash)</li>
-<li>Marketing va reklama bo'yicha maslahatlar</li>
-</ul>
+<p>👉 <a href="/contact"><strong>Loyihani boshlash</strong></a></p>
 </div>`,
         ru: `<div class="blog-intro">
 <p class="lead">Это руководство написано для человека без опыта работы на Uzum Market. Если у вас есть вопросы "с чего начать?", "какой товар будет продаваться?", "не уйду ли в минус?" — это руководство именно для вас.</p>
