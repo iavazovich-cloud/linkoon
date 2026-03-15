@@ -33,20 +33,20 @@ export const Home = () => {
   // Blog posts for promotion section
   const blogPosts = [
     {
-      id: 'social-media-growth',
+      id: 'uzum-marketda-qanday-sotuvchi-bolish',
       title: {
-        en: "Why My Business Isn't Growing on Social Media?",
-        uz: "Nima uchun biznesim ijtimoiy tarmoqlarda o'smayapti?",
-        ru: "Почему мой бизнес не растет в социальных сетях?"
+        en: "How to Become a Seller on Uzum Market? (2026 Guide)",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 qo'llanma)",
+        ru: "Как стать продавцом на Uzum Market? (Гайд 2026)"
       },
       excerpt: {
-        en: "Discover the common mistakes holding back your social media growth.",
-        uz: "Ijtimoiy tarmoqlarda o'sishingizga to'sqinlik qilayotgan keng tarqalgan xatolarni bilib oling.",
-        ru: "Узнайте распространенные ошибки, препятствующие росту в соцсетях."
+        en: "Complete guide to starting your business on Uzum Market: registration, product listing, and sales strategy.",
+        uz: "Uzum Marketda biznes boshlash bo'yicha to'liq qo'llanma: ro'yxatdan o'tish, mahsulot joylash va savdo strategiyasi.",
+        ru: "Полное руководство по началу бизнеса на Uzum Market: регистрация, размещение товаров и стратегия продаж."
       },
-      readTime: '7 min',
-      category: 'SMM',
-      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=500&fit=crop'
+      readTime: '12 min',
+      category: 'Marketplace',
+      image: uzumMarketImage
     },
     {
       id: 'viral-reels',
