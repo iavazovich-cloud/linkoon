@@ -242,22 +242,46 @@ export const BlogPost = () => {
 </ul>
 </div>
 
+<div class="blog-section">
+<h2>Frequently Asked Questions About Uzum Market</h2>
+
+<div class="blog-card info">
+<h3>What do you need to become a seller on Uzum Market?</h3>
+<p>You need to register as YATT or LLC, open a bank account, and register on seller.uzum.uz. Then select products, prepare professional photos, and create listings.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How much is the Uzum Market commission?</h3>
+<p>Uzum Market commission ranges from 10% to 25% depending on the category. When calculating net profit, factor in commission, delivery, product cost, and packaging.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How to register on Uzum Market?</h3>
+<p>Go to seller.uzum.uz and register with your YATT or LLC documents, bank details, and phone number.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How to boost sales on Uzum Market?</h3>
+<p>Professional photos, proper title and description, competitive pricing, fast response times, and <a href="/services">marketing strategy</a> are the main ways to boost sales.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Who can become a seller on Uzum Market?</h3>
+<p>Any individual or organization registered as YATT or LLC can become a seller on Uzum Market.</p>
+</div>
+</div>
+
 <div class="blog-cta">
-<h3>🚀 Need Marketing Help?</h3>
-<p>If you want:</p>
+<h3>🎬 Need content for YouTube, marketplace or business?</h3>
+<p>If you're starting a business on Uzum Market, YouTube, or other platforms, professional video and <a href="/blog">content marketing</a> strategy is essential.</p>
+<p>LinkOn studio can help you with:</p>
 <ul>
-<li>Faster results on Uzum Market</li>
-<li>Don't want to waste time on wrong products</li>
-<li>Want professional images, listing and strategy</li>
+<li>Video concept development</li>
+<li>Professional shooting</li>
+<li>Editing and post-production</li>
+<li>Proper platform placement</li>
 </ul>
-<p>👉 <strong>LinkOn marketing agency</strong> is here to help.</p>
-<p>LinkOn provides:</p>
-<ul>
-<li>Ready strategy for Uzum Market</li>
-<li>Proper start as a seller</li>
-<li>Product listing (title + description + positioning)</li>
-<li>Marketing and advertising advice</li>
-</ul>
+<p>👉 <a href="/contact"><strong>Start your project</strong></a></p>
 </div>`,
         uz: `<div class="blog-intro">
 <p class="lead">Bu maqola Uzum Market'da hech qanday tajribasiz bo'lgan odam uchun yozilgan. Agar siz "qayerdan boshlashni bilmayapman", "qaysi mahsulot sotiladi?", "zararga kirib ketmaymanmi?" degan savollaringiz bo'lsangiz — bu qo'llanma aynan siz uchun.</p>
