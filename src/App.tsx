@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
@@ -51,6 +51,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/studio" element={<Studio />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/uzum-market-seller" element={<Navigate to="/blog/uzum-marketda-qanday-sotuvchi-bolish" replace />} />
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/marketing-agentligi-namangan" element={<MarketingAgentligiNamangan />} />

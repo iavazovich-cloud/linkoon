@@ -62,9 +62,9 @@ const pageMeta = {
     title: "Meta va Manus AI: Targeting va SMM'da Agentli Inqilob (2026)",
     description: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya va SMM kelajagi haqida chuqur tahlil.",
   },
-  '/blog/uzum-market-seller': {
-    title: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
-    description: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
+  '/blog/uzum-marketda-qanday-sotuvchi-bolish': {
+    title: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 to'liq qo'llanma)",
+    description: "Uzum Marketda qanday sotuvchi bo'lish mumkin? 2026 yil uchun to'liq qo'llanma. Ro'yxatdan o'tish, mahsulot joylash, savdoni oshirish va marketplace strategiyasi.",
   },
   '/blog/telegram-ads-muammo': {
     title: 'Telegram Ads - Pullar sovurilmoqda? | LinkOn',
@@ -198,7 +198,7 @@ const pageMeta = {
 const blogPostSlugs = [
   'youtube-orqali-2500-dollar-topish',
   'meta-manus-ai-agentli-targeting',
-  'uzum-market-seller',
+  'uzum-marketda-qanday-sotuvchi-bolish',
   'telegram-ads-muammo',
   'kofe-mofe-website-case-study',
   'social-media-growth',

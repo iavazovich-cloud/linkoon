@@ -16,26 +16,26 @@ export const BlogPost = () => {
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
-    'uzum-market-seller': {
+    'uzum-marketda-qanday-sotuvchi-bolish': {
       title: {
-        en: "Uzum Market: Complete Guide from 0 to Sales",
-        uz: "Uzum Market'da 0 dan Sotuvgacha — To'liq Qo'llanma",
-        ru: "Uzum Market: Полное руководство от 0 до продаж"
+        en: "How to Become a Seller on Uzum Market? (2026 Guide)",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 qo'llanma)",
+        ru: "Как стать продавцом на Uzum Market? (Руководство 2026)"
       },
       metaTitle: {
-        en: "How to Sell on Uzum Market — 12-Step Guide (2025)",
-        uz: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
-        ru: "Как продавать на Uzum Market — 12 шагов (2025)"
+        en: "How to Become a Seller on Uzum Market? (2026 Complete Guide)",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 to'liq qo'llanma)",
+        ru: "Как стать продавцом на Uzum Market? (Полное руководство 2026)"
       },
       metaDescription: {
-        en: "Uzum Market from 0 to first sale: product selection, registration, pricing strategy, advertising and profit calculation. Step by step.",
-        uz: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
-        ru: "Uzum Market от 0 до первой продажи: выбор товара, регистрация, ценовая стратегия, реклама и расчёт прибыли. Пошагово."
+        en: "How to become a seller on Uzum Market? Complete 2026 guide. Registration, product listing, boosting sales and marketplace strategy.",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? 2026 yil uchun to'liq qo'llanma. Ro'yxatdan o'tish, mahsulot joylash, savdoni oshirish va marketplace strategiyasi.",
+        ru: "Как стать продавцом на Uzum Market? Полное руководство на 2026 год. Регистрация, размещение товаров, увеличение продаж и стратегия маркетплейса."
       },
       date: '2025-02-09',
-      dateModified: '2025-03-11',
+      dateModified: '2026-03-15',
       readTime: '15 min',
-      wordCount: 1800,
+      wordCount: 2200,
       image: uzumMarketImage,
       content: {
         en: `<div class="blog-intro">
@@ -242,22 +242,46 @@ export const BlogPost = () => {
 </ul>
 </div>
 
+<div class="blog-section">
+<h2>Frequently Asked Questions About Uzum Market</h2>
+
+<div class="blog-card info">
+<h3>What do you need to become a seller on Uzum Market?</h3>
+<p>You need to register as YATT or LLC, open a bank account, and register on seller.uzum.uz. Then select products, prepare professional photos, and create listings.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How much is the Uzum Market commission?</h3>
+<p>Uzum Market commission ranges from 10% to 25% depending on the category. When calculating net profit, factor in commission, delivery, product cost, and packaging.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How to register on Uzum Market?</h3>
+<p>Go to seller.uzum.uz and register with your YATT or LLC documents, bank details, and phone number.</p>
+</div>
+
+<div class="blog-card info">
+<h3>How to boost sales on Uzum Market?</h3>
+<p>Professional photos, proper title and description, competitive pricing, fast response times, and <a href="/services">marketing strategy</a> are the main ways to boost sales.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Who can become a seller on Uzum Market?</h3>
+<p>Any individual or organization registered as YATT or LLC can become a seller on Uzum Market.</p>
+</div>
+</div>
+
 <div class="blog-cta">
-<h3>🚀 Need Marketing Help?</h3>
-<p>If you want:</p>
+<h3>🎬 Need content for YouTube, marketplace or business?</h3>
+<p>If you're starting a business on Uzum Market, YouTube, or other platforms, professional video and <a href="/blog">content marketing</a> strategy is essential.</p>
+<p>LinkOn studio can help you with:</p>
 <ul>
-<li>Faster results on Uzum Market</li>
-<li>Don't want to waste time on wrong products</li>
-<li>Want professional images, listing and strategy</li>
+<li>Video concept development</li>
+<li>Professional shooting</li>
+<li>Editing and post-production</li>
+<li>Proper platform placement</li>
 </ul>
-<p>👉 <strong>LinkOn marketing agency</strong> is here to help.</p>
-<p>LinkOn provides:</p>
-<ul>
-<li>Ready strategy for Uzum Market</li>
-<li>Proper start as a seller</li>
-<li>Product listing (title + description + positioning)</li>
-<li>Marketing and advertising advice</li>
-</ul>
+<p>👉 <a href="/contact"><strong>Start your project</strong></a></p>
 </div>`,
         uz: `<div class="blog-intro">
 <p class="lead">Bu maqola Uzum Market'da hech qanday tajribasiz bo'lgan odam uchun yozilgan. Agar siz "qayerdan boshlashni bilmayapman", "qaysi mahsulot sotiladi?", "zararga kirib ketmaymanmi?" degan savollaringiz bo'lsangiz — bu qo'llanma aynan siz uchun.</p>
@@ -463,22 +487,46 @@ export const BlogPost = () => {
 </ul>
 </div>
 
+<div class="blog-section">
+<h2>Uzum Market haqida tez-tez beriladigan savollar</h2>
+
+<div class="blog-card info">
+<h3>Uzum Marketda sotuvchi bo'lish uchun nima kerak?</h3>
+<p>YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Market komissiyasi qancha?</h3>
+<p>Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha. Sof foydani hisoblashda komissiya, yetkazib berish, tannarx va qadoqlash xarajatlarini hisobga olish kerak.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda ro'yxatdan qanday o'tiladi?</h3>
+<p>seller.uzum.uz saytiga kirib, YATT yoki MChJ hujjatlaringiz, bank rekvizitlari va telefon raqamingiz bilan ro'yxatdan o'tasiz.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda savdoni qanday oshirish mumkin?</h3>
+<p>Professional rasmlar, to'g'ri sarlavha va tavsif, raqobatbardosh narx, tez javob berish va <a href="/services">marketing strategiyasi</a> — savdoni oshirishning asosiy yo'llari.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Uzum Marketda kimlar sotuvchi bo'lishi mumkin?</h3>
+<p>YATT yoki MChJ ro'yxatdan o'tkazgan har qanday shaxs yoki tashkilot Uzum Marketda sotuvchi bo'lishi mumkin.</p>
+</div>
+</div>
+
 <div class="blog-cta">
-<h3>🚀 Marketingda yordam kerakmi?</h3>
-<p>Agar siz:</p>
+<h3>🎬 YouTube, marketplace yoki biznes uchun kontent kerakmi?</h3>
+<p>Agar siz Uzum Market, YouTube yoki boshqa platformalarda biznes boshlamoqchi bo'lsangiz, professional <a href="/services">video ishlab chiqarish xizmati</a> va <a href="/blog">kontent marketing</a> strategiyasi juda muhim.</p>
+<p>LinkOn studiyasi sizga quyidagilarda yordam beradi:</p>
 <ul>
-<li>Uzum Market'da vaqtni yo'qotmasdan tezroq natija olishni xohlasangiz</li>
-<li>Mahsulot tanlashda adashishni istamasangiz</li>
-<li>Professional rasmlar, listing va strategiya bilan chiqmoqchi bo'lsangiz</li>
+<li>Video g'oya ishlab chiqish</li>
+<li>Professional suratga olish</li>
+<li>Montaj va tayyorlash</li>
+<li>Platformalarda to'g'ri joylashtirish</li>
 </ul>
-<p>👉 <strong>LinkOn marketing agentligi</strong> sizga yordam beradi.</p>
-<p>LinkOn sizga nimani beradi?</p>
-<ul>
-<li>Uzum Market uchun tayyor strategiya</li>
-<li>Sotuvchi sifatida to'g'ri start</li>
-<li>Mahsulot listing (sarlavha + tavsif + pozitsiyalash)</li>
-<li>Marketing va reklama bo'yicha maslahatlar</li>
-</ul>
+<p>👉 <a href="/contact"><strong>Loyihani boshlash</strong></a></p>
 </div>`,
         ru: `<div class="blog-intro">
 <p class="lead">Это руководство написано для человека без опыта работы на Uzum Market. Если у вас есть вопросы "с чего начать?", "какой товар будет продаваться?", "не уйду ли в минус?" — это руководство именно для вас.</p>
@@ -684,22 +732,46 @@ export const BlogPost = () => {
 </ul>
 </div>
 
+<div class="blog-section">
+<h2>Часто задаваемые вопросы об Uzum Market</h2>
+
+<div class="blog-card info">
+<h3>Что нужно для того, чтобы стать продавцом на Uzum Market?</h3>
+<p>Необходимо зарегистрировать ИП или ООО, открыть банковский счёт и зарегистрироваться на seller.uzum.uz. Затем выбрать товар, подготовить профессиональные фото и создать листинг.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Какая комиссия на Uzum Market?</h3>
+<p>Комиссия Uzum Market составляет от 10% до 25% в зависимости от категории. При расчёте чистой прибыли учитывайте комиссию, доставку, себестоимость и упаковку.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Как зарегистрироваться на Uzum Market?</h3>
+<p>Перейдите на seller.uzum.uz и зарегистрируйтесь с документами ИП или ООО, банковскими реквизитами и номером телефона.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Как увеличить продажи на Uzum Market?</h3>
+<p>Профессиональные фотографии, правильные заголовок и описание, конкурентоспособная цена, быстрые ответы и <a href="/services">маркетинговая стратегия</a> — основные способы увеличения продаж.</p>
+</div>
+
+<div class="blog-card info">
+<h3>Кто может стать продавцом на Uzum Market?</h3>
+<p>Любое физическое лицо или организация, зарегистрированная как ИП или ООО, может стать продавцом на Uzum Market.</p>
+</div>
+</div>
+
 <div class="blog-cta">
-<h3>🚀 Нужна помощь с маркетингом?</h3>
-<p>Если вы:</p>
+<h3>🎬 Нужен контент для YouTube, маркетплейса или бизнеса?</h3>
+<p>Если вы начинаете бизнес на Uzum Market, YouTube или других платформах, профессиональное видео и стратегия <a href="/blog">контент-маркетинга</a> крайне важны.</p>
+<p>Студия LinkOn поможет вам:</p>
 <ul>
-<li>Хотите быстрее получить результат на Uzum Market</li>
-<li>Не хотите ошибиться с выбором товара</li>
-<li>Хотите выйти с профессиональными фото, листингом и стратегией</li>
+<li>Разработка видео-идеи</li>
+<li>Профессиональная съёмка</li>
+<li>Монтаж и пост-продакшн</li>
+<li>Правильное размещение на платформах</li>
 </ul>
-<p>👉 <strong>Маркетинговое агентство LinkOn</strong> поможет вам.</p>
-<p>LinkOn предоставляет:</p>
-<ul>
-<li>Готовую стратегию для Uzum Market</li>
-<li>Правильный старт как продавец</li>
-<li>Листинг товара (заголовок + описание + позиционирование)</li>
-<li>Консультации по маркетингу и рекламе</li>
-</ul>
+<p>👉 <a href="/contact"><strong>Начать проект</strong></a></p>
 </div>`
       }
     },
@@ -6169,8 +6241,8 @@ export const BlogPost = () => {
             <div className="max-w-4xl mx-auto">
               <img 
                 src={post.image} 
-                alt={id === 'uzum-market-seller' 
-                  ? "Uzum Market'da sotish bo'yicha to'liq qo'llanma — mahsulot tanlashdan birinchi sotuvgacha" 
+                alt={id === 'uzum-marketda-qanday-sotuvchi-bolish' 
+                  ? "uzum marketda sotuvchi bo'lish qo'llanma" 
                   : post.title[language as 'en' | 'uz' | 'ru']}
                 loading="lazy"
                 width="896"
@@ -6235,7 +6307,7 @@ export const BlogPost = () => {
       />
 
       {/* FAQ Schema for Uzum Market post */}
-      {id === 'uzum-market-seller' && (
+      {id === 'uzum-marketda-qanday-sotuvchi-bolish' && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -6245,10 +6317,10 @@ export const BlogPost = () => {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da sotishni qanday boshlash mumkin?",
+                  "name": "Uzum Marketda sotuvchi bo'lish uchun nima kerak?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Uzum Market'da sotishni boshlash uchun YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim."
+                    "text": "YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim."
                   }
                 },
                 {
@@ -6256,31 +6328,31 @@ export const BlogPost = () => {
                   "name": "Uzum Market komissiyasi qancha?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha bo'ladi. Sof foydani hisoblashda komissiya, yetkazib berish, mahsulot tannarxi va qadoqlash xarajatlarini hisobga olish kerak. Minimal foyda 25-40% bo'lishi tavsiya etiladi."
+                    "text": "Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha bo'ladi. Sof foydani hisoblashda komissiya, yetkazib berish, mahsulot tannarxi va qadoqlash xarajatlarini hisobga olish kerak."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da qaysi mahsulotlarni sotish yaxshi?",
+                  "name": "Uzum Marketda ro'yxatdan qanday o'tiladi?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kundalik hayotda ishlatiladigan, sinmaydigan, kafolat talab qilmaydigan, narxi 50,000-300,000 so'm oralig'idagi mahsulotlar yaxshi sotiladi. Uy va oshxona buyumlari, telefon aksessuarlari, avtomobil aksessuarlari eng yaxshi kategoriyalar."
+                    "text": "seller.uzum.uz saytiga kirib, YATT yoki MChJ hujjatlaringiz, bank rekvizitlari va telefon raqamingiz bilan ro'yxatdan o'tasiz."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da birinchi buyurtma olish uchun nima qilish kerak?",
+                  "name": "Uzum Marketda savdoni qanday oshirish mumkin?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Birinchi 7 kun eng muhim davr. Savollarga tez javob bering, do'stlaringizdan real buyurtma va sharh oling, salbiy reytinglarga yo'l qo'ymang. Boshlang'ich narxni bozordan 5-10% arzon qo'ying."
+                    "text": "Professional rasmlar, to'g'ri sarlavha va tavsif, raqobatbardosh narx, tez javob berish va marketing strategiyasi — savdoni oshirishning asosiy yo'llari."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da nechta mahsulot bilan boshlash kerak?",
+                  "name": "Uzum Marketda kimlar sotuvchi bo'lishi mumkin?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Boshlash uchun 20-50 dona mahsulot yetarli. Katta miqdorda boshlash tavsiya etilmaydi. 30 kundan keyin kundalik savdo bo'lsa — kengaytiring, bo'lmasa — boshqa mahsulot tanlang."
+                    "text": "YATT yoki MChJ ro'yxatdan o'tkazgan har qanday shaxs yoki tashkilot Uzum Marketda sotuvchi bo'lishi mumkin."
                   }
                 }
               ]
@@ -6290,15 +6362,15 @@ export const BlogPost = () => {
       )}
 
       {/* HowTo Schema for Uzum Market post */}
-      {id === 'uzum-market-seller' && (
+      {id === 'uzum-marketda-qanday-sotuvchi-bolish' && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HowTo",
-              "name": "Uzum Market'da 0 dan sotuvgacha — 12 bosqichli qo'llanma",
-              "description": "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma.",
+              "name": "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 qo'llanma)",
+              "description": "Uzum Marketda sotuvchi bo'lish uchun to'liq bosqichma-bosqich qo'llanma. Ro'yxatdan o'tish, mahsulot joylash, savdoni oshirish.",
               "totalTime": "P7D",
               "estimatedCost": { "@type": "MonetaryAmount", "currency": "UZS", "value": "5000000" },
               "step": [
