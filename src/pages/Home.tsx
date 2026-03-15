@@ -5,6 +5,7 @@ import { Reveal } from '@/components/Reveal';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import portfolioBranding from '@/assets/portfolio-branding.jpg';
 import portfolioWeb from '@/assets/portfolio-web.jpg';
+import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 
 export const Home = () => {
   const { t, language } = useLanguage();
