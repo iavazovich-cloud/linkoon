@@ -198,7 +198,7 @@ const pageMeta = {
 const blogPostSlugs = [
   'youtube-orqali-2500-dollar-topish',
   'meta-manus-ai-agentli-targeting',
-  'uzum-market-seller',
+  'uzum-marketda-qanday-sotuvchi-bolish',
   'telegram-ads-muammo',
   'kofe-mofe-website-case-study',
   'social-media-growth',

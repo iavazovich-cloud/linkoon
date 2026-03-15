@@ -51,6 +51,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/studio" element={<Studio />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/uzum-market-seller" element={<Navigate to="/blog/uzum-marketda-qanday-sotuvchi-bolish" replace />} />
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/marketing-agentligi-namangan" element={<MarketingAgentligiNamangan />} />

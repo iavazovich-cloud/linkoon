@@ -6362,15 +6362,15 @@ export const BlogPost = () => {
       )}
 
       {/* HowTo Schema for Uzum Market post */}
-      {id === 'uzum-market-seller' && (
+      {id === 'uzum-marketda-qanday-sotuvchi-bolish' && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HowTo",
-              "name": "Uzum Market'da 0 dan sotuvgacha — 12 bosqichli qo'llanma",
-              "description": "Uzum Market'da sotishni boshlash uchun to'liq bosqichma-bosqich qo'llanma.",
+              "name": "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 qo'llanma)",
+              "description": "Uzum Marketda sotuvchi bo'lish uchun to'liq bosqichma-bosqich qo'llanma. Ro'yxatdan o'tish, mahsulot joylash, savdoni oshirish.",
               "totalTime": "P7D",
               "estimatedCost": { "@type": "MonetaryAmount", "currency": "UZS", "value": "5000000" },
               "step": [
