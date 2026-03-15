@@ -16,26 +16,26 @@ export const BlogPost = () => {
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
-    'uzum-market-seller': {
+    'uzum-marketda-qanday-sotuvchi-bolish': {
       title: {
-        en: "Uzum Market: Complete Guide from 0 to Sales",
-        uz: "Uzum Market'da 0 dan Sotuvgacha — To'liq Qo'llanma",
-        ru: "Uzum Market: Полное руководство от 0 до продаж"
+        en: "How to Become a Seller on Uzum Market? (2026 Guide)",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 qo'llanma)",
+        ru: "Как стать продавцом на Uzum Market? (Руководство 2026)"
       },
       metaTitle: {
-        en: "How to Sell on Uzum Market — 12-Step Guide (2025)",
-        uz: "Uzum Market'da sotish — 12 bosqichli qo'llanma (2025)",
-        ru: "Как продавать на Uzum Market — 12 шагов (2025)"
+        en: "How to Become a Seller on Uzum Market? (2026 Complete Guide)",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? (2026 to'liq qo'llanma)",
+        ru: "Как стать продавцом на Uzum Market? (Полное руководство 2026)"
       },
       metaDescription: {
-        en: "Uzum Market from 0 to first sale: product selection, registration, pricing strategy, advertising and profit calculation. Step by step.",
-        uz: "Uzum Market'da 0 dan birinchi sotuvgacha: mahsulot tanlash, ro'yxatdan o'tish, narx strategiyasi, reklama va foyda hisoblash. Bosqichma-bosqich.",
-        ru: "Uzum Market от 0 до первой продажи: выбор товара, регистрация, ценовая стратегия, реклама и расчёт прибыли. Пошагово."
+        en: "How to become a seller on Uzum Market? Complete 2026 guide. Registration, product listing, boosting sales and marketplace strategy.",
+        uz: "Uzum Marketda qanday sotuvchi bo'lish mumkin? 2026 yil uchun to'liq qo'llanma. Ro'yxatdan o'tish, mahsulot joylash, savdoni oshirish va marketplace strategiyasi.",
+        ru: "Как стать продавцом на Uzum Market? Полное руководство на 2026 год. Регистрация, размещение товаров, увеличение продаж и стратегия маркетплейса."
       },
       date: '2025-02-09',
-      dateModified: '2025-03-11',
+      dateModified: '2026-03-15',
       readTime: '15 min',
-      wordCount: 1800,
+      wordCount: 2200,
       image: uzumMarketImage,
       content: {
         en: `<div class="blog-intro">
