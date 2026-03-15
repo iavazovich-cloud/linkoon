@@ -6307,7 +6307,7 @@ export const BlogPost = () => {
       />
 
       {/* FAQ Schema for Uzum Market post */}
-      {id === 'uzum-market-seller' && (
+      {id === 'uzum-marketda-qanday-sotuvchi-bolish' && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -6317,10 +6317,10 @@ export const BlogPost = () => {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da sotishni qanday boshlash mumkin?",
+                  "name": "Uzum Marketda sotuvchi bo'lish uchun nima kerak?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Uzum Market'da sotishni boshlash uchun YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim."
+                    "text": "YATT yoki MChJ ro'yxatdan o'tkazish, bank hisob raqami ochish va seller.uzum.uz saytida ro'yxatdan o'tish kerak. Keyin mahsulot tanlash, professional rasm tayyorlash va listing yaratish bosqichlarini bajarish lozim."
                   }
                 },
                 {
@@ -6328,31 +6328,31 @@ export const BlogPost = () => {
                   "name": "Uzum Market komissiyasi qancha?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha bo'ladi. Sof foydani hisoblashda komissiya, yetkazib berish, mahsulot tannarxi va qadoqlash xarajatlarini hisobga olish kerak. Minimal foyda 25-40% bo'lishi tavsiya etiladi."
+                    "text": "Uzum Market komissiyasi kategoriyaga qarab 10% dan 25% gacha bo'ladi. Sof foydani hisoblashda komissiya, yetkazib berish, mahsulot tannarxi va qadoqlash xarajatlarini hisobga olish kerak."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da qaysi mahsulotlarni sotish yaxshi?",
+                  "name": "Uzum Marketda ro'yxatdan qanday o'tiladi?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kundalik hayotda ishlatiladigan, sinmaydigan, kafolat talab qilmaydigan, narxi 50,000-300,000 so'm oralig'idagi mahsulotlar yaxshi sotiladi. Uy va oshxona buyumlari, telefon aksessuarlari, avtomobil aksessuarlari eng yaxshi kategoriyalar."
+                    "text": "seller.uzum.uz saytiga kirib, YATT yoki MChJ hujjatlaringiz, bank rekvizitlari va telefon raqamingiz bilan ro'yxatdan o'tasiz."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da birinchi buyurtma olish uchun nima qilish kerak?",
+                  "name": "Uzum Marketda savdoni qanday oshirish mumkin?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Birinchi 7 kun eng muhim davr. Savollarga tez javob bering, do'stlaringizdan real buyurtma va sharh oling, salbiy reytinglarga yo'l qo'ymang. Boshlang'ich narxni bozordan 5-10% arzon qo'ying."
+                    "text": "Professional rasmlar, to'g'ri sarlavha va tavsif, raqobatbardosh narx, tez javob berish va marketing strategiyasi — savdoni oshirishning asosiy yo'llari."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Uzum Market'da nechta mahsulot bilan boshlash kerak?",
+                  "name": "Uzum Marketda kimlar sotuvchi bo'lishi mumkin?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Boshlash uchun 20-50 dona mahsulot yetarli. Katta miqdorda boshlash tavsiya etilmaydi. 30 kundan keyin kundalik savdo bo'lsa — kengaytiring, bo'lmasa — boshqa mahsulot tanlang."
+                    "text": "YATT yoki MChJ ro'yxatdan o'tkazgan har qanday shaxs yoki tashkilot Uzum Marketda sotuvchi bo'lishi mumkin."
                   }
                 }
               ]
