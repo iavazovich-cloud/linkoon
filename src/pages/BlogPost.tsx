@@ -6173,7 +6173,8 @@ export const BlogPost = () => {
   const metaTitle = post?.metaTitle?.[language as 'en' | 'uz' | 'ru'] || post?.title[language as 'en' | 'uz' | 'ru'] || '';
   const metaDesc = post?.metaDescription?.[language as 'en' | 'uz' | 'ru'] || '';
   // Build absolute OG image URL for social sharing
-  const ogImageUrl = post?.image ? `${window.location.origin}${typeof post.image === 'string' ? post.image : ''}` : undefined;
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://linkon.uz';
+  const ogImageUrl = post?.image ? `${origin}${typeof post.image === 'string' ? post.image : ''}` : undefined;
   usePageMeta(metaTitle, metaDesc, { ogImage: ogImageUrl, ogType: 'article' });
 
   if (!id || !blogData[id]) {
