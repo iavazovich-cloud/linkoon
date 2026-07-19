@@ -200,6 +200,7 @@ const pageMeta = {
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'kun-uz-reklama-narxlari-2026-tahlil',
   'youtube-orqali-2500-dollar-topish',
   'meta-manus-ai-agentli-targeting',
   'uzum-marketda-qanday-sotuvchi-bolish',
