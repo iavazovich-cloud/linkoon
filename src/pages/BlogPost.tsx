@@ -6622,7 +6622,7 @@ export const BlogPost = () => {
           <article className="max-w-4xl mx-auto">
             <div 
               className="blog-content prose prose-lg dark:prose-invert max-w-none"
-              dangerouslySetInnerHTML={{ __html: post.content[language as 'en' | 'uz' | 'ru'] }}
+              dangerouslySetInnerHTML={{ __html: post.content[language as 'en' | 'uz' | 'ru'] || post.content.uz }}
             />
 
             {/* CTA Section */}
