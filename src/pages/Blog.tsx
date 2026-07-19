@@ -7,6 +7,7 @@ import { useBlogViewCounts } from '@/hooks/useBlogViews';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import metaManusAiImage from '@/assets/blog-meta-manus-ai.jpg';
 import youtubeEarningsImage from '@/assets/blog-youtube-2500.jpg';
+import kunUzReklamaImage from '@/assets/blog-kun-uz-reklama.jpg';
 
 export const Blog = () => {
   const { t, language } = useLanguage();
