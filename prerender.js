@@ -58,6 +58,10 @@ const pageMeta = {
     title: "YouTube orqali oyiga $2500 topish mumkinmi? | LinkOn Studio",
     description: "O'zbekistonda YouTube monetizatsiya ishlamasa ham oyiga $2500 daromad qilish mumkin. Qanday qilib? To'liq strategiya.",
   },
+  '/blog/kun-uz-reklama-narxlari-2026-tahlil': {
+    title: "Kun.uz reklama narxlari 2026 — to'liq media tahlil | LinkOn",
+    description: "Kun.uz reklama narxlari 2026: banner, native maqola, Telegram, YouTube va Instagram paketlar. To'liq narxlar jadvali va ROI tahlili.",
+  },
   '/blog/meta-manus-ai-agentli-targeting': {
     title: "Meta va Manus AI: Targeting va SMM'da Agentli Inqilob (2026)",
     description: "Meta va Manus AI integratsiyasi marketingni qanday o'zgartiradi? Agentli AI, targeting strategiyasi, ROAS optimizatsiya va SMM kelajagi haqida chuqur tahlil.",
@@ -196,6 +200,7 @@ const pageMeta = {
 
 // Blog post slugs (matching BlogPost.tsx)
 const blogPostSlugs = [
+  'kun-uz-reklama-narxlari-2026-tahlil',
   'youtube-orqali-2500-dollar-topish',
   'meta-manus-ai-agentli-targeting',
   'uzum-marketda-qanday-sotuvchi-bolish',

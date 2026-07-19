@@ -7,6 +7,7 @@ import viralReelsImage from '@/assets/blog-viral-reels.png';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import metaManusAiImage from '@/assets/blog-meta-manus-ai.jpg';
 import youtubeEarningsImage from '@/assets/blog-youtube-2500.jpg';
+import kunUzReklamaImage from '@/assets/blog-kun-uz-reklama.jpg';
 import { useEffect } from 'react';
 import { BlogComments } from '@/components/BlogComments';
 import { useBlogViewCount } from '@/hooks/useBlogViews';
@@ -16,6 +17,228 @@ export const BlogPost = () => {
   const { t, language } = useLanguage();
 
   const blogData: Record<string, any> = {
+    'kun-uz-reklama-narxlari-2026-tahlil': {
+      title: {
+        en: "Kun.uz Advertising Prices 2026 — Full Analysis",
+        uz: "Kun.uz reklama narxlari 2026 — to'liq tahlil",
+        ru: "Цены на рекламу Kun.uz 2026 — полный анализ"
+      },
+      metaTitle: {
+        en: "Kun.uz Advertising Prices 2026 — Full Media Analysis | LinkOn",
+        uz: "Kun.uz reklama narxlari 2026 — to'liq media tahlil | LinkOn",
+        ru: "Цены на рекламу Kun.uz в 2026 — полный медиа-анализ | LinkOn"
+      },
+      metaDescription: {
+        en: "Kun.uz advertising prices for 2026: banner, native articles, Telegram, YouTube and Instagram packages. Full pricing tables and ROI analysis.",
+        uz: "Kun.uz reklama narxlari 2026: banner, native maqola, Telegram, YouTube va Instagram paketlar. To'liq narxlar jadvali va ROI tahlili.",
+        ru: "Цены на рекламу Kun.uz в 2026: баннеры, нативные статьи, Telegram, YouTube и Instagram-пакеты. Полные таблицы и анализ ROI."
+      },
+      date: '2026-04-02',
+      readTime: '8 min',
+      category: 'Marketing',
+      author: 'LinkOn jamoasi',
+      wordCount: 1800,
+      image: kunUzReklamaImage,
+      content: {
+        uz: `<div class="blog-intro">
+<p class="lead">Kun.uz — O'zbekistondagi eng yirik va eng ko'p o'qiladigan onlayn media platformalaridan biri. Oylik auditoriyasi 15 million+ foydalanuvchini tashkil etadi va shu sababli brendlar uchun eng jozibali reklama maydonlaridan biri hisoblanadi.</p>
+<p>Bu maqolada biz 2026 yil uchun Kun.uz'da mavjud bo'lgan barcha reklama formatlarini, ularning narxlari va samaradorligini batafsil ko'rib chiqamiz.</p>
+</div>
+
+<div class="blog-section">
+<h2>Kun.uz auditoriyasi haqida qisqacha</h2>
+<p>Reklama joylashdan avval, platformaning auditoriyasini tushunish muhim:</p>
+<ul>
+<li><strong>Oylik unikal foydalanuvchilar:</strong> 15+ million</li>
+<li><strong>Kunlik tashriflar:</strong> 2–3 million</li>
+<li><strong>Til:</strong> O'zbek (asosiy), Rus, Ingliz</li>
+<li><strong>Asosiy yosh guruh:</strong> 18–45 yosh</li>
+<li><strong>Geografiya:</strong> Toshkent (35%), Samarqand, Farg'ona vodiysi, xorij (12%)</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>1. Banner reklama narxlari</h2>
+<p>Banner reklama — Kun.uz'da eng ommabop va eng oson boshlanadigan format. Narxlar joylashuv va davomiylikka qarab farqlanadi.</p>
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="width: 100%; border-collapse: collapse; min-width: 500px;">
+<thead><tr style="background: rgba(99, 102, 241, 0.1);">
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Format</th>
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Joylashuv</th>
+<th style="padding: 12px; text-align: right; border-bottom: 2px solid #6366f1;">Narx (1 hafta)</th>
+</tr></thead>
+<tbody>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Top banner 970×250</td><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Bosh sahifa</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">18 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Middle banner 728×90</td><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Maqola ichi</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">9 500 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Sidebar 300×250</td><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Barcha sahifalar</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">7 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Sticky mobile 320×100</td><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Mobil versiya</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">6 500 000 so'm</td></tr>
+<tr><td style="padding: 12px;">Fullscreen (interstitial)</td><td style="padding: 12px;">Sahifa o'tishlarida</td><td style="padding: 12px; text-align: right;">22 000 000 so'm</td></tr>
+</tbody>
+</table>
+</div>
+<p><em>Narxlar taxminiy bo'lib, mavsum va band bo'lish darajasiga qarab o'zgarishi mumkin.</em></p>
+</div>
+
+<div class="blog-section">
+<h2>2. Native maqola (PR-maqola)</h2>
+<p>Native maqola — bu Kun.uz jurnalistlari tomonidan yoziladigan va tahririyat uslubida joylanadigan reklama materiali. Eng samarali formatlardan biri, chunki foydalanuvchi uni oddiy yangilikdan farqlamaydi.</p>
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="width: 100%; border-collapse: collapse; min-width: 500px;">
+<thead><tr style="background: rgba(99, 102, 241, 0.1);">
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Xizmat</th>
+<th style="padding: 12px; text-align: right; border-bottom: 2px solid #6366f1;">Narx</th>
+</tr></thead>
+<tbody>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">PR-maqola (mijoz matni bilan)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">12 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Native maqola (Kun.uz yozadi)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">18 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Intervyu formati</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">25 000 000 so'm</td></tr>
+<tr><td style="padding: 12px;">Maqola + bosh sahifa promo (3 kun)</td><td style="padding: 12px; text-align: right;">+ 8 000 000 so'm</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="blog-section">
+<h2>3. Telegram kanal reklamasi</h2>
+<p>Kun.uz Telegram kanali (@kunuzofficial) 1.2M+ obunachiga ega va O'zbekistondagi eng katta yangiliklar kanallaridan biri.</p>
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="width: 100%; border-collapse: collapse; min-width: 500px;">
+<thead><tr style="background: rgba(99, 102, 241, 0.1);">
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Post turi</th>
+<th style="padding: 12px; text-align: right; border-bottom: 2px solid #6366f1;">Narx</th>
+</tr></thead>
+<tbody>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">1/24 (24 soat pin)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">9 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">2/48 (48 soat)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">14 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Video post</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">12 000 000 so'm</td></tr>
+<tr><td style="padding: 12px;">Native post (Kun.uz uslubida)</td><td style="padding: 12px; text-align: right;">16 000 000 so'm</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="blog-section">
+<h2>4. YouTube kanal reklamasi</h2>
+<p>Kun.uz YouTube kanali 3M+ obunachi va bir video o'rtacha 200–500 ming ko'rish oladi.</p>
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="width: 100%; border-collapse: collapse; min-width: 500px;">
+<thead><tr style="background: rgba(99, 102, 241, 0.1);">
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Format</th>
+<th style="padding: 12px; text-align: right; border-bottom: 2px solid #6366f1;">Narx</th>
+</tr></thead>
+<tbody>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Pre-roll integratsiya (30 sek)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">18 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Mid-roll integratsiya (60 sek)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">25 000 000 so'm</td></tr>
+<tr><td style="padding: 12px;">Alohida reklama video</td><td style="padding: 12px; text-align: right;">45 000 000 so'm</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="blog-section">
+<h2>5. Instagram paketlar</h2>
+<p>Kun.uz Instagram profili (@kunuz) 800K+ obunachiga ega.</p>
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="width: 100%; border-collapse: collapse; min-width: 500px;">
+<thead><tr style="background: rgba(99, 102, 241, 0.1);">
+<th style="padding: 12px; text-align: left; border-bottom: 2px solid #6366f1;">Post turi</th>
+<th style="padding: 12px; text-align: right; border-bottom: 2px solid #6366f1;">Narx</th>
+</tr></thead>
+<tbody>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Feed post (24 soat pin)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">7 000 000 so'm</td></tr>
+<tr><td style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.1);">Reels (30–60 sek)</td><td style="padding: 12px; text-align: right; border-bottom: 1px solid rgba(0,0,0,0.1);">10 000 000 so'm</td></tr>
+<tr><td style="padding: 12px;">Story seriyasi (3 slayd)</td><td style="padding: 12px; text-align: right;">5 000 000 so'm</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="blog-section">
+<h2>6. Kompleks paketlar</h2>
+<p>Eng samarali variant — bir nechta formatni birlashtirgan kompleks paketlar. Ular alohida buyurtma qilishdan 25–35% arzonroq bo'ladi.</p>
+</div>
+
+<div class="blog-card success">
+<h3>📦 "Standart" paket — 35 000 000 so'm</h3>
+<ul>
+<li>Sayt banner (1 hafta)</li>
+<li>Native maqola</li>
+<li>Telegram 1/24</li>
+<li>Instagram feed post</li>
+</ul>
+</div>
+
+<div class="blog-card info">
+<h3>🚀 "Premium" paket — 75 000 000 so'm</h3>
+<ul>
+<li>Top banner (2 hafta)</li>
+<li>Intervyu formati maqola</li>
+<li>Telegram 2/48 + video post</li>
+<li>YouTube integratsiya</li>
+<li>Instagram Reels + Feed</li>
+</ul>
+</div>
+
+<div class="blog-card warning">
+<h3>💎 "Enterprise" paket — 150 000 000+ so'm</h3>
+<ul>
+<li>1 oy davomiy sayt kampaniyasi</li>
+<li>3 ta native maqola</li>
+<li>Alohida YouTube video</li>
+<li>Telegram + Instagram to'liq qamrov</li>
+<li>Shaxsiy account manager</li>
+</ul>
+</div>
+
+<div class="blog-section highlight">
+<h2>Kun.uz'da reklama qilish — kimga tegishli?</h2>
+<p>Kun.uz eng samarali bo'lgan sohalar:</p>
+<ul>
+<li>Bank va moliyaviy xizmatlar</li>
+<li>Ta'lim (kurslar, universitetlar)</li>
+<li>Ko'chmas mulk va qurilish</li>
+<li>Avtomobil savdosi</li>
+<li>Tibbiyot va sog'liq</li>
+<li>B2B xizmatlar</li>
+<li>Yirik e-commerce brendlar</li>
+</ul>
+<p><strong>Kichik biznes uchun:</strong> Kun.uz katta byudjet talab qiladi. Boshlang'ich bosqichda Telegram va Instagram formatlaridan foydalanish tavsiya etiladi.</p>
+</div>
+
+<div class="blog-section">
+<h2>ROI qanday hisoblanadi?</h2>
+<p>Kun.uz reklamasidan real natija olish uchun quyidagi metrikalarni kuzatib boring:</p>
+<ul>
+<li><strong>CPM (1000 ko'rsatish narxi):</strong> banner uchun 15 000–25 000 so'm</li>
+<li><strong>CTR (bosish darajasi):</strong> native maqola uchun 3–7%, banner uchun 0.3–0.8%</li>
+<li><strong>Konversiya:</strong> landing sahifa sifatiga qarab 1–4%</li>
+<li><strong>Bir mijoz narxi (CAC):</strong> 80 000 – 350 000 so'm</li>
+</ul>
+</div>
+
+<div class="blog-section">
+<h2>Xulosa</h2>
+<p>Kun.uz — bu O'zbekistondagi eng katta media platformalardan biri va u orqali brend tanilishini oshirish, mahsulot yoki xizmatni keng auditoriyaga tanishtirish mumkin.</p>
+<p>Ammo har qanday reklama kanali kabi, Kun.uz'da ham to'g'ri strategiya va format tanlash muhim. Byudjet cheklangan bo'lsa — Telegram va Instagram formatlaridan boshlang. Katta brend kampaniyasi kerak bo'lsa — kompleks paketlar eng samarali variant hisoblanadi.</p>
+</div>
+
+<div class="blog-cta">
+<h3>📣 Reklama strategiyangiz bo'yicha maslahat kerakmi?</h3>
+<p>LinkOn jamoasi Kun.uz va boshqa yirik O'zbekiston medialarida reklama kampaniyasini rejalashtirish va boshqarish bo'yicha yordam beradi:</p>
+<ul>
+<li>✅ Byudjet va format tanlash</li>
+<li>✅ Native maqola va kreativ ishlab chiqish</li>
+<li>✅ Kampaniya davomida analitika</li>
+<li>✅ ROI optimallashtirish</li>
+</ul>
+<p style="margin-top: 1.5rem;">
+<a href="/contact" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">Biz bilan bog'laning →</a>
+</p>
+</div>`,
+        en: '',
+        ru: ''
+      }
+    },
     'uzum-marketda-qanday-sotuvchi-bolish': {
       title: {
         en: "How to Become a Seller on Uzum Market? (2026 Guide)",
@@ -6399,7 +6622,7 @@ export const BlogPost = () => {
           <article className="max-w-4xl mx-auto">
             <div 
               className="blog-content prose prose-lg dark:prose-invert max-w-none"
-              dangerouslySetInnerHTML={{ __html: post.content[language as 'en' | 'uz' | 'ru'] }}
+              dangerouslySetInnerHTML={{ __html: post.content[language as 'en' | 'uz' | 'ru'] || post.content.uz }}
             />
 
             {/* CTA Section */}
