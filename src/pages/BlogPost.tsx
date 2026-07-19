@@ -7,6 +7,7 @@ import viralReelsImage from '@/assets/blog-viral-reels.png';
 import uzumMarketImage from '@/assets/blog-uzum-market.jpg';
 import metaManusAiImage from '@/assets/blog-meta-manus-ai.jpg';
 import youtubeEarningsImage from '@/assets/blog-youtube-2500.jpg';
+import kunUzReklamaImage from '@/assets/blog-kun-uz-reklama.jpg';
 import { useEffect } from 'react';
 import { BlogComments } from '@/components/BlogComments';
 import { useBlogViewCount } from '@/hooks/useBlogViews';
