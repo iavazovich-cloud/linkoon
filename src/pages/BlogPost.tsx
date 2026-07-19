@@ -222,18 +222,28 @@ export const BlogPost = () => {
 <p>Ammo har qanday reklama kanali kabi, Kun.uz'da ham to'g'ri strategiya va format tanlash muhim. Byudjet cheklangan bo'lsa — Telegram va Instagram formatlaridan boshlang. Katta brend kampaniyasi kerak bo'lsa — kompleks paketlar eng samarali variant hisoblanadi.</p>
 </div>
 
-<div class="blog-cta">
-<h3>📣 Reklama strategiyangiz bo'yicha maslahat kerakmi?</h3>
-<p>LinkOn jamoasi Kun.uz va boshqa yirik O'zbekiston medialarida reklama kampaniyasini rejalashtirish va boshqarish bo'yicha yordam beradi:</p>
-<ul>
-<li>✅ Byudjet va format tanlash</li>
-<li>✅ Native maqola va kreativ ishlab chiqish</li>
-<li>✅ Kampaniya davomida analitika</li>
-<li>✅ ROI optimallashtirish</li>
-</ul>
-<p style="margin-top: 1.5rem;">
-<a href="/contact" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">Biz bilan bog'laning →</a>
-</p>
+<div style="margin-top: 3rem; border-radius: 24px; overflow: hidden; background: linear-gradient(135deg, hsl(15 10% 8%) 0%, hsl(15 10% 6%) 100%); border: 1px solid hsl(16 85% 55% / 0.25); box-shadow: 0 20px 60px -20px hsl(16 85% 55% / 0.3);">
+<div style="padding: 8px 24px; background: linear-gradient(90deg, hsl(16 85% 55%), hsl(25 90% 48%)); display: flex; align-items: center; justify-content: space-between; font-size: 0.72rem; font-weight: 700; color: white; text-transform: uppercase; letter-spacing: 0.1em;"><span>● LIVE Kampaniya</span><span>Media Kit 2026</span></div>
+<div style="padding: 2rem 1.5rem;">
+<div style="display: inline-block; padding: 4px 12px; background: hsl(16 85% 55% / 0.15); color: hsl(16 85% 65%); border-radius: 999px; font-size: 0.72rem; font-weight: 600; margin-bottom: 1rem; letter-spacing: 0.05em;">MEDIA BUYING</div>
+<h3 style="font-size: 1.75rem; font-weight: 800; margin: 0 0 0.75rem; color: hsl(30 15% 95%); line-height: 1.2;">Kun.uz'da reklama bermoqchimisiz?</h3>
+<p style="color: hsl(15 5% 65%); margin: 0 0 1.75rem; font-size: 1rem; line-height: 1.6;">LinkOn — Kun.uz, Daryo, Gazeta.uz va boshqa yirik O'zbekiston medialarida reklama joylashtirish bo'yicha rasmiy hamkor. Byudjetingizni maksimal samara bilan sarflang.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 1.75rem;">
+<div style="padding: 14px; background: hsl(15 10% 12%); border: 1px solid hsl(15 10% 20%); border-radius: 12px;"><div style="font-size: 1.5rem; font-weight: 800; color: hsl(16 85% 60%); line-height: 1;">15+</div><div style="font-size: 0.78rem; color: hsl(15 5% 60%); margin-top: 4px;">Media hamkor</div></div>
+<div style="padding: 14px; background: hsl(15 10% 12%); border: 1px solid hsl(15 10% 20%); border-radius: 12px;"><div style="font-size: 1.5rem; font-weight: 800; color: hsl(16 85% 60%); line-height: 1;">3.2M+</div><div style="font-size: 0.78rem; color: hsl(15 5% 60%); margin-top: 4px;">Oylik qamrov</div></div>
+<div style="padding: 14px; background: hsl(15 10% 12%); border: 1px solid hsl(15 10% 20%); border-radius: 12px;"><div style="font-size: 1.5rem; font-weight: 800; color: hsl(16 85% 60%); line-height: 1;">-30%</div><div style="font-size: 0.78rem; color: hsl(15 5% 60%); margin-top: 4px;">Agentlik chegirmasi</div></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-bottom: 1.75rem;">
+<div style="padding: 10px 14px; background: hsl(15 10% 12%); border-left: 3px solid hsl(16 85% 55%); border-radius: 8px; color: hsl(30 15% 90%); font-size: 0.9rem;">◆ Byudjet va format tanlash</div>
+<div style="padding: 10px 14px; background: hsl(15 10% 12%); border-left: 3px solid hsl(16 85% 55%); border-radius: 8px; color: hsl(30 15% 90%); font-size: 0.9rem;">◆ Native maqola ishlab chiqish</div>
+<div style="padding: 10px 14px; background: hsl(15 10% 12%); border-left: 3px solid hsl(16 85% 55%); border-radius: 8px; color: hsl(30 15% 90%); font-size: 0.9rem;">◆ Real-time analitika</div>
+<div style="padding: 10px 14px; background: hsl(15 10% 12%); border-left: 3px solid hsl(16 85% 55%); border-radius: 8px; color: hsl(30 15% 90%); font-size: 0.9rem;">◆ ROI optimallashtirish</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+<a href="/contact" style="display: inline-block; padding: 14px 28px; background: linear-gradient(135deg, hsl(16 85% 55%), hsl(25 90% 48%)); color: white; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: 1rem; box-shadow: 0 8px 24px -8px hsl(16 85% 55% / 0.6);">Bepul media-plan olish →</a>
+<a href="/services" style="display: inline-block; padding: 14px 24px; color: hsl(30 15% 90%); border: 1px solid hsl(15 10% 25%); border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 0.95rem;">Xizmatlar ro'yxati</a>
+</div>
+</div>
 </div>`,
         en: '',
         ru: ''
