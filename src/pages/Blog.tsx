@@ -18,6 +18,33 @@ export const Blog = () => {
 
   const blogPosts = [
     {
+      id: 'kun-uz-reklama-narxlari-2026-tahlil',
+      title: {
+        en: "Kun.uz Advertising Prices 2026 — Full Analysis",
+        uz: "Kun.uz reklama narxlari 2026 — to'liq tahlil",
+        ru: "Цены на рекламу Kun.uz 2026 — полный анализ"
+      },
+      metaTitle: {
+        en: "Kun.uz Advertising Prices 2026 — Full Media Analysis",
+        uz: "Kun.uz reklama narxlari 2026 — to'liq media tahlil",
+        ru: "Цены на рекламу Kun.uz в 2026 — полный медиа-анализ"
+      },
+      metaDescription: {
+        en: "Kun.uz advertising prices for 2026: banner, native articles, Telegram, YouTube and Instagram packages. Full pricing tables and ROI analysis.",
+        uz: "Kun.uz reklama narxlari 2026: banner, native maqola, Telegram, YouTube va Instagram paketlar. To'liq narxlar jadvali va ROI tahlili.",
+        ru: "Цены на рекламу Kun.uz в 2026: баннеры, нативные статьи, Telegram, YouTube и Instagram-пакеты. Полные таблицы и анализ ROI."
+      },
+      excerpt: {
+        en: "Complete breakdown of Kun.uz advertising formats and prices for 2026 — banners, native articles, Telegram and social packages.",
+        uz: "Kun.uz reklama formatlari va 2026 yil narxlari bo'yicha to'liq tahlil — banner, native maqola, Telegram va social paketlar.",
+        ru: "Полный разбор форматов и цен на рекламу Kun.uz в 2026 — баннеры, нативные статьи, Telegram и соцпакеты."
+      },
+      date: '2026-04-02',
+      readTime: '8 min',
+      category: 'Marketing',
+      image: kunUzReklamaImage
+    },
+    {
       id: 'youtube-orqali-2500-dollar-topish',
       title: {
         en: "Can You Earn $2500/Month Through YouTube?",
