@@ -6481,7 +6481,7 @@ export const BlogPost = () => {
                 loading="lazy"
                 width="896"
                 height="450"
-                className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl"
+                className="w-full aspect-video object-cover rounded-2xl bg-muted"
               />
             </div>
           </Reveal>
